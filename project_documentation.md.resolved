@@ -1,0 +1,74 @@
+# Proje Altyapı Dokümantasyonu
+
+Bu belge, **İFİ Yazılım** kurumsal web sitesi projesinin teknik altyapısını, mimarisini ve özelliklerini detaylı bir şekilde açıklar. Proje, modern web standartlarına, SEO en iyi pratiklerine ve sürdürülebilir yazılım mimarisine uygun olarak tasarlanmıştır.
+
+## 1. Teknoloji Yığını (Tech Stack)
+
+*   **Backend Framework:** Django
+*   **Veritabanı:**
+    *   **Geliştirme (Development):** SQLite
+    *   **Prodüksiyon (Production):** MySQL (hazır yapılandırılmış)
+*   **Görsel Optimizasyon:** `django-image-optimizer` (JPEG/PNG/WebP desteği)
+*   **Zengin Metin Editörü:** `django-summernote` (Blog ve Hizmet içerikleri için)
+*   **Güvenlik:** `bleach` (HTML temizleme ve XSS koruması)
+
+## 2. SEO ve Dijital Pazarlama Altyapısı
+
+Projenin en güçlü yönlerinden biri, arama motorları (Google) için optimize edilmiş olmasıdır.
+
+*   **Dinamik Meta Etiketleri ([BaseSEOModel](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/core/models.py#7-13)):**
+    *   Tüm içerik modelleri (Hizmetler, Bloglar, Ayarlar) [BaseSEOModel](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/core/models.py#7-13) soyut sınıfından türetilmiştir.
+    *   Bu sayede her sayfa için özel `meta title` ve `meta description` girilebilir.
+*   **Yapılandırılmış Veri (Schema.org JSON-LD):**
+    *   Modüler bir yapı kurulmuştur (`templates/schemas/`).
+    *   **Kurumsal (`Organization`):** Site genelinde logo, telefon, adres, çalışma saatleri otomatik basılır.
+    *   **Hizmet ([Service](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/service/models.py#31-41)):** Hizmet detay sayfalarında hizmet türü ve bölge bilgisi sunulur.
+    *   **Makale (`Article`):** Blog yazılarında yazar, tarih ve görsel bilgileri işlenir.
+*   **Site Haritası (`sitemap.xml`):**
+    *   Django Sitemap framework kullanılarak dinamik oluşturulur.
+    *   Hizmetler, Hizmet Bölgeleri, Bloglar ve Statik sayfalar içeriğe göre otomatik güncellenir.
+*   **Robots.txt:**
+    *   Admin panelinden (`Ayarlar -> Robots.txt Aktif`) yönetilebilir.
+
+## 3. Uygulama Mimarisi
+
+Proje, Django'nun "apps" mantığına göre modüler ayrılmıştır:
+
+### a. [Core](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/core/tests.py#11-46) (Çekirdek)
+*   Site genel ayarlarını ([Settings](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/core/models.py#14-83) modeli) barındırır.
+*   Statik sayfaları (İletişim, Hakkımızda, KVKK) ve hata sayfalarını (404/500) yönetir.
+*   Global `context_processor` ile ayar verilerini tüm şablonlara taşır.
+
+### b. [Service](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/service/models.py#31-41) (Hizmetler)
+*   **[Service](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/service/models.py#31-41) Modeli:** Firmanın sunduğu ana hizmetler.
+*   **[ServiceArea](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/service/models.py#43-53) Modeli:** Hizmet verilen bölgeler (Örn: "İstanbul Nakliyat").
+*   **Özellik:** Her iki model de ortak URL yapısını kullanır ancak çakışma durumunda ana hizmetler önceliklidir.
+
+### c. [Blog](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/blog/models.py#24-56)
+*   Kategori ([Category](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/blog/models.py#9-15)), Etiket ([Tag](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/blog/models.py#16-22)) ve Yazı ([Blog](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/blog/models.py#24-56)) ilişkilerini yönetir.
+*   Varsayılan olarak "en yeni eklenen en üstte" (`-created`) sıralamasına sahiptir.
+
+## 4. Frontend Yapısı (Şablonlar)
+
+Şablonlar (Templates), "DRY" (Don't Repeat Yourself) prensibine göre kurgulanmıştır.
+
+*   **[base.html](file:///Users/macbook/Documents/Django%20Projects/Django%20Projects/Bussiness/personal/base/templates/base.html):** Sitenin iskeletidir. Header, Footer, SEO scriptleri ve CSS/JS dosyalarını barındırır.
+*   **Blok Yapısı:** Alt sayfalar sadece içerik alanlarını (`{% block content %}`) doldurur.
+*   **Modüler Şemalar (`templates/schemas/`):** JSON-LD kodları ayrı dosyalarda tutularak kod karmaşası önlenmiştir.
+
+## 5. Kalite Kontrol ve Testler
+
+Sistemin kararlılığı 22 adet otomatik test ile güvence altına alınmıştır:
+
+*   **Smoke Tests:** Tüm sayfaların (Anasayfa, İletişim, KVKK vb.) açılıp açılmadığını kontrol eder.
+*   **Model Tests:** Veri tabanı kayıt işlemlerini ve ilişkileri test eder.
+*   **Logic Tests:** URL çakışmaları, Robots.txt mantığı gibi iş kurallarını doğrular.
+
+## 6. Yönetim Paneli (Admin)
+
+*   **Özelleştirilmiş Arayüz:** `django-admin-interface` ile modern bir görünüm.
+*   **Kolay Yönetim:** Karmaşık ayarlar (Tracking kodları, SMTP ayarları) basit form alanlarına indirgenmiştir.
+*   **Güvenli İçerik:** Editör üzerinden zararlı kod girişi engellenmiştir.
+
+---
+**Özet:** Bu altyapı, kurumsal bir web sitesinin ihtiyaç duyacağı hız, güvenlik, SEO ve yönetilebilirlik gereksinimlerinin tamamını karşılayacak şekilde "Production-Ready" (Canlıya Hazır) durumdadır.

@@ -1,0 +1,31 @@
+{% if object %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ object.title }}",
+  "description": "{{ object.short_description|default:object.description|striptags|truncatechars:160 }}",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "{{ settings.name }}"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "{{ settings.city }}"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "{{ object.title }}",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "{{ object.title }}"
+        }
+      }
+    ]
+  }
+}
+</script>
+{% endif %}

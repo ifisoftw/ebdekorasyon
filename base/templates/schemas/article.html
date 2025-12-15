@@ -1,0 +1,22 @@
+{% if object %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ object.title }}",
+  "image": "{% if object.image %}{{ request.scheme }}://{{ request.get_host }}{{ object.image.url }}{% endif %}",
+  "editor": "{{ settings.name }}",
+  "genre": "{{ object.category.name }}",
+  "url": "{{ request.build_absolute_uri }}",
+  "datePublished": "{{ object.created|date:'Y-m-d' }}",
+  "dateCreated": "{{ object.created|date:'Y-m-d' }}",
+  "dateModified": "{{ object.updated|date:'Y-m-d' }}",
+  "description": "{{ object.short_description|default:object.description|striptags|truncatechars:160 }}",
+  "articleBody": "{{ object.description|striptags }}",
+    "author": {
+    "@type": "Organization",
+    "name": "{{ settings.name }}"
+  }
+}
+</script>
+{% endif %}

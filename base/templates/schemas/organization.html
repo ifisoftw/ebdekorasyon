@@ -1,0 +1,42 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{{ settings.name|default:'İFİ Yazılım' }}",
+  "image": "{% if settings.logo %}{{ request.scheme }}://{{ request.get_host }}{{ settings.logo.url }}{% endif %}",
+  "@id": "{{ request.scheme }}://{{ request.get_host }}",
+  "url": "{{ request.scheme }}://{{ request.get_host }}",
+  "telephone": "{{ settings.phone }}",
+  "email": "{{ settings.email }}",
+  "priceRange": "{{ settings.price_range }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ settings.adress }}",
+    "addressLocality": "{{ settings.city }}",
+    "addressCountry": "{{ settings.country }}",
+    "postalCode": "{{ settings.postal_code }}"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ settings.latitude|default:"0" }},
+    "longitude": {{ settings.longitude|default:"0" }}
+  },
+  "openingHoursSpecification": [
+    {% for hours in settings.opening_hours %}
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+              {% for day in hours.days %}"{{ day }}"{% if not forloop.last %},{% endif %}{% endfor %}
+          ],
+          "opens": "{{ hours.opens }}",
+          "closes": "{{ hours.closes }}"
+        }{% if not forloop.last %},{% endif %}
+    {% endfor %}
+  ],
+  "sameAs": [
+    "{% if settings.facebook %}{{ settings.facebook }}{% endif %}",
+    "{% if settings.twitter %}{{ settings.twitter }}{% endif %}",
+    "{% if settings.instagram %}{{ settings.instagram }}{% endif %}"
+  ]
+}
+</script>
