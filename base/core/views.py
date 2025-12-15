@@ -34,6 +34,7 @@ class IndexView(TemplateView):
         context['services'] = Service.objects.filter(showIndex=True, isActive=True).order_by('created')
         context['categories'] = ServiceCategory.objects.filter(is_active=True).order_by('order')
         context['projects'] = Project.objects.filter(show_on_index=True, is_active=True)[:6]
+        context['comparison_project'] = Project.objects.filter(before_image__isnull=False, after_image__isnull=False, show_on_index=True, is_active=True).first()
         context['settings'] = Settings.objects.first()
         context['hero'] = Hero.objects.first()
         context['features'] = Feature.objects.all()[:6]

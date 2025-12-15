@@ -48,8 +48,8 @@ CSRF_TRUSTED_ORIGINS = config('CSRF_TRUSTED_ORIGINS', default='', cast=Csv())
 # Application definition
 
 INSTALLED_APPS = [
-    'admin_interface',
-    'colorfield',
+    "admin_interface",
+    "colorfield",    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -162,7 +162,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-LANGUAGE_CODE = 'tr-tr'
+LANGUAGE_CODE = 'tr'
 
 TIME_ZONE = 'Europe/Istanbul'
 
