@@ -1,0 +1,24 @@
+{% if object_list %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{% if page_title %}{{ page_title }}{% elif seo and seo.meta_title %}{{ seo.meta_title }}{% else %}{{ settings.name }}{% endif %}",
+  "description": "{% if page_description %}{{ page_description }}{% elif seo and seo.meta_description %}{{ seo.meta_description }}{% else %}{{ settings.description|default:'' }}{% endif %}",
+  "url": "{{ request.build_absolute_uri }}",
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {% for item in object_list %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.counter }},
+        "url": "{{ request.scheme }}://{{ request.get_host }}{{ item.get_absolute_url }}",
+        "name": "{{ item.title }}"
+      }{% if not forloop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+}
+</script>
+{% endif %}

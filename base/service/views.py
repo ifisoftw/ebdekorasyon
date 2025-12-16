@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from core.models import Settings, FeatureArea, Page_Seo
+from core.models import Settings, FeatureArea
 from . models import Service, ServiceHeader, ServiceArea, ServiceCategory
 from core.forms import ContactForm
 from django.views.generic import TemplateView, FormView, DetailView, ListView
@@ -17,15 +17,21 @@ class ServicesView(SuccessMessageMixin,FormView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        seo = Page_Seo.objects.filter(page_url='hizmetler').first()
         context['service_header'] = ServiceHeader.objects.first()
         context['services'] = Service.objects.filter(isActive=True).order_by('created')
         context['categories'] = ServiceCategory.objects.filter(is_active=True).order_by('order')
         context['feature_area'] = FeatureArea.objects.first()     
-        context['seo'] = seo
         context['breadcrumbs'] = [
             {'name': 'Hizmetlerimiz', 'url': '/hizmetler/'}
         ]
+        
+        # SEO Context for Templates
+        if context['service_header']:
+            from django.utils.html import strip_tags
+            context['seo'] = {
+                'meta_title': context['service_header'].title,
+                'meta_description': strip_tags(context['service_header'].description)[:160]
+            }
         return context
 
     def form_valid(self, form) :
@@ -42,8 +48,6 @@ class ServiceAreaListView(ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        seo = Page_Seo.objects.filter(page_url='hizmet-bolgeleri').first()
-        context['seo'] = seo
         context['service_header'] = ServiceHeader.objects.first()
         context['feature_area'] = FeatureArea.objects.first()
         return context

@@ -1,6 +1,14 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block extra_head %}
+<!-- Breadcrumb Schema -->
+{% include 'schemas/breadcrumb.html' %}
+<!-- Service Schema -->
+{% include 'schemas/service.html' %}
+<!-- FAQ Schema -->
+{% include 'schemas/faq.html' %}
+{% endblock %}
 {% block title %}{{ service.title }} - EB Dekorasyon{% endblock %}
 {% block meta_description %}{{ service.short_description|default:service.description|striptags|truncatechars:160 }}{% endblock %}
 

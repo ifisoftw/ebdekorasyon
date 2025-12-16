@@ -2,7 +2,6 @@ from django.db import models
 from django_summernote.fields import SummernoteTextField
 from django.urls import reverse
 from core.models import BaseSEOModel, Faq, Feature
-from image_optimizer.fields import OptimizedImageField
 
 
 class ServiceCategory(models.Model):
@@ -30,7 +29,7 @@ class ServiceBase(BaseSEOModel):
     slug = models.SlugField(max_length=50, unique=True, null=True, verbose_name='URL' )
     description = SummernoteTextField(verbose_name='Açıklama')
     short_description = models.TextField(verbose_name='Kısa Açıklama')
-    image = OptimizedImageField(upload_to='uploads/services', verbose_name='Resim', default='uploads/service_default.jpg')
+    image = models.ImageField(upload_to='uploads/services', verbose_name='Resim', default='uploads/service_default.jpg')
     features = models.ManyToManyField(Feature, verbose_name='Özellikler', blank=True, related_name='%(class)s_features')
     faqs = models.ManyToManyField(Faq, verbose_name='Sıkça Sorulan Sorular', blank=True, related_name='%(class)s_faqs')
     isActive = models.BooleanField(default=True,verbose_name='Aktif mi?')
@@ -59,8 +58,8 @@ class Service(ServiceBase):
     )
     icon = models.CharField(max_length=50, verbose_name='İcon', blank=True, help_text='FontAwesome ikon adı (örn: fas fa-info)')
     
-    before_image = OptimizedImageField(upload_to='uploads/services/transformations', blank=True, null=True, verbose_name='Öncesi Resim (Dönüşüm)')
-    after_image = OptimizedImageField(upload_to='uploads/services/transformations', blank=True, null=True, verbose_name='Sonrası Resim (Dönüşüm)')
+    before_image = models.ImageField(upload_to='uploads/services/transformations', blank=True, null=True, verbose_name='Öncesi Resim (Dönüşüm)')
+    after_image = models.ImageField(upload_to='uploads/services/transformations', blank=True, null=True, verbose_name='Sonrası Resim (Dönüşüm)')
 
     def __str__(self):
         return self.title

@@ -23,8 +23,16 @@ class ServiceViewSitemap(sitemaps.Sitemap):
 
     def items(self):
         return Service.objects.all()
+
     def lastmod(self, obj):
         return obj.updated
+
+    def get_urls(self, page=1, site=None, protocol=None):
+        urls = super().get_urls(page, site, protocol)
+        for item, url in zip(self.paginator.page(page).object_list, urls):
+            if item.image:
+                url['image'] = item.image.url
+        return urls
 
 
 class ServiceAreaSitemap(sitemaps.Sitemap):
@@ -43,5 +51,13 @@ class BlogViewSitemap(sitemaps.Sitemap):
 
     def items(self):
         return Blog.objects.all()
+
     def lastmod(self, obj):
         return obj.updated
+
+    def get_urls(self, page=1, site=None, protocol=None):
+        urls = super().get_urls(page, site, protocol)
+        for item, url in zip(self.paginator.page(page).object_list, urls):
+            if item.image:
+                url['image'] = item.image.url
+        return urls

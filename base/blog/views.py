@@ -3,7 +3,7 @@ from django.views.generic.list import ListView
 from django.views.generic import DetailView
 from django.db.models import Q, Count
 from . models import Blog, Category, Tag
-from core.models import Page_Seo
+
 
 class BlogListView(ListView):
     model = Blog
@@ -40,9 +40,7 @@ class BlogListView(ListView):
         return queryset
 
     def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs) 
-        seo = Page_Seo.objects.filter(page_url='bloglar').first()
-        context['seo'] = seo
+        context = super().get_context_data(**kwargs)
         
         # Base Queryset for Counts (Active + Search)
         base_qs = Blog.objects.filter(isActive=True)
@@ -87,6 +85,12 @@ class BlogDetailView(DetailView):
         context = super().get_context_data(**kwargs)
         context['blogs'] = Blog.objects.all()
         context['categories'] = Category.objects.all()
+        
+        # Related Blogs (Same Category, Exclude Current)
+        context['related_blogs'] = Blog.objects.filter(
+            category=self.object.category, 
+            isActive=True
+        ).exclude(id=self.object.id).order_by('-created')[:3]
         
         context['tags'] = Tag.objects.all()
 

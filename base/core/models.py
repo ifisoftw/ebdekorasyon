@@ -1,6 +1,5 @@
 from django.db import models
 from django_summernote.fields import SummernoteTextField
-from image_optimizer.fields import OptimizedImageField
 from django.utils import timezone
 
 
@@ -14,9 +13,9 @@ class BaseSEOModel(models.Model):
 class Settings(BaseSEOModel):
     name = models.CharField(max_length=100 ,blank=True, verbose_name='Şirket Adı')
     domain = models.CharField(max_length=100 ,blank=True, verbose_name='Domain Adresi')
-    logo = OptimizedImageField(upload_to='uploads',blank=True,verbose_name='Logo')
-    logowhite = OptimizedImageField(upload_to='uploads',blank=True,verbose_name='Logo(Beyaz Yüzey)')
-    favicon = OptimizedImageField(upload_to='uploads',blank=True,verbose_name='Favicon')
+    logo = models.ImageField(upload_to='uploads',blank=True,verbose_name='Logo')
+    logowhite = models.ImageField(upload_to='uploads',blank=True,verbose_name='Logo(Beyaz Yüzey)')
+    favicon = models.ImageField(upload_to='uploads',blank=True,verbose_name='Favicon')
     phone = models.CharField(max_length=100, blank=True, verbose_name='Telefon')
     whatsapp = models.CharField(max_length=100, blank=True, verbose_name='Whatsapp')
     email = models.EmailField(max_length=254, blank=True, verbose_name='E Posta')
@@ -112,7 +111,7 @@ class Hero(models.Model):
     secondary_button_icon = models.CharField(max_length=50, blank=True, verbose_name='İkincil Buton İkonu', help_text='FontAwesome ikon adı (örn: fas fa-play)')
     
     # Hero resmi
-    banner = OptimizedImageField(upload_to='uploads/Hero', blank=True, verbose_name='Hero Resmi')
+    banner = models.ImageField(upload_to='uploads/Hero', blank=True, verbose_name='Hero Resmi')
     
     # İstatistikler
     counters = models.ManyToManyField(Counter, verbose_name='Sayaçlar', related_name='hero_counters') 
@@ -151,7 +150,7 @@ class FeatureArea(models.Model):
     features = models.ManyToManyField(Feature, verbose_name='Özellikler')
 
     # Info Section Dynamic Fields
-    image = OptimizedImageField(upload_to='uploads/feature_area', verbose_name='Büyük Görsel', blank=True, null=True, help_text='Harita veya büyük görsel')
+    image = models.ImageField(upload_to='uploads/feature_area', verbose_name='Büyük Görsel', blank=True, null=True, help_text='Harita veya büyük görsel')
     info_card_title = models.CharField(max_length=100, verbose_name='Bilgi Kartı Başlığı', blank=True, default='Mobil Ekiplerimiz')
     info_card_description = models.TextField(verbose_name='Bilgi Kartı Açıklaması', blank=True, default="İstanbul'un her noktasına ulaşabilen geniş araç filomuz ve uzman ekiplerimizle, tadilat süreçlerinizi aksatmadan yönetiyoruz.")
     info_card_icon = models.CharField(max_length=50, verbose_name='Bilgi Kartı İkonu', blank=True, default='fas fa-truck', help_text='FontAwesome ikon adı')
@@ -176,7 +175,7 @@ class About(BaseSEOModel):
     counters = models.ManyToManyField(Counter, verbose_name='Sayaçlar', related_name='about_counters') 
     mission = models.TextField(verbose_name='Misyon')
     vision = models.TextField(verbose_name='Vizyon')
-    image = OptimizedImageField(upload_to='uploads/about',blank=True, null=True,verbose_name='Hakkımızda Resim')
+    image = models.ImageField(upload_to='uploads/about',blank=True, null=True,verbose_name='Hakkımızda Resim')
     created= models.DateTimeField(auto_now_add= True, verbose_name="Oluşturulma Tarihi")
     updated = models.DateTimeField(auto_now=True,verbose_name="Güncellenme Tarihi")
 
@@ -247,15 +246,7 @@ class Faq(models.Model):
         verbose_name = 'SSS'
         verbose_name_plural = 'Sıkça Sorulan Sorular'
 
-class Page_Seo(BaseSEOModel):
-    page_url = models.CharField(max_length=100, verbose_name='Sayfa Url')
 
-    def __str__(self):
-        return self.page_url
-    
-    class Meta:
-        verbose_name = 'SEO Ayarı'
-        verbose_name_plural = 'SEO Ayarları'
 
 
 class Report(models.Model):
@@ -275,9 +266,9 @@ class Project(models.Model):
     location = models.CharField(max_length=100, verbose_name='Konum', help_text='Örn: Kadıköy, İstanbul')
     
     # Görsel alanları
-    image = OptimizedImageField(upload_to='uploads/projects', verbose_name='Ana Görsel')
-    before_image = OptimizedImageField(upload_to='uploads/projects', blank=True, null=True, verbose_name='Öncesi Görseli')
-    after_image = OptimizedImageField(upload_to='uploads/projects', blank=True, null=True, verbose_name='Sonrası Görseli')
+    image = models.ImageField(upload_to='uploads/projects', verbose_name='Ana Görsel')
+    before_image = models.ImageField(upload_to='uploads/projects', blank=True, null=True, verbose_name='Öncesi Görseli')
+    after_image = models.ImageField(upload_to='uploads/projects', blank=True, null=True, verbose_name='Sonrası Görseli')
     
     # Kategori ilişkisi
     category = models.CharField(max_length=100, verbose_name='Kategori (Eski)', help_text='Örn: Mobilya Boyama', blank=True)

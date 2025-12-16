@@ -2,7 +2,7 @@ from django.contrib import admin
 from import_export.admin import ImportExportModelAdmin
 from .models import Report, Project
 from .resource import ReportResource
-from . models import Settings, About, Hero, FeatureArea, Feature, Comment, CommentHeader, Faq, Contact, Page_Seo, Counter
+from . models import Settings, About, Hero, FeatureArea, Feature, Comment, CommentHeader, Faq, Contact, Counter
 
 @admin.register(Settings)
 class SettingsAdmin(ImportExportModelAdmin):
@@ -104,9 +104,7 @@ class CommentHeaderAdmin(ImportExportModelAdmin):
 class FaqAdmin(ImportExportModelAdmin):
     list_display = ('question','isActive','showIndex','updated','created')
 
-@admin.register(Page_Seo)
-class Page_SeoAdmin(ImportExportModelAdmin):
-    list_display = ("page_url",)
+
 
 
 @admin.register(Project)
