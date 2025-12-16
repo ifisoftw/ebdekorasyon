@@ -2,9 +2,9 @@ from django.http import HttpResponse
 from django.conf import settings
 from django.template.loader import render_to_string
 from django.shortcuts import render, redirect
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, ListView, DetailView
 from django.contrib import messages
-from core.models import Settings, About, Hero, Feature, FeatureArea, Counter, Faq, Comment, CommentHeader
+from core.models import Settings, About, Hero, Feature, FeatureArea, Counter, Faq, Comment, CommentHeader, Project
 from core.forms import ContactForm
 from blog.models import Blog
 from service.models import Service, ServiceCategory
@@ -101,10 +101,82 @@ class PrivacyPolicyView(TemplateView):
 
 class TermsOfServiceView(TemplateView):
     template_name = 'staticpages/terms-of-service.html'
+    
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['settings'] = Settings.objects.first()
         return context
+
+class KvkkView(TemplateView):
+    template_name = 'staticpages/kvkk.html'
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['settings'] = Settings.objects.first()
+        return context
+
+class ProjectsListView(ListView):
+    model = Project
+    template_name = 'projects.html'
+    context_object_name = 'projects'
+    paginate_by = 9
+
+    def get_queryset(self):
+        qs = Project.objects.filter(is_active=True).order_by('-order' if hasattr(Project, 'order') else '-created')
+        category = self.request.GET.get('category')
+        if category:
+            qs = qs.filter(category=category)
+        return qs
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['settings'] = Settings.objects.first()
+        # Get distinct categories from active projects
+        context['categories'] = Project.objects.filter(is_active=True).values_list('category', flat=True).distinct().order_by('category')
+        context['current_category'] = self.request.GET.get('category', '')
+        context['breadcrumbs'] = [
+            {'name': 'Projeler', 'url': '/projeler/'}
+        ]
+        return context
+
+    def get_template_names(self):
+        if self.request.headers.get('x-requested-with') == 'XMLHttpRequest':
+            return ['partials/_project_content.html']
+        return super().get_template_names()
+
+class ProjectDetailView(DetailView):
+    model = Project
+    template_name = 'project_detail.html'
+    context_object_name = 'project'
+    slug_field = 'slug'
+    slug_url_kwarg = 'slug'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['settings'] = Settings.objects.first()
+        context['breadcrumbs'] = [
+            {'name': 'Projeler', 'url': '/projeler/'},
+            {'name': self.object.title, 'url': self.object.slug}
+        ]
+        return context
+
+class GalleryView(ListView):
+    model = Project
+    template_name = 'gallery.html'
+    context_object_name = 'projects'
+    paginate_by = 6
+
+    def get_queryset(self):
+        return Project.objects.filter(is_active=True).exclude(before_image='').exclude(after_image='').order_by('-created')
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['settings'] = Settings.objects.first()
+        context['breadcrumbs'] = [
+            {'name': 'Galeri', 'url': '/galeri/'}
+        ]
+        return context
+
 
 class KvkkView(TemplateView):
     template_name = 'staticpages/kvkk.html'

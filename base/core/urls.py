@@ -1,5 +1,5 @@
 from django.urls import path
-from . views import IndexView, AboutView, ContactView, FaqView, PrivacyPolicyView, TermsOfServiceView, KvkkView, robots_txt
+from . views import IndexView, AboutView, ContactView, FaqView, PrivacyPolicyView, TermsOfServiceView, KvkkView, robots_txt, ProjectsListView, ProjectDetailView, GalleryView
 from service import views as service_view
 from service.views import  ServicesView, ServiceAreaListView
 from blog.views import BlogListView, BlogDetailView
@@ -12,6 +12,9 @@ urlpatterns = [
     path('hizmet-bolgeleri/', ServiceAreaListView.as_view(), name='service_areas'),
     path('bloglar/', BlogListView.as_view(),name='blogs'),
     path('bloglar/<slug:slug>/', BlogDetailView.as_view(), name='blog_detail'),
+    path('projeler/', ProjectsListView.as_view(), name='projects'),
+    path('projeler/<slug:slug>/', ProjectDetailView.as_view(), name='project_detail'),
+    path('galeri/', GalleryView.as_view(), name='gallery'),
     path('sss/', FaqView.as_view(),name='faqs'),
     # Yasal Sayfalar
     path('gizlilik-politikasi/', PrivacyPolicyView.as_view(), name='privacy_policy'),
