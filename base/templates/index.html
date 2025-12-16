@@ -455,7 +455,9 @@
         
         <!-- Comparison Slider Component -->
         <div class="relative max-w-5xl mx-auto aspect-video rounded-3xl overflow-hidden shadow-2xl border border-[#c9a465]/30">
-            <div x-data="{ sliderPos: 50, isDragging: false }" 
+            <div x-data="{ sliderPos: 50, isDragging: false, containerWidth: 0 }" 
+                 x-init="containerWidth = $el.offsetWidth"
+                 @resize.window="containerWidth = $el.offsetWidth"
                  @mousemove="if(isDragging) sliderPos = Math.max(0, Math.min(100, (($event.clientX - $el.getBoundingClientRect().left) / $el.offsetWidth) * 100))"
                  @mouseup="isDragging = false"
                  @mouseleave="isDragging = false"
@@ -474,7 +476,7 @@
                     <img src="{{ comparison_project.before_image.url }}" alt="Önce - {{ comparison_project.title }}" 
                          class="absolute top-0 left-0 w-full h-full object-cover max-w-none"
                          loading="lazy" width="800" height="600"
-                         :style="'width: ' + ($el.parentElement.offsetWidth) + 'px'">
+                         :style="'width: ' + containerWidth + 'px'">
                 </div>
                 
                 <!-- Slider Handle -->
