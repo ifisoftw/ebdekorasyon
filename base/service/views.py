@@ -70,11 +70,13 @@ def service_detail(request, slug):
     
     # Get all services for sidebar
     services = Service.objects.filter(isActive=True)
+    categories = ServiceCategory.objects.filter(is_active=True).order_by('order')
     
     context = {
         'service': service,
         'services_other': services_other,
         'services': services,
+        'categories': categories,
     }
     
     return render(request, template_name, context)

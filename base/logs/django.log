@@ -14042,3 +14042,43 @@ WARNING 2025-12-16 06:03:49,490 basehttp 86997 6159347712 "GET /.well-known/apps
 INFO 2025-12-16 06:04:03,814 basehttp 86997 6159347712 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 10745
 WARNING 2025-12-16 06:04:03,889 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
 WARNING 2025-12-16 06:04:03,889 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1347
+INFO 2025-12-16 06:05:03,334 autoreload 90054 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 06:05:04,261 basehttp 90054 6164459520 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 10749
+WARNING 2025-12-16 06:05:04,319 log 90054 6164459520 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:05:04,320 basehttp 90054 6164459520 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1390
+INFO 2025-12-16 06:05:30,624 basehttp 90054 6164459520 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 9561
+WARNING 2025-12-16 06:05:30,651 log 90054 6164459520 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:05:30,651 basehttp 90054 6164459520 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1439
+INFO 2025-12-16 06:05:32,549 basehttp 90054 6164459520 "GET /kadikoy-dekorasyon-restorasyon/ HTTP/1.1" 200 7779
+WARNING 2025-12-16 06:05:32,573 log 90054 6164459520 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:05:32,573 basehttp 90054 6164459520 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1435
+INFO 2025-12-16 06:08:24,688 basehttp 90054 6164459520 "GET /kadikoy-dekorasyon-restorasyon/ HTTP/1.1" 200 9397
+WARNING 2025-12-16 06:08:24,717 log 90054 6164459520 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:08:24,718 basehttp 90054 6164459520 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1410
+INFO 2025-12-16 06:09:29,125 basehttp 90054 6164459520 "GET /hizmetler/ HTTP/1.1" 200 10486
+INFO 2025-12-16 06:09:30,500 basehttp 90054 6164459520 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 10822
+INFO 2025-12-16 06:09:37,095 basehttp 90054 6164459520 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 9630
+INFO 2025-12-16 06:09:39,068 basehttp 90054 6164459520 "GET /beykoz-dekorasyon-restorasyon/ HTTP/1.1" 200 9402
+WARNING 2025-12-16 06:09:43,598 log 90054 6164459520 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:09:43,599 basehttp 90054 6164459520 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1379
+INFO 2025-12-16 06:09:58,783 basehttp 90054 6164459520 "GET /beykoz-dekorasyon-restorasyon/ HTTP/1.1" 200 9355
+WARNING 2025-12-16 06:09:58,815 log 90054 6164459520 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:09:58,815 basehttp 90054 6164459520 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1439
+INFO 2025-12-16 06:10:38,376 autoreload 90054 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/views.py changed, reloading.
+INFO 2025-12-16 06:10:38,885 autoreload 90106 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 06:10:51,847 basehttp 90106 6171045888 "GET /beykoz-dekorasyon-restorasyon/ HTTP/1.1" 200 9374
+INFO 2025-12-16 06:11:12,523 basehttp 90106 6171045888 "GET /beykoz-dekorasyon-restorasyon/ HTTP/1.1" 200 12136
+WARNING 2025-12-16 06:11:32,116 log 90106 6171045888 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:11:32,116 basehttp 90106 6171045888 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1401
+INFO 2025-12-16 06:11:55,942 basehttp 90106 6171045888 "GET / HTTP/1.1" 200 17236
+WARNING 2025-12-16 06:11:55,976 log 90106 6171045888 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:11:55,977 basehttp 90106 6171045888 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1345
+INFO 2025-12-16 06:12:13,928 basehttp 90106 6171045888 "GET /projeler/ HTTP/1.1" 200 9458
+WARNING 2025-12-16 06:12:13,968 log 90106 6171045888 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:12:13,968 basehttp 90106 6171045888 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1390
+INFO 2025-12-16 06:12:18,357 basehttp 90106 6171045888 "GET /projeler/modern-mutfak-donusumu/ HTTP/1.1" 200 8334
+WARNING 2025-12-16 06:12:18,389 log 90106 6171045888 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:12:18,389 basehttp 90106 6171045888 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1425
+INFO 2025-12-16 06:12:18,485 basehttp 90106 6171045888 "GET /media/uploads/projects/after_modern-mutfak-donusumu_PIK0ynQ.jpg HTTP/1.1" 304 0
+INFO 2025-12-16 06:12:18,486 basehttp 90106 6187872256 "GET /media/uploads/projects/before_modern-mutfak-donusumu_x6OZ333.jpg HTTP/1.1" 304 0
+INFO 2025-12-16 06:12:47,346 basehttp 90106 6171045888 "GET /hakkimizda/ HTTP/1.1" 200 8822
