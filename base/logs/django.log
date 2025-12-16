@@ -15830,3 +15830,10 @@ INFO 2025-12-17 01:10:59,422 basehttp 21163 6219247616 "GET /admin/jsi18n/ HTTP/
 INFO 2025-12-17 01:11:01,861 basehttp 21163 6202421248 "GET / HTTP/1.1" 200 17316
 INFO 2025-12-17 01:11:36,123 basehttp 21163 6202421248 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 9908
 INFO 2025-12-17 01:12:01,685 basehttp 21163 6202421248 "GET / HTTP/1.1" 200 17368
+INFO 2025-12-17 01:25:19,092 autoreload 24819 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-17 01:25:20,362 basehttp 24819 6128332800 "GET / HTTP/1.1" 200 17304
+WARNING 2025-12-17 01:25:20,441 log 24819 6128332800 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-17 01:25:20,441 basehttp 24819 6128332800 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1359
+INFO 2025-12-17 01:26:38,881 basehttp 24819 6128332800 "GET / HTTP/1.1" 200 17392
+WARNING 2025-12-17 01:26:39,241 log 24819 6128332800 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-17 01:26:39,242 basehttp 24819 6128332800 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1343
