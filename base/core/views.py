@@ -7,7 +7,7 @@ from django.contrib import messages
 from core.models import Settings, About, Hero, Feature, FeatureArea, Counter, Faq, Comment, CommentHeader, Project
 from core.forms import ContactForm
 from blog.models import Blog
-from service.models import Service, ServiceCategory
+from service.models import Service, ServiceCategory, ServiceArea
 
 def robots_txt(request):
     """
@@ -39,6 +39,7 @@ class IndexView(TemplateView):
         context['hero'] = Hero.objects.first()
         context['features'] = Feature.objects.all()[:6]
         context['feature_area'] = FeatureArea.objects.first()
+        context['service_areas'] = ServiceArea.objects.filter(isActive=True, showIndex=True)
         context['counters'] = Counter.objects.all()
         context['comments'] = Comment.objects.all()[:3]
         context['comment_header'] = CommentHeader.objects.first()

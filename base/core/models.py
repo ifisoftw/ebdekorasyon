@@ -145,9 +145,17 @@ class Feature(models.Model):
 
 class FeatureArea(models.Model):
     header = models.CharField(max_length=100, verbose_name='Üst Başlık')
-    title = models.CharField(max_length=100, verbose_name='Başlık')
+    title = models.CharField(max_length=100, verbose_name='Başlık (Beyaz)')
+    highlighted_title = models.CharField(max_length=100, verbose_name='Vurgulu Başlık (Gold)', blank=True, null=True, help_text='Bu alan altın rengi ve gradient ile yazılacaktır.')
     short_description = models.TextField(verbose_name='Kısa Açıklama')
     features = models.ManyToManyField(Feature, verbose_name='Özellikler')
+
+    # Info Section Dynamic Fields
+    image = OptimizedImageField(upload_to='uploads/feature_area', verbose_name='Büyük Görsel', blank=True, null=True, help_text='Harita veya büyük görsel')
+    info_card_title = models.CharField(max_length=100, verbose_name='Bilgi Kartı Başlığı', blank=True, default='Mobil Ekiplerimiz')
+    info_card_description = models.TextField(verbose_name='Bilgi Kartı Açıklaması', blank=True, default="İstanbul'un her noktasına ulaşabilen geniş araç filomuz ve uzman ekiplerimizle, tadilat süreçlerinizi aksatmadan yönetiyoruz.")
+    info_card_icon = models.CharField(max_length=50, verbose_name='Bilgi Kartı İkonu', blank=True, default='fas fa-truck', help_text='FontAwesome ikon adı')
+
     created= models.DateTimeField(auto_now_add= True, verbose_name="Oluşturulma Tarihi")
     updated = models.DateTimeField(auto_now=True,verbose_name="Güncellenme Tarihi" )
 
@@ -271,8 +279,9 @@ class Project(models.Model):
     before_image = OptimizedImageField(upload_to='uploads/projects', blank=True, null=True, verbose_name='Öncesi Görseli')
     after_image = OptimizedImageField(upload_to='uploads/projects', blank=True, null=True, verbose_name='Sonrası Görseli')
     
-    # Kategori ilişkisi - service app'ten import edemiyoruz circular import olur, string kullanacağız
-    category = models.CharField(max_length=100, verbose_name='Kategori', help_text='Örn: Mobilya Boyama')
+    # Kategori ilişkisi
+    category = models.CharField(max_length=100, verbose_name='Kategori (Eski)', help_text='Örn: Mobilya Boyama', blank=True)
+    service = models.ForeignKey('service.Service', on_delete=models.SET_NULL, null=True, blank=True, verbose_name='İlgili Hizmet', related_name='projects')
     
     # Durum alanları
     is_featured = models.BooleanField(default=False, verbose_name='Öne Çıkan')

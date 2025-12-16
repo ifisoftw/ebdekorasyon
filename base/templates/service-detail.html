@@ -1,0 +1,478 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ service.title }} - EB Dekorasyon{% endblock %}
+{% block meta_description %}{{ service.short_description|default:service.description|striptags|truncatechars:160 }}{% endblock %}
+
+{% block extra_css %}
+<style>
+    @keyframes phone-ring {
+        0% { transform: rotate(0) scale(1) skew(1deg); }
+        10% { transform: rotate(-25deg) scale(1) skew(1deg); }
+        20% { transform: rotate(25deg) scale(1) skew(1deg); }
+        30% { transform: rotate(-25deg) scale(1) skew(1deg); }
+        40% { transform: rotate(25deg) scale(1) skew(1deg); }
+        50% { transform: rotate(0) scale(1) skew(1deg); }
+        100% { transform: rotate(0) scale(1) skew(1deg); }
+    }
+    .animate-phone-ring {
+        animation: phone-ring 1.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
+    }
+    @keyframes heartbeat {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+    }
+    .animate-heartbeat {
+        animation: heartbeat 2s infinite;
+    }
+</style>
+{% endblock %}
+
+
+{% block mobile_sticky %}
+<div class="md:hidden fixed bottom-0 left-0 right-0 z-50 flex flex-col shadow-2xl">
+    <!-- Trust Strip -->
+    <div class="bg-zinc-900 border-t border-[#c9a465]/20 py-2 px-4 flex justify-between items-center text-[10px] text-gray-400">
+        <span class="flex items-center gap-1"><i class="fas fa-check-circle text-[#c9a465]"></i> 2 Yıl Garanti</span>
+        <span class="flex items-center gap-1"><i class="fas fa-check-circle text-[#c9a465]"></i> Ücretsiz Keşif</span>
+        <span class="flex items-center gap-1"><i class="fas fa-check-circle text-[#c9a465]"></i> Uzman Ekip</span>
+    </div>
+    <!-- Buttons -->
+    <div class="flex h-16">
+        <a href="tel:{{ settings.phone }}" class="flex-1 bg-white text-black font-bold flex items-center justify-center gap-2 hover:bg-gray-100 transition-colors">
+            <div class="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center animate-phone-ring">
+                <i class="fas fa-phone-alt text-sm"></i>
+            </div>
+            <div class="flex flex-col items-start leading-tight">
+                <span class="text-xs font-normal">Müsaitiz</span>
+                <span class="text-sm">HEMEN ARA</span>
+            </div>
+        </a>
+        <a href="https://wa.me/{{ settings.whatsapp }}" target="_blank" class="flex-1 bg-[#25D366] text-white font-bold flex items-center justify-center gap-2 hover:bg-[#20bd5a] transition-colors">
+            <i class="fab fa-whatsapp text-2xl"></i>
+            <div class="flex flex-col items-start leading-tight">
+                <span class="text-xs font-normal opacity-90">Fotoğraf At</span>
+                <span class="text-sm">FİYAT AL</span>
+            </div>
+        </a>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<!-- ============================================ -->
+<!-- HERO SECTION - High Conversion -->
+<!-- ============================================ -->
+<section class="relative min-h-[85vh] flex items-center overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-[#0f0f0f]/80 to-[#0f0f0f] z-10"></div>
+    <!-- Hero Image -->
+    {% if service.image %}
+    <img src="{{ service.image.url }}" 
+         alt="{{ service.title }}" 
+         class="absolute inset-0 w-full h-full object-cover"
+         fetchpriority="high"
+         loading="eager"
+         width="1920" height="1080">
+    {% else %}
+    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1920&q=80" 
+         alt="{{ service.title }}" 
+         class="absolute inset-0 w-full h-full object-cover"
+         fetchpriority="high"
+         loading="eager"
+         width="1920" height="1080">
+    {% endif %}
+    
+    <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 pb-32 md:pb-24">
+        <div class="max-w-3xl">
+            <!-- Review Stars (Mobile Optimized) -->
+            <div class="flex items-center gap-2 mb-6 animate-fade-in-up">
+                <div class="flex text-[#c9a465] text-sm md:text-base">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <span class="text-white text-sm font-medium opacity-80">(4.9/5 Müşteri Puanı)</span>
+            </div>
+            
+            <h1 class="font-playfair text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight text-white drop-shadow-lg">
+                {{ service.title }}
+            </h1>
+            <p class="text-gray-200 text-lg sm:text-xl mb-8 leading-relaxed max-w-2xl drop-shadow-md">
+                {{ service.short_description }}
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                <button onclick="document.getElementById('mobile-quote-modal').classList.remove('hidden')" class="btn-gold-gradient w-full sm:w-auto px-8 py-4 rounded-xl text-black font-bold text-lg flex items-center justify-center gap-3 shadow-gold-glow relative overflow-hidden group animate-heartbeat">
+                    <span class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
+                    <i class="fas fa-paper-plane relative z-10"></i>
+                    <span class="relative z-10">Ücretsiz Teklif Al</span>
+                </button>
+                
+                {% if settings.whatsapp %}
+                <a href="https://wa.me/{{ settings.whatsapp }}?text=Merhaba,%20{{ service.title }}%20hizmeti%20hakkında%20bilgi%20almak%20istiyorum" target="_blank" class="bg-[#25D366] w-full sm:w-auto hover:bg-[#20bd5a] px-8 py-4 rounded-xl text-white font-bold text-lg flex items-center justify-center gap-3 transition-all shadow-lg border border-white/10">
+                    <i class="fab fa-whatsapp text-xl"></i>
+                    WhatsApp'tan Yaz
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!-- VISUAL PROOF (Before/After & Gallery) -->
+<!-- ============================================ -->
+<section class="py-16 bg-[#0f0f0f] border-b border-zinc-900" 
+         x-data="{ shown: false }" x-intersect.threshold.10="shown = true">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 ease-out transform"
+         :class="shown ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'">
+        <div class="text-center mb-10">
+            <span class="text-[#c9a465] text-sm font-bold tracking-wider uppercase">Değişime Tanık Olun</span>
+            <h2 class="font-playfair text-3xl md:text-4xl text-white mt-2">Öncesi & Sonrası</h2>
+        </div>
+        
+        <!-- Dynamic Comparsion Slider -->
+        {% if service.before_image and service.after_image %}
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+            <!-- Before -->
+            <div class="group relative rounded-2xl overflow-hidden border border-zinc-800">
+                <div class="absolute top-4 left-4 z-10 bg-black/70 text-white text-xs px-3 py-1 rounded-full border border-white/20">ÖNCESİ</div>
+                <img src="{{ service.before_image.url }}" alt="Eski Hali" class="w-full h-64 object-cover grayscale transition-all duration-700 group-hover:grayscale-0">
+                
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/40 backdrop-blur-[2px]">
+                   <i class="fas fa-arrow-right text-4xl text-[#c9a465]"></i>
+                </div>
+            </div>
+            <!-- After -->
+            <div class="group relative rounded-2xl overflow-hidden border border-[#c9a465]">
+                <div class="absolute top-4 left-4 z-10 bg-[#c9a465] text-black font-bold text-xs px-3 py-1 rounded-full">SONRASI</div>
+                <img src="{{ service.after_image.url }}" alt="Yeni Hali" class="w-full h-64 object-cover transform transition-transform duration-700 group-hover:scale-110">
+                
+                <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/90 to-transparent">
+                    <p class="text-white font-playfair text-lg">{{ service.title }} Dönüşümü</p>
+                    <p class="text-gray-400 text-sm">Profesyonel Uygulama</p>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <!-- Fallback Static (Keep existing layout if no dynamic images) -->
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="group relative rounded-2xl overflow-hidden border border-zinc-800">
+                <div class="absolute top-4 left-4 z-10 bg-black/70 text-white text-xs px-3 py-1 rounded-full border border-white/20">ÖNCESİ</div>
+                <img src="https://images.unsplash.com/photo-1503174971373-b1f69850bded?auto=format&fit=crop&w=800&q=80" alt="Eski Hali" class="w-full h-64 object-cover grayscale transition-all duration-700 group-hover:grayscale-0">
+            </div>
+            <div class="group relative rounded-2xl overflow-hidden border border-[#c9a465]">
+                <div class="absolute top-4 left-4 z-10 bg-[#c9a465] text-black font-bold text-xs px-3 py-1 rounded-full">SONRASI</div>
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Yeni Hali" class="w-full h-64 object-cover transform transition-transform duration-700 group-hover:scale-110">
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!-- DIRECT-TO-WHATSAPP CONVERSION SECTION -->
+<!-- ============================================ -->
+<section id="whatsapp-cta" class="py-16 bg-black border-b border-zinc-900">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Header -->
+        <div class="text-center mb-10">
+            <h2 class="font-playfair text-3xl sm:text-4xl font-bold mb-4 text-white">
+                {{ service.title }} İçin <span class="text-gold-gradient">Hızlı Fiyat Al</span>
+            </h2>
+            <p class="text-gray-400 text-lg">
+                Keşif bekleme. Mevcut durumun fotoğrafını çek gönder, uzmanlarımız hemen fiyatlasın.
+            </p>
+        </div>
+        
+        <!-- STEP 1: The Big Green WhatsApp CTA -->
+        <a href="https://wa.me/{{ settings.whatsapp|default:'905551234567' }}?text=Merhaba,%20{{ service.title }}%20hizmeti%20için%20fiyat%20almak%20istiyorum.%20Fotoğrafı%20gönderiyorum." 
+           target="_blank"
+           class="group relative block w-full bg-gradient-to-r from-[#25D366] to-[#128C7E] rounded-2xl p-6 sm:p-8 shadow-2xl hover:shadow-[0_20px_50px_rgba(37,211,102,0.3)] transform hover:scale-[1.02] transition-all duration-300 mb-8 border border-white/10">
+            
+            <!-- Pulsing Badge -->
+            <div class="absolute -top-3 right-4 sm:right-8">
+                <span class="relative flex">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#c9a465] opacity-75"></span>
+                    <span class="relative inline-flex items-center gap-1 bg-[#c9a465] text-black text-xs font-bold px-3 py-1 rounded-full">
+                        <i class="fas fa-bolt"></i> EN HIZLI YÖNTEM
+                    </span>
+                </span>
+            </div>
+            
+            <div class="flex flex-col sm:flex-row items-center gap-6">
+                <!-- Icon Container with Sonar Effect -->
+                <div class="relative flex-shrink-0 w-20 h-20 sm:w-24 sm:h-24 bg-white rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <!-- Sonar Ring -->
+                    <div class="absolute inset-0 rounded-2xl bg-white opacity-40 animate-ping"></div>
+                    <!-- Icon -->
+                    <i class="fas fa-camera text-4xl sm:text-5xl text-[#25D366] relative z-10"></i>
+                </div>
+                
+                <!-- Text Content -->
+                <div class="text-center sm:text-left flex-1">
+                    <h3 class="text-xl sm:text-2xl font-bold text-white uppercase tracking-wide mb-2">
+                        Fotoğrafı Çek & Gönder
+                    </h3>
+                    <p class="text-white/80 text-base sm:text-lg">
+                        {{ service.title }} yapılacak alanın fotoğrafını WhatsApp'tan at, şok fiyatı gör.
+                    </p>
+                </div>
+                
+                <!-- Arrow -->
+                <div class="flex-shrink-0 hidden sm:block">
+                    <i class="fas fa-arrow-right text-3xl text-white group-hover:translate-x-2 transition-transform duration-300"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!-- MAIN CONTENT & SIDEBAR -->
+<!-- ============================================ -->
+<section class="py-20 bg-[#0f0f0f]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-3 gap-12">
+            
+            <!-- LEFT CONTENT -->
+            <div class="lg:col-span-2">
+                <!-- Rich Text Description -->
+                <div class="prose prose-lg prose-invert max-w-none mb-12">
+                     <div class="p-6 md:p-8 bg-zinc-900 rounded-2xl border border-zinc-800 mb-8 flex flex-col md:flex-row gap-6 items-start">
+                        <i class="fas fa-quote-left text-4xl text-[#c9a465] opacity-50"></i>
+                        <div>
+                            <h3 class="text-white font-playfair text-xl mb-2 mt-0">Kaliteli İşçilik, Zamanında Teslimat</h3>
+                            <p class="text-gray-400 m-0 text-base">
+                                EB Dekorasyon olarak {{ service.title|lower }} hizmetimizde en iyi malzemeleri kullanıyor, mekanınızı hayalinizdeki görünüme kavuşturuyoruz.
+                            </p>
+                        </div>
+                     </div>
+                     
+                     {{ service.description|safe }}
+                </div>
+                
+                <!-- Features Grid -->
+                {% if service.features.all %}
+                <div class="mb-16" x-data="{ shown: false }" x-intersect.threshold.10="shown = true">
+                    <div>
+                        <h2 class="font-playfair text-3xl font-bold text-white mb-8 border-l-4 border-[#c9a465] pl-4 transition-all duration-1000 ease-out transform"
+                            :class="shown ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'">
+                            Neden {{ service.title }}?
+                        </h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            {% for feature in service.features.all %}
+                            <div class="flex gap-4 p-6 bg-zinc-900/50 rounded-xl border border-zinc-800 hover:border-[#c9a465]/50 transition-all duration-700 ease-out transform hover:-translate-y-1 hover:shadow-lg hover:shadow-[#c9a465]/10"
+                                 :class="shown ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'"
+                                 style="transition-delay: {{ forloop.counter }}00ms">
+                                <div class="w-12 h-12 rounded-full bg-[#c9a465]/10 flex items-center justify-center flex-shrink-0 text-[#c9a465]">
+                                    {% if feature.icon %}
+                                    <i class="{{ feature.icon }} text-xl"></i>
+                                    {% else %}
+                                    <i class="fas fa-check text-xl"></i>
+                                    {% endif %}
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-white mb-1">{{ feature.name }}</h4>
+                                    <p class="text-sm text-gray-400">{{ feature.description }}</p>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                
+                <!-- Process Steps (Dynamic) -->
+                {% if service.steps.all %}
+                <div class="mb-16">
+                    <h2 class="font-playfair text-3xl font-bold text-white mb-8 border-l-4 border-[#c9a465] pl-4">
+                        Çalışma Sürecimiz
+                    </h2>
+                    <div class="space-y-6">
+                        {% for step in service.steps.all %}
+                        <div class="flex gap-6 relative">
+                            <div class="flex flex-col items-center">
+                                <div class="w-10 h-10 rounded-full {% if forloop.first %}bg-[#c9a465] text-black shadow-[0_0_15px_rgba(201,164,101,0.5)]{% else %}bg-zinc-800 border border-[#c9a465] text-[#c9a465]{% endif %} font-bold flex items-center justify-center z-10">
+                                    {{ step.step_number }}
+                                </div>
+                                {% if not forloop.last %}
+                                <div class="w-0.5 h-full bg-zinc-800 absolute top-10 left-5"></div>
+                                {% endif %}
+                            </div>
+                            <div class="pb-8">
+                                <h4 class="text-xl font-bold text-white mb-2">{{ step.title }}</h4>
+                                <p class="text-gray-400">{{ step.description }}</p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                <!-- Related Projects (Dynamic) -->
+                {% if service.projects.all %}
+                <div class="mb-16">
+                    <h2 class="font-playfair text-3xl font-bold text-white mb-8 border-l-4 border-[#c9a465] pl-4">
+                        Tamamlanan {{ service.title }} Projeleri
+                    </h2>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        {% for project in service.projects.all|slice:":2" %}
+                        <a href="{% url 'project_detail' project.slug %}" class="group block relative rounded-xl overflow-hidden border border-zinc-800 hover:border-[#c9a465] transition-colors">
+                            <img src="{{ project.image.url }}" alt="{{ project.title }}" class="w-full h-48 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent p-4 flex flex-col justify-end">
+                                <h4 class="text-white font-bold text-lg leading-tight">{{ project.title }}</h4>
+                                <p class="text-sm text-[#c9a465] mt-1 flex items-center gap-1">
+                                    <i class="fas fa-map-marker-alt text-xs"></i> {{ project.location }}
+                                </p>
+                            </div>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+                
+                <!-- FAQs -->
+                {% if service.faqs.exists %}
+                <div class="mb-12">
+                    <h2 class="font-playfair text-3xl font-bold text-white mb-8 border-l-4 border-[#c9a465] pl-4">
+                        Merak Ettikleriniz
+                    </h2>
+                    <div class="space-y-4">
+                        {% for faq in service.faqs.all %}
+                        <div class="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden" x-data="{ open: false }">
+                            <button @click="open = !open" class="w-full flex items-center justify-between p-5 text-left text-white hover:bg-zinc-800 transition-colors">
+                                <span class="font-medium pr-8">{{ faq.question }}</span>
+                                <i class="fas fa-chevron-down text-[#c9a465] transition-transform" :class="{ 'rotate-180': open }"></i>
+                            </button>
+                            <div x-show="open" class="p-5 pt-0 text-gray-400 border-t border-zinc-800/50 bg-zinc-900/50" style="display: none;">
+                                {{ faq.answer }}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            
+            <!-- RIGHT SIDEBAR (Desktop Sticky, Mobile Stacked) -->
+            <div class="lg:col-span-1 mt-12 lg:mt-0">
+                <div class="sticky top-24 space-y-8">
+                    
+                    <!-- Quote Form Card -->
+                    <div id="quote-form-desktop" class="bg-zinc-900 rounded-2xl border border-[#c9a465] shadow-[0_0_30px_rgba(201,164,101,0.1)] overflow-hidden">
+                        
+                        <!-- Priority Contact Buttons -->
+                        <div class="p-6 pb-2 border-b border-zinc-800">
+                            <h3 class="font-playfair text-xl font-bold text-white mb-4 text-center">Hızlı İletişim</h3>
+                            <div class="space-y-3">
+                                {% if settings.phone %}
+                                <a href="tel:{{ settings.phone }}" class="flex items-center justify-center gap-3 w-full bg-white text-black font-bold py-4 rounded-xl hover:bg-gray-200 transition-colors transform hover:scale-105 duration-200">
+                                    <i class="fas fa-phone-alt text-[#c9a465]"></i>
+                                    {{ settings.phone }}
+                                </a>
+                                {% endif %}
+                                {% if settings.whatsapp %}
+                                <a href="https://wa.me/{{ settings.whatsapp }}" target="_blank" class="flex items-center justify-center gap-3 w-full bg-[#25D366] text-white font-bold py-4 rounded-xl hover:bg-[#20bd5a] transition-colors transform hover:scale-105 duration-200">
+                                    <i class="fab fa-whatsapp text-xl"></i>
+                                    WhatsApp'tan Yaz
+                                </a>
+                                {% endif %}
+                            </div>
+                            <div class="relative mt-6 mb-2">
+                                <div class="absolute inset-0 flex items-center">
+                                    <div class="w-full border-t border-zinc-700"></div>
+                                </div>
+                                <div class="relative flex justify-center text-sm">
+                                    <span class="px-2 bg-zinc-900 text-gray-500">veya form doldurun</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-zinc-900/50 p-6 pt-4">
+                            <form action="{% url 'contact' %}" method="POST" class="space-y-4">
+                                {% csrf_token %}
+                                <div>
+                                    <input type="text" name="name" required class="w-full bg-black border border-zinc-800 rounded-lg px-4 py-3 text-white focus:border-[#c9a465] focus:ring-1 focus:ring-[#c9a465] outline-none transition-colors" placeholder="Adınız Soyadınız">
+                                </div>
+                                <div>
+                                    <input type="tel" name="phone" required class="w-full bg-black border border-zinc-800 rounded-lg px-4 py-3 text-white focus:border-[#c9a465] focus:ring-1 focus:ring-[#c9a465] outline-none transition-colors" placeholder="Telefon Numaranız">
+                                </div>
+                                <button type="submit" class="w-full btn-gold-gradient py-3 rounded-xl text-black font-bold uppercase tracking-wider hover:shadow-gold-glow transition-all text-sm">
+                                    Sizi Arayalım
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!-- BOTTOM CTA -->
+<!-- ============================================ -->
+<section class="py-20 relative overflow-hidden pb-32 md:pb-20 bg-zinc-900 border-t border-zinc-800">
+    <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+        <h2 class="font-playfair text-3xl sm:text-5xl font-bold mb-6 text-white leading-tight">
+            Mekanınızı Yenilemeye <span class="text-[#c9a465]">Hazır mısınız?</span>
+        </h2>
+        <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
+            Profesyonel destek almak için hemen iletişime geçin, yerinde ücretsiz keşif yapalım.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="tel:{{ settings.phone }}" class="group relative px-8 py-4 rounded-xl font-bold text-lg overflow-hidden bg-[#c9a465] text-black hover:bg-[#b08d4a] transition-all shadow-[0_0_20px_rgba(201,164,101,0.3)] hover:shadow-[0_0_30px_rgba(201,164,101,0.5)]">
+                <span class="relative z-10 flex items-center gap-2">
+                    <i class="fas fa-phone-alt animate-pulse"></i> Hemen Arayın
+                </span>
+            </a>
+            <a href="https://wa.me/{{ settings.whatsapp }}" target="_blank" class="group relative px-8 py-4 rounded-xl font-bold text-lg overflow-hidden bg-[#25D366] text-white hover:bg-[#20bd5a] transition-all shadow-[0_0_20px_rgba(37,211,102,0.3)] hover:shadow-[0_0_30px_rgba(37,211,102,0.5)]">
+                <span class="relative z-10 flex items-center gap-2">
+                    <i class="fab fa-whatsapp text-2xl"></i> WhatsApp'tan Yaz
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!-- MODAL FORM (Hidden by default) -->
+<!-- ============================================ -->
+<div id="mobile-quote-modal" class="hidden fixed inset-0 z-[60] overflow-y-auto" role="dialog" aria-modal="true">
+    <div class="fixed inset-0 bg-black/90 backdrop-blur-sm transition-opacity" onclick="document.getElementById('mobile-quote-modal').classList.add('hidden')"></div>
+    
+    <div class="flex min-h-full items-end justify-center p-0 sm:items-center sm:p-4">
+        <div class="relative transform overflow-hidden rounded-t-2xl sm:rounded-2xl bg-zinc-900 border border-[#c9a465] text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg w-full">
+            <div class="bg-gradient-to-r from-[#b08d4a] to-[#c9a465] px-4 py-4 sm:px-6 flex justify-between items-center">
+                <h3 class="text-lg font-bold leading-6 text-black" id="modal-title">Ücretsiz Teklif Al</h3>
+                <button type="button" class="text-black hover:text-white transition-colors" onclick="document.getElementById('mobile-quote-modal').classList.add('hidden')">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            <div class="px-4 py-6 sm:p-6">
+                <form action="{% url 'contact' %}" method="POST" class="space-y-4">
+                    {% csrf_token %}
+                    <div>
+                        <label class="block text-sm font-medium text-gray-400 mb-1">Adınız Soyadınız</label>
+                        <input type="text" name="name" required class="w-full bg-black border border-zinc-800 rounded-lg px-4 py-3 text-white focus:border-[#c9a465] focus:ring-1 focus:ring-[#c9a465] outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-400 mb-1">Telefon Numaranız</label>
+                        <input type="tel" name="phone" required class="w-full bg-black border border-zinc-800 rounded-lg px-4 py-3 text-white focus:border-[#c9a465] focus:ring-1 focus:ring-[#c9a465] outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-400 mb-1">Hizmet Detayı (Opsiyonel)</label>
+                        <textarea name="message" rows="2" class="w-full bg-black border border-zinc-800 rounded-lg px-4 py-3 text-white focus:border-[#c9a465] focus:ring-1 focus:ring-[#c9a465] outline-none"></textarea>
+                        <input type="hidden" name="subject" value="{{ service.title }} (Mobil Modal)">
+                    </div>
+                    <button type="submit" class="w-full btn-gold-gradient py-4 rounded-xl text-black font-bold uppercase tracking-wider hover:shadow-gold-glow transition-all">
+                        Gönder
+                    </button>
+                    <p class="text-xs text-center text-gray-500 mt-2">Kısa süre içinde dönüş yapılacaktır.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

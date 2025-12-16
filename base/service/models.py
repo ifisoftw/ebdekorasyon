@@ -59,6 +59,9 @@ class Service(ServiceBase):
     )
     icon = models.CharField(max_length=50, verbose_name='İcon', blank=True, help_text='FontAwesome ikon adı (örn: fas fa-info)')
     
+    before_image = OptimizedImageField(upload_to='uploads/services/transformations', blank=True, null=True, verbose_name='Öncesi Resim (Dönüşüm)')
+    after_image = OptimizedImageField(upload_to='uploads/services/transformations', blank=True, null=True, verbose_name='Sonrası Resim (Dönüşüm)')
+
     def __str__(self):
         return self.title
     
@@ -66,6 +69,22 @@ class Service(ServiceBase):
         verbose_name = 'Hizmet'
         verbose_name_plural = 'Hizmetler'
         ordering = ['-created']
+
+
+class ServiceStep(models.Model):
+    """Hizmet süreç adımları (Örn: 1. Keşif, 2. Uygulama)"""
+    service = models.ForeignKey(Service, on_delete=models.CASCADE, related_name='steps', verbose_name='Hizmet')
+    step_number = models.PositiveIntegerField(verbose_name='Adım No', default=1)
+    title = models.CharField(max_length=100, verbose_name='Başlık')
+    description = models.TextField(verbose_name='Açıklama')
+    
+    class Meta:
+        verbose_name = 'Süreç Adımı'
+        verbose_name_plural = 'Süreç Adımları'
+        ordering = ['step_number']
+
+    def __str__(self):
+        return f"{self.service.title} - Adım {self.step_number}"
 
 
 class ServiceArea(ServiceBase):

@@ -45,6 +45,7 @@ class ServiceAreaListView(ListView):
         seo = Page_Seo.objects.filter(page_url='hizmet-bolgeleri').first()
         context['seo'] = seo
         context['service_header'] = ServiceHeader.objects.first()
+        context['feature_area'] = FeatureArea.objects.first()
         return context
 
 def service_detail(request, slug):

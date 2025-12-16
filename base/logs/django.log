@@ -12606,3 +12606,1439 @@ WARNING 2025-12-16 03:56:56,741 basehttp 76747 6203748352 "GET /.well-known/apps
 INFO 2025-12-16 03:57:06,606 basehttp 76747 6203748352 "GET / HTTP/1.1" 200 16157
 WARNING 2025-12-16 03:57:06,626 log 76747 6203748352 Not Found: /.well-known/appspecific/com.chrome.devtools.json
 WARNING 2025-12-16 03:57:06,627 basehttp 76747 6203748352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1406
+INFO 2025-12-16 03:57:48,119 basehttp 76747 6203748352 "GET / HTTP/1.1" 200 16214
+WARNING 2025-12-16 03:57:48,154 log 76747 6203748352 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 03:57:48,154 basehttp 76747 6203748352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1430
+INFO 2025-12-16 03:58:46,207 basehttp 76747 6203748352 "GET / HTTP/1.1" 200 16213
+INFO 2025-12-16 03:59:49,315 basehttp 76747 6203748352 "GET /hakkimizda/ HTTP/1.1" 200 9018
+INFO 2025-12-16 03:59:50,063 basehttp 76747 6203748352 "GET /hizmetler/ HTTP/1.1" 200 10064
+INFO 2025-12-16 03:59:50,950 basehttp 76747 6203748352 "GET /hakkimizda/ HTTP/1.1" 200 9013
+INFO 2025-12-16 03:59:55,331 basehttp 76747 6203748352 "GET /hizmetler/ HTTP/1.1" 200 10053
+INFO 2025-12-16 03:59:56,431 basehttp 76747 6203748352 "GET /projeler/ HTTP/1.1" 200 9555
+INFO 2025-12-16 03:59:57,330 basehttp 76747 6203748352 "GET /galeri/ HTTP/1.1" 200 9058
+INFO 2025-12-16 03:59:57,841 basehttp 76747 6203748352 "GET /bloglar/ HTTP/1.1" 200 10837
+INFO 2025-12-16 03:59:58,294 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8568
+INFO 2025-12-16 03:59:59,105 basehttp 76747 6203748352 "GET /bloglar/ HTTP/1.1" 200 10909
+INFO 2025-12-16 03:59:59,486 basehttp 76747 6203748352 "GET /galeri/ HTTP/1.1" 200 9097
+INFO 2025-12-16 03:59:59,921 basehttp 76747 6203748352 "GET /projeler/ HTTP/1.1" 200 9597
+INFO 2025-12-16 04:00:00,352 basehttp 76747 6203748352 "GET /hizmetler/ HTTP/1.1" 200 10075
+INFO 2025-12-16 04:00:02,958 basehttp 76747 6203748352 "GET /projeler/ HTTP/1.1" 200 9561
+INFO 2025-12-16 04:00:03,440 basehttp 76747 6203748352 "GET /galeri/ HTTP/1.1" 200 9099
+INFO 2025-12-16 04:00:03,881 basehttp 76747 6203748352 "GET /bloglar/ HTTP/1.1" 200 10889
+INFO 2025-12-16 04:00:04,431 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8577
+INFO 2025-12-16 04:01:30,170 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8600
+INFO 2025-12-16 04:01:30,927 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8630
+INFO 2025-12-16 04:01:31,507 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8624
+INFO 2025-12-16 04:01:31,804 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8544
+INFO 2025-12-16 04:01:32,070 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8565
+INFO 2025-12-16 04:01:32,271 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8562
+INFO 2025-12-16 04:01:32,454 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8616
+INFO 2025-12-16 04:01:32,653 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8568
+INFO 2025-12-16 04:01:32,857 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8585
+INFO 2025-12-16 04:01:33,052 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8564
+INFO 2025-12-16 04:01:37,217 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8591
+INFO 2025-12-16 04:02:01,281 basehttp 76747 6203748352 "GET /hizmetler/ HTTP/1.1" 200 10084
+INFO 2025-12-16 04:02:02,441 basehttp 76747 6203748352 "GET /projeler/ HTTP/1.1" 200 9627
+INFO 2025-12-16 04:02:03,425 basehttp 76747 6203748352 "GET /galeri/ HTTP/1.1" 200 9069
+INFO 2025-12-16 04:02:04,016 basehttp 76747 6203748352 "GET /bloglar/ HTTP/1.1" 200 10831
+INFO 2025-12-16 04:02:04,857 basehttp 76747 6203748352 "GET /iletisim/ HTTP/1.1" 200 8569
+INFO 2025-12-16 04:02:06,377 basehttp 76747 6203748352 "GET /bloglar/ HTTP/1.1" 200 10848
+WARNING 2025-12-16 04:02:09,751 log 76747 6203748352 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:02:09,751 basehttp 76747 6203748352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1397
+INFO 2025-12-16 04:03:06,474 basehttp 76747 6203748352 "GET / HTTP/1.1" 200 16302
+WARNING 2025-12-16 04:03:06,510 log 76747 6203748352 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:03:06,510 basehttp 76747 6203748352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1405
+INFO 2025-12-16 04:03:11,492 basehttp 76747 6203748352 "GET / HTTP/1.1" 200 16349
+WARNING 2025-12-16 04:03:11,513 log 76747 6203748352 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:03:11,513 basehttp 76747 6203748352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1376
+INFO 2025-12-16 04:03:14,372 basehttp 76747 6203748352 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8574
+WARNING 2025-12-16 04:03:14,403 log 76747 6203748352 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:03:14,403 basehttp 76747 6203748352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1344
+INFO 2025-12-16 04:04:01,314 basehttp 76747 6203748352 "GET / HTTP/1.1" 200 16273
+INFO 2025-12-16 04:04:16,856 basehttp 76747 6203748352 "GET /hizmetler/ HTTP/1.1" 200 10192
+INFO 2025-12-16 04:04:19,253 basehttp 76747 6203748352 "GET /hizmetler/ HTTP/1.1" 200 10156
+INFO 2025-12-16 04:04:20,034 basehttp 76747 6203748352 "GET /hakkimizda/ HTTP/1.1" 200 9077
+INFO 2025-12-16 04:04:21,280 basehttp 76747 6203748352 "GET / HTTP/1.1" 200 16327
+INFO 2025-12-16 04:04:33,193 basehttp 76747 6203748352 "GET / HTTP/1.1" 200 16315
+INFO 2025-12-16 04:04:34,700 basehttp 76747 6203748352 "GET / HTTP/1.1" 200 16313
+WARNING 2025-12-16 04:04:40,001 log 76747 6203748352 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:04:40,001 basehttp 76747 6203748352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1408
+INFO 2025-12-16 04:04:42,277 basehttp 76747 6203748352 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8598
+WARNING 2025-12-16 04:04:42,317 log 76747 6203748352 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:04:42,317 basehttp 76747 6203748352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1360
+INFO 2025-12-16 04:05:17,039 basehttp 76747 6203748352 "GET /admin/core/featurearea/ HTTP/1.1" 200 7931
+INFO 2025-12-16 04:05:17,067 basehttp 76747 6203748352 "GET /static/admin_interface/css/change-form.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,076 basehttp 76747 6220574720 "GET /static/admin_interface/css/admin-interface.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,076 basehttp 76747 6254227456 "GET /static/admin_interface/css/changelist.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,076 basehttp 76747 6271053824 "GET /static/admin_interface/css/file-upload.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,079 basehttp 76747 6287880192 "GET /static/admin_interface/css/header.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,081 basehttp 76747 6203748352 "GET /static/admin_interface/css/inlines.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,081 basehttp 76747 6237401088 "GET /static/admin_interface/css/fieldsets.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,081 basehttp 76747 6254227456 "GET /static/admin_interface/css/jquery.ui.tabs.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,081 basehttp 76747 6220574720 "GET /static/admin_interface/css/list-filter-dropdown.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,083 basehttp 76747 6287880192 "GET /static/admin_interface/css/login.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,083 basehttp 76747 6271053824 "GET /static/admin_interface/css/language-chooser.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,083 basehttp 76747 6203748352 "GET /static/admin_interface/css/modules.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,093 basehttp 76747 6237401088 "GET /static/admin_interface/css/list-filter.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,099 basehttp 76747 6254227456 "GET /static/admin_interface/css/paginator.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,099 basehttp 76747 6220574720 "GET /static/admin_interface/css/nav-sidebar.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,099 basehttp 76747 6287880192 "GET /static/admin_interface/css/third-party/ckeditor.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,100 basehttp 76747 6203748352 "GET /static/admin_interface/css/rtl.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,100 basehttp 76747 6271053824 "GET /static/admin_interface/css/object-tools.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,101 basehttp 76747 6220574720 "GET /static/admin_interface/css/third-party/import-export.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,101 basehttp 76747 6237401088 "GET /static/admin_interface/css/sticky-form-controls.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,102 basehttp 76747 6203748352 "GET /static/admin_interface/css/tabbed-changeform.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,102 basehttp 76747 6220574720 "GET /static/admin_interface/css/third-party/rangefilter.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,102 basehttp 76747 6254227456 "GET /static/admin_interface/css/widgets.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,102 basehttp 76747 6271053824 "GET /static/admin_interface/css/third-party/json-widget.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,102 basehttp 76747 6287880192 "GET /static/admin_interface/css/third-party/modeltranslation.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,104 basehttp 76747 6237401088 "GET /static/admin_interface/css/third-party/tinymce.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,104 basehttp 76747 6220574720 "GET /static/admin_interface/css/third-party/streamfield.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,104 basehttp 76747 6203748352 "GET /static/admin_interface/css/third-party/sorl-thumbnail.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,105 basehttp 76747 6271053824 "GET /static/admin_interface/foldable-apps/foldable-apps.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,107 basehttp 76747 6237401088 "GET /static/admin/css/responsive_rtl.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,107 basehttp 76747 6287880192 "GET /static/admin_interface/magnific-popup/magnific-popup.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,107 basehttp 76747 6254227456 "GET /static/admin/css/responsive.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,108 basehttp 76747 6220574720 "GET /static/admin_interface/related-modal/related-modal.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,108 basehttp 76747 6287880192 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,109 basehttp 76747 6271053824 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,109 basehttp 76747 6237401088 "GET /static/admin_interface/magnific-popup/jquery.magnific-popup.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,109 basehttp 76747 6254227456 "GET /static/admin_interface/related-modal/related-modal.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,110 basehttp 76747 6220574720 "GET /static/admin_interface/foldable-apps/foldable-apps.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 304 0
+INFO 2025-12-16 04:05:17,113 basehttp 76747 6203748352 "GET /admin/jsi18n/ HTTP/1.1" 200 2508
+INFO 2025-12-16 04:05:18,225 basehttp 76747 6203748352 "GET /admin/core/featurearea/2/change/ HTTP/1.1" 200 8247
+INFO 2025-12-16 04:05:18,252 basehttp 76747 6203748352 "GET /admin/jsi18n/ HTTP/1.1" 200 2505
+INFO 2025-12-16 04:05:31,632 basehttp 76747 6220574720 "GET / HTTP/1.1" 200 16348
+INFO 2025-12-16 04:05:47,486 basehttp 76747 6220574720 "GET /hizmetler/ HTTP/1.1" 200 10239
+INFO 2025-12-16 04:05:53,193 basehttp 76747 6220574720 "GET / HTTP/1.1" 200 16344
+INFO 2025-12-16 04:05:53,725 basehttp 76747 6220574720 "GET / HTTP/1.1" 200 16318
+INFO 2025-12-16 04:06:23,268 basehttp 76747 6220574720 "GET / HTTP/1.1" 200 16275
+INFO 2025-12-16 04:06:42,424 basehttp 76747 6220574720 "GET / HTTP/1.1" 200 16307
+INFO 2025-12-16 04:06:53,695 basehttp 76747 6220574720 "GET /hakkimizda/ HTTP/1.1" 200 9111
+INFO 2025-12-16 04:07:06,383 basehttp 76747 6220574720 "GET / HTTP/1.1" 200 16329
+INFO 2025-12-16 04:07:14,776 basehttp 76747 6220574720 "GET /hizmetler/ HTTP/1.1" 200 10244
+WARNING 2025-12-16 04:08:38,061 log 76747 6220574720 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:08:38,062 basehttp 76747 6220574720 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1374
+INFO 2025-12-16 04:08:39,472 basehttp 76747 6220574720 "GET /hizmetler/ HTTP/1.1" 200 10233
+WARNING 2025-12-16 04:08:39,527 log 76747 6220574720 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:08:39,528 basehttp 76747 6220574720 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1430
+INFO 2025-12-16 04:08:41,094 basehttp 76747 6220574720 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8580
+WARNING 2025-12-16 04:08:41,357 log 76747 6220574720 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:08:41,358 basehttp 76747 6220574720 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1407
+INFO 2025-12-16 04:09:06,238 autoreload 76747 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-16 04:09:06,866 autoreload 77563 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 04:13:27,312 autoreload 77563 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-16 04:13:27,902 autoreload 78505 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 04:13:34,832 basehttp 78505 6132723712 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8564
+INFO 2025-12-16 04:13:41,951 basehttp 78505 6132723712 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8645
+INFO 2025-12-16 04:13:48,213 basehttp 78505 6132723712 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8628
+INFO 2025-12-16 04:14:09,372 basehttp 78505 6132723712 "GET /iletisim/ HTTP/1.1" 200 8687
+INFO 2025-12-16 04:14:15,389 basehttp 78505 6132723712 "GET / HTTP/1.1" 200 16287
+INFO 2025-12-16 04:14:41,334 basehttp 78505 6132723712 "GET /hizmetler/ HTTP/1.1" 200 10222
+INFO 2025-12-16 04:14:42,111 basehttp 78505 6132723712 "GET /projeler/ HTTP/1.1" 200 9656
+INFO 2025-12-16 04:14:43,045 basehttp 78505 6132723712 "GET /galeri/ HTTP/1.1" 200 9234
+INFO 2025-12-16 04:14:43,609 basehttp 78505 6132723712 "GET /bloglar/ HTTP/1.1" 200 10987
+INFO 2025-12-16 04:14:44,114 basehttp 78505 6132723712 "GET /iletisim/ HTTP/1.1" 200 8747
+INFO 2025-12-16 04:14:48,715 autoreload 78505 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/migrations/0001_initial.py changed, reloading.
+INFO 2025-12-16 04:14:49,319 autoreload 79802 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 04:15:04,564 autoreload 79802 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-16 04:15:05,212 autoreload 79831 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 04:15:22,717 basehttp 79831 6189510656 "GET / HTTP/1.1" 200 16260
+INFO 2025-12-16 04:15:26,968 autoreload 79831 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/views.py changed, reloading.
+INFO 2025-12-16 04:15:27,410 autoreload 80198 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 04:16:49,361 basehttp 80198 6162509824 "GET / HTTP/1.1" 200 16294
+WARNING 2025-12-16 04:16:51,388 log 80198 6162509824 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:16:51,388 basehttp 80198 6162509824 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1361
+INFO 2025-12-16 04:16:53,119 basehttp 80198 6162509824 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8613
+WARNING 2025-12-16 04:16:53,218 log 80198 6162509824 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:16:53,218 basehttp 80198 6162509824 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1423
+INFO 2025-12-16 04:18:53,342 autoreload 80198 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-16 04:18:53,887 autoreload 80249 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 04:19:14,372 autoreload 80249 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-16 04:19:15,163 autoreload 80615 8407912320 Watching for file changes with StatReloader
+ERROR 2025-12-16 04:19:41,807 log 80615 6205157376 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:19:41,810 basehttp 80615 6205157376 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13390
+ERROR 2025-12-16 04:19:42,537 log 80615 6205157376 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:19:42,540 basehttp 80615 6205157376 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13347
+ERROR 2025-12-16 04:19:43,127 log 80615 6205157376 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:19:43,129 basehttp 80615 6205157376 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13344
+ERROR 2025-12-16 04:19:43,652 log 80615 6205157376 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:19:43,655 basehttp 80615 6205157376 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13394
+ERROR 2025-12-16 04:19:44,120 log 80615 6205157376 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:19:44,122 basehttp 80615 6205157376 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13403
+ERROR 2025-12-16 04:19:44,556 log 80615 6205157376 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:19:44,559 basehttp 80615 6205157376 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13387
+ERROR 2025-12-16 04:19:45,043 log 80615 6205157376 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:19:45,045 basehttp 80615 6205157376 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13371
+ERROR 2025-12-16 04:19:45,409 log 80615 6205157376 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:19:45,412 basehttp 80615 6205157376 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13413
+ERROR 2025-12-16 04:19:45,604 log 80615 6205157376 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:19:45,606 basehttp 80615 6205157376 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13394
+ERROR 2025-12-16 04:19:45,831 log 80615 6221983744 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:19:45,833 basehttp 80615 6221983744 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13415
+ERROR 2025-12-16 04:20:03,417 log 80615 6238810112 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:20:03,419 basehttp 80615 6238810112 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13326
+ERROR 2025-12-16 04:20:04,137 log 80615 6238810112 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:20:04,139 basehttp 80615 6238810112 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13363
+ERROR 2025-12-16 04:20:05,171 log 80615 6238810112 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:20:05,174 basehttp 80615 6238810112 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13433
+ERROR 2025-12-16 04:20:05,639 log 80615 6238810112 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:20:05,643 basehttp 80615 6238810112 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13395
+INFO 2025-12-16 04:20:09,826 basehttp 80615 6255636480 "GET / HTTP/1.1" 200 16342
+INFO 2025-12-16 04:20:14,905 basehttp 80615 6221983744 "GET / HTTP/1.1" 200 16344
+INFO 2025-12-16 04:20:16,350 basehttp 80615 6221983744 "GET / HTTP/1.1" 200 16306
+INFO 2025-12-16 04:20:17,472 basehttp 80615 6221983744 "GET /hizmetler/ HTTP/1.1" 200 10233
+WARNING 2025-12-16 04:20:19,788 log 80615 6221983744 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:20:19,789 basehttp 80615 6221983744 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1431
+ERROR 2025-12-16 04:20:21,780 log 80615 6221983744 Internal Server Error: /hizmet-bolgeleri/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service_areas.html, service/servicearea_list.html
+ERROR 2025-12-16 04:20:21,781 basehttp 80615 6221983744 "GET /hizmet-bolgeleri/ HTTP/1.1" 500 13262
+WARNING 2025-12-16 04:20:22,170 log 80615 6221983744 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:20:22,170 basehttp 80615 6221983744 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1344
+INFO 2025-12-16 04:20:33,970 autoreload 81147 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 04:20:36,039 basehttp 81147 6164213760 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8626
+INFO 2025-12-16 04:22:06,928 basehttp 81147 6164213760 "GET /hizmetler/ HTTP/1.1" 200 10244
+INFO 2025-12-16 04:22:09,834 basehttp 81147 6164213760 "GET /hizmetler/ HTTP/1.1" 200 10150
+INFO 2025-12-16 04:22:10,423 basehttp 81147 6164213760 "GET /hakkimizda/ HTTP/1.1" 200 9050
+INFO 2025-12-16 04:22:10,854 basehttp 81147 6164213760 "GET / HTTP/1.1" 200 16270
+INFO 2025-12-16 04:22:25,771 basehttp 81147 6164213760 "GET /hakkimizda/ HTTP/1.1" 200 9078
+INFO 2025-12-16 04:22:26,353 basehttp 81147 6164213760 "GET /hizmetler/ HTTP/1.1" 200 10206
+INFO 2025-12-16 04:22:26,811 basehttp 81147 6164213760 "GET /projeler/ HTTP/1.1" 200 9651
+INFO 2025-12-16 04:22:27,177 basehttp 81147 6164213760 "GET /galeri/ HTTP/1.1" 200 9161
+INFO 2025-12-16 04:22:27,583 basehttp 81147 6164213760 "GET /bloglar/ HTTP/1.1" 200 10961
+INFO 2025-12-16 04:22:27,994 basehttp 81147 6164213760 "GET /iletisim/ HTTP/1.1" 200 8708
+INFO 2025-12-16 04:22:51,550 basehttp 81147 6164213760 "GET /hizmetler/ HTTP/1.1" 200 10202
+WARNING 2025-12-16 04:23:00,614 log 81147 6164213760 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:23:00,616 basehttp 81147 6164213760 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1395
+INFO 2025-12-16 04:23:01,739 basehttp 81147 6164213760 "GET /hizmetler/ HTTP/1.1" 200 10206
+WARNING 2025-12-16 04:23:01,765 log 81147 6164213760 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:23:01,765 basehttp 81147 6164213760 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1383
+INFO 2025-12-16 04:23:03,495 basehttp 81147 6164213760 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8551
+WARNING 2025-12-16 04:23:03,532 log 81147 6164213760 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:23:03,532 basehttp 81147 6164213760 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1439
+INFO 2025-12-16 04:25:45,433 basehttp 81147 6164213760 "GET / HTTP/1.1" 200 16308
+INFO 2025-12-16 04:26:01,938 basehttp 81147 6164213760 "GET / HTTP/1.1" 200 16292
+INFO 2025-12-16 04:26:03,238 basehttp 81147 6164213760 "GET / HTTP/1.1" 200 16320
+INFO 2025-12-16 04:26:03,279 basehttp 81147 6164213760 "GET /media/uploads/Hero/hero_banner_88PovAt.jpg HTTP/1.1" 200 403514
+WARNING 2025-12-16 04:26:03,828 basehttp 81147 6181040128 "GET /static/images/favicon.ico HTTP/1.1" 404 1914
+INFO 2025-12-16 04:26:07,247 basehttp 81147 6164213760 "GET /hizmetler/ HTTP/1.1" 200 10267
+INFO 2025-12-16 04:26:15,193 basehttp 81147 6164213760 "GET /hizmetler/ HTTP/1.1" 200 10192
+INFO 2025-12-16 04:26:15,840 basehttp 81147 6164213760 "GET /projeler/ HTTP/1.1" 200 9679
+INFO 2025-12-16 04:26:19,730 basehttp 81147 6164213760 "GET /galeri/ HTTP/1.1" 200 9174
+INFO 2025-12-16 04:27:05,744 basehttp 81147 6164213760 "GET /hizmetler/ HTTP/1.1" 200 10253
+WARNING 2025-12-16 04:27:07,917 log 81147 6164213760 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:27:07,917 basehttp 81147 6164213760 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1398
+INFO 2025-12-16 04:27:10,076 basehttp 81147 6164213760 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8601
+WARNING 2025-12-16 04:27:10,379 log 81147 6164213760 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:27:10,380 basehttp 81147 6164213760 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1379
+INFO 2025-12-16 04:27:26,205 basehttp 81147 6164213760 "GET / HTTP/1.1" 200 16290
+INFO 2025-12-16 04:27:41,904 basehttp 81147 6164213760 "GET / HTTP/1.1" 200 16349
+INFO 2025-12-16 04:27:45,641 basehttp 81147 6164213760 "GET / HTTP/1.1" 200 16313
+INFO 2025-12-16 04:28:21,971 basehttp 81147 6164213760 "GET /hizmetler/ HTTP/1.1" 200 10227
+WARNING 2025-12-16 04:28:30,386 log 81147 6164213760 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:28:30,393 basehttp 81147 6164213760 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1349
+INFO 2025-12-16 04:28:32,266 basehttp 81147 6164213760 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8636
+WARNING 2025-12-16 04:28:32,301 log 81147 6164213760 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:28:32,302 basehttp 81147 6164213760 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1432
+INFO 2025-12-16 04:28:53,714 basehttp 81147 6164213760 "GET /admin/core/featurearea/ HTTP/1.1" 200 7967
+INFO 2025-12-16 04:28:53,736 basehttp 81147 6164213760 "GET /admin/jsi18n/ HTTP/1.1" 200 2499
+WARNING 2025-12-16 04:28:53,798 log 81147 6164213760 Not Found: /favicon.ico
+WARNING 2025-12-16 04:28:53,799 basehttp 81147 6164213760 "GET /favicon.ico HTTP/1.1" 404 1311
+INFO 2025-12-16 04:28:55,119 basehttp 81147 6164213760 "GET /admin/core/featurearea/2/change/ HTTP/1.1" 200 8707
+INFO 2025-12-16 04:28:55,149 basehttp 81147 6164213760 "GET /admin/jsi18n/ HTTP/1.1" 200 2574
+INFO 2025-12-16 04:29:53,866 basehttp 81147 6164213760 "POST /admin/core/featurearea/2/change/ HTTP/1.1" 302 0
+INFO 2025-12-16 04:29:53,886 basehttp 81147 6164213760 "GET /admin/core/featurearea/ HTTP/1.1" 200 7994
+INFO 2025-12-16 04:29:53,929 basehttp 81147 6164213760 "GET /admin/jsi18n/ HTTP/1.1" 200 2563
+INFO 2025-12-16 04:29:56,115 basehttp 81147 6164213760 "GET / HTTP/1.1" 200 16362
+WARNING 2025-12-16 04:30:07,418 log 81147 6164213760 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:30:07,419 basehttp 81147 6164213760 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1438
+INFO 2025-12-16 04:31:10,584 autoreload 81147 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-16 04:31:11,097 autoreload 81600 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 04:32:09,824 basehttp 81600 6193344512 "GET / HTTP/1.1" 200 16316
+WARNING 2025-12-16 04:32:09,889 log 81600 6193344512 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:32:09,889 basehttp 81600 6193344512 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1400
+INFO 2025-12-16 04:32:11,820 basehttp 81600 6193344512 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8614
+WARNING 2025-12-16 04:32:13,092 log 81600 6193344512 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:32:13,092 basehttp 81600 6193344512 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1374
+INFO 2025-12-16 04:32:16,815 basehttp 81600 6193344512 "GET / HTTP/1.1" 200 16321
+WARNING 2025-12-16 04:32:16,844 log 81600 6193344512 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:32:16,844 basehttp 81600 6193344512 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1357
+INFO 2025-12-16 04:32:26,890 basehttp 81600 6193344512 "GET / HTTP/1.1" 200 16251
+INFO 2025-12-16 04:34:17,592 basehttp 81600 6193344512 "GET / HTTP/1.1" 200 16421
+INFO 2025-12-16 04:34:31,495 basehttp 81600 6193344512 "GET / HTTP/1.1" 200 16331
+INFO 2025-12-16 04:44:05,550 basehttp 81600 6193344512 "GET / HTTP/1.1" 200 16344
+INFO 2025-12-16 04:44:54,211 basehttp 81600 6193344512 "GET /hakkimizda/ HTTP/1.1" 200 9108
+INFO 2025-12-16 04:45:08,117 basehttp 81600 6193344512 "GET /projeler/ HTTP/1.1" 200 9683
+INFO 2025-12-16 04:45:10,158 basehttp 81600 6193344512 "GET /projeler/?category=Boya%20Badana HTTP/1.1" 200 1327
+INFO 2025-12-16 04:45:11,219 basehttp 81600 6193344512 "GET /projeler/?category=Banyo%20Tadilat HTTP/1.1" 200 1445
+INFO 2025-12-16 04:45:11,792 basehttp 81600 6193344512 "GET /projeler/?category=Anahtar%20Teslim%20Tadilat HTTP/1.1" 200 1304
+INFO 2025-12-16 04:45:13,200 basehttp 81600 6193344512 "GET /projeler/?category= HTTP/1.1" 200 1856
+INFO 2025-12-16 04:45:15,463 basehttp 81600 6193344512 "GET /projeler/?category=Anahtar%20Teslim%20Tadilat HTTP/1.1" 200 1378
+INFO 2025-12-16 04:45:16,671 basehttp 81600 6193344512 "GET /projeler/?category=Banyo%20Tadilat HTTP/1.1" 200 1461
+INFO 2025-12-16 04:45:18,211 basehttp 81600 6193344512 "GET / HTTP/1.1" 200 16352
+INFO 2025-12-16 04:45:20,294 basehttp 81600 6193344512 "GET /hakkimizda/ HTTP/1.1" 200 9092
+INFO 2025-12-16 04:45:23,364 basehttp 81600 6193344512 "GET /hizmetler/ HTTP/1.1" 200 10147
+INFO 2025-12-16 04:45:26,286 basehttp 81600 6193344512 "GET /projeler/ HTTP/1.1" 200 9652
+INFO 2025-12-16 04:45:47,333 basehttp 81600 6193344512 "GET /galeri/ HTTP/1.1" 200 9193
+INFO 2025-12-16 04:46:00,747 basehttp 81600 6193344512 "GET /projeler/ HTTP/1.1" 200 9668
+INFO 2025-12-16 04:46:02,881 basehttp 81600 6193344512 "GET /hizmetler/ HTTP/1.1" 200 10225
+WARNING 2025-12-16 04:46:07,217 log 81600 6193344512 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:46:07,218 basehttp 81600 6193344512 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1379
+INFO 2025-12-16 04:46:11,360 basehttp 81600 6193344512 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8751
+WARNING 2025-12-16 04:46:11,411 log 81600 6193344512 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:46:11,411 basehttp 81600 6193344512 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1406
+INFO 2025-12-16 04:47:01,295 basehttp 81600 6193344512 "GET / HTTP/1.1" 200 16427
+INFO 2025-12-16 04:47:23,157 basehttp 81600 6193344512 "GET / HTTP/1.1" 200 16467
+INFO 2025-12-16 04:48:35,543 basehttp 81600 6193344512 "GET / HTTP/1.1" 200 16711
+INFO 2025-12-16 04:48:46,175 basehttp 81600 6193344512 "GET /galeri/ HTTP/1.1" 200 9419
+WARNING 2025-12-16 04:48:49,414 log 81600 6193344512 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:48:49,415 basehttp 81600 6193344512 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1362
+INFO 2025-12-16 04:49:51,421 basehttp 81600 6193344512 "GET /galeri/ HTTP/1.1" 200 9454
+WARNING 2025-12-16 04:49:51,506 log 81600 6193344512 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:49:51,507 basehttp 81600 6193344512 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1373
+INFO 2025-12-16 04:50:07,124 basehttp 81600 6193344512 "GET / HTTP/1.1" 200 16747
+WARNING 2025-12-16 04:50:07,156 log 81600 6193344512 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:50:07,157 basehttp 81600 6193344512 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1420
+INFO 2025-12-16 04:50:48,776 basehttp 81600 6193344512 "GET /admin/core/settings/ HTTP/1.1" 200 8381
+INFO 2025-12-16 04:50:48,793 basehttp 81600 6193344512 "GET /admin/jsi18n/ HTTP/1.1" 200 2547
+INFO 2025-12-16 04:50:50,971 basehttp 81600 6193344512 "GET /admin/core/settings/4/change/ HTTP/1.1" 200 10116
+INFO 2025-12-16 04:50:50,992 basehttp 81600 6210170880 "GET /static/admin/js/collapse.js HTTP/1.1" 304 0
+INFO 2025-12-16 04:50:50,994 basehttp 81600 6193344512 "GET /admin/jsi18n/ HTTP/1.1" 200 2522
+INFO 2025-12-16 04:52:07,137 autoreload 81600 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/context_processors.py changed, reloading.
+INFO 2025-12-16 04:52:08,339 autoreload 83125 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 04:52:18,654 basehttp 83125 6126415872 "GET /projeler/ HTTP/1.1" 200 9996
+WARNING 2025-12-16 04:52:18,691 log 83125 6126415872 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:52:18,692 basehttp 83125 6126415872 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1409
+INFO 2025-12-16 04:52:26,102 basehttp 83125 6126415872 "GET /projeler/?category=Anahtar%20Teslim%20Tadilat HTTP/1.1" 200 1374
+INFO 2025-12-16 04:52:26,801 basehttp 83125 6126415872 "GET /projeler/?category=Boya%20Badana HTTP/1.1" 200 1352
+INFO 2025-12-16 04:52:27,438 basehttp 83125 6126415872 "GET /projeler/?category=Banyo%20Tadilat HTTP/1.1" 200 1441
+INFO 2025-12-16 04:52:27,997 basehttp 83125 6126415872 "GET /projeler/?category=Koltuk%20D%C3%B6%C5%9Feme HTTP/1.1" 200 1361
+INFO 2025-12-16 04:52:28,596 basehttp 83125 6126415872 "GET /projeler/?category=Mutfak%20Dolab%C4%B1%20Boyama HTTP/1.1" 200 1375
+INFO 2025-12-16 04:52:29,255 basehttp 83125 6126415872 "GET /projeler/?category=Mobilya%20Boyama HTTP/1.1" 200 1370
+INFO 2025-12-16 04:52:31,481 basehttp 83125 6126415872 "GET /projeler/klasik-yatak-odasi-yenileme/ HTTP/1.1" 200 8813
+WARNING 2025-12-16 04:52:31,521 log 83125 6126415872 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:52:31,521 basehttp 83125 6126415872 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1439
+INFO 2025-12-16 04:53:33,167 basehttp 83125 6126415872 "GET / HTTP/1.1" 200 16727
+WARNING 2025-12-16 04:53:33,255 log 83125 6126415872 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:53:33,256 basehttp 83125 6126415872 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1354
+INFO 2025-12-16 04:53:44,696 basehttp 83125 6126415872 "GET / HTTP/1.1" 200 16711
+WARNING 2025-12-16 04:53:44,765 log 83125 6126415872 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:53:44,767 basehttp 83125 6126415872 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1342
+ERROR 2025-12-16 04:55:42,284 log 83125 6126415872 Internal Server Error: /ic-cephe-boya-badana/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/views.py", line 80, in service_detail
+    return render(request, template_name, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service-detail.html
+ERROR 2025-12-16 04:55:42,288 basehttp 83125 6126415872 "GET /ic-cephe-boya-badana/ HTTP/1.1" 500 13385
+WARNING 2025-12-16 04:55:42,332 log 83125 6126415872 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:55:42,333 basehttp 83125 6126415872 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1413
+WARNING 2025-12-16 04:55:44,762 log 83125 6126415872 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:55:44,762 basehttp 83125 6126415872 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1401
+WARNING 2025-12-16 04:55:44,769 log 83125 6126415872 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:55:44,769 basehttp 83125 6126415872 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1361
+INFO 2025-12-16 04:55:50,500 basehttp 83125 6143242240 "GET /hizmetler/ HTTP/1.1" 200 10513
+WARNING 2025-12-16 04:55:50,561 log 83125 6143242240 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:55:50,561 basehttp 83125 6143242240 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1414
+ERROR 2025-12-16 04:55:54,610 log 83125 6143242240 Internal Server Error: /anahtar-teslim-tadilat/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/views.py", line 80, in service_detail
+    return render(request, template_name, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service-detail.html
+ERROR 2025-12-16 04:55:54,612 basehttp 83125 6143242240 "GET /anahtar-teslim-tadilat/ HTTP/1.1" 500 13334
+WARNING 2025-12-16 04:55:54,653 log 83125 6143242240 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:55:54,654 basehttp 83125 6143242240 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1387
+WARNING 2025-12-16 04:55:58,815 log 83125 6160068608 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:55:58,815 basehttp 83125 6160068608 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1411
+WARNING 2025-12-16 04:55:58,825 log 83125 6160068608 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:55:58,825 basehttp 83125 6160068608 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1361
+ERROR 2025-12-16 04:56:03,617 log 83125 6160068608 Internal Server Error: /banyo-tadilat/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/views.py", line 80, in service_detail
+    return render(request, template_name, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service-detail.html
+ERROR 2025-12-16 04:56:03,619 basehttp 83125 6160068608 "GET /banyo-tadilat/ HTTP/1.1" 500 13323
+WARNING 2025-12-16 04:56:03,704 log 83125 6160068608 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:56:03,705 basehttp 83125 6160068608 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1381
+WARNING 2025-12-16 04:56:05,878 log 83125 6160068608 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:56:05,879 basehttp 83125 6160068608 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1344
+WARNING 2025-12-16 04:56:05,889 log 83125 6160068608 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:56:05,889 basehttp 83125 6160068608 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1400
+INFO 2025-12-16 04:56:33,468 basehttp 83125 6325039104 "GET /hizmetler/ HTTP/1.1" 200 9939
+WARNING 2025-12-16 04:56:33,491 log 83125 6325039104 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:56:33,492 basehttp 83125 6325039104 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1348
+INFO 2025-12-16 04:56:46,384 basehttp 83125 6325039104 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 8433
+WARNING 2025-12-16 04:56:46,414 log 83125 6325039104 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:56:46,415 basehttp 83125 6325039104 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1355
+INFO 2025-12-16 04:56:48,608 basehttp 83125 6325039104 "GET / HTTP/1.1" 200 16136
+WARNING 2025-12-16 04:56:48,637 log 83125 6325039104 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 04:56:48,637 basehttp 83125 6325039104 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1404
+INFO 2025-12-16 04:58:00,859 autoreload 83125 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/views.py changed, reloading.
+INFO 2025-12-16 04:58:01,729 autoreload 83266 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 05:09:52,692 basehttp 83266 6166900736 "GET / HTTP/1.1" 200 16235
+WARNING 2025-12-16 05:09:52,721 log 83266 6166900736 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:09:52,722 basehttp 83266 6166900736 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1405
+INFO 2025-12-16 05:10:13,777 basehttp 83266 6166900736 "GET / HTTP/1.1" 200 16221
+WARNING 2025-12-16 05:10:13,799 log 83266 6166900736 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:10:13,800 basehttp 83266 6166900736 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1400
+INFO 2025-12-16 05:10:13,820 basehttp 83266 6183727104 "GET /media/uploads/Hero/hero_banner_88PovAt.jpg HTTP/1.1" 200 403563
+INFO 2025-12-16 05:10:14,571 basehttp 83266 6234206208 "GET /media/uploads/services/mutfak-dolabi-boyama_2pSgqHS.jpg HTTP/1.1" 200 73325
+INFO 2025-12-16 05:10:14,573 basehttp 83266 6183727104 "GET /media/uploads/services/ic-cephe-boya-badana_kUBApiH.jpg HTTP/1.1" 200 70356
+INFO 2025-12-16 05:10:14,577 basehttp 83266 6200553472 "GET /media/uploads/services/anahtar-teslim-tadilat_P2AXjGi.jpg HTTP/1.1" 200 80182
+INFO 2025-12-16 05:10:14,584 basehttp 83266 6251032576 "GET /media/uploads/services/banyo-tadilat_cZRNwTi.jpg HTTP/1.1" 200 99588
+INFO 2025-12-16 05:10:14,587 basehttp 83266 6166900736 "GET /media/uploads/services/yatak-odasi-mobilya-boyama_xePjqf7.jpg HTTP/1.1" 200 131675
+INFO 2025-12-16 05:10:14,592 basehttp 83266 6217379840 "GET /media/uploads/services/dekoratif-boya_uWqCejB.jpg HTTP/1.1" 200 100890
+INFO 2025-12-16 05:10:14,595 basehttp 83266 6183727104 "GET /media/uploads/services/koltuk-doseme_nci2yhc.jpg HTTP/1.1" 200 67137
+INFO 2025-12-16 05:10:14,598 basehttp 83266 6200553472 "GET /media/uploads/services/laminat-parke-doseme_S4wgbJz.jpg HTTP/1.1" 200 80981
+INFO 2025-12-16 05:10:14,600 basehttp 83266 6166900736 "GET /media/uploads/projects/project_komple-ev-renovasyonu_tayRiPk.jpg HTTP/1.1" 200 80238
+WARNING 2025-12-16 05:10:15,055 basehttp 83266 6166900736 "GET /static/images/favicon.ico HTTP/1.1" 404 1914
+INFO 2025-12-16 05:10:15,854 basehttp 83266 6166900736 "GET /media/uploads/projects/project_modern-mutfak-donusumu_WQucj3P.jpg HTTP/1.1" 200 73336
+INFO 2025-12-16 05:10:15,955 basehttp 83266 6166900736 "GET /media/uploads/projects/project_ofis-boya-projesi_9S0PaBY.jpg HTTP/1.1" 200 70283
+INFO 2025-12-16 05:10:16,087 basehttp 83266 6166900736 "GET /media/uploads/projects/project_antika-koltuk-restorasyonu_pgbKNaw.jpg HTTP/1.1" 200 67093
+INFO 2025-12-16 05:10:16,392 basehttp 83266 6166900736 "GET /media/uploads/projects/project_luks-banyo-donusumu_noQg7B2.jpg HTTP/1.1" 200 99593
+INFO 2025-12-16 05:10:17,140 basehttp 83266 6166900736 "GET /media/uploads/projects/project_klasik-yatak-odasi-yenileme_LA8xLqu.jpg HTTP/1.1" 200 131681
+INFO 2025-12-16 05:10:25,807 basehttp 83266 6166900736 "GET / HTTP/1.1" 200 16206
+ERROR 2025-12-16 05:11:51,962 log 83266 6166900736 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'service_area_detail' not found. 'service_area_detail' is not a valid view function or pattern name.
+ERROR 2025-12-16 05:11:51,968 basehttp 83266 6166900736 "GET / HTTP/1.1" 500 23642
+WARNING 2025-12-16 05:11:52,079 log 83266 6166900736 Not Found: /favicon.ico
+WARNING 2025-12-16 05:11:52,080 basehttp 83266 6166900736 "GET /favicon.ico HTTP/1.1" 404 1382
+ERROR 2025-12-16 05:12:57,402 log 83266 6166900736 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'service_area_detail' not found. 'service_area_detail' is not a valid view function or pattern name.
+ERROR 2025-12-16 05:12:57,405 basehttp 83266 6166900736 "GET / HTTP/1.1" 500 23669
+INFO 2025-12-16 05:14:32,557 basehttp 83266 6166900736 "GET / HTTP/1.1" 200 16912
+INFO 2025-12-16 05:15:04,383 basehttp 83266 6166900736 "GET /pendik-boya-tadilat/ HTTP/1.1" 200 7671
+INFO 2025-12-16 05:16:07,973 basehttp 83266 6166900736 "GET / HTTP/1.1" 200 16951
+INFO 2025-12-16 05:16:17,710 basehttp 83266 6166900736 "GET /sultanbeyli-boya-tadilat/ HTTP/1.1" 200 7681
+INFO 2025-12-16 05:16:43,866 basehttp 83266 6166900736 "GET / HTTP/1.1" 200 16901
+INFO 2025-12-16 05:17:00,741 basehttp 83266 6166900736 "GET /kadikoy-dekorasyon-restorasyon/ HTTP/1.1" 200 7686
+INFO 2025-12-16 05:17:15,492 basehttp 83266 6166900736 "GET /hakkimizda/ HTTP/1.1" 200 8780
+INFO 2025-12-16 05:17:19,549 basehttp 83266 6166900736 "GET /iletisim/ HTTP/1.1" 200 8399
+INFO 2025-12-16 05:17:20,251 basehttp 83266 6166900736 "GET /bloglar/ HTTP/1.1" 200 10647
+INFO 2025-12-16 05:17:21,992 basehttp 83266 6166900736 "GET /projeler/ HTTP/1.1" 200 9413
+INFO 2025-12-16 05:17:24,036 basehttp 83266 6166900736 "GET /galeri/ HTTP/1.1" 200 8889
+INFO 2025-12-16 05:17:26,136 basehttp 83266 6166900736 "GET /hizmetler/ HTTP/1.1" 200 9961
+INFO 2025-12-16 05:17:27,460 basehttp 83266 6166900736 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 9572
+INFO 2025-12-16 05:17:28,982 basehttp 83266 6166900736 "GET /hakkimizda/ HTTP/1.1" 200 8837
+INFO 2025-12-16 05:17:29,782 basehttp 83266 6166900736 "GET / HTTP/1.1" 200 16857
+INFO 2025-12-16 05:17:57,225 basehttp 83266 6166900736 "GET /projeler/ HTTP/1.1" 200 9396
+INFO 2025-12-16 05:18:02,285 basehttp 83266 6166900736 "GET /hizmetler/ HTTP/1.1" 200 9950
+ERROR 2025-12-16 05:18:03,965 log 83266 6166900736 Internal Server Error: /mobilya-boyama-yenileme/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/views.py", line 80, in service_detail
+    return render(request, template_name, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service-detail.html
+ERROR 2025-12-16 05:18:03,968 basehttp 83266 6166900736 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 500 13467
+INFO 2025-12-16 05:19:01,493 basehttp 83266 6183727104 "GET / HTTP/1.1" 200 16907
+INFO 2025-12-16 05:19:53,507 basehttp 83266 6183727104 "GET / HTTP/1.1" 200 16894
+INFO 2025-12-16 05:19:56,830 basehttp 83266 6183727104 "GET /hizmetler/ HTTP/1.1" 200 9986
+ERROR 2025-12-16 05:19:58,757 log 83266 6183727104 Internal Server Error: /mobilya-boyama-yenileme/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/views.py", line 80, in service_detail
+    return render(request, template_name, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service-detail.html
+ERROR 2025-12-16 05:19:58,758 basehttp 83266 6183727104 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 500 13414
+ERROR 2025-12-16 05:20:03,562 log 83266 6200553472 Internal Server Error: /mobilya-boyama-yenileme/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/views.py", line 80, in service_detail
+    return render(request, template_name, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service-detail.html
+ERROR 2025-12-16 05:20:03,565 basehttp 83266 6200553472 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 500 13520
+WARNING 2025-12-16 05:20:03,616 log 83266 6200553472 Not Found: /favicon.ico
+WARNING 2025-12-16 05:20:03,616 basehttp 83266 6200553472 "GET /favicon.ico HTTP/1.1" 404 1360
+ERROR 2025-12-16 05:20:04,072 log 83266 6200553472 Internal Server Error: /mobilya-boyama-yenileme/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/views.py", line 80, in service_detail
+    return render(request, template_name, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: service-detail.html
+ERROR 2025-12-16 05:20:04,074 basehttp 83266 6200553472 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 500 13536
+WARNING 2025-12-16 05:20:04,123 log 83266 6200553472 Not Found: /favicon.ico
+WARNING 2025-12-16 05:20:04,123 basehttp 83266 6200553472 "GET /favicon.ico HTTP/1.1" 404 1359
+INFO 2025-12-16 05:20:10,782 autoreload 84795 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 05:20:12,994 basehttp 84795 6193098752 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 9140
+WARNING 2025-12-16 05:20:13,910 basehttp 84795 6193098752 "GET /static/images/favicon.ico HTTP/1.1" 404 1914
+INFO 2025-12-16 05:20:56,404 basehttp 84795 6193098752 "GET / HTTP/1.1" 200 16919
+INFO 2025-12-16 05:21:04,924 basehttp 84795 6193098752 "GET /hizmetler/ HTTP/1.1" 200 9935
+INFO 2025-12-16 05:21:06,960 basehttp 84795 6193098752 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9125
+INFO 2025-12-16 05:21:36,444 basehttp 84795 6193098752 "GET / HTTP/1.1" 200 16863
+INFO 2025-12-16 05:21:44,680 basehttp 84795 6193098752 "GET /hizmetler/ HTTP/1.1" 200 10026
+INFO 2025-12-16 05:21:46,807 basehttp 84795 6193098752 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9537
+INFO 2025-12-16 05:22:42,115 basehttp 84795 6193098752 "GET /laminat-parke-doseme/ HTTP/1.1" 200 9409
+INFO 2025-12-16 05:22:46,792 basehttp 84795 6193098752 "GET /laminat-parke-doseme/ HTTP/1.1" 200 9477
+INFO 2025-12-16 05:23:26,690 basehttp 84795 6193098752 "GET / HTTP/1.1" 200 16872
+INFO 2025-12-16 05:23:28,100 basehttp 84795 6193098752 "GET /hizmetler/ HTTP/1.1" 200 9972
+INFO 2025-12-16 05:23:31,918 basehttp 84795 6193098752 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 9603
+WARNING 2025-12-16 05:23:38,216 log 84795 6193098752 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:23:38,216 basehttp 84795 6193098752 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1428
+INFO 2025-12-16 05:25:55,276 basehttp 84795 6193098752 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 9571
+INFO 2025-12-16 05:25:55,299 basehttp 84795 6193098752 "GET /media/uploads/services/mobilya-boyama-yenileme_ocMIFJD.jpg HTTP/1.1" 200 38284
+WARNING 2025-12-16 05:25:56,609 basehttp 84795 6193098752 "GET /static/images/favicon.ico HTTP/1.1" 404 1914
+INFO 2025-12-16 05:29:03,940 basehttp 84795 6193098752 "GET / HTTP/1.1" 200 16861
+INFO 2025-12-16 05:29:21,066 basehttp 84795 6193098752 "GET /hizmetler/ HTTP/1.1" 200 9984
+INFO 2025-12-16 05:29:22,470 basehttp 84795 6193098752 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9780
+INFO 2025-12-16 05:32:22,064 basehttp 84795 6193098752 "GET / HTTP/1.1" 200 16889
+INFO 2025-12-16 05:32:24,354 basehttp 84795 6193098752 "GET / HTTP/1.1" 200 16897
+INFO 2025-12-16 05:32:29,918 basehttp 84795 6193098752 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 9620
+INFO 2025-12-16 05:32:41,986 basehttp 84795 6193098752 "GET /hizmetler/ HTTP/1.1" 200 10018
+INFO 2025-12-16 05:32:46,296 basehttp 84795 6193098752 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9776
+WARNING 2025-12-16 05:33:12,716 log 84795 6193098752 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:33:12,717 basehttp 84795 6193098752 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1343
+INFO 2025-12-16 05:34:44,290 basehttp 84795 6193098752 "GET / HTTP/1.1" 200 16923
+WARNING 2025-12-16 05:34:44,423 log 84795 6193098752 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:34:44,423 basehttp 84795 6193098752 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1415
+INFO 2025-12-16 05:34:49,267 basehttp 84795 6193098752 "GET /hizmetler/ HTTP/1.1" 200 10010
+WARNING 2025-12-16 05:34:49,297 log 84795 6193098752 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:34:49,297 basehttp 84795 6193098752 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1401
+INFO 2025-12-16 05:34:52,283 basehttp 84795 6193098752 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 9729
+WARNING 2025-12-16 05:34:52,320 log 84795 6193098752 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:34:52,320 basehttp 84795 6193098752 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1374
+INFO 2025-12-16 05:35:15,170 autoreload 84795 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/models.py changed, reloading.
+INFO 2025-12-16 05:35:15,830 autoreload 85073 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 05:35:24,095 autoreload 85073 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-16 05:35:24,669 autoreload 85092 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 05:37:05,888 autoreload 85092 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-16 05:37:06,736 autoreload 85984 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 05:37:47,552 autoreload 85984 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/models.py changed, reloading.
+INFO 2025-12-16 05:37:48,222 autoreload 86404 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 05:38:16,462 autoreload 86404 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/models.py changed, reloading.
+INFO 2025-12-16 05:38:17,282 autoreload 86987 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-16 05:38:24,553 autoreload 86987 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-16 05:38:25,319 autoreload 86997 8407912320 Watching for file changes with StatReloader
+ERROR 2025-12-16 05:39:06,385 log 86997 6159347712 Internal Server Error: /mobilya-boyama-yenileme/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: service_service.before_image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/views.py", line 55, in service_detail
+    service = Service.objects.get(slug=slug, isActive=True)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: service_service.before_image
+ERROR 2025-12-16 05:39:06,390 basehttp 86997 6159347712 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 500 17786
+WARNING 2025-12-16 05:39:06,423 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:39:06,424 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1429
+WARNING 2025-12-16 05:39:06,613 log 86997 6159347712 Not Found: /favicon.ico
+WARNING 2025-12-16 05:39:06,613 basehttp 86997 6159347712 "GET /favicon.ico HTTP/1.1" 404 1374
+ERROR 2025-12-16 05:39:08,184 log 86997 6159347712 Internal Server Error: /mobilya-boyama-yenileme/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: service_service.before_image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/views.py", line 55, in service_detail
+    service = Service.objects.get(slug=slug, isActive=True)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: service_service.before_image
+ERROR 2025-12-16 05:39:08,187 basehttp 86997 6159347712 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 500 17813
+WARNING 2025-12-16 05:39:08,207 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:39:08,207 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1383
+ERROR 2025-12-16 05:39:11,298 log 86997 6176174080 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: service_service.before_image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: service_service.before_image
+ERROR 2025-12-16 05:39:11,302 basehttp 86997 6176174080 "GET / HTTP/1.1" 500 23874
+WARNING 2025-12-16 05:39:11,542 log 86997 6176174080 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:39:11,543 basehttp 86997 6176174080 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1381
+ERROR 2025-12-16 05:39:37,789 log 86997 6159347712 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: core_project.service_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/views/generic/base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/views.py", line 37, in get_context_data
+    context['comparison_project'] = Project.objects.filter(before_image__isnull=False, after_image__isnull=False, show_on_index=True, is_active=True).first()
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1057, in first
+    for obj in queryset[:1]:
+               ~~~~~~~~^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 398, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: core_project.service_id
+ERROR 2025-12-16 05:39:37,792 basehttp 86997 6159347712 "GET / HTTP/1.1" 500 18783
+WARNING 2025-12-16 05:39:37,810 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:39:37,810 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1438
+ERROR 2025-12-16 05:39:38,992 log 86997 6159347712 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: core_project.service_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/views/generic/base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/views.py", line 37, in get_context_data
+    context['comparison_project'] = Project.objects.filter(before_image__isnull=False, after_image__isnull=False, show_on_index=True, is_active=True).first()
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1057, in first
+    for obj in queryset[:1]:
+               ~~~~~~~~^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 398, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: core_project.service_id
+ERROR 2025-12-16 05:39:38,995 basehttp 86997 6159347712 "GET / HTTP/1.1" 500 18772
+WARNING 2025-12-16 05:39:39,011 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:39:39,011 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1344
+INFO 2025-12-16 05:40:37,236 basehttp 86997 6193000448 "GET / HTTP/1.1" 200 16934
+WARNING 2025-12-16 05:40:37,279 log 86997 6193000448 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:40:37,280 basehttp 86997 6193000448 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1426
+INFO 2025-12-16 05:40:42,210 basehttp 86997 6193000448 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9778
+WARNING 2025-12-16 05:40:42,239 log 86997 6193000448 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:40:42,239 basehttp 86997 6193000448 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1430
+INFO 2025-12-16 05:41:16,302 basehttp 86997 6193000448 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9209
+WARNING 2025-12-16 05:41:16,437 log 86997 6193000448 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:41:16,438 basehttp 86997 6193000448 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1376
+INFO 2025-12-16 05:42:10,556 basehttp 86997 6193000448 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9333
+WARNING 2025-12-16 05:42:20,644 log 86997 6193000448 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:42:20,644 basehttp 86997 6193000448 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1422
+INFO 2025-12-16 05:43:00,602 basehttp 86997 6193000448 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9832
+WARNING 2025-12-16 05:43:00,659 log 86997 6193000448 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:43:00,660 basehttp 86997 6193000448 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1381
+WARNING 2025-12-16 05:43:45,987 log 86997 6193000448 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:43:45,988 basehttp 86997 6193000448 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1421
+INFO 2025-12-16 05:44:13,392 basehttp 86997 6193000448 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9771
+WARNING 2025-12-16 05:44:13,446 log 86997 6193000448 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:44:13,452 basehttp 86997 6193000448 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1373
+INFO 2025-12-16 05:44:36,351 basehttp 86997 6159347712 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9715
+WARNING 2025-12-16 05:44:50,793 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:44:50,793 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1395
+INFO 2025-12-16 05:45:05,677 basehttp 86997 6159347712 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9782
+WARNING 2025-12-16 05:45:05,706 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:45:05,706 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1360
+INFO 2025-12-16 05:45:29,930 basehttp 86997 6159347712 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 9777
+WARNING 2025-12-16 05:45:29,957 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:45:29,958 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1422
+INFO 2025-12-16 05:46:23,759 basehttp 86997 6159347712 "GET / HTTP/1.1" 200 16981
+INFO 2025-12-16 05:46:44,190 basehttp 86997 6159347712 "GET /hizmetler/ HTTP/1.1" 200 10031
+INFO 2025-12-16 05:46:45,487 basehttp 86997 6159347712 "GET /banyo-tadilat/ HTTP/1.1" 200 9721
+WARNING 2025-12-16 05:46:49,916 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:46:49,916 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1391
+INFO 2025-12-16 05:47:49,771 basehttp 86997 6159347712 "GET / HTTP/1.1" 200 16915
+WARNING 2025-12-16 05:47:49,903 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:47:49,909 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1349
+INFO 2025-12-16 05:48:36,483 basehttp 86997 6159347712 "GET / HTTP/1.1" 200 16920
+WARNING 2025-12-16 05:48:36,545 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:48:36,550 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1407
+INFO 2025-12-16 05:48:40,316 basehttp 86997 6159347712 "GET /hizmetler/ HTTP/1.1" 200 10023
+WARNING 2025-12-16 05:48:40,344 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:48:40,344 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1376
+INFO 2025-12-16 05:48:44,625 basehttp 86997 6159347712 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 9756
+WARNING 2025-12-16 05:48:44,661 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:48:44,663 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1398
+INFO 2025-12-16 05:49:30,200 basehttp 86997 6159347712 "GET /hizmetler/ HTTP/1.1" 200 9978
+INFO 2025-12-16 05:49:31,955 basehttp 86997 6159347712 "GET /anahtar-teslim-tadilat/ HTTP/1.1" 200 10596
+WARNING 2025-12-16 05:49:45,745 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:49:45,746 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1356
+INFO 2025-12-16 05:51:02,336 basehttp 86997 6159347712 "GET /anahtar-teslim-tadilat/ HTTP/1.1" 200 10576
+WARNING 2025-12-16 05:51:02,379 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:51:02,385 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1417
+INFO 2025-12-16 05:51:02,386 basehttp 86997 6159347712 - Broken pipe from ('127.0.0.1', 55147)
+INFO 2025-12-16 05:51:26,895 basehttp 86997 6159347712 "GET / HTTP/1.1" 200 16989
+WARNING 2025-12-16 05:51:26,927 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:51:26,928 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1414
+INFO 2025-12-16 05:51:47,887 basehttp 86997 6159347712 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 9562
+WARNING 2025-12-16 05:51:47,953 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:51:47,955 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1413
+INFO 2025-12-16 05:51:51,013 basehttp 86997 6159347712 "GET /hizmetler/ HTTP/1.1" 200 9982
+WARNING 2025-12-16 05:51:51,049 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:51:51,049 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1351
+INFO 2025-12-16 05:51:53,425 basehttp 86997 6159347712 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 10597
+WARNING 2025-12-16 05:51:53,462 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:51:53,463 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1408
+INFO 2025-12-16 05:52:16,391 basehttp 86997 6159347712 "GET / HTTP/1.1" 200 16874
+WARNING 2025-12-16 05:52:16,431 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:52:16,432 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1378
+INFO 2025-12-16 05:53:44,243 basehttp 86997 6159347712 "GET /hizmetler/ HTTP/1.1" 200 10000
+WARNING 2025-12-16 05:53:44,286 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:53:44,287 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1370
+INFO 2025-12-16 05:53:46,257 basehttp 86997 6159347712 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 10554
+WARNING 2025-12-16 05:53:46,360 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:53:46,360 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1413
+INFO 2025-12-16 05:54:19,176 basehttp 86997 6159347712 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 10737
+WARNING 2025-12-16 05:54:19,348 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:54:19,348 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1432
+INFO 2025-12-16 05:54:48,330 basehttp 86997 6159347712 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 10695
+WARNING 2025-12-16 05:54:48,356 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:54:48,359 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1389
+INFO 2025-12-16 05:55:25,445 basehttp 86997 6159347712 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 10761
+WARNING 2025-12-16 05:55:25,478 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:55:25,478 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1419
+INFO 2025-12-16 05:57:16,884 basehttp 86997 6159347712 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 10743
+WARNING 2025-12-16 05:57:16,908 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:57:16,908 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1393
+INFO 2025-12-16 05:57:39,378 basehttp 86997 6159347712 "GET / HTTP/1.1" 200 16944
+WARNING 2025-12-16 05:57:39,415 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:57:39,415 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1408
+INFO 2025-12-16 05:59:13,323 basehttp 86997 6159347712 "GET / HTTP/1.1" 200 16968
+WARNING 2025-12-16 05:59:13,355 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:59:13,356 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1438
+INFO 2025-12-16 05:59:33,070 basehttp 86997 6159347712 "GET /koltuk-doseme/ HTTP/1.1" 200 10671
+WARNING 2025-12-16 05:59:33,102 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:59:33,104 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1372
+WARNING 2025-12-16 05:59:34,843 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:59:34,843 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1371
+WARNING 2025-12-16 05:59:34,858 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 05:59:34,858 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1394
+INFO 2025-12-16 06:00:29,788 basehttp 86997 6159347712 "GET /ic-cephe-boya-badana/ HTTP/1.1" 200 10714
+WARNING 2025-12-16 06:00:29,900 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:00:29,900 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1345
+WARNING 2025-12-16 06:00:31,589 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:00:31,589 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1364
+WARNING 2025-12-16 06:00:31,609 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:00:31,609 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1366
+INFO 2025-12-16 06:02:02,927 basehttp 86997 6159347712 "GET / HTTP/1.1" 200 17222
+WARNING 2025-12-16 06:02:02,961 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:02:02,962 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1415
+INFO 2025-12-16 06:02:07,641 basehttp 86997 6159347712 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 10794
+WARNING 2025-12-16 06:02:07,677 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:02:07,678 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1404
+INFO 2025-12-16 06:02:30,022 basehttp 86997 6159347712 "GET /hizmetler/ HTTP/1.1" 200 10028
+WARNING 2025-12-16 06:02:30,060 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:02:30,060 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1429
+INFO 2025-12-16 06:02:32,006 basehttp 86997 6159347712 "GET /mobilya-boyama-yenileme/ HTTP/1.1" 200 10756
+WARNING 2025-12-16 06:02:32,043 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:02:32,043 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1426
+WARNING 2025-12-16 06:02:35,678 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:02:35,678 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1359
+WARNING 2025-12-16 06:02:35,688 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:02:35,688 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1412
+INFO 2025-12-16 06:02:53,280 basehttp 86997 6159347712 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 10678
+WARNING 2025-12-16 06:02:53,324 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:02:53,325 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1358
+WARNING 2025-12-16 06:02:56,272 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:02:56,272 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1342
+WARNING 2025-12-16 06:02:56,277 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:02:56,277 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1378
+INFO 2025-12-16 06:03:47,361 basehttp 86997 6159347712 "GET / HTTP/1.1" 200 17222
+WARNING 2025-12-16 06:03:47,472 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:03:47,473 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1375
+INFO 2025-12-16 06:03:49,454 basehttp 86997 6159347712 "GET /hizmetler/ HTTP/1.1" 200 10461
+WARNING 2025-12-16 06:03:49,490 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:03:49,490 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1420
+INFO 2025-12-16 06:04:03,814 basehttp 86997 6159347712 "GET /mutfak-dolabi-boyama/ HTTP/1.1" 200 10745
+WARNING 2025-12-16 06:04:03,889 log 86997 6159347712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-16 06:04:03,889 basehttp 86997 6159347712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1347
