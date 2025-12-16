@@ -1,27 +1,41 @@
 from django.shortcuts import render
 from django.views.generic.list import ListView
 from django.views.generic import DetailView
+from django.db.models import Q, Count
 from . models import Blog, Category, Tag
 from core.models import Page_Seo
+
 class BlogListView(ListView):
     model = Blog
     template_name = 'blogs.html'
     context_object_name = 'blogs'
-    paginate_by = 4
+    paginate_by = 6
     
+    def get_template_names(self):
+        if self.request.headers.get('x-requested-with') == 'XMLHttpRequest':
+            return ['partials/_blog_content.html']
+        return ['blogs.html']
 
     def get_queryset(self):
-        queryset = super().get_queryset().order_by('-updated')  # En yeni bloglar önce gelsin
+        queryset = super().get_queryset().filter(isActive=True).order_by('-updated')
 
+        # Search
+        search_query = self.request.GET.get('q')
+        if search_query:
+            queryset = queryset.filter(
+                Q(title__icontains=search_query) | 
+                Q(short_description__icontains=search_query)
+            )
+
+        # Category filter
         category_slug = self.request.GET.get('kategori')
         if category_slug:
-            category = Category.objects.get(slug=category_slug)
-            queryset = queryset.filter(category=category)
+            queryset = queryset.filter(category__slug=category_slug)
 
-        tag_slugs = self.request.GET.getlist('etiket')
-        if tag_slugs:
-            tags = Tag.objects.filter(slug__in=tag_slugs)
-            queryset = queryset.filter(tags__in=tags).distinct()
+        # Tag filter
+        tag_slug = self.request.GET.get('etiket')
+        if tag_slug:
+            queryset = queryset.filter(tags__slug=tag_slug).distinct()
 
         return queryset
 
@@ -29,6 +43,39 @@ class BlogListView(ListView):
         context = super().get_context_data(**kwargs) 
         seo = Page_Seo.objects.filter(page_url='bloglar').first()
         context['seo'] = seo
+        
+        # Base Queryset for Counts (Active + Search)
+        base_qs = Blog.objects.filter(isActive=True)
+        search_query = self.request.GET.get('q')
+        if search_query:
+            base_qs = base_qs.filter(
+                Q(title__icontains=search_query) | 
+                Q(short_description__icontains=search_query)
+            )
+        
+        # Category Counts (Based on Search only, ignoring current category/tag selection to allow switching)
+        # But commonly in facets, you want to see counts within current scope. 
+        # Let's count categories based on Search Query.
+        context['categories'] = Category.objects.filter(
+            blog__in=base_qs
+        ).annotate(count=Count('blog')).order_by('name').distinct()
+        
+        # Tag Counts (Based on Search + Current Category)
+        tags_qs = base_qs
+        current_category = self.request.GET.get('kategori')
+        if current_category:
+            tags_qs = tags_qs.filter(category__slug=current_category)
+            
+        context['tags'] = Tag.objects.filter(
+            blog__in=tags_qs
+        ).annotate(count=Count('blog')).order_by('name').distinct()
+        
+        context['current_category'] = self.request.GET.get('kategori', '')
+        context['current_tag'] = self.request.GET.get('etiket', '')
+        context['search_query'] = self.request.GET.get('q', '')
+        context['breadcrumbs'] = [
+            {'name': 'Blog', 'url': '/bloglar/'}
+        ]
         return context
 
 

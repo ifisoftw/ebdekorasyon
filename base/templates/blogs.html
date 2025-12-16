@@ -1,0 +1,244 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ seo.meta_title|default:'Blog' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+
+{% block meta_description %}{{ seo.meta_description|default:'Mobilya boyama, tadilat ve dekorasyon hakkında ipuçları, öneriler ve ilham verici içerikler.' }}{% endblock %}
+
+{% block og_title %}{{ seo.meta_title|default:'Blog' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+
+{% block extra_head %}
+<!-- Breadcrumb Schema -->
+{% include 'schemas/breadcrumb.html' %}
+{% endblock %}
+
+{% block content %}
+<div x-data="blogFilter()">
+    <!-- ============================================ -->
+    <!-- PAGE HERO -->
+    <!-- ============================================ -->
+    <section class="relative min-h-[40vh] flex items-center overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-[#0f0f0f]/70 to-[#0f0f0f] z-10"></div>
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center"></div>
+        
+        <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="text-center max-w-2xl mx-auto">
+                <span class="inline-block px-4 py-2 rounded-full bg-[#c9a465]/20 text-[#c9a465] text-sm font-medium mb-4">
+                    İpuçları & İlham
+                </span>
+                <h1 class="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
+                    Blog
+                </h1>
+                <p class="text-gray-300 text-base sm:text-lg mb-8">
+                    Mobilya boyama, tadilat ve dekorasyon hakkında faydalı içerikler.
+                </p>
+                
+                <!-- Search Bar in Hero -->
+                <div class="max-w-lg mx-auto relative">
+                    <input type="text" x-model="search" @input.debounce.500ms="fetchBlogs()"
+                           placeholder="Ara..." 
+                           class="w-full bg-white/10 backdrop-blur-sm text-white px-5 py-4 pl-12 rounded-2xl border border-white/20 focus:border-[#c9a465] focus:outline-none placeholder-gray-400">
+                    <button @click="fetchBlogs()" class="absolute right-3 top-1/2 -translate-y-1/2 bg-[#c9a465] text-black p-2 rounded-xl hover:bg-[#b08d4a] transition-colors">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
+                    </button>
+                    <svg class="w-5 h-5 text-gray-400 absolute left-4 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- BLOG CONTENT (Sidebar + Grid) -->
+    <!-- ============================================ -->
+    <section class="py-16 bg-black min-h-screen">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="relative min-h-[500px]">
+                <!-- Loading Overlay -->
+                <div x-show="loading" class="absolute inset-0 z-20 bg-black/50 backdrop-blur-sm flex items-center justify-center rounded-2xl" 
+                     x-transition:enter="transition ease-out duration-300"
+                     x-transition:enter-start="opacity-0"
+                     x-transition:enter-end="opacity-100"
+                     x-transition:leave="transition ease-in duration-200" 
+                     x-transition:leave-start="opacity-100"
+                     x-transition:leave-end="opacity-0"
+                     style="display: none;">
+                    <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#c9a465]"></div>
+                </div>
+                
+                <!-- Content Area -->
+                <div id="blog-content" 
+                     @click="handleContentClick($event)"
+                     x-html="content" 
+                     class="transition-opacity duration-300" 
+                     :class="loading ? 'opacity-50' : 'opacity-100'">
+                    {% include 'partials/_blog_content.html' %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CTA SECTION -->
+    <!-- ============================================ -->
+    <section class="py-16 bg-gradient-to-br from-[#0f0f0f] via-[#0f0f0f] to-[#0f0f0f]">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="font-playfair text-3xl sm:text-4xl font-bold mb-4">
+                Projeniz Hakkında <span class="text-gold-gradient">Konuşalım</span>
+            </h2>
+            <p class="text-gray-300 text-lg mb-8">
+                Blog yazılarımızdan ilham aldınız mı? Hayalinizdeki mekanı birlikte tasarlayalım.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                {% if settings.phone %}
+                <a href="tel:{{ settings.phone }}" class="btn-gold-gradient px-10 py-4 rounded-xl text-black font-bold text-lg inline-flex items-center justify-center gap-3">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                    </svg>
+                    Hemen Ara
+                </a>
+                {% endif %}
+                {% if settings.whatsapp %}
+                <a href="https://wa.me/{{ settings.whatsapp }}" target="_blank" rel="noopener" class="bg-[#25D366] hover:bg-[#20bd5a] px-10 py-4 rounded-xl text-white font-bold text-lg inline-flex items-center justify-center gap-3 transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    WhatsApp'tan Yaz
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Alpine.js Component Logic -->
+    <script>
+        function blogFilter() {
+            return {
+                search: new URLSearchParams(window.location.search).get('q') || '',
+                category: new URLSearchParams(window.location.search).get('kategori') || '',
+                tag: new URLSearchParams(window.location.search).get('etiket') || '',
+                loading: false,
+                content: document.getElementById('blog-content').innerHTML,
+                
+                init() {
+                    window.addEventListener('popstate', () => {
+                        const params = new URLSearchParams(window.location.search);
+                        this.search = params.get('q') || '';
+                        this.category = params.get('kategori') || '';
+                        this.tag = params.get('etiket') || '';
+                        this.fetchBlogs(false);
+                    });
+                },
+
+                handleContentClick(event) {
+                    // Pagination Check
+                    const pageBtn = event.target.closest('.pagination-btn');
+                    if (pageBtn && pageBtn.dataset.page) {
+                        this.changePage(pageBtn.dataset.page);
+                        return;
+                    }
+                    
+                    // Filter Check (data-action)
+                    const btn = event.target.closest('[data-action]');
+                    if (!btn) return;
+                    
+                    const action = btn.dataset.action;
+                    const field = btn.dataset.field; // category, tag, search
+                    const value = btn.dataset.value;
+                    
+                    if (action === 'reset') {
+                        this.resetFilters();
+                        return;
+                    }
+                    
+                    if (action === 'set') {
+                        if (field === 'category') this.category = value;
+                        if (field === 'tag') this.tag = value;
+                        if (field === 'search') this.search = value;
+                        // For direct setting active filters to empty
+                    } else if (action === 'toggle') {
+                        if (field === 'category') {
+                             this.category = (this.category === value) ? '' : value;
+                        }
+                        if (field === 'tag') {
+                             this.tag = (this.tag === value) ? '' : value;
+                        }
+                    }
+                    
+                    this.fetchBlogs();
+                },
+
+                async fetchBlogs(updateUrl = true) {
+                    this.loading = true;
+                    
+                    const params = new URLSearchParams();
+                    if (this.search) params.append('q', this.search);
+                    if (this.category) params.append('kategori', this.category);
+                    if (this.tag) params.append('etiket', this.tag);
+                    
+                    const queryString = params.toString();
+                    const url = `{% url 'blogs' %}${queryString ? '?' + queryString : ''}`;
+
+                    try {
+                        const response = await fetch(url, {
+                            headers: {
+                                'X-Requested-With': 'XMLHttpRequest'
+                            }
+                        });
+                        const html = await response.text();
+                        this.content = html;
+                        
+                        if (updateUrl) {
+                            window.history.pushState({}, '', url);
+                        }
+                    } catch (error) {
+                        console.error('Error fetching blogs:', error);
+                    } finally {
+                        this.loading = false;
+                        if (window.innerWidth < 1024) {
+                            // Scroll to content if needed
+                            const contentTop = document.getElementById('blog-content').offsetTop - 100;
+                            window.scrollTo({ top: contentTop, behavior: 'smooth' });
+                        }
+                    }
+                },
+                
+                changePage(page) {
+                    const params = new URLSearchParams(window.location.search);
+                    params.set('page', page);
+                    const url = `{% url 'blogs' %}?${params.toString()}`;
+                    
+                    this.loading = true;
+                    fetch(url, {
+                        headers: {
+                            'X-Requested-With': 'XMLHttpRequest'
+                        }
+                    })
+                    .then(response => response.text())
+                    .then(html => {
+                        this.content = html;
+                        window.history.pushState({}, '', url);
+                        if (window.innerWidth < 1024) {
+                            const contentTop = document.getElementById('blog-content').offsetTop - 100;
+                            window.scrollTo({ top: contentTop, behavior: 'smooth' });
+                        }
+                    })
+                    .finally(() => {
+                        this.loading = false;
+                    });
+                },
+
+                resetFilters() {
+                    this.search = '';
+                    this.category = '';
+                    this.tag = '';
+                    this.fetchBlogs();
+                }
+            }
+        }
+    </script>
+</div>
+{% endblock %}

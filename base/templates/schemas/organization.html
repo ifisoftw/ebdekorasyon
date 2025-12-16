@@ -2,41 +2,43 @@
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "{{ settings.name|default:'İFİ Yazılım' }}",
-  "image": "{% if settings.logo %}{{ request.scheme }}://{{ request.get_host }}{{ settings.logo.url }}{% endif %}",
-  "@id": "{{ request.scheme }}://{{ request.get_host }}",
-  "url": "{{ request.scheme }}://{{ request.get_host }}",
+  "name": "{{ settings.name|default:'EB Dekorasyon' }}",
+  "alternateName": "{{ settings.alternate_name|default:'EB Dekorasyon Boya Tadilat' }}",
+  "image": "{% if settings.logo %}https://{{ settings.domain }}{{ settings.logo.url }}{% endif %}",
+  "@id": "https://{{ settings.domain }}/#organization",
+  "url": "https://{{ settings.domain }}",
   "telephone": "{{ settings.phone }}",
   "email": "{{ settings.email }}",
-  "priceRange": "{{ settings.price_range }}",
+  "priceRange": "{{ settings.price_range|default:'₺₺' }}",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "{{ settings.adress }}",
-    "addressLocality": "{{ settings.city }}",
-    "addressCountry": "{{ settings.country }}",
+    "addressLocality": "{{ settings.city|default:'İstanbul' }}",
+    "addressRegion": "{{ settings.city|default:'İstanbul' }}",
+    "addressCountry": "{{ settings.country|default:'TR' }}",
     "postalCode": "{{ settings.postal_code }}"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": {{ settings.latitude|default:"0" }},
-    "longitude": {{ settings.longitude|default:"0" }}
+    "latitude": {{ settings.latitude|default:"41.0082" }},
+    "longitude": {{ settings.longitude|default:"28.9784" }}
   },
-  "openingHoursSpecification": [
-    {% for hours in settings.opening_hours %}
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-              {% for day in hours.days %}"{{ day }}"{% if not forloop.last %},{% endif %}{% endfor %}
-          ],
-          "opens": "{{ hours.opens }}",
-          "closes": "{{ hours.closes }}"
-        }{% if not forloop.last %},{% endif %}
-    {% endfor %}
+  "knowsAbout": [
+    "Mobilya Boyama",
+    "Mutfak Dolabı Boyama",
+    "Boya Badana",
+    "Tadilat",
+    "İç Mekan Tasarımı",
+    "Koltuk Döşeme"
   ],
+  "areaServed": {
+    "@type": "City",
+    "name": "İstanbul"
+  },
   "sameAs": [
-    "{% if settings.facebook %}{{ settings.facebook }}{% endif %}",
-    "{% if settings.twitter %}{{ settings.twitter }}{% endif %}",
-    "{% if settings.instagram %}{{ settings.instagram }}{% endif %}"
+    {% if settings.facebook %}"{{ settings.facebook }}"{% endif %}{% if settings.facebook and settings.instagram %},{% endif %}
+    {% if settings.instagram %}"{{ settings.instagram }}"{% endif %}{% if settings.instagram and settings.twitter %},{% endif %}
+    {% if settings.twitter %}"{{ settings.twitter }}"{% endif %}
   ]
 }
 </script>

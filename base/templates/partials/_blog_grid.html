@@ -1,0 +1,111 @@
+{% load static %}
+
+{% if blogs %}
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {% for blog in blogs %}
+    <a href="{{ blog.get_absolute_url }}" class="group bg-[#1a1a1a] rounded-2xl overflow-hidden border border-[#c9a465]/10 hover:border-[#c9a465]/30 transition-all duration-500">
+        <!-- Blog Image -->
+        <div class="relative h-56 overflow-hidden">
+            {% if blog.image %}
+            <img src="{{ blog.image.url }}" alt="{{ blog.title }}" 
+                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                 loading="lazy" width="400" height="224">
+            {% else %}
+            <div class="w-full h-full bg-gradient-to-br from-[#c9a465]/20 to-[#c9a465]/5 flex items-center justify-center">
+                <i class="fas fa-newspaper text-4xl text-[#c9a465]/50"></i>
+            </div>
+            {% endif %}
+            
+            <!-- Category Badge -->
+            {% if blog.category %}
+            <span class="absolute top-4 left-4 px-3 py-1 bg-[#c9a465] text-black text-xs font-bold rounded-full">
+                {{ blog.category.name }}
+            </span>
+            {% endif %}
+        </div>
+        
+        <!-- Content -->
+        <div class="p-6">
+            <!-- Date -->
+            <p class="text-gray-500 text-sm mb-2">
+                <i class="far fa-calendar-alt mr-2"></i>
+                {{ blog.created|date:"d F Y" }}
+            </p>
+            
+            <h2 class="font-playfair text-xl font-bold text-white mb-3 group-hover:text-[#c9a465] transition-colors line-clamp-2">
+                {{ blog.title }}
+            </h2>
+            <p class="text-gray-400 text-sm leading-relaxed mb-4 line-clamp-3">
+                {{ blog.short_description }}
+            </p>
+            
+            <!-- Tags -->
+            {% if blog.tags.all %}
+            <div class="flex flex-wrap gap-2 mb-4">
+                {% for tag in blog.tags.all|slice:":3" %}
+                <span class="text-xs text-gray-500">#{{ tag.name }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            
+            <!-- Read More -->
+            <div class="flex items-center text-[#c9a465] text-sm font-medium">
+                <span>Devamını Oku</span>
+                <svg class="w-4 h-4 ml-2 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                </svg>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+
+<!-- Pagination -->
+{% if page_obj.has_other_pages %}
+<div class="flex justify-center mt-16">
+    <nav class="flex items-center gap-2" aria-label="Sayfalama">
+        {% if page_obj.has_previous %}
+        <button type="button" data-page="{{ page_obj.previous_page_number }}" 
+           class="pagination-btn px-4 py-2 bg-[#1a1a1a] text-white rounded-lg border border-[#c9a465]/20 hover:border-[#c9a465] transition-colors">
+            <i class="fas fa-chevron-left pointer-events-none"></i>
+        </button>
+        {% endif %}
+        
+        {% for num in page_obj.paginator.page_range %}
+            {% if page_obj.number == num %}
+            <span class="px-4 py-2 bg-[#c9a465] text-black font-bold rounded-lg">{{ num }}</span>
+            {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+            <button type="button" data-page="{{ num }}" 
+               class="pagination-btn px-4 py-2 bg-[#1a1a1a] text-white rounded-lg border border-[#c9a465]/20 hover:border-[#c9a465] transition-colors">
+                {{ num }}
+            </button>
+            {% endif %}
+        {% endfor %}
+        
+        {% if page_obj.has_next %}
+        <button type="button" data-page="{{ page_obj.next_page_number }}" 
+           class="pagination-btn px-4 py-2 bg-[#1a1a1a] text-white rounded-lg border border-[#c9a465]/20 hover:border-[#c9a465] transition-colors">
+            <i class="fas fa-chevron-right pointer-events-none"></i>
+        </button>
+        {% endif %}
+    </nav>
+</div>
+{% endif %}
+
+{% else %}
+<!-- Empty State -->
+<div class="text-center py-16">
+    <div class="w-24 h-24 mx-auto mb-6 bg-[#1a1a1a] rounded-full flex items-center justify-center">
+        <i class="fas fa-newspaper text-3xl text-[#c9a465]/50"></i>
+    </div>
+    <h2 class="font-playfair text-2xl font-bold text-white mb-4">
+        Sonuç Bulunamadı
+    </h2>
+    <p class="text-gray-400 mb-8">
+        Farklı filtreler deneyebilirsiniz.
+    </p>
+    <button @click="resetFilters()" class="btn-gold-gradient px-8 py-3 rounded-xl text-black font-bold">
+        Tüm Blogları Gör
+    </button>
+</div>
+{% endif %}

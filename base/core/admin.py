@@ -80,6 +80,12 @@ class FeatureAreaAdmin(ImportExportModelAdmin):
 class FeatureAdmin(ImportExportModelAdmin):
     list_display = ('name','updated','created')
 
+@admin.register(Counter)
+class CounterAdmin(ImportExportModelAdmin):
+    list_display = ('name', 'count', 'icon', 'updated', 'created')
+    list_editable = ('count', 'icon')
+    search_fields = ('name',)
+
 
 @admin.register(Contact)
 class ContactAdmin(ImportExportModelAdmin):

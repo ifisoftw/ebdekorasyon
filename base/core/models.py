@@ -155,8 +155,8 @@ class FeatureArea(models.Model):
         return self.title
 
     class Meta:
-        verbose_name = 'Özellik Alanı'
-        verbose_name_plural = 'Özellik Alanı'
+        verbose_name = 'Neden Bizi Seçmelisiniz'
+        verbose_name_plural = 'Neden Bizi Seçmelisiniz'
 #FEATURE AREA
 
 class About(BaseSEOModel):

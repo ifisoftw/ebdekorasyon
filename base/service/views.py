@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from core.models import Settings, FeatureArea, Page_Seo
-from . models import Service, ServiceHeader, ServiceArea
+from . models import Service, ServiceHeader, ServiceArea, ServiceCategory
 from core.forms import ContactForm
 from django.views.generic import TemplateView, FormView, DetailView, ListView
 from django.contrib.messages.views import SuccessMessageMixin
@@ -20,8 +20,12 @@ class ServicesView(SuccessMessageMixin,FormView):
         seo = Page_Seo.objects.filter(page_url='hizmetler').first()
         context['service_header'] = ServiceHeader.objects.first()
         context['services'] = Service.objects.filter(isActive=True).order_by('created')
+        context['categories'] = ServiceCategory.objects.filter(is_active=True).order_by('order')
         context['feature_area'] = FeatureArea.objects.first()     
         context['seo'] = seo
+        context['breadcrumbs'] = [
+            {'name': 'Hizmetlerimiz', 'url': '/hizmetler/'}
+        ]
         return context
 
     def form_valid(self, form) :

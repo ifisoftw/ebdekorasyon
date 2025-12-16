@@ -1,0 +1,110 @@
+<div class="lg:grid lg:grid-cols-4 lg:gap-12">
+    
+    <!-- SIDEBAR FILTERS - Left -->
+    <aside class="lg:col-span-1 mb-8 lg:mb-0" x-data="{ showFilters: false }">
+        
+        <!-- Mobile Filter Toggle -->
+        <button @click="showFilters = !showFilters" 
+                class="lg:hidden w-full flex items-center justify-between bg-[#1a1a1a] px-5 py-4 rounded-xl mb-4 border border-[#c9a465]/20 hover:border-[#c9a465] transition-colors">
+            <span class="text-white font-medium flex items-center gap-2">
+                <svg class="w-5 h-5 text-[#c9a465]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"/>
+                </svg>
+                Filtrele
+            </span>
+            <svg class="w-5 h-5 text-gray-400 transition-transform" :class="showFilters ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+        </button>
+        
+        <!-- Filter Panel -->
+        <div :class="showFilters ? 'block' : 'hidden lg:block'" 
+             class="bg-[#1a1a1a] rounded-2xl p-6 border border-[#c9a465]/10 sticky top-24 transition-all duration-300">
+            
+            <!-- Active Filters (Server Side Rendered) -->
+            {% if search_query or current_category or current_tag %}
+            <div class="mb-6 pb-6 border-b border-[#c9a465]/10">
+                <div class="flex items-center justify-between mb-3">
+                    <span class="text-white font-medium text-sm">Aktif Filtreler</span>
+                    <button type="button" data-action="reset" class="text-[#c9a465] text-xs hover:underline">Temizle</button>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    {% if search_query %}
+                    <span class="inline-flex items-center gap-1 bg-[#c9a465]/20 text-[#c9a465] px-3 py-1 rounded-full text-xs">
+                        "{{ search_query }}"
+                        <button type="button" data-action="set" data-field="search" data-value="" class="hover:text-white ml-1">&times;</button>
+                    </span>
+                    {% endif %}
+                    
+                    {% if current_category %}
+                    <span class="inline-flex items-center gap-1 bg-[#c9a465]/20 text-[#c9a465] px-3 py-1 rounded-full text-xs">
+                        {{ current_category }}
+                        <button type="button" data-action="set" data-field="category" data-value="" class="hover:text-white ml-1">&times;</button>
+                    </span>
+                    {% endif %}
+                    
+                    {% if current_tag %}
+                    <span class="inline-flex items-center gap-1 bg-[#c9a465]/20 text-[#c9a465] px-3 py-1 rounded-full text-xs">
+                        #{{ current_tag }}
+                        <button type="button" data-action="set" data-field="tag" data-value="" class="hover:text-white ml-1">&times;</button>
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+            
+            <!-- Categories -->
+            <div class="mb-6">
+                <h3 class="text-white font-semibold mb-4 flex items-center gap-2">
+                    <svg class="w-4 h-4 text-[#c9a465]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                    </svg>
+                    Kategoriler
+                </h3>
+                <ul class="space-y-1">
+                    <li>
+                        <button type="button" data-action="set" data-field="category" data-value="" 
+                           class="w-full flex items-center justify-between px-3 py-2 rounded-lg transition-colors text-left {% if not current_category %}bg-[#c9a465]/20 text-[#c9a465]{% else %}text-gray-300 hover:bg-[#252525]{% endif %}">
+                            <span>Tüm Yazılar</span>
+                        </button>
+                    </li>
+                    {% for cat in categories %}
+                    <li>
+                        <button type="button" data-action="toggle" data-field="category" data-value="{{ cat.slug }}"
+                           class="w-full flex items-center justify-between px-3 py-2 rounded-lg transition-colors text-left {% if current_category == cat.slug %}bg-[#c9a465]/20 text-[#c9a465]{% else %}text-gray-300 hover:bg-[#252525]{% endif %}">
+                            <span>{{ cat.name }}</span>
+                            <span class="text-xs {% if current_category == cat.slug %}text-[#c9a465]/70{% else %}text-gray-500{% endif %}">({{ cat.count }})</span>
+                        </button>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <!-- Tags -->
+            {% if tags %}
+            <div>
+                <h3 class="text-white font-semibold mb-4 flex items-center gap-2">
+                    <svg class="w-4 h-4 text-[#c9a465]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+                    </svg>
+                    Etiketler
+                </h3>
+                <div class="flex flex-wrap gap-2">
+                    {% for t in tags %}
+                    <button type="button" data-action="toggle" data-field="tag" data-value="{{ t.slug }}"
+                       class="px-3 py-1.5 rounded-lg text-sm transition-colors flex items-center gap-1 {% if current_tag == t.slug %}bg-[#c9a465] text-black font-medium{% else %}bg-[#252525] text-gray-300 hover:bg-[#303030]{% endif %}">
+                        #{{ t.name }}
+                        <span class="text-xs ml-0.5 opacity-60">({{ t.count }})</span>
+                    </button>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </aside>
+    
+    <!-- BLOG CARDS - Right -->
+    <div class="lg:col-span-3 relative min-h-[400px]">
+        {% include 'partials/_blog_grid.html' %}
+    </div>
+</div>

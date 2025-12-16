@@ -4,7 +4,7 @@ from django.template.loader import render_to_string
 from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
 from django.contrib import messages
-from core.models import Settings, About, Hero, Feature, Counter, Faq, Comment
+from core.models import Settings, About, Hero, Feature, FeatureArea, Counter, Faq, Comment, CommentHeader
 from core.forms import ContactForm
 from blog.models import Blog
 from service.models import Service, ServiceCategory
@@ -33,13 +33,16 @@ class IndexView(TemplateView):
         context['blogs'] = Blog.objects.all()
         context['services'] = Service.objects.filter(showIndex=True, isActive=True).order_by('created')
         context['categories'] = ServiceCategory.objects.filter(is_active=True).order_by('order')
-        context['projects'] = Project.objects.filter(show_on_index=True, is_active=True)[:6]
+        context['projects'] = Project.objects.filter(show_on_index=True, is_active=True)
         context['comparison_project'] = Project.objects.filter(before_image__isnull=False, after_image__isnull=False, show_on_index=True, is_active=True).first()
         context['settings'] = Settings.objects.first()
         context['hero'] = Hero.objects.first()
         context['features'] = Feature.objects.all()[:6]
+        context['feature_area'] = FeatureArea.objects.first()
         context['counters'] = Counter.objects.all()
         context['comments'] = Comment.objects.all()[:3]
+        context['comment_header'] = CommentHeader.objects.first()
+        context['faqs'] = Faq.objects.filter(isActive=True, showIndex=True)
         return context
 
 class AboutView(TemplateView):
@@ -50,6 +53,9 @@ class AboutView(TemplateView):
         context['settings'] = Settings.objects.first()
         context['about'] = About.objects.first()
         context['counters'] = Counter.objects.all()
+        context['breadcrumbs'] = [
+            {'name': 'Hakkımızda', 'url': '/hakkimizda/'}
+        ]
         return context
 
 class ContactView(TemplateView):
@@ -59,6 +65,9 @@ class ContactView(TemplateView):
         context = super().get_context_data(**kwargs)
         context['settings'] = Settings.objects.first()
         context['form'] = ContactForm()
+        context['breadcrumbs'] = [
+            {'name': 'İletişim', 'url': '/iletisim/'}
+        ]
         return context
     
     def post(self, request, *args, **kwargs):

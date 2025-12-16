@@ -3,16 +3,36 @@
 
 {% block title %}EB Dekorasyon | Mekanlarınıza Altın Dokunuş{% endblock %}
 
+{% block meta_description %}İstanbul'da profesyonel mobilya boyama, mutfak dolabı yenileme, boya badana ve tadilat hizmetleri. 2 yıl garanti, 12 ay taksit. Ücretsiz keşif için hemen arayın!{% endblock %}
+
+{% block og_title %}EB Dekorasyon | İstanbul Mobilya Boyama & Tadilat{% endblock %}
+
+{% block extra_head %}
+<!-- FAQPage Schema for AI/SGE -->
+{% include 'schemas/faq.html' %}
+{% endblock %}
+
 {% block content %}
 <!-- ============================================ -->
 <!-- HERO SECTION - Premium but Accessible -->
 <!-- ============================================ -->
 <section class="relative min-h-[90vh] flex items-center overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-b from-transparent via-[#0f0f0f]/70 to-[#0f0f0f] z-10"></div>
+    <!-- Hero Image with fetchpriority for LCP optimization -->
     {% if hero.banner %}
-    <div class="absolute inset-0 bg-[url('{{ hero.banner.url }}')] bg-cover bg-center"></div>
+    <img src="{{ hero.banner.url }}" 
+         alt="EB Dekorasyon - {{ hero.title|striptags }}" 
+         class="absolute inset-0 w-full h-full object-cover"
+         fetchpriority="high"
+         loading="eager"
+         width="1920" height="1080">
     {% else %}
-    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center"></div>
+    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1920&q=80" 
+         alt="EB Dekorasyon - Lüks İç Mekan Tasarımı" 
+         class="absolute inset-0 w-full h-full object-cover"
+         fetchpriority="high"
+         loading="eager"
+         width="1920" height="1080">
     {% endif %}
     
     <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -275,7 +295,8 @@
                 <!-- Full Background Image -->
                 {% if service.image %}
                 <img src="{{ service.image.url }}" alt="{{ service.title }}" 
-                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                     loading="lazy" width="400" height="300">
                 {% else %}
                 <div class="absolute inset-0 bg-gray-800"></div>
                 {% endif %}
@@ -338,30 +359,15 @@
                     class="px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300">
                     Tümü
                 </button>
+                {% for category in categories %}
                 <button 
-                    @click="activeProjectCategory = 'mobilya'"
-                    :class="activeProjectCategory === 'mobilya' ? 'bg-[#c9a465] text-black' : 'bg-transparent text-white border border-white/20 hover:border-[#c9a465] hover:text-[#c9a465]'"
+                    @click="activeProjectCategory = '{{ category.slug }}'"
+                    :class="activeProjectCategory === '{{ category.slug }}' ? 'bg-[#c9a465] text-black' : 'bg-transparent text-white border border-white/20 hover:border-[#c9a465] hover:text-[#c9a465]'"
                     class="px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300">
-                    Mobilya
+                    {% if category.icon %}<i class="{{ category.icon }} mr-2"></i>{% endif %}
+                    {{ category.name }}
                 </button>
-                <button 
-                    @click="activeProjectCategory = 'tadilat'"
-                    :class="activeProjectCategory === 'tadilat' ? 'bg-[#c9a465] text-black' : 'bg-transparent text-white border border-white/20 hover:border-[#c9a465] hover:text-[#c9a465]'"
-                    class="px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300">
-                    Tadilat
-                </button>
-                <button 
-                    @click="activeProjectCategory = 'boya'"
-                    :class="activeProjectCategory === 'boya' ? 'bg-[#c9a465] text-black' : 'bg-transparent text-white border border-white/20 hover:border-[#c9a465] hover:text-[#c9a465]'"
-                    class="px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300">
-                    Boya Badana
-                </button>
-                <button 
-                    @click="activeProjectCategory = 'doseme'"
-                    :class="activeProjectCategory === 'doseme' ? 'bg-[#c9a465] text-black' : 'bg-transparent text-white border border-white/20 hover:border-[#c9a465] hover:text-[#c9a465]'"
-                    class="px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300">
-                    Döşeme
-                </button>
+                {% endfor %}
             </div>
         </div>
         
@@ -376,7 +382,8 @@
                 <!-- Project Image -->
                 {% if project.image %}
                 <img src="{{ project.image.url }}" alt="{{ project.title }}" 
-                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                     loading="lazy" width="400" height="300">
                 {% else %}
                  <div class="absolute inset-0 bg-gray-800"></div>
                 {% endif %}
@@ -457,13 +464,16 @@
                 
                 <!-- After Image (Base) -->
                 <div class="absolute inset-0">
-                    <img src="{{ comparison_project.after_image.url }}" alt="Sonra" class="w-full h-full object-cover">
+                    <img src="{{ comparison_project.after_image.url }}" alt="Sonra - {{ comparison_project.title }}" 
+                         class="w-full h-full object-cover" loading="lazy" width="800" height="600">
                 </div>
                 
                 <!-- Before Image (Overlay) -->
                 <div class="absolute inset-0 overflow-hidden border-r-2 border-[#c9a465] bg-black"
                      :style="'width: ' + sliderPos + '%'">
-                    <img src="{{ comparison_project.before_image.url }}" alt="Önce" class="absolute top-0 left-0 w-full h-full object-cover max-w-none"
+                    <img src="{{ comparison_project.before_image.url }}" alt="Önce - {{ comparison_project.title }}" 
+                         class="absolute top-0 left-0 w-full h-full object-cover max-w-none"
+                         loading="lazy" width="800" height="600"
                          :style="'width: ' + ($el.parentElement.offsetWidth) + 'px'">
                 </div>
                 
@@ -527,53 +537,42 @@
 {% endif %}
 
 <!-- ============================================ -->
-<!-- WHY CHOOSE US - Unified Gold Theme -->
+<!-- WHY CHOOSE US - Dynamic from FeatureArea -->
 <!-- ============================================ -->
+{% if feature_area %}
 <section class="py-16 bg-black">
     <div class="max-w-6xl mx-auto px-4">
-        <h2 class="font-playfair text-2xl sm:text-3xl font-bold text-center mb-12">
-            Neden <span class="text-gold-gradient">Bizi Seçmelisiniz?</span>
+        <h2 class="font-playfair text-2xl sm:text-3xl font-bold text-center mb-4">
+            {{ feature_area.header|default:"Neden" }} <span class="text-gold-gradient">{{ feature_area.title|default:"Bizi Seçmelisiniz?" }}</span>
         </h2>
+        {% if feature_area.short_description %}
+        <p class="text-zinc-400 text-center mb-12 max-w-2xl mx-auto">{{ feature_area.short_description }}</p>
+        {% endif %}
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {% for feature in feature_area.features.all %}
             <div class="text-center p-6 rounded-xl bg-black border border-[#c9a465]/40">
                 <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-[#c9a465]/10 flex items-center justify-center">
-                    <svg class="w-7 h-7 text-[#c9a465]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                    </svg>
-                </div>
-                <h4 class="font-semibold text-white mb-1">Uygun Fiyat</h4>
-                <p class="text-zinc-400 text-sm">%70'e varan tasarruf</p>
-            </div>
-            <div class="text-center p-6 rounded-xl bg-black border border-[#c9a465]/40">
-                <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-[#c9a465]/10 flex items-center justify-center">
-                    <svg class="w-7 h-7 text-[#c9a465]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
-                    </svg>
-                </div>
-                <h4 class="font-semibold text-white mb-1">12 Ay Taksit</h4>
-                <p class="text-zinc-400 text-sm">Bütçenizi zorlamayın</p>
-            </div>
-            <div class="text-center p-6 rounded-xl bg-black border border-[#c9a465]/40">
-                <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-[#c9a465]/10 flex items-center justify-center">
-                    <svg class="w-7 h-7 text-[#c9a465]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-                    </svg>
-                </div>
-                <h4 class="font-semibold text-white mb-1">2 Yıl Garanti</h4>
-                <p class="text-zinc-400 text-sm">Resmi sözleşme</p>
-            </div>
-            <div class="text-center p-6 rounded-xl bg-black border border-[#c9a465]/40">
-                <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-[#c9a465]/10 flex items-center justify-center">
+                    {% if feature.icon %}
+                    <i class="{{ feature.icon }} text-[#c9a465] text-2xl"></i>
+                    {% else %}
                     <svg class="w-7 h-7 text-[#c9a465]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 13l4 4L19 7"/>
                     </svg>
+                    {% endif %}
                 </div>
-                <h4 class="font-semibold text-white mb-1">Ücretsiz Keşif</h4>
-                <p class="text-zinc-400 text-sm">Bağlayıcı değil</p>
+                <h4 class="font-semibold text-white mb-1">{{ feature.name }}</h4>
+                <p class="text-zinc-400 text-sm">{{ feature.description|truncatewords:10 }}</p>
             </div>
+            {% empty %}
+            <!-- Fallback if no features selected -->
+            <div class="col-span-full text-center text-zinc-500">
+                Henüz özellik eklenmemiş.
+            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
+{% endif %}
 
 <!-- ============================================ -->
 <!-- FLOATING CTA SECTION -->
@@ -608,8 +607,8 @@
 <!-- ============================================ -->
 <section class="py-20 bg-[#0f0f0f]">
     <div class="max-w-7xl mx-auto px-4">
-        <h2 class="font-playfair text-3xl font-bold text-center mb-4">Müşterilerimiz Ne Diyor?</h2>
-        <p class="text-gray-300 text-center mb-12">Binlerce mutlu müşterimizden bazıları</p>
+        <h2 class="font-playfair text-3xl font-bold text-center mb-4">{{ comment_header.title|default:"Müşterilerimiz Ne Diyor?" }}</h2>
+        <p class="text-gray-300 text-center mb-12">{{ comment_header.description|default:"Binlerce mutlu müşterimizden bazıları" }}</p>
         
         <div class="grid md:grid-cols-3 gap-6">
             {% for comment in comments %}
