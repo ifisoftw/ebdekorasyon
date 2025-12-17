@@ -1,8 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}Projelerimiz | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
-{% block meta_description %}Tamamladığımız dekorasyon, tadilat ve boya projelerimizi inceleyin. Öncesi ve sonrası görselleriyle değişimlere tanık olun.{% endblock %}
+{% block title %}{{ seo.seo_title|default:'Projelerimiz' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+{% block meta_description %}{{ seo.seo_description|default:"Tamamladığımız dekorasyon, tadilat ve boya projelerimizi inceleyin. Öncesi ve sonrası görselleriyle değişimlere tanık olun." }}{% endblock %}
+
+{% block og_title %}{{ seo.seo_title|default:'Projelerimiz' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+{% block og_description %}{{ seo.seo_description|default:"Tamamladığımız dekorasyon, tadilat ve boya projelerimizi inceleyin. Öncesi ve sonrası görselleriyle değişimlere tanık olun." }}{% endblock %}
 
 {% block extra_head %}
 <!-- Breadcrumb Schema -->

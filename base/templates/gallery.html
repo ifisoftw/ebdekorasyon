@@ -1,8 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}Dönüşüm Galerisi | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
-{% block meta_description %}Projelerimizin öncesi ve sonrası dönüşümlerini inceleyin. Tadilat ve dekorasyon çalışmalarımızın etkileyici sonuçlarına tanık olun.{% endblock %}
+{% block title %}{{ seo.seo_title|default:'Dönüşüm Galerisi' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+{% block meta_description %}{{ seo.seo_description|default:"Projelerimizin öncesi ve sonrası dönüşümlerini inceleyin. Tadilat ve dekorasyon çalışmalarımızın etkileyici sonuçlarına tanık olun." }}{% endblock %}
+
+{% block og_title %}{{ seo.seo_title|default:'Dönüşüm Galerisi' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+{% block og_description %}{{ seo.seo_description|default:"Projelerimizin öncesi ve sonrası dönüşümlerini inceleyin. Tadilat ve dekorasyon çalışmalarımızın etkileyici sonuçlarına tanık olun." }}{% endblock %}
 
 {% block extra_head %}
 <!-- Breadcrumb Schema -->

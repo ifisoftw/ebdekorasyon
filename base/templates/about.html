@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}{{ about.meta_title|default:'Hakkımızda' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+{% block title %}{{ about.seo_title|default:'Hakkımızda' }} | {{ settings.seo_title|default:'EB Dekorasyon' }}{% endblock %}
 
-{% block meta_description %}{{ about.meta_description|default:'EB Dekorasyon - İstanbul\'da profesyonel mobilya boyama ve tadilat hizmetleri sunan güvenilir firma.' }}{% endblock %}
+{% block meta_description %}{{ about.seo_description|default:'EB Dekorasyon - İstanbul\'da profesyonel mobilya boyama ve tadilat hizmetleri sunan güvenilir firma.' }}{% endblock %}
 
-{% block og_title %}{{ about.meta_title|default:'Hakkımızda' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+{% block og_title %}{{ about.seo_title|default:'Hakkımızda' }} | {{ settings.seo_title|default:'EB Dekorasyon' }}{% endblock %}
+{% block og_description %}{{ about.seo_description|default:'EB Dekorasyon - İstanbul\'da profesyonel mobilya boyama ve tadilat hizmetleri sunan güvenilir firma.' }}{% endblock %}
 
 {% block extra_head %}
 <!-- Breadcrumb Schema -->

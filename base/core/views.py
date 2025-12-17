@@ -69,6 +69,12 @@ class ContactView(TemplateView):
         context['breadcrumbs'] = [
             {'name': 'İletişim', 'url': '/iletisim/'}
         ]
+        
+        # SEO Context
+        context['seo'] = {
+            'seo_title': 'İletişim',
+            'seo_description': 'Bizimle iletişime geçin. Dekorasyon, tadilat ve boya işleriniz için ücretsiz keşif ve fiyat teklifi alın.'
+        }
         return context
     
     def post(self, request, *args, **kwargs):
@@ -138,6 +144,12 @@ class ProjectsListView(ListView):
         context['breadcrumbs'] = [
             {'name': 'Projeler', 'url': '/projeler/'}
         ]
+        
+        # SEO Context
+        context['seo'] = {
+            'seo_title': 'Projelerimiz',
+            'seo_description': 'Tamamladığımız dekorasyon, tadilat ve boya projelerimizi inceleyin. Öncesi ve sonrası görselleriyle değişimlere tanık olun.'
+        }
         return context
 
     def get_template_names(self):
@@ -176,6 +188,12 @@ class GalleryView(ListView):
         context['breadcrumbs'] = [
             {'name': 'Galeri', 'url': '/galeri/'}
         ]
+        
+        # SEO Context
+        context['seo'] = {
+            'seo_title': 'Dönüşüm Galerisi',
+            'seo_description': 'Projelerimizin öncesi ve sonrası dönüşümlerini inceleyin. Tadilat ve dekorasyon çalışmalarımızın etkileyici sonuçlarına tanık olun.'
+        }
         return context
 
 

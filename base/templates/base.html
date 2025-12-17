@@ -13,8 +13,8 @@
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
     
     <!-- SEO Meta Tags -->
-    <title>{% block title %}{{ settings.name|default:'EB Dekorasyon' }} | İstanbul Boya & Tadilat{% endblock %}</title>
-    <meta name="description" content="{% block meta_description %}{{ settings.meta_description|default:'İstanbul boya, tadilat ve mobilya yenileme hizmetleri.' }}{% endblock %}">
+    <title>{% block title %}{{ settings.seo_title|default:'EB Dekorasyon' }} | İstanbul Boya & Tadilat{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}{{ settings.seo_description|default:'İstanbul boya, tadilat ve mobilya yenileme hizmetleri.' }}{% endblock %}">
     <meta name="author" content="{{ settings.name|default:'EB Dekorasyon' }}">
     <meta name="robots" content="{% block robots %}index, follow{% endblock %}">
     
@@ -26,8 +26,8 @@
     {% endif %}
     
     <!-- Open Graph -->
-    <meta property="og:title" content="{% block og_title %}{% block title_og %}{{ settings.name|default:'EB Dekorasyon' }}{% endblock %}{% endblock %}">
-    <meta property="og:description" content="{% block og_description %}{{ settings.meta_description|default:'İstanbul boya, tadilat ve mobilya yenileme.' }}{% endblock %}">
+    <meta property="og:title" content="{% block og_title %}{% block title_og %}{{ settings.seo_title|default:'EB Dekorasyon' }}{% endblock %}{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}{{ settings.seo_description|default:'İstanbul boya, tadilat ve mobilya yenileme.' }}{% endblock %}">
     <meta property="og:type" content="{% block og_type %}website{% endblock %}">
     <meta property="og:locale" content="tr_TR">
     <meta property="og:site_name" content="{{ settings.name|default:'EB Dekorasyon' }}">

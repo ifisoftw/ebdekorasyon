@@ -74,6 +74,13 @@ class BlogListView(ListView):
         context['breadcrumbs'] = [
             {'name': 'Blog', 'url': '/bloglar/'}
         ]
+
+        
+        # SEO Context
+        context['seo'] = {
+            'seo_title': 'Blog - Dekorasyon ve Tadilat İpuçları',
+            'seo_description': 'Mobilya boyama, ev tadilatı, dekorasyon önerileri ve daha fazlası için blog sayfamızı ziyaret edin.'
+        }
         return context
 
 

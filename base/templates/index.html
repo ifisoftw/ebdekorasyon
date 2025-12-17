@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}EB Dekorasyon | Mekanlarınıza Altın Dokunuş{% endblock %}
+{% block title %}{{ settings.seo_title|default:'EB Dekorasyon | Mekanlarınıza Altın Dokunuş' }}{% endblock %}
 
-{% block meta_description %}İstanbul'da profesyonel mobilya boyama, mutfak dolabı yenileme, boya badana ve tadilat hizmetleri. 2 yıl garanti, 12 ay taksit. Ücretsiz keşif için hemen arayın!{% endblock %}
+{% block meta_description %}{{ settings.seo_description|default:"İstanbul'da profesyonel mobilya boyama, mutfak dolabı yenileme, boya badana ve tadilat hizmetleri. 2 yıl garanti, 12 ay taksit. Ücretsiz keşif için hemen arayın!" }}{% endblock %}
 
-{% block og_title %}EB Dekorasyon | İstanbul Mobilya Boyama & Tadilat{% endblock %}
+{% block og_title %}{{ settings.seo_title|default:'EB Dekorasyon | İstanbul Mobilya Boyama & Tadilat' }}{% endblock %}
+{% block og_description %}{{ settings.seo_description|default:"İstanbul'da profesyonel mobilya boyama, mutfak dolabı yenileme, boya badana ve tadilat hizmetleri. 2 yıl garanti, 12 ay taksit. Ücretsiz keşif için hemen arayın!" }}{% endblock %}
 
 {% block extra_head %}
 <!-- FAQPage Schema for AI/SGE -->

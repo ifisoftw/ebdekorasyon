@@ -7,9 +7,10 @@
 <!-- Article Schema -->
 {% include 'schemas/article.html' %}
 {% endblock %}
-{% block title %}{{ blog.seo_title|default:blog.title }} - {{ settings.name }}{% endblock %}
+{% block title %}{{ blog.seo_title|default:blog.title }}{% endblock %}
 {% block meta_description %}{{ blog.seo_description|default:blog.short_description }}{% endblock %}
-
+{% block og_title %}{{ blog.seo_title|default:blog.title }}{% endblock %}
+{% block og_description %}{{ blog.seo_description|default:blog.short_description }}{% endblock %}
 {% block content %}
 <!-- Reading Progress Bar -->
 <div id="reading-progress" class="fixed top-0 left-0 h-1 bg-[#c9a465] z-50 w-0 transition-all duration-100"></div>

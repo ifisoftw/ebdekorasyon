@@ -258,7 +258,7 @@ class Report(models.Model):
          return self.title
 
 
-class Project(models.Model):
+class Project(BaseSEOModel):
     """Tamamlanan projeler - portfolyo için"""
     title = models.CharField(max_length=200, verbose_name='Proje Başlığı')
     slug = models.SlugField(max_length=200, unique=True, verbose_name='URL')

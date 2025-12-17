@@ -15837,3 +15837,32 @@ WARNING 2025-12-17 01:25:20,441 basehttp 24819 6128332800 "GET /.well-known/apps
 INFO 2025-12-17 01:26:38,881 basehttp 24819 6128332800 "GET / HTTP/1.1" 200 17392
 WARNING 2025-12-17 01:26:39,241 log 24819 6128332800 Not Found: /.well-known/appspecific/com.chrome.devtools.json
 WARNING 2025-12-17 01:26:39,242 basehttp 24819 6128332800 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1343
+INFO 2025-12-17 02:45:42,711 autoreload 32383 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-17 02:45:43,909 basehttp 32383 6223327232 code 400, message Bad request version ('zÓDÍ\x00\x05\x00\x03\x02h2\x00')
+ERROR 2025-12-17 02:45:43,909 basehttp 32383 6223327232 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-12-17 02:45:43,910 basehttp 32383 6223327232 code 400, message Bad request version ('ªÎÉDÍ\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00')
+ERROR 2025-12-17 02:45:43,910 basehttp 32383 6223327232 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-12-17 02:45:54,478 autoreload 32543 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-17 02:45:59,176 basehttp 32543 6129020928 "GET / HTTP/1.1" 200 17356
+INFO 2025-12-17 02:46:04,508 basehttp 32543 6129020928 "GET /hakkimizda/ HTTP/1.1" 200 9185
+INFO 2025-12-17 02:46:08,246 basehttp 32543 6129020928 "GET /hizmetler/ HTTP/1.1" 200 11094
+INFO 2025-12-17 02:46:08,346 basehttp 32543 6179500032 "GET /media/uploads/services/mobilya-boyama-yenileme_ocMIFJD.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:08,348 basehttp 32543 6162673664 "GET /media/uploads/services/anahtar-teslim-tadilat_P2AXjGi.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:08,349 basehttp 32543 6145847296 "GET /media/uploads/services/banyo-tadilat_cZRNwTi.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:08,349 basehttp 32543 6129020928 "GET /media/uploads/services/yatak-odasi-mobilya-boyama_xePjqf7.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:08,355 basehttp 32543 6145847296 "GET /media/uploads/services/koltuk-doseme_nci2yhc.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:08,355 basehttp 32543 6196326400 "GET /media/uploads/services/ic-cephe-boya-badana_kUBApiH.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:08,356 basehttp 32543 6213152768 "GET /media/uploads/services/mutfak-dolabi-boyama_2pSgqHS.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:08,358 basehttp 32543 6162673664 "GET /media/uploads/services/dekoratif-boya_uWqCejB.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:08,358 basehttp 32543 6129020928 "GET /media/uploads/services/laminat-parke-doseme_S4wgbJz.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:09,989 basehttp 32543 6129020928 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 9906
+INFO 2025-12-17 02:46:12,029 basehttp 32543 6129020928 "GET /bloglar/ HTTP/1.1" 200 11181
+INFO 2025-12-17 02:46:12,107 basehttp 32543 6145847296 "GET /media/uploads/blogs/blog_kadikoy-mutfak-donusumu-projesi_2qGhZEH.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:12,108 basehttp 32543 6162673664 "GET /media/uploads/blogs/blog_mutfak-dolabi-boyama-rehber_O0jOK4Q.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:12,108 basehttp 32543 6129020928 "GET /media/uploads/blogs/blog_2024-ev-dekorasyon-trendleri_SpkMy9q.jpg HTTP/1.1" 304 0
+INFO 2025-12-17 02:46:31,524 basehttp 32543 6129020928 "GET /bloglar/ HTTP/1.1" 200 11207
+INFO 2025-12-17 02:46:31,769 basehttp 32543 6129020928 "GET /media/uploads/favicon_Divbsmr.png HTTP/1.1" 304 0
+INFO 2025-12-17 02:51:13,862 autoreload 32543 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-17 02:51:14,313 autoreload 32922 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-17 03:30:48,051 autoreload 32922 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/views.py changed, reloading.
+INFO 2025-12-17 03:30:48,580 autoreload 35140 8407912320 Watching for file changes with StatReloader

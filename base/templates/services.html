@@ -1,15 +1,13 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}{{ seo.meta_title|default:'Hizmetlerimiz' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+{% block title %}{{ seo.seo_title|default:'Hizmetlerimiz' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
 
-{% block meta_description %}{{ seo.meta_description|default:'İstanbul profesyonel mobilya boyama, mutfak dolabı yenileme, boya badana ve tadilat hizmetleri.' }}{% endblock %}
+{% block meta_description %}{{ seo.seo_description|default:'İstanbul profesyonel mobilya boyama, mutfak dolabı yenileme, boya badana ve tadilat hizmetleri.' }}{% endblock %}
 
-{% block og_title %}{{ seo.meta_title|default:'Hizmetlerimiz' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+{% block og_title %}{{ seo.seo_title|default:'Hizmetlerimiz' }} | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
 
 {% block extra_head %}
-<!-- Breadcrumb Schema -->
-{% include 'schemas/breadcrumb.html' %}
 <!-- Breadcrumb Schema -->
 {% include 'schemas/breadcrumb.html' %}
 <!-- Collection Schema -->

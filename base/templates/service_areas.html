@@ -2,7 +2,10 @@
 {% load static %}
 
 {% block title %}Hizmet Bölgelerimiz | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
-{% block meta_description %}{{ seo.meta_description|default:"İstanbul'un birçok ilçesinde profesyonel boya badana, tadilat ve dekorasyon hizmeti veriyoruz. Hizmet bölgelerimizi inceleyin." }}{% endblock %}
+{% block meta_description %}{{ seo.seo_description|default:"İstanbul'un birçok ilçesinde profesyonel boya badana, tadilat ve dekorasyon hizmeti veriyoruz. Hizmet bölgelerimizi inceleyin." }}{% endblock %}
+
+{% block og_title %}Hizmet Bölgelerimiz | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+{% block og_description %}{{ seo.seo_description|default:"İstanbul'un birçok ilçesinde profesyonel boya badana, tadilat ve dekorasyon hizmeti veriyoruz. Hizmet bölgelerimizi inceleyin." }}{% endblock %}
 
 {% block extra_head %}
 <!-- Breadcrumb Schema -->

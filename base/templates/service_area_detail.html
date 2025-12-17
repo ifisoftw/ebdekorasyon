@@ -1,8 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}{{ service.title }} - Hizmet Bölgesi | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
-{% block meta_description %}{{ service.short_description|default:service.description|striptags|truncatechars:160 }}{% endblock %}
+{% block title %}{{ service.seo_title|default:service.title }} - Hizmet Bölgesi | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+{% block meta_description %}{{ service.seo_description|default:service.short_description|default:service.description|striptags|truncatechars:160 }}{% endblock %}
+
+{% block og_title %}{{ service.seo_title|default:service.title }} - Hizmet Bölgesi | {{ settings.name|default:'EB Dekorasyon' }}{% endblock %}
+{% block og_description %}{{ service.seo_description|default:service.short_description|default:service.description|striptags|truncatechars:160 }}{% endblock %}
 
 {% block extra_css %}
 <style>

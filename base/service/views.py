@@ -29,8 +29,8 @@ class ServicesView(SuccessMessageMixin,FormView):
         if context['service_header']:
             from django.utils.html import strip_tags
             context['seo'] = {
-                'meta_title': context['service_header'].title,
-                'meta_description': strip_tags(context['service_header'].description)[:160]
+                'seo_title': context['service_header'].title,
+                'seo_description': strip_tags(context['service_header'].description)[:160]
             }
         return context
 
@@ -50,6 +50,14 @@ class ServiceAreaListView(ListView):
         context = super().get_context_data(**kwargs)
         context['service_header'] = ServiceHeader.objects.first()
         context['feature_area'] = FeatureArea.objects.first()
+        
+        # SEO Context
+        if context['service_header']:
+            from django.utils.html import strip_tags
+            context['seo'] = {
+                'seo_title': f"Hizmet Bölgelerimiz | {context['service_header'].title}",
+                'seo_description': strip_tags(context['service_header'].description)[:160]
+            }
         return context
 
 def service_detail(request, slug):

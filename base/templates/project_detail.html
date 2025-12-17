@@ -1,8 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}{{ project.title }} | EB Dekorasyon{% endblock %}
-{% block meta_description %}{{ project.description|truncatechars:160 }}{% endblock %}
+{% block title %}{{ project.seo_title|default:project.title }} | EB Dekorasyon{% endblock %}
+{% block meta_description %}{{ project.seo_description|default:project.description|truncatechars:160 }}{% endblock %}
+
+{% block og_title %}{{ project.seo_title|default:project.title }} | EB Dekorasyon{% endblock %}
+{% block og_description %}{{ project.seo_description|default:project.description|truncatechars:160 }}{% endblock %}
 
 {% block extra_head %}
 <!-- Breadcrumb Schema -->
