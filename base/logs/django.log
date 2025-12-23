@@ -15866,3 +15866,448 @@ INFO 2025-12-17 02:51:13,862 autoreload 32543 8407912320 /Users/macbook/Document
 INFO 2025-12-17 02:51:14,313 autoreload 32922 8407912320 Watching for file changes with StatReloader
 INFO 2025-12-17 03:30:48,051 autoreload 32922 8407912320 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/views.py changed, reloading.
 INFO 2025-12-17 03:30:48,580 autoreload 35140 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-17 04:33:02,644 autoreload 43817 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-17 04:33:04,196 basehttp 43817 6163591168 "GET / HTTP/1.1" 200 17324
+INFO 2025-12-17 04:33:06,073 basehttp 43817 6163591168 "GET /hakkimizda/ HTTP/1.1" 200 9246
+INFO 2025-12-17 04:48:15,134 basehttp 43817 6163591168 "GET /hakkimizda/ HTTP/1.1" 200 9228
+INFO 2025-12-17 04:55:29,995 basehttp 43817 6163591168 "GET / HTTP/1.1" 200 17388
+INFO 2025-12-17 04:55:30,068 basehttp 43817 6163591168 "GET /media/uploads/eb-logo.png HTTP/1.1" 304 0
+INFO 2025-12-17 04:55:52,506 basehttp 43817 6163591168 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 10896
+INFO 2025-12-17 04:56:05,204 basehttp 43817 6163591168 "GET / HTTP/1.1" 200 17410
+INFO 2025-12-20 06:29:00,472 autoreload 91585 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-20 06:29:01,585 basehttp 91585 6195195904 "GET / HTTP/1.1" 200 17330
+INFO 2025-12-20 06:29:01,670 basehttp 91585 6195195904 "GET /media/uploads/eb-logo.png HTTP/1.1" 200 5632
+INFO 2025-12-20 06:29:01,692 basehttp 91585 6212022272 "GET /media/uploads/Hero/hero_banner_88PovAt.jpg HTTP/1.1" 200 403515
+INFO 2025-12-20 06:29:02,023 basehttp 91585 6195195904 "GET /media/uploads/favicon_Divbsmr.png HTTP/1.1" 200 3339
+INFO 2025-12-20 06:35:17,233 autoreload 93304 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-20 06:35:19,956 basehttp 93304 6156431360 "GET / HTTP/1.1" 200 19501
+INFO 2025-12-20 06:35:20,984 basehttp 93304 6156431360 "GET /media/uploads/services/mobilya-boyama-yenileme_ocMIFJD.jpg HTTP/1.1" 200 38325
+INFO 2025-12-20 06:35:20,986 basehttp 93304 6173257728 "GET /media/uploads/services/mutfak-dolabi-boyama_2pSgqHS.jpg HTTP/1.1" 200 73276
+INFO 2025-12-20 06:35:20,990 basehttp 93304 6190084096 "GET /media/uploads/services/yatak-odasi-mobilya-boyama_xePjqf7.jpg HTTP/1.1" 200 131700
+INFO 2025-12-20 06:35:21,021 basehttp 93304 6190084096 "GET /media/uploads/services/ic-cephe-boya-badana_kUBApiH.jpg HTTP/1.1" 200 70334
+INFO 2025-12-20 06:35:21,022 basehttp 93304 6156431360 "GET /media/uploads/services/anahtar-teslim-tadilat_P2AXjGi.jpg HTTP/1.1" 200 80202
+INFO 2025-12-20 06:35:21,022 basehttp 93304 6173257728 "GET /media/uploads/services/banyo-tadilat_cZRNwTi.jpg HTTP/1.1" 200 99663
+INFO 2025-12-20 06:35:21,068 basehttp 93304 6173257728 "GET /media/uploads/services/koltuk-doseme_nci2yhc.jpg HTTP/1.1" 200 67166
+INFO 2025-12-20 06:35:21,068 basehttp 93304 6190084096 "GET /media/uploads/services/laminat-parke-doseme_S4wgbJz.jpg HTTP/1.1" 200 81008
+INFO 2025-12-20 06:35:21,069 basehttp 93304 6156431360 "GET /media/uploads/services/dekoratif-boya_uWqCejB.jpg HTTP/1.1" 200 100836
+INFO 2025-12-20 06:35:21,118 basehttp 93304 6156431360 "GET /media/uploads/service_default.jpg HTTP/1.1" 200 64412
+INFO 2025-12-20 06:35:25,123 basehttp 93304 6173257728 "GET /media/uploads/projects/project_modern-mutfak-donusumu_WQucj3P.jpg HTTP/1.1" 200 73325
+INFO 2025-12-20 06:35:25,124 basehttp 93304 6156431360 "GET /media/uploads/projects/project_komple-ev-renovasyonu_tayRiPk.jpg HTTP/1.1" 200 80217
+INFO 2025-12-20 06:35:25,124 basehttp 93304 6190084096 "GET /media/uploads/projects/project_ofis-boya-projesi_9S0PaBY.jpg HTTP/1.1" 200 70353
+INFO 2025-12-20 06:35:25,124 basehttp 93304 6206910464 "GET /media/uploads/projects/project_antika-koltuk-restorasyonu_pgbKNaw.jpg HTTP/1.1" 200 67148
+INFO 2025-12-20 06:35:25,128 basehttp 93304 6223736832 "GET /media/uploads/projects/project_luks-banyo-donusumu_noQg7B2.jpg HTTP/1.1" 200 99591
+INFO 2025-12-20 06:35:25,129 basehttp 93304 6240563200 "GET /media/uploads/projects/project_klasik-yatak-odasi-yenileme_LA8xLqu.jpg HTTP/1.1" 200 131732
+INFO 2025-12-20 06:36:05,638 autoreload 93631 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-20 06:36:07,304 basehttp 93631 6200193024 "GET / HTTP/1.1" 200 18281
+INFO 2025-12-20 06:36:34,074 basehttp 93631 6200193024 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 11798
+INFO 2025-12-20 06:36:52,243 basehttp 93631 6200193024 "GET /hakkimizda/ HTTP/1.1" 200 9426
+INFO 2025-12-20 06:36:52,371 basehttp 93631 6200193024 "GET /media/uploads/about/ifi-yazilim-hakkimizda.png HTTP/1.1" 200 1051388
+INFO 2025-12-20 06:36:52,843 basehttp 93631 6217019392 "GET / HTTP/1.1" 200 18353
+INFO 2025-12-20 06:45:22,772 basehttp 93631 6200193024 "GET / HTTP/1.1" 200 18301
+INFO 2025-12-20 06:50:29,675 basehttp 93631 6200193024 "GET / HTTP/1.1" 200 18378
+INFO 2025-12-20 06:50:32,324 basehttp 93631 6200193024 "GET /media/uploads/services/mutfak-dolabi-boyama-yeni.jpg HTTP/1.1" 200 51686
+INFO 2025-12-20 06:50:32,354 basehttp 93631 6217019392 "GET /media/uploads/services/ahsap-kapi-boyama.jpg HTTP/1.1" 200 54320
+INFO 2025-12-20 06:50:32,382 basehttp 93631 6233845760 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 200 61491
+INFO 2025-12-20 06:50:32,404 basehttp 93631 6217019392 "GET /media/uploads/services/mutfak-tezgahi.jpg HTTP/1.1" 200 42938
+INFO 2025-12-20 06:50:32,430 basehttp 93631 6250672128 "GET /media/uploads/services/doseme-degisimi.jpg HTTP/1.1" 200 48341
+INFO 2025-12-20 06:50:32,457 basehttp 93631 6200193024 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 200 61463
+INFO 2025-12-20 06:50:32,469 basehttp 93631 6217019392 "GET /media/uploads/services/tv-unitesi-dekor.jpg HTTP/1.1" 200 50554
+INFO 2025-12-20 06:50:32,476 basehttp 93631 6233845760 "GET /media/uploads/services/kafe-dekorasyon.jpg HTTP/1.1" 200 60031
+INFO 2025-12-20 06:50:32,480 basehttp 93631 6250672128 "GET /media/uploads/services/mobilya-tamir.jpg HTTP/1.1" 200 58891
+INFO 2025-12-20 06:50:33,372 basehttp 93631 6217019392 "GET /media/uploads/services/laminant-parke.jpg HTTP/1.1" 200 41174
+INFO 2025-12-20 06:50:33,466 basehttp 93631 6200193024 "GET /media/uploads/services/ev-dekorasyon.jpg HTTP/1.1" 200 48960
+INFO 2025-12-20 06:50:33,626 basehttp 93631 6233845760 "GET /media/uploads/services/parke-renkleri.jpg HTTP/1.1" 200 59872
+INFO 2025-12-20 16:56:32,916 basehttp 93631 6200193024 "GET / HTTP/1.1" 200 18395
+INFO 2025-12-20 16:56:32,942 basehttp 93631 6200193024 "GET /media/uploads/eb-logo.png HTTP/1.1" 304 0
+INFO 2025-12-20 16:56:56,899 autoreload 7697 8407912320 Watching for file changes with StatReloader
+INFO 2025-12-20 16:56:59,671 basehttp 7697 6127759360 "GET / HTTP/1.1" 200 18383
+INFO 2025-12-20 16:56:59,697 basehttp 7697 6127759360 "GET /media/uploads/eb-logo.png HTTP/1.1" 200 5706
+INFO 2025-12-20 16:56:59,717 basehttp 7697 6144585728 "GET /media/uploads/Hero/hero_banner_88PovAt.jpg HTTP/1.1" 200 403469
+INFO 2025-12-20 16:57:00,132 basehttp 7697 6127759360 "GET /media/uploads/favicon_Divbsmr.png HTTP/1.1" 200 3357
+INFO 2025-12-20 16:57:02,125 basehttp 7697 6127759360 "GET /media/uploads/services/mutfak-dolabi-boyama-yeni.jpg HTTP/1.1" 200 51682
+INFO 2025-12-20 16:57:02,125 basehttp 7697 6161412096 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 200 61549
+INFO 2025-12-20 16:57:02,125 basehttp 7697 6144585728 "GET /media/uploads/services/ahsap-kapi-boyama.jpg HTTP/1.1" 200 54242
+INFO 2025-12-20 16:57:02,188 basehttp 7697 6161412096 "GET /media/uploads/services/mutfak-tezgahi.jpg HTTP/1.1" 200 42932
+INFO 2025-12-20 16:57:02,189 basehttp 7697 6127759360 "GET /media/uploads/services/doseme-degisimi.jpg HTTP/1.1" 200 48418
+INFO 2025-12-20 16:57:02,191 basehttp 7697 6144585728 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 200 61450
+INFO 2025-12-20 16:57:02,237 basehttp 7697 6161412096 "GET /media/uploads/services/mobilya-tamir.jpg HTTP/1.1" 200 58822
+INFO 2025-12-20 16:57:02,237 basehttp 7697 6144585728 "GET /media/uploads/services/kafe-dekorasyon.jpg HTTP/1.1" 200 60071
+INFO 2025-12-20 16:57:02,237 basehttp 7697 6127759360 "GET /media/uploads/services/tv-unitesi-dekor.jpg HTTP/1.1" 200 50579
+INFO 2025-12-20 16:57:02,657 basehttp 7697 6144585728 "GET /media/uploads/services/laminant-parke.jpg HTTP/1.1" 200 41166
+INFO 2025-12-20 16:57:02,658 basehttp 7697 6161412096 "GET /media/uploads/services/parke-renkleri.jpg HTTP/1.1" 200 59824
+INFO 2025-12-20 16:57:02,658 basehttp 7697 6127759360 "GET /media/uploads/services/ev-dekorasyon.jpg HTTP/1.1" 200 49007
+INFO 2025-12-20 16:57:10,035 basehttp 7697 6127759360 "GET /media/uploads/projects/project_komple-ev-renovasyonu_tayRiPk.jpg HTTP/1.1" 200 80236
+INFO 2025-12-20 16:57:10,036 basehttp 7697 6144585728 "GET /media/uploads/projects/project_modern-mutfak-donusumu_WQucj3P.jpg HTTP/1.1" 200 73279
+INFO 2025-12-20 16:57:10,037 basehttp 7697 6178238464 "GET /media/uploads/projects/project_antika-koltuk-restorasyonu_pgbKNaw.jpg HTTP/1.1" 200 67119
+INFO 2025-12-20 16:57:10,037 basehttp 7697 6161412096 "GET /media/uploads/projects/project_ofis-boya-projesi_9S0PaBY.jpg HTTP/1.1" 200 70287
+INFO 2025-12-20 16:57:10,038 basehttp 7697 6195064832 "GET /media/uploads/projects/project_luks-banyo-donusumu_noQg7B2.jpg HTTP/1.1" 200 99593
+INFO 2025-12-20 16:57:10,040 basehttp 7697 6211891200 "GET /media/uploads/projects/project_klasik-yatak-odasi-yenileme_LA8xLqu.jpg HTTP/1.1" 200 131767
+INFO 2025-12-20 17:02:22,700 basehttp 7697 6127759360 "GET /laminant-parke-doseme/ HTTP/1.1" 200 11798
+INFO 2025-12-20 17:03:02,247 basehttp 7697 6127759360 "GET / HTTP/1.1" 200 18439
+INFO 2025-12-20 17:31:50,014 basehttp 7697 6127759360 "GET /projeler/ HTTP/1.1" 200 9954
+INFO 2025-12-20 17:31:56,592 basehttp 7697 6127759360 "GET /projeler/antika-koltuk-restorasyonu/ HTTP/1.1" 200 8649
+INFO 2025-12-20 17:31:56,684 basehttp 7697 6144585728 "GET /media/uploads/projects/before_antika-koltuk-restorasyonu_xJZmt2P.jpg HTTP/1.1" 200 38312
+INFO 2025-12-20 17:31:56,687 basehttp 7697 6127759360 "GET /media/uploads/projects/after_antika-koltuk-restorasyonu_6SgA1MA.jpg HTTP/1.1" 200 67129
+INFO 2025-12-20 17:34:18,981 basehttp 7697 6127759360 "GET /galeri/ HTTP/1.1" 200 9497
+INFO 2025-12-20 17:34:19,157 basehttp 7697 6144585728 "GET /media/uploads/projects/before_luks-banyo-donusumu_3lUYSXt.jpg HTTP/1.1" 200 67922
+INFO 2025-12-20 17:34:19,159 basehttp 7697 6211891200 "GET /media/uploads/projects/before_modern-mutfak-donusumu_x6OZ333.jpg HTTP/1.1" 200 58206
+INFO 2025-12-20 17:34:19,159 basehttp 7697 6195064832 "GET /media/uploads/projects/after_modern-mutfak-donusumu_PIK0ynQ.jpg HTTP/1.1" 200 73308
+INFO 2025-12-20 17:34:19,162 basehttp 7697 6127759360 "GET /media/uploads/projects/after_luks-banyo-donusumu_gZTudEG.jpg HTTP/1.1" 200 99656
+INFO 2025-12-20 17:34:19,163 basehttp 7697 6178238464 "GET /media/uploads/projects/before_klasik-yatak-odasi-yenileme_UOnqAKv.jpg HTTP/1.1" 200 121865
+INFO 2025-12-20 17:34:19,164 basehttp 7697 6161412096 "GET /media/uploads/projects/after_klasik-yatak-odasi-yenileme_IShIahL.jpg HTTP/1.1" 200 131746
+INFO 2025-12-20 17:36:36,821 basehttp 7697 6127759360 "GET / HTTP/1.1" 200 18392
+INFO 2025-12-20 17:37:46,906 basehttp 7697 6127759360 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-12-20 17:37:46,940 basehttp 7697 6127759360 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4773
+INFO 2025-12-20 17:37:46,949 basehttp 7697 6161412096 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-12-20 17:37:46,950 basehttp 7697 6144585728 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-12-20 17:37:46,950 basehttp 7697 6127759360 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-12-20 17:37:46,977 basehttp 7697 6127759360 "GET /static/admin_interface/css/changelist.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1433
+INFO 2025-12-20 17:37:46,977 basehttp 7697 6161412096 "GET /static/admin_interface/css/change-form.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1125
+INFO 2025-12-20 17:37:46,977 basehttp 7697 6144585728 "GET /static/admin_interface/css/admin-interface.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 17882
+INFO 2025-12-20 17:37:46,986 basehttp 7697 6161412096 "GET /static/admin_interface/css/fieldsets.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 499
+INFO 2025-12-20 17:37:46,988 basehttp 7697 6144585728 "GET /static/admin_interface/css/file-upload.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1169
+INFO 2025-12-20 17:37:46,988 basehttp 7697 6161412096 "GET /static/admin_interface/css/inlines.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2715
+INFO 2025-12-20 17:37:46,988 basehttp 7697 6127759360 "GET /static/admin_interface/css/header.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1015
+INFO 2025-12-20 17:37:46,992 basehttp 7697 6161412096 "GET /static/admin_interface/css/language-chooser.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1734
+INFO 2025-12-20 17:37:46,994 basehttp 7697 6144585728 "GET /static/admin_interface/css/list-filter.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 614
+INFO 2025-12-20 17:37:46,996 basehttp 7697 6127759360 "GET /static/admin_interface/css/jquery.ui.tabs.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 5558
+INFO 2025-12-20 17:37:46,997 basehttp 7697 6144585728 "GET /static/admin_interface/css/modules.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 404
+INFO 2025-12-20 17:37:46,998 basehttp 7697 6161412096 "GET /static/admin_interface/css/list-filter-dropdown.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 691
+INFO 2025-12-20 17:37:46,998 basehttp 7697 6127759360 "GET /static/admin_interface/css/login.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1240
+INFO 2025-12-20 17:37:47,000 basehttp 7697 6144585728 "GET /static/admin_interface/css/nav-sidebar.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2025
+INFO 2025-12-20 17:37:47,001 basehttp 7697 6161412096 "GET /static/admin_interface/css/object-tools.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 319
+INFO 2025-12-20 17:37:47,001 basehttp 7697 6127759360 "GET /static/admin_interface/css/paginator.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 797
+INFO 2025-12-20 17:37:47,002 basehttp 7697 6127759360 "GET /static/admin_interface/css/rtl.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1016
+INFO 2025-12-20 17:37:47,004 basehttp 7697 6127759360 "GET /static/admin_interface/css/sticky-form-controls.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2437
+INFO 2025-12-20 17:37:47,005 basehttp 7697 6161412096 "GET /static/admin_interface/css/tabbed-changeform.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1895
+INFO 2025-12-20 17:37:47,005 basehttp 7697 6144585728 "GET /static/admin_interface/css/widgets.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 4752
+INFO 2025-12-20 17:37:47,007 basehttp 7697 6127759360 "GET /static/admin_interface/css/third-party/json-widget.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 993
+INFO 2025-12-20 17:37:47,007 basehttp 7697 6161412096 "GET /static/admin_interface/css/third-party/ckeditor.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2720
+INFO 2025-12-20 17:37:47,008 basehttp 7697 6144585728 "GET /static/admin_interface/css/third-party/import-export.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 189
+INFO 2025-12-20 17:37:47,009 basehttp 7697 6161412096 "GET /static/admin_interface/css/third-party/modeltranslation.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 356
+INFO 2025-12-20 17:37:47,010 basehttp 7697 6144585728 "GET /static/admin_interface/css/third-party/sorl-thumbnail.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1451
+INFO 2025-12-20 17:37:47,010 basehttp 7697 6127759360 "GET /static/admin_interface/css/third-party/rangefilter.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1238
+INFO 2025-12-20 17:37:47,011 basehttp 7697 6161412096 "GET /static/admin_interface/css/third-party/streamfield.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 6407
+INFO 2025-12-20 17:37:47,011 basehttp 7697 6144585728 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-12-20 17:37:47,011 basehttp 7697 6127759360 "GET /static/admin_interface/css/third-party/tinymce.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 78
+INFO 2025-12-20 17:37:47,013 basehttp 7697 6161412096 "GET /static/admin/css/responsive_rtl.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1864
+INFO 2025-12-20 17:37:47,014 basehttp 7697 6144585728 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2025-12-20 17:37:47,014 basehttp 7697 6127759360 "GET /static/admin/css/responsive.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 18559
+INFO 2025-12-20 17:37:47,017 basehttp 7697 6161412096 "GET /static/admin_interface/foldable-apps/foldable-apps.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1955
+INFO 2025-12-20 17:37:47,017 basehttp 7697 6144585728 "GET /static/admin_interface/related-modal/related-modal.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2888
+INFO 2025-12-20 17:37:47,017 basehttp 7697 6127759360 "GET /static/admin_interface/magnific-popup/magnific-popup.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 6951
+INFO 2025-12-20 17:37:47,018 basehttp 7697 6161412096 "GET /static/admin_interface/foldable-apps/foldable-apps.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1750
+INFO 2025-12-20 17:37:47,026 basehttp 7697 6161412096 "GET /static/admin_interface/related-modal/related-modal.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 7032
+INFO 2025-12-20 17:37:47,027 basehttp 7697 6127759360 "GET /static/admin_interface/magnific-popup/jquery.magnific-popup.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 60830
+INFO 2025-12-20 17:37:47,028 basehttp 7697 6161412096 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-12-20 17:37:47,029 basehttp 7697 6127759360 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2025-12-20 17:37:47,318 log 7697 6127759360 Not Found: /favicon.ico
+WARNING 2025-12-20 17:37:47,319 basehttp 7697 6127759360 "GET /favicon.ico HTTP/1.1" 404 1337
+INFO 2025-12-20 17:37:51,611 basehttp 7697 6127759360 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-12-20 17:37:51,642 basehttp 7697 6127759360 "GET /admin/ HTTP/1.1" 200 7208
+INFO 2025-12-20 17:37:51,683 basehttp 7697 6127759360 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-12-20 17:37:51,696 basehttp 7697 6127759360 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-12-20 17:37:51,696 basehttp 7697 6144585728 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-12-20 17:37:51,696 basehttp 7697 6161412096 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+ERROR 2025-12-20 17:38:05,143 log 7697 6127759360 Internal Server Error: /admin/core/project/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/admin/templatetags/admin_list.py", line 424, in date_hierarchy
+    for day in days
+               ^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 398, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 285, in __iter__
+    for row in compiler.results_iter(
+               ~~~~~~~~~~~~~~~~~~~~~^
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1500, in apply_converters
+    value = converter(value, expression, connection)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/functions/datetime.py", line 348, in convert_value
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Database returned an invalid datetime value. Are time zone definitions for your database installed?
+ERROR 2025-12-20 17:38:05,153 basehttp 7697 6127759360 "GET /admin/core/project/ HTTP/1.1" 500 37891
+INFO 2025-12-20 17:38:07,834 basehttp 7697 6127759360 "GET /admin/ HTTP/1.1" 200 7244
+INFO 2025-12-20 17:38:09,453 basehttp 7697 6127759360 "GET /admin/core/about/ HTTP/1.1" 200 7906
+INFO 2025-12-20 17:38:09,498 basehttp 7697 6127759360 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-12-20 17:38:09,501 basehttp 7697 6178238464 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-12-20 17:38:09,503 basehttp 7697 6127759360 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-12-20 17:38:09,503 basehttp 7697 6211891200 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-12-20 17:38:09,503 basehttp 7697 6195064832 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-12-20 17:38:09,508 basehttp 7697 6127759360 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-12-20 17:38:09,508 basehttp 7697 6178238464 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-12-20 17:38:09,510 basehttp 7697 6161412096 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-12-20 17:38:09,513 basehttp 7697 6195064832 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-12-20 17:38:09,513 basehttp 7697 6144585728 "GET /admin/jsi18n/ HTTP/1.1" 200 2556
+INFO 2025-12-20 17:38:09,515 basehttp 7697 6144585728 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-12-20 17:38:09,523 basehttp 7697 6144585728 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-12-20 17:38:11,795 basehttp 7697 6127759360 "GET /admin/core/comment/ HTTP/1.1" 200 8032
+INFO 2025-12-20 17:38:11,821 basehttp 7697 6127759360 "GET /admin/jsi18n/ HTTP/1.1" 200 2543
+ERROR 2025-12-20 17:38:15,816 log 7697 6127759360 Internal Server Error: /admin/service/service/
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/template/library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/admin/templatetags/admin_list.py", line 424, in date_hierarchy
+    for day in days
+               ^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 398, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 285, in __iter__
+    for row in compiler.results_iter(
+               ~~~~~~~~~~~~~~~~~~~~~^
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1500, in apply_converters
+    value = converter(value, expression, connection)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/functions/datetime.py", line 348, in convert_value
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Database returned an invalid datetime value. Are time zone definitions for your database installed?
+ERROR 2025-12-20 17:38:15,823 basehttp 7697 6127759360 "GET /admin/service/service/ HTTP/1.1" 500 37890
+INFO 2025-12-20 17:38:21,368 basehttp 7697 6127759360 "GET /admin/core/comment/ HTTP/1.1" 200 8009
+INFO 2025-12-20 17:38:34,094 basehttp 7697 6127759360 "GET / HTTP/1.1" 200 18363
+INFO 2025-12-20 17:42:46,871 basehttp 7697 6127759360 "GET /adalar-dekorasyon-restorasyon/ HTTP/1.1" 200 12998
+INFO 2025-12-20 17:42:46,936 basehttp 7697 6127759360 "GET /media/uploads/service_default.jpg HTTP/1.1" 200 64412

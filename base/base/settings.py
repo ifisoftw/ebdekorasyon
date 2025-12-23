@@ -68,6 +68,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -220,7 +221,7 @@ MIDDLEWARE.insert(0, 'django.middleware.gzip.GZipMiddleware')
 # Static Files Storage
 # ManifestStaticFilesStorage can cause issues with missing files in manifest
 # Using standard storage to avoid "Missing staticfiles manifest entry" errors
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 # Database Query Optimization (SQLite compatible)
 # SQLite doesn't need additional OPTIONS

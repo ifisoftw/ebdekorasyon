@@ -202,9 +202,13 @@
                 
                 <!-- Logo -->
                 <a href="{% url 'index' %}" class="flex items-center space-x-3 group">
-                    <span class="font-playfair text-xl sm:text-2xl font-bold tracking-widest text-gold-gradient">
-                        EB DEKORASYON
-                    </span>
+                    {% if settings.logo %}
+                        <img src="{{ settings.logo.url }}" alt="{{ settings.name|default:'EB Dekorasyon' }}" class="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+                    {% else %}
+                        <span class="font-playfair text-xl sm:text-2xl font-bold tracking-widest text-gold-gradient">
+                            {{ settings.name|default:'EB DEKORASYON' }}
+                        </span>
+                    {% endif %}
                 </a>
                 
                 <!-- Desktop Navigation -->
