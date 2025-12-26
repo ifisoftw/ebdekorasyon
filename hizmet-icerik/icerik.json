@@ -1,0 +1,185 @@
+{
+  "services": [
+    {
+      "slug": "mutfak-dolabi-boyama-renk-degisimi",
+      "seo_title": "Mutfak Dolabı Boyama: %70 Tasarruf | EB Dekorasyon",
+      "seo_description": "Eski mutfak dolaplarınızı atmayın! İstanbul'da kırmadan 1 günde fabrika kalitesinde boyuyoruz. %70 tasarruflu fiyatlar için tıklayın."
+    },
+    {
+      "slug": "mobilya-ve-ahsap-kapi-boyama",
+      "seo_title": "Mobilya ve Kapı Boyama: Kapı Yenileme | EB Dekorasyon",
+      "seo_description": "Sararmış, çizilmiş kapılarınızı söküp atölyemizde fırın boya kalitesinde yeniliyoruz. Amerikan ve ahşap kapı boyama fiyatları burada."
+    },
+    {
+      "slug": "sandalye-ve-masa-boyama-yenileme",
+      "seo_title": "Sandalye ve Masa Boyama: Yemek Odası Yenileme | EB",
+      "seo_description": "Yemek masası ve sandalyelerinizi atmayın! Kırık tamiri, kumaş değişimi ve profesyonel boyama ile yemek odası takımınızı yenileyin."
+    },
+    {
+      "slug": "mobilya-doseme-yuzu-degisimi",
+      "seo_title": "Mobilya Döşeme ve Yüz Değişimi | EB Dekorasyon",
+      "seo_description": "Mobilyalarınızın iskeleti sağlamsa yüzünü değiştirin! Leke tutmaz kumaş seçenekleri ve sünger yenileme ile koltuklarınız yenilensin."
+    },
+    {
+      "slug": "yatak-odasi-mobilya-boyama",
+      "seo_title": "Yatak Odası Boyama: Mobilya Renk Değişimi | EB",
+      "seo_description": "Karanlık yatak odası takımlarınızı aydınlatın! Gardırop, şifonyer ve başlık boyama ile yatak odanızda modern bir atmosfer yaratın."
+    },
+    {
+      "slug": "mutfak-tezgahi-degisimi-tamiri",
+      "seo_title": "Mutfak Tezgahı Değişimi: Granit & Kuvars | EB",
+      "seo_description": "Mutfak tezgahınızı 1 günde değiştiriyoruz. Leke tutmayan, çizilmeyen kuvars ve granit tezgah modelleri ve uygun fiyatlar için tıklayın."
+    },
+    {
+      "slug": "tv-unitesi-ve-duvar-dekorasyonu",
+      "seo_title": "TV Ünitesi ve Duvar Çıtalama Modelleri | EB Dekorasyon",
+      "seo_description": "Salonunuzun havasını değiştirin! Özel ölçü TV ünitesi, duvar çıtalama ve şömine uygulamalarıyla modern yaşam alanları tasarlıyoruz."
+    },
+    {
+      "slug": "kafe-ici-dekorasyon-tasarim",
+      "seo_title": "Kafe Dekorasyon ve Tasarım: Anahtar Teslim | EB",
+      "seo_description": "Kafeniz için konsept tasarım, özel oturma grupları ve dekoratif uygulamalar. Müşteri çeken mekanlar yaratmak için profesyonel destek alın."
+    },
+    {
+      "slug": "mobilya-tamirati-ve-bakimi",
+      "seo_title": "Mobilya Tamiratı: Kırık, Çizik ve Montaj | EB",
+      "seo_description": "Kapanmayan dolaplar, sallanan sandalyeler, raydan çıkan çekmeceler... Tüm mobilya arızaları ve bakım işlemleri için yerinde servis."
+    },
+    {
+      "slug": "ev-ici-genel-dekorasyon",
+      "seo_title": "Anahtar Teslim Ev Tadilatı ve Dekorasyon | EB",
+      "seo_description": "Evinizi baştan aşağı yeniliyoruz! Kırım, tesisat, boya, parke ve mobilya işlerinde tek muhatap, garantili işçilik ve zamanında teslimat."
+    },
+    {
+      "slug": "laminant-parke-doseme",
+      "seo_title": "Laminant Parke Döşeme Ustası: Uygun Fiyat | EB",
+      "seo_description": "Evinizin zeminini değiştirin! AGT, Çamsan ve Vario parke seçenekleri, süpürgelik dahil anahtar teslim parke döşeme hizmeti."
+    },
+    {
+      "slug": "parke-kurulumu-renk-cesitleri",
+      "seo_title": "Parke Modelleri: Balıksırtı & Macar Kesim | EB",
+      "seo_description": "Zeminde fark yaratın. Balıksırtı, Macar kesim ve derzli parke modelleri ile profesyonel kurulum hizmeti. Renk kataloğu için tıklayın."
+    }
+  ],
+  "service_areas": [
+    {
+      "slug": "adalar-boya-tadilat-dekorasyon",
+      "seo_title": "Adalar Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Adalar bölgesinde mutfak boyama, mobilya yenileme ve anahtar teslim tadilat hizmeti. Ada koşullarına uygun lojistik ve profesyonel uygulama."
+    },
+    {
+      "slug": "atasehir-boya-tadilat-dekorasyon",
+      "seo_title": "Ataşehir Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Ataşehir'de mutfak dolabı boyama, parke döşeme ve ev yenileme çözümleri. Batı Ataşehir ve çevresinde ücretsiz keşif için bize ulaşın."
+    },
+    {
+      "slug": "beykoz-boya-tadilat-dekorasyon",
+      "seo_title": "Beykoz Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Beykoz bölgesinde villa tadilatı, mobilya boyama ve dekorasyon işleriniz için profesyonel ekip. Kavacık ve Acarkent çevresine hizmet."
+    },
+    {
+      "slug": "cekmekoy-boya-tadilat-dekorasyon",
+      "seo_title": "Çekmeköy Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Çekmeköy'de ev tadilatı, mutfak yenileme ve parke işleri. Mimar Sinan, Hamidiye ve tüm mahallelerde garantili dekorasyon hizmeti."
+    },
+    {
+      "slug": "kadikoy-boya-tadilat-dekorasyon",
+      "seo_title": "Kadıköy Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Kadıköy'de mutfak boyama, parke ve komple tadilat hizmetleri. Bağdat Caddesi, Moda ve çevresinde referanslı ustalarla çalışın."
+    },
+    {
+      "slug": "kartal-boya-tadilat-dekorasyon",
+      "seo_title": "Kartal Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Kartal bölgesinde uygun fiyatlı mutfak boyama, kapı yenileme ve tadilat işleri. Yakacık, Uğurmumcu ve sahil şeridine hizmetimiz vardır."
+    },
+    {
+      "slug": "maltepe-boya-tadilat-dekorasyon",
+      "seo_title": "Maltepe Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Maltepe'de ev yenileme, mobilya boyama ve dekorasyon çözümleri. İdealtepe, Küçükyalı ve çevresinde ücretsiz keşif hizmeti alın."
+    },
+    {
+      "slug": "pendik-boya-tadilat-dekorasyon",
+      "seo_title": "Pendik Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Pendik ve Kurtköy bölgesinde anahtar teslim tadilat, mutfak dolabı boyama ve parke döşeme. Hızlı servis ve temiz işçilik garantisi."
+    },
+    {
+      "slug": "sancaktepe-boya-tadilat-dekorasyon",
+      "seo_title": "Sancaktepe Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Sancaktepe'de tadilat ve dekorasyon işleriniz için doğru adres. Mutfak yenileme, boya badana ve parke hizmetlerinde uzman kadro."
+    },
+    {
+      "slug": "sultanbeyli-boya-tadilat-dekorasyon",
+      "seo_title": "Sultanbeyli Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Sultanbeyli bölgesinde ekonomik ve kaliteli tadilat çözümleri. Mobilya boyama ve ev dekorasyonunda profesyonel hizmet."
+    },
+    {
+      "slug": "sile-boya-tadilat-dekorasyon",
+      "seo_title": "Şile Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Şile yazlık ve villa tadilatı, ahşap bakımı ve mobilya yenileme hizmetleri. Mevsimlik bakım ve anahtar teslim dekorasyon çözümleri."
+    },
+    {
+      "slug": "tuzla-boya-tadilat-dekorasyon",
+      "seo_title": "Tuzla Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Tuzla ve çevresinde mutfak dolabı boyama, gemi/yat mobilya bakımı ve ev tadilatı hizmetleri. Profesyonel çözümler için arayın."
+    },
+    {
+      "slug": "umraniye-boya-tadilat-dekorasyon",
+      "seo_title": "Ümraniye Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Ümraniye'de mutfak ve banyo tadilatı, parke döşeme ve mobilya boyama. Şerifali, Çakmak ve tüm mahallelere servisimiz vardır."
+    },
+    {
+      "slug": "uskudar-boya-tadilat-dekorasyon",
+      "seo_title": "Üsküdar Boya, Tadilat ve Dekorasyon | EB Dekorasyon",
+      "seo_description": "Üsküdar'da tarihi dokuya uygun tadilat, mobilya yenileme ve boya hizmetleri. Çengelköy, Beylerbeyi ve merkezde referanslı işçilik."
+    }
+  ],
+  "projects": [
+    {
+      "slug": "besiktas-yatak-odasi-boyama",
+      "seo_title": "Beşiktaş Yatak Odası Boyama Projesi | EB Dekorasyon",
+      "seo_description": "Beşiktaş'taki müşterimizin eski yatak odası takımını modern antrasit renge dönüştürdük. Mobilya boyama öncesi/sonrası fotoğraflarını inceleyin."
+    },
+    {
+      "slug": "atasehir-lake-mutfak-donusumu",
+      "seo_title": "Ataşehir Lake Mutfak Dönüşümü | EB Dekorasyon",
+      "seo_description": "Ataşehir'de sararmış mutfak dolaplarını lake boya ile bembeyaz ve pürüzsüz hale getirdik. Mutfak yenileme projemizin detayları."
+    },
+    {
+      "slug": "bagdat-caddesi-komple-daire-renovasyonu",
+      "seo_title": "Bağdat Caddesi Komple Daire Tadilatı | EB Dekorasyon",
+      "seo_description": "Kadıköy Bağdat Caddesi'nde A'dan Z'ye anahtar teslim daire renovasyonu. Parke, boya, elektrik ve mobilya işlerinin tamamlandığı projemiz."
+    },
+    {
+      "slug": "cekmekoy-villa-banyo-yenileme",
+      "seo_title": "Çekmeköy Villa Banyo Yenileme | EB Dekorasyon",
+      "seo_description": "Çekmeköy'de bir villanın banyosunu baştan yarattık. Fayans değişimi, dolap boyama ve tesisat yenileme ile modern bir banyo tasarımı."
+    },
+    {
+      "slug": "suadiye-baliksirti-parke-uygulamasi",
+      "seo_title": "Suadiye Balıksırtı Parke Uygulaması | EB Dekorasyon",
+      "seo_description": "Suadiye'de zemine değer kattık. Özel teknikle döşenen balıksırtı parke uygulamamızın aşamaları ve muhteşem sonucu."
+    },
+    {
+      "slug": "kadikoy-ofis-zemin-yenileme",
+      "seo_title": "Kadıköy Ofis Zemin Yenileme Projesi | EB Dekorasyon",
+      "seo_description": "Kadıköy'deki bir ofis için dayanıklı ve şık zemin çözümü. Yoğun trafiğe uygun parke seçimi ve hızlı uygulama projemiz."
+    }
+  ],
+  "categories": [
+    {
+      "slug": "mobilya-boya-ve-renk-degisimi",
+      "seo_title": "Mobilya Boyama ve Renk Değişimi | EB Dekorasyon",
+      "seo_description": "Mutfak, kapı, yatak odası ve tüm mobilyalarınız için profesyonel boyama ve renk değiştirme hizmetleri. Eşyalarınızı atmayın, yenileyin!"
+    },
+    {
+      "slug": "tamirat-tadilat-ve-dekorasyon",
+      "seo_title": "Tamirat, Tadilat ve Dekorasyon İşleri | EB Dekorasyon",
+      "seo_description": "Ev ve iş yeriniz için A'dan Z'ye tadilat, dekorasyon ve tamirat hizmetleri. Mutfak tezgahı, TV ünitesi ve genel bakım onarım işleri."
+    },
+    {
+      "slug": "zemin-ve-parke-sistemleri",
+      "seo_title": "Zemin ve Parke Döşeme Sistemleri | EB Dekorasyon",
+      "seo_description": "Laminant parke, balıksırtı döşeme ve zemin yenileme hizmetleri. Kaliteli malzeme ve usta işçilikle zeminlerinizi değiştiriyoruz."
+    }
+  ]
+}

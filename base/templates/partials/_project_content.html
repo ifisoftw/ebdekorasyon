@@ -8,11 +8,12 @@
         Tümü
     </a>
     {% for cat in categories %}
-    <a href="?category={{ cat }}" 
+    <a href="?category={{ cat.name }}" 
        data-action="filter" 
-       data-category="{{ cat }}"
-       class="px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300 {% if current_category == cat %}bg-[#c9a465] text-black shadow-[0_0_15px_rgba(201,164,101,0.3)]{% else %}bg-transparent text-white border border-white/20 hover:border-[#c9a465] hover:text-[#c9a465]{% endif %}">
-        {{ cat }}
+       data-category="{{ cat.name }}"
+       class="px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300 flex items-center gap-2 {% if current_category == cat.name %}bg-[#c9a465] text-black shadow-[0_0_15px_rgba(201,164,101,0.3)]{% else %}bg-transparent text-white border border-white/20 hover:border-[#c9a465] hover:text-[#c9a465]{% endif %}">
+        {% if cat.icon %}<i class="{{ cat.icon }}"></i>{% endif %}
+        {{ cat.name }}
     </a>
     {% endfor %}
 </div>

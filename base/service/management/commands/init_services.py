@@ -1,36 +1,7 @@
 """
 Django Management Command: init_services
 =========================================
-EB Dekorasyon hizmet verilerini veritabanına yükler.
-
-Kullanım:
-    python manage.py init_services
-
-Veri Yapısı Örneği (SERVICES_DATA):
-    [
-        {
-            "category_name": "Mobilya Boya ve Renk Değişimi",
-            "services": [
-                {
-                    "title": "Mutfak Dolabı Boyama ve Renk Değişimi",
-                    "slug": "mutfak-dolabi-boyama-renk-degisimi",  # Opsiyonel
-                    "seo_title": "Eski Mutfak Dolabı Boyama...",  # Opsiyonel
-                    "seo_description": "Mutfak dolaplarınızı...",  # Opsiyonel
-                    "focus_keywords": ["mutfak dolabı boyama", ...],  # Opsiyonel
-                    "short_description": "Kısa açıklama...",  # Opsiyonel
-                    "description": "<p>HTML içerik</p>",  # Opsiyonel
-                    "icon": "fas fa-paint-brush",  # Opsiyonel
-                    "custom_features": ["Özellik 1", "Özellik 2"],  # Opsiyonel
-                    "steps": [  # Opsiyonel
-                        {"title": "Keşif", "description": "Ücretsiz keşif..."},
-                    ],
-                    "faqs": [  # Opsiyonel
-                        {"question": "Soru?", "answer": "Cevap."},
-                    ]
-                },
-            ]
-        },
-    ]
+EB Dekorasyon hizmet verilerini detaylı SEO içerikleriyle veritabanına yükler.
 """
 
 import re
@@ -41,9 +12,12 @@ from core.models import Feature, Faq
 
 
 # =============================================================================
-# PRODUCTION VERİ SETİ
+# SEO & İÇERİK VERİ SETİ
 # =============================================================================
 SERVICES_DATA = [
+    # -------------------------------------------------------------------------
+    # KATEGORİ 1: Mobilya Boya ve Renk Değişimi
+    # -------------------------------------------------------------------------
     {
         "category_name": "Mobilya Boya ve Renk Değişimi",
         "icon": "fas fa-palette",
@@ -52,140 +26,206 @@ SERVICES_DATA = [
                 "title": "Mutfak Dolabı Boyama ve Renk Değişimi",
                 "slug": "mutfak-dolabi-boyama-renk-degisimi",
                 "image": "uploads/services/mutfak-dolabi-boyama-yeni.jpg",
-                "seo_title": "Eski Mutfak Dolabı Boyama ve Yenileme | Kırmadan Renk Değişimi",
-                "seo_description": "Mutfak dolaplarınızı değiştirmeden yeniliyoruz. Lake, akrilik veya mat boya seçenekleriyle mutfak dolabı renk değişimi hizmeti.",
-                "focus_keywords": ["mutfak dolabı boyama", "dolap renk değişimi", "eski mutfak yenileme", "lake boya mutfak"],
-                "icon": "fas fa-utensils",
-                "short_description": "Mutfak dolaplarınızı değiştirmeden, lake veya mat boya ile istediğiniz renge dönüştürüyoruz. Ekonomik ve hızlı çözüm.",
+                "seo_title": "Mutfak Dolabı Boyama ve Renk Değişimi | %70 Tasarruf | EB Dekorasyon",
+                "seo_description": "Eskiyen mutfağınızı kırmadan yeniliyoruz! İstanbul/Modoko profesyonel mutfak dolabı boyama hizmeti. Lake & mat seçenekler, 2 yıl garanti. Ücretsiz keşif.",
+                "focus_keywords": ["mutfak dolabı boyama", "dolap renk değişimi", "lake mutfak boyama", "mutfak yenileme", "modoko mobilya boya"],
+                "icon": "fas fa-brush",
+                "short_description": "Mutfak dolaplarınızı değiştirmek yerine boyatarak %70 tasarruf edin. 3-5 günde, kırmadan dökmeden, fabrika kalitesinde lake veya mat boya ile yepyeni bir mutfağa kavuşun.",
                 "description": """
-                    <h2>Mutfak Dolabı Boyama Hizmeti</h2>
-                    <p>Eski mutfak dolaplarınızı değiştirmeye gerek yok! Profesyonel ekibimiz ile mutfak dolaplarınızı istediğiniz renge boyuyoruz. Lake, akrilik veya mat boya seçenekleri ile mutfağınıza yepyeni bir görünüm kazandırın.</p>
-                    
-                    <h3>Neden Bizi Tercih Etmelisiniz?</h3>
+                    <h2>Mutfak Dolabı Boyama Nedir?</h2>
+                    <p>Mutfak dolabı boyama, mevcut sağlam dolap gövdelerinin ve kapaklarının korunarak, sadece yüzeylerinin profesyonel endüstriyel boyalarla (lake, akrilik, poliüretan) renginin değiştirilmesi işlemidir. Bu yöntem, komple mutfak tadilatına göre çok daha hızlı, ekonomik ve çevrecidir.</p>
+
+                    <h3>Neden Mutfak Boyamayı Tercih Etmelisiniz?</h3>
+                    <p>Mutfak dolaplarınızın işlevi hala yerindeyse ancak rengi demode olduysa veya sarardıysa, onları çöpe atmanıza gerek yok.</p>
                     <ul>
-                        <li><strong>Ekonomik Çözüm:</strong> Dolap değiştirmekten %70'e varan tasarruf</li>
-                        <li><strong>Hızlı Teslim:</strong> 3-5 iş günü içinde yepyeni mutfak</li>
-                        <li><strong>Geniş Renk Paleti:</strong> RAL ve NCS renk kartelasından seçim</li>
-                        <li><strong>2 Yıl Garanti:</strong> Tüm boyama işlemlerinde garanti</li>
+                        <li><strong>Ekonomik Çözüm:</strong> Yeni bir mutfak yaptırmanın maliyetinin %30'una mal olur.</li>
+                        <li><strong>Hızlı Teslimat:</strong> İnşaat süreci yoktur. Ortalama 3-5 iş günü içinde tamamlanır.</li>
+                        <li><strong>Kırmadan Dökmeden:</strong> Fayanslarınız, tezgahınız veya zeminine zarar gelmez.</li>
+                        <li><strong>Sınırsız Renk Seçeneği:</strong> RAL ve NCS kartelasından dilediğiniz rengi seçebilirsiniz.</li>
                     </ul>
-                    
-                    <h3>Uygulama Süreci</h3>
-                    <p>Kapaklar yerinde sökülerek atölyemize götürülür. Profesyonel boya kabininde boyanır ve kuruma sonrası tekrar monte edilir. Tüm süreç boyunca mutfağınızı kullanmaya devam edebilirsiniz.</p>
+
+                    <h3>Kullandığımız Boya Teknolojileri</h3>
+                    <p>Sıradan duvar boyaları değil, mobilya sanayisinde kullanılan özel sertleştiricili boyalar kullanıyoruz.</p>
+                    <ul>
+                        <li><strong>Lake Boya:</strong> Pürüzsüz, ipeksi dokunuş ve yüksek kalite.</li>
+                        <li><strong>Akrilik Boya:</strong> Sararmaya karşı dirençli, uzun ömürlü.</li>
+                        <li><strong>Mat ve İpek Mat:</strong> Modern ve parmak izi bırakmayan yüzeyler.</li>
+                    </ul>
                 """,
-                "custom_features": ["Lake Boya", "Mat Boya", "Akrilik Boya", "RAL Renk Seçeneği"],
+                "custom_features": ["Lake & Akrilik Boya", "Tozsuz Boya Kabini", "Renk Garantisi", "Ücretsiz Keşif", "Sararmazlık Garantisi"],
                 "steps": [
-                    {"step_number": 1, "title": "Ücretsiz Keşif", "description": "Uzman ekibimiz evinize gelerek dolapları inceler ve size en uygun renk önerilerini sunar."},
-                    {"step_number": 2, "title": "Kapak Sökümü", "description": "Dolap kapakları dikkatle sökülür ve koruyucu ambalajla atölyemize taşınır."},
-                    {"step_number": 3, "title": "Zımparalama ve Astar", "description": "Yüzeyler titizlikle zımparalanır, boya tutunumu için özel astar uygulanır."},
-                    {"step_number": 4, "title": "Boyama İşlemi", "description": "Profesyonel boya kabininde 2 kat boya uygulaması yapılır."},
-                    {"step_number": 5, "title": "Montaj ve Teslim", "description": "Kuruyan kapaklar yerine monte edilir ve temizlik yapılarak teslim edilir."}
+                    {"step_number": 1, "title": "Ücretsiz Keşif ve Renk Seçimi", "description": "Ekibimiz mutfağınızı inceler, kapak yapısına (MDF, Masif, Kaplama) uygun boyayı belirler ve renk kartelasından seçim yapmanıza yardımcı olur."},
+                    {"step_number": 2, "title": "Demontaj ve Numaralandırma", "description": "Kapaklar ve çekmeceler sökülür, numaralandırılır. Menteşeler korumaya alınır. Gövdeler için evinizde maskeleme yapılır."},
+                    {"step_number": 3, "title": "Atölye Süreci (Zımpara & Astar)", "description": "Kapaklar atölyemize alınır. Yağ ve kirden arındırılır, zımparalanır ve boya tutuculuğunu artıran özel astar atılır."},
+                    {"step_number": 4, "title": "Profesyonel Boyama", "description": "Tozsuz boya kabinimizde, pistole (sprey) tekniği ile son kat boya uygulanır. Fırça izi olmaz, fabrikasyon bitiş sağlanır."},
+                    {"step_number": 5, "title": "Montaj ve Teslimat", "description": "Kuruyan kapaklar tekrar monte edilir, menteşe ayarları yapılır ve mutfağınız tertemiz teslim edilir."}
                 ],
                 "faqs": [
-                    {"question": "Mutfak dolabı boyama ne kadar sürer?", "answer": "Standart bir mutfak için tüm süreç 3-5 iş günü içinde tamamlanır. Bu süre dolap sayısına göre değişebilir."},
-                    {"question": "Boyama işlemi sırasında mutfağımı kullanabilir miyim?", "answer": "Evet, kapaklar atölyemizde boyandığı için sadece kapaksız şekilde mutfağınızı kullanmaya devam edebilirsiniz."},
-                    {"question": "Hangi boya türlerini kullanıyorsunuz?", "answer": "Lake, akrilik ve mat boya seçeneklerimiz mevcuttur. Tüm boyalarımız leke tutmayan ve silinebilir özelliğe sahiptir."}
+                    {"question": "Mutfak dolabı boyama işleminde koku olur mu?", "answer": "Kapaklar atölyede boyandığı için evinizde koku olmaz. Sadece gövdeler boyanırken minimal bir koku olabilir, ancak kullandığımız yeni nesil boyalar hızla havalanır."},
+                    {"question": "Boya sonrası boya atması veya soyulma yaşar mıyım?", "answer": "Hayır. Doğru zımpara, kaliteli astar ve sertleştiricili son kat boya kullanıldığında boya yüzeye kemikleşir. İşçiliğimize 2 yıl garanti veriyoruz."},
+                    {"question": "Boyama işlemi ne kadar sürer?", "answer": "Ortalama boyutta bir mutfak için süreç 3 ile 5 iş günü arasında tamamlanır."},
+                    {"question": "Hangi yüzeyler boyanabilir?", "answer": "MDF, Ham Ahşap, Kaplama, Membran ve hatta uygun astar ile Laminat yüzeyler boyanabilir."},
+                    {"question": "Renk seçeneği sınırlı mı?", "answer": "Hayır, RAL ve NCS kartelasındaki binlerce renk arasından seçim yapabilirsiniz. Renk sınırımız yoktur."}
                 ]
             },
             {
                 "title": "Mobilya ve Ahşap Kapı Boyama",
                 "slug": "mobilya-ve-ahsap-kapi-boyama",
                 "image": "uploads/services/ahsap-kapi-boyama.jpg",
-                "seo_title": "Amerikan ve Ahşap Kapı Boyama | Mobilya Cilalama",
-                "seo_description": "Evinizdeki ahşap kapıları ve mobilyaları istediğiniz renge dönüştürüyoruz. Amerikan kapı boyama ve mobilya cila işlemleri.",
-                "focus_keywords": ["kapı boyama fiyatları", "amerikan kapı boyama", "mobilya boyama", "ahşap kapı yenileme"],
+                "seo_title": "Amerikan ve Ahşap Kapı Boyama Fiyatları | Mobilya Cila",
+                "seo_description": "Sararmış amerikan kapılarınızı ve ahşap mobilyalarınızı ilk günkü haline getiriyoruz. Profesyonel kapı boyama ve mobilya cila hizmeti.",
+                "focus_keywords": ["kapı boyama", "amerikan kapı boyama", "mobilya boyama fiyatları", "lake kapı boyama", "ahşap kapı yenileme"],
                 "icon": "fas fa-door-open",
-                "short_description": "Amerikan kapılarınızı ve ahşap mobilyalarınızı profesyonel boyama ile yeniliyoruz. İstediğiniz renk ve finişte.",
+                "short_description": "Sararmış, çizilmiş kapılarınızı ve mobilyalarınızı atölyemizde yeniliyoruz. Amerikan panel kapı boyama ve mobilya lake cila işlemleriyle evinize ışıltı katın.",
                 "description": """
-                    <h2>Ahşap Kapı ve Mobilya Boyama</h2>
-                    <p>Evinizdeki amerikan kapılar ve ahşap mobilyalar zamanla eskir ve soluklaşır. Değiştirmek yerine boyama ile onlara ikinci bir hayat verin!</p>
-                    
-                    <h3>Hizmet Kapsamı</h3>
+                    <h2>Kapı ve Mobilyalarınızı Neden Boyatmalısınız?</h2>
+                    <p>Zamanla sararan Amerikan panel kapılar veya cilası bozulan ahşap mobilyalar evinizin enerjisini düşürür. Kapı değiştirmek maliyetli ve tadilat gerektiren bir iştir. Oysa boyama işlemi ile kapılarınız fabrika çıkışı gibi pürüzsüz ve bembeyaz olabilir.</p>
+
+                    <h3>Hizmet Kapsamımız</h3>
                     <ul>
-                        <li>Amerikan kapı boyama (iç ve dış yüzey)</li>
-                        <li>Ahşap panel kapı boyama</li>
-                        <li>Gardırop ve şifonyer boyama</li>
-                        <li>Komodin ve sehpa boyama</li>
-                        <li>Mobilya cilalama ve vernik işlemi</li>
+                        <li><strong>Amerikan Panel Kapı Boyama:</strong> Sararmış kapıları özel panel kapı boyası ile yeniliyoruz.</li>
+                        <li><strong>Ahşap Kapı Cila ve Boya:</strong> Masif kapıları vernikleyerek koruyor veya lake boya ile renk değiştiriyoruz.</li>
+                        <li><strong>Mobilya Renk Değişimi:</strong> Koyu renkli vitrin, konsol veya ünitelerinizi modern renklere (gri, beyaz, antrasit) dönüştürüyoruz.</li>
                     </ul>
-                    
-                    <h3>Kullandığımız Teknikler</h3>
-                    <p>Sprey boya tekniği ile pürüzsüz bir yüzey elde ediyoruz. Fırça izi veya boya kabarcığı oluşmaz. Tüm işlemler atölyemizde kontrollü ortamda yapılır.</p>
+
+                    <h3>Pistole (Sprey) Boya Farkı</h3>
+                    <p>Kapı ve mobilyaları evde fırça ile boyamak genellikle fırça izi ve dalgalanma yaratır. Biz, kapılarınızı söküp atölyemize götürüyor ve endüstriyel boya tabancaları ile pürüzsüz boyuyoruz.</p>
                 """,
-                "custom_features": ["Sprey Boya Tekniği", "Cila ve Vernik", "Renk Değişimi", "Antika Görünüm"],
+                "custom_features": ["Pistole Boya Tekniği", "Amerikan Kapı Uzmanlığı", "Leke Tutmayan Yüzey", "Nakliye Dahil Hizmet", "Kısa Sürede Teslim"],
+                "steps": [
+                    {"step_number": 1, "title": "Kapıların Sökülmesi", "description": "Ekibimiz kapı kanatlarını menteşelerinden ayırır ve kasaları yerinde boyamak üzere hazırlar. Kanatlar atölyeye taşınır."},
+                    {"step_number": 2, "title": "Tamirat ve Zımpara", "description": "Kapı yüzeyindeki çarpma izleri, delikler veya kabarmalar çelik macun ile tamir edilir. Yüzey zımparalanıp pürüzsüzleştirilir."},
+                    {"step_number": 3, "title": "Astar Uygulaması", "description": "Eski boyanın kusmasını engellemek ve yeni boyanın tutunması için güçlü bir astar katı atılır."},
+                    {"step_number": 4, "title": "Boya Uygulaması", "description": "İstenilen renkte (genelde Amerikan Kapı Beyazı veya Kırık Beyaz) 2-3 kat boya uygulanır."},
+                    {"step_number": 5, "title": "Montaj", "description": "Kuruyan kapılar ambalajlanarak getirilir ve yerlerine takılır. Kapı kolları ve kilit karşılıkları monte edilir."}
+                ],
+                "faqs": [
+                    {"question": "Kapı kolları ve menteşeler de değişiyor mu?", "answer": "Hizmetimiz boyama odaklıdır ancak talep ederseniz tedarik ettiğiniz yeni kulp ve kilitlerin montajını ücretsiz yapıyoruz."},
+                    {"question": "Sadece kanatları mı boyuyorsunuz, kasalar ne oluyor?", "answer": "Hayır, bütünlük bozulmaması için kasalar (pervazlar) da evinizde aynı boya ile boyanmaktadır."},
+                    {"question": "Amerikan kapı boyası ne kadar dayanıklı?", "answer": "Kullandığımız boyalar silinebilir, darbelere karşı dirençli ve sararmaya karşı garantilidir."},
+                    {"question": "Kaç günde teslim ediyorsunuz?", "answer": "Kapı adedine göre değişmekle birlikte genellikle 3-4 iş günü sürmektedir."},
+                    {"question": "Evim çok kirlenir mi?", "answer": "Kasalara boya yapılırken maskeleme bandı ve örtü kullanıyoruz. Minimum kirlilikle işlem tamamlanır."}
+                ]
             },
             {
                 "title": "Sandalye ve Masa Boyama",
                 "slug": "sandalye-ve-masa-boyama-yenileme",
                 "image": "uploads/services/sandalye-masa-boyama.jpg",
-                "seo_title": "Yemek Masası ve Sandalye Boyama | Cila ve Yenileme",
-                "seo_description": "Eskiyen masa ve sandalyelerinizi atmayın, yenileyelim. Yemek odası takımları için profesyonel boya ve cila hizmeti.",
-                "focus_keywords": ["masa boyama", "sandalye boyama", "mobilya geri dönüşüm", "masa sandalye yenileme"],
+                "seo_title": "Yemek Masası ve Sandalye Boyama | Gomalak Cila ve Lake",
+                "seo_description": "Eskiyen yemek odası takımınızı yeniliyoruz. Masa sandalye boyama, ayak renk değişimi ve kırık tamiratı. Modoko ustalarından profesyonel çözüm.",
+                "focus_keywords": ["sandalye boyama", "masa boyama", "yemek odası yenileme", "mobilya cila", "sandalye ayak boyama"],
                 "icon": "fas fa-chair",
-                "short_description": "Yemek masası ve sandalyelerinizi yeniden canlandırıyoruz. Cila, boya ve döşeme değişimi ile komple yenileme.",
+                "short_description": "Yemek masası ve sandalyelerinizi atmayın! Kırıklarını onarıyor, cilasını yeniliyor veya modern renklere boyayarak takımınızı baştan yaratıyoruz.",
                 "description": """
-                    <h2>Masa ve Sandalye Yenileme Hizmeti</h2>
-                    <p>Değerli yemek odası takımlarınızı atmayın! Profesyonel ekibimiz ile masa ve sandalyelerinizi yepyeni hale getiriyoruz.</p>
-                    
-                    <h3>Sunduğumuz Hizmetler</h3>
+                    <h2>Yemek Odası Takımlarınızı Yeniliyoruz</h2>
+                    <p>Kaliteli ahşap masa ve sandalyeler günümüzde servet değerinde. Eskiyen veya renginden sıkıldığınız yemek odası takımınızı değiştirmek yerine yenileyerek hem bütçenizi koruyun hem de antika değerindeki eşyalarınıza sahip çıkın.</p>
+
+                    <h3>Neler Yapıyoruz?</h3>
                     <ul>
-                        <li><strong>Komple Boyama:</strong> İstediğiniz renkte boyama</li>
-                        <li><strong>Cila Yenileme:</strong> Ahşap görünümü koruyarak cila</li>
-                        <li><strong>Döşeme Değişimi:</strong> Sandalye kumaş ve sünger değişimi</li>
-                        <li><strong>Tamir:</strong> Sallanma ve kırık onarımı</li>
+                        <li><strong>Masa Yüzey Yenileme:</strong> Masanızın üstündeki sıcak bardak izlerini, çizikleri ve vernik yanıklarını yok ediyoruz.</li>
+                        <li><strong>Renk Değişimi:</strong> Koyu kahve takımları beyaz, krem veya antrasit gibi modern renklere dönüştürüyoruz.</li>
+                        <li><strong>Sandalye Sağlamlaştırma:</strong> Sallanan sandalye ayaklarını tutkallayıp işkence ile sıkıştırarak ilk günkü sağlamlığına getiriyoruz.</li>
+                        <li><strong>Torna Ayak Boyama:</strong> Klasik oymalı ayaklara varak, eskitme veya lake uygulamaları yapıyoruz.</li>
                     </ul>
                 """,
+                "custom_features": ["Gomalak ve Lake Cila", "Sandalye Tutkallama", "Torna Ayak İşçiliği", "Masa Üstü Koruyucu Vernik", "Nakliye Hizmeti"],
+                "steps": [
+                    {"step_number": 1, "title": "Teslim Alma", "description": "Masa ve sandalyelerinizi evinizden teslim alıp atölyemize götürüyoruz."},
+                    {"step_number": 2, "title": "Ham Haline Getirme", "description": "Eski vernik ve boya tamamen kazınarak (sistre) ahşabın ham dokusu ortaya çıkarılır."},
+                    {"step_number": 3, "title": "Tamirat", "description": "Sallanan ayaklar sağlamlaştırılır, derin çizikler dolgu verniği veya macun ile kapatılır."},
+                    {"step_number": 4, "title": "Renk ve Cila", "description": "Seçtiğiniz renkte boyama yapılır veya ahşabın doğal rengini koruyan şeffaf koruyucu cila atılır."},
+                    {"step_number": 5, "title": "Paketleme ve Teslim", "description": "Ürünler çizilmeye karşı balonlu naylonla paketlenir ve evinize teslim edilir."}
+                ],
+                "faqs": [
+                    {"question": "Masamın üzerindeki beyaz halka lekeleri geçer mi?", "answer": "Evet, zımpara ve sistre işlemi ile yüzey tamamen temizlendiği için tüm lekeler yok olur."},
+                    {"question": "Sandalyelerim çok sallanıyor, tamir edilebilir mi?", "answer": "Evet, boya öncesi iskelet tamiri yapıyor, birleşim yerlerini yeniden tutkallıyoruz."},
+                    {"question": "Sadece ayakları boyatabilir miyim?", "answer": "Evet, örneğin masa tab tablası ahşap kalıp, ayakları beyaza boyanarak 'Country' tarzı elde edilebilir."},
+                    {"question": "Döşeme değişimi de yapıyor musunuz?", "answer": "Evet, 'Döşeme Yüzü Değişimi' hizmetimizle kombine olarak kumaş değişimi de yapıyoruz."},
+                    {"question": "Nakliye ücretli mi?", "answer": "İstanbul Anadolu yakası ve belirli bölgelere ücretsiz nakliye hizmetimiz vardır."}
+                ]
             },
             {
                 "title": "Döşeme Yüzü Değişimi",
                 "slug": "mobilya-doseme-yuzu-degisimi",
                 "image": "uploads/services/doseme-degisimi.jpg",
-                "seo_title": "Koltuk ve Sandalye Döşeme Yüzü Değişimi",
-                "seo_description": "Mobilyalarınızın kumaş ve süngerlerini yeniliyoruz. Sandalye, koltuk ve berjer döşeme yüzü değişimi ile yepyeni görünüm.",
-                "focus_keywords": ["koltuk döşeme", "sandalye kılıfı değişimi", "mobilya kumaş değişimi", "döşemelik kumaş"],
+                "seo_title": "Koltuk ve Sandalye Döşeme Yüzü Değişimi | Kumaş Yenileme",
+                "seo_description": "Eskiyen koltuk ve sandalyelerinizin kumaşını değiştiriyoruz. Modoko kalitesinde döşeme işçiliği, nubuk, keten, kadife kumaş seçenekleri.",
+                "focus_keywords": ["koltuk döşeme", "sandalye yüz değişimi", "berjer kaplama", "döşemelik kumaş", "koltuk yenileme"],
                 "icon": "fas fa-couch",
-                "short_description": "Koltuk, sandalye ve berjer döşemelerinizi değiştiriyoruz. Geniş kumaş seçenekleri ile zevkinize uygun döşeme.",
+                "short_description": "Mobilyalarınızın iskeleti sağlamsa, sadece yüzünü değiştirerek yeni gibi yapın. Yüzlerce kumaş seçeneği ve sünger değişimi ile konforu artırın.",
                 "description": """
-                    <h2>Döşeme Yüzü Değişimi</h2>
-                    <p>Mobilyalarınızın iskeleti sağlam ama kumaşı eskidi mi? Döşeme yüzü değişimi ile mobilyalarınıza yeni bir hayat verin.</p>
-                    
-                    <h3>Değiştirdiğimiz Döşemeler</h3>
+                    <h2>Mobilyalarınıza Yeni Bir Dokunuş</h2>
+                    <p>Koltuklarınızın kumaşı yıprandı mı? Kediniz tırmaladı mı? Yoksa renginden mi sıkıldınız? EB Dekorasyon olarak, koltuk, berjer ve sandalyelerinizin döşemesini profesyonelce yeniliyoruz.</p>
+
+                    <h3>Kumaş Seçeneklerimiz</h3>
                     <ul>
-                        <li>Koltuk takımı döşemesi</li>
-                        <li>Sandalye oturma kısmı</li>
-                        <li>Berjer ve tekli koltuk</li>
-                        <li>Yatak başlığı döşemesi</li>
-                        <li>Puf ve ottoman kaplama</li>
+                        <li><strong>Silinebilir Kumaşlar:</strong> Leke tutmayan, teknolojik kumaşlar.</li>
+                        <li><strong>Keten Dokular:</strong> Doğal ve ferah bir görünüm için.</li>
+                        <li><strong>Nubuk ve Deri:</strong> Şık ve ağır duruşlu mekanlar için.</li>
+                        <li><strong>Kadife:</strong> Yumuşak ve lüks bir his için.</li>
                     </ul>
-                    
-                    <h3>Kumaş Seçenekleri</h3>
-                    <p>Kadife, keten, deri ve microfiber gibi geniş kumaş seçeneklerimiz mevcuttur. Leke tutmayan ve kolay temizlenen kumaşlar önerilir.</p>
+
+                    <h3>Sünger Değişimi</h3>
+                    <p>Sadece kumaşı değil, çökmüş oturma süngerlerini de yüksek dansiteli (32 DNS ve üzeri) gri süngerlerle değiştirerek konforunuzu ilk günkü haline getiriyoruz.</p>
                 """,
+                "custom_features": ["32 DNS Sünger", "Silinebilir Kumaşlar", "İskelet Güçlendirme", "Beriye ve Kapitone İşçiliği", "Adresten Alım Teslim"],
+                "steps": [
+                    {"step_number": 1, "title": "Kumaş Seçimi", "description": "Evinize kumaş kartelaları ile geliyoruz. Işık altında mobilyanıza en uygun rengi seçiyorsunuz."},
+                    {"step_number": 2, "title": "Atölyeye Alım", "description": "Mobilyalarınız randevu günü evinizden alınır."},
+                    {"step_number": 3, "title": "Söküm ve Kontrol", "description": "Eski kumaş ve süngerler sökülür. İskelet kontrol edilir, gerekirse tamir edilir."},
+                    {"step_number": 4, "title": "Dikim ve Çakım", "description": "Usta terzilerimizce dikilen yeni kumaşlar, döşeme ustalarımız tarafından gergin ve düzgün şekilde çakılır."},
+                    {"step_number": 5, "title": "Kalite Kontrol ve Teslim", "description": "Son kontroller yapıldıktan sonra paketlenerek teslim edilir."}
+                ],
+                "faqs": [
+                    {"question": "Süngerleri de değiştiriyor musunuz?", "answer": "Evet, çökmüş süngerler isteğiniz üzerine HR veya gri sünger ile yenilenir."},
+                    {"question": "Kumaşı kendim alabilir miyim?", "answer": "Evet, kumaşı siz temin edebilirsiniz, biz sadece işçilik hizmeti verebiliriz."},
+                    {"question": "Ne kadar sürer?", "answer": "Sandalye yüz değişimi 3-4 gün, koltuk takımı değişimi 7-10 gün sürmektedir."},
+                    {"question": "Chester koltuk kaplıyor musunuz?", "answer": "Evet, kapitone (düğmeli) işçiliği gerektiren Chester koltuklarda uzman ekibimiz vardır."},
+                    {"question": "Fiyata kumaş dahil mi?", "answer": "Fiyat tekliflerimiz genellikle 'kumaş dahil' veya 'hariç' olarak ayrı ayrı belirtilir."}
+                ]
             },
             {
                 "title": "Yatak Odası Mobilya Boyama",
                 "slug": "yatak-odasi-mobilya-boyama",
                 "image": "uploads/services/yatak-odasi-boyama-yeni.jpg",
-                "seo_title": "Yatak Odası Takımı Boyama ve Renk Değişimi",
-                "seo_description": "Gardırop, şifonyer ve başlıklarınızı istediğiniz renge boyuyoruz. Yatak odası mobilya yenileme ve renk değişimi.",
-                "focus_keywords": ["yatak odası boyama", "gardırop boyama", "mobilya renk değiştirme", "yatak başlığı yenileme"],
+                "seo_title": "Yatak Odası Takımı Boyama ve Renk Değişimi | Gardırop Yenileme",
+                "seo_description": "Yatak odası mobilyalarınızı boyayarak yeniliyoruz. Gardırop, şifonyer, komodin ve başlık boyama. Koyu renk mobilyadan beyaza dönüş.",
+                "focus_keywords": ["yatak odası boyama", "gardırop boyama", "mobilya renk değiştirme", "yatak başlığı yenileme", "şifonyer boyama"],
                 "icon": "fas fa-bed",
-                "short_description": "Yatak odası takımınızı komple yeniliyoruz. Gardırop, şifonyer, komodin ve başlık boyama hizmeti.",
+                "short_description": "Karanlık yatak odanızı aydınlatın! Eski takımınızı satmakla uğraşmayın, boyatarak modern, ferah ve 'Country' tarzı bir yatak odasına sahip olun.",
                 "description": """
-                    <h2>Yatak Odası Mobilya Boyama</h2>
-                    <p>Yatak odanızı yenilemek için tüm takımı değiştirmenize gerek yok. Boyama ile aynı etkiyi çok daha ekonomik fiyata alın.</p>
-                    
-                    <h3>Boyama Yapılan Parçalar</h3>
+                    <h2>Yatak Odanızda Ferah Bir Başlangıç</h2>
+                    <p>Yatak odası mobilyaları genellikle büyük ve hantal parçalardır. Koyu renkli mobilyalar odayı daha küçük ve basık gösterir. Yatak odası takımı boyama hizmetimizle, mobilyalarınızı mat beyaz, krem, gri veya pastel tonlara boyayarak odanızın havasını tamamen değiştiriyoruz.</p>
+
+                    <h3>Dönüşüm Kapsamı</h3>
                     <ul>
-                        <li>Gardırop (sürgülü ve kapaklı)</li>
-                        <li>Şifonyer ve çekmeceli dolap</li>
-                        <li>Komodin</li>
-                        <li>Yatak başlığı ve karyola</li>
-                        <li>Makyaj masası ve ayna çerçevesi</li>
+                        <li><strong>Gardırop Boyama:</strong> Sürgülü veya kapaklı gardıropların dış yüzeyleri ve görünür yan panelleri.</li>
+                        <li><strong>Şifonyer ve Komodinler:</strong> Çekmece klapaları ve gövdeleri.</li>
+                        <li><strong>Yatak Başlığı:</strong> Ahşap kısımların boyanması veya kumaş kısımlarının değişimi.</li>
+                        <li><strong>Makyaj Masası:</strong> Ayna çerçevesi ve masa yenileme.</li>
                     </ul>
                 """,
+                "custom_features": ["Mat/Parlak Seçeneği", "Kulp Değişimi Desteği", "Antibakteriyel Boya", "Çekmece İçi Temizlik", "Yerinde Montaj"],
+                "steps": [
+                    {"step_number": 1, "title": "Söküm İşlemi", "description": "Dolap kapakları, çekmece önleri ve sökülebilir parçalar kodlanarak sökülür."},
+                    {"step_number": 2, "title": "Atölye Boyama", "description": "Parçalar atölyede zımpara, astar ve son kat boya işlemlerinden geçer."},
+                    {"step_number": 3, "title": "Gövde Boyama (Yerinde)", "description": "Taşınması zor olan büyük gardırop kasaları, evinizde maskeleme yapılarak rulo veya pistole ile boyanır."},
+                    {"step_number": 4, "title": "Kulp Montajı", "description": "Yeni tarzınıza uygun satın aldığınız kulpların delikleri açılır ve takılır."},
+                    {"step_number": 5, "title": "Final", "description": "Tüm parçalar birleştirilir, odanız temizlenerek teslim edilir."}
+                ],
+                "faqs": [
+                    {"question": "Gardırobun içi de boyanıyor mu?", "answer": "Standart hizmetimizde sadece dış görünür yüzeyler boyanır. İç kısımlar genellikle orijinal halinde bırakılır, çünkü eşya sürtünmesi fazladır. Ancak talep edilirse boyanabilir."},
+                    {"question": "Boya kıyafetlerime bulaşır mı?", "answer": "Kesinlikle hayır. Boya tam kuruma sağladıktan sonra teslim edilir ve vernik katı sayesinde hiçbir şey bulaşmaz."},
+                    {"question": "Sürgülü dolap mekanizması bozulur mu?", "answer": "Hayır, mekanizmalar maskelenir veya sökülür, boya temas etmez."},
+                    {"question": "Çocuk odası için boya güvenli mi?", "answer": "Evet, su bazlı ve EN71-3 (oyuncak güvenliği) standartlarına uygun boyalarla çocuk odalarını da boyuyoruz."},
+                    {"question": "Ne kadar sürede biter?", "answer": "Takımın büyüklüğüne göre 3 ile 5 iş günü arasında."}
+                ]
             }
         ]
     },
+    # -------------------------------------------------------------------------
+    # KATEGORİ 2: Tamirat, Tadilat ve Dekorasyon
+    # -------------------------------------------------------------------------
     {
         "category_name": "Tamirat, Tadilat ve Dekorasyon",
         "icon": "fas fa-tools",
@@ -194,124 +234,203 @@ SERVICES_DATA = [
                 "title": "Mutfak Tezgahı Değişimi ve Tamiri",
                 "slug": "mutfak-tezgahi-degisimi-tamiri",
                 "image": "uploads/services/mutfak-tezgahi.jpg",
-                "seo_title": "Mutfak Tezgahı Yenileme ve Tamiratı | Granit & Mermerit",
-                "seo_description": "Çizilen, kırılan veya eskiyen mutfak tezgahınızı yenisiyle değiştiriyoruz veya tamir ediyoruz. Tezgah arası ve tezgah çözümleri.",
-                "focus_keywords": ["mutfak tezgahı değiştirme", "tezgah tamiri", "mutfak tezgah modelleri", "tezgah yenileme"],
-                "icon": "fas fa-sink",
-                "short_description": "Mutfak tezgahı değişimi ve tamiri. Granit, mermerit ve kompakt lam tezgah seçenekleri.",
+                "seo_title": "Mutfak Tezgahı Değişimi | Granit, Cimstone, Belenco, Mermerit",
+                "seo_description": "Çizilen, kırılan mutfak tezgahınızı değiştiriyoruz. Granit, mermerit, çimstone ve ahşap masif tezgah modelleri. Ölçüye özel üretim ve montaj.",
+                "focus_keywords": ["mutfak tezgahı değişimi", "tezgah modelleri", "granit tezgah fiyatları", "belenco tezgah", "ahşap tezgah", "tezgah tamiri"],
+                "icon": "fas fa-layer-group",
+                "short_description": "Mutfağınızın havasını tezgah değişimi ile yenileyin. Granit, Kuvars, Çimstone veya Mermerit seçenekleri. Eskiyi söküp yenisini 1 günde takıyoruz.",
                 "description": """
-                    <h2>Mutfak Tezgahı Değişimi</h2>
-                    <p>Çizilen, leke tutan veya kırılan mutfak tezgahınızı yenisiyle değiştiriyoruz. Ölçüye özel üretim ve montaj hizmeti.</p>
-                    
-                    <h3>Tezgah Türleri</h3>
+                    <h2>Mutfak Tezgahı Çözümleri</h2>
+                    <p>Mutfak dolaplarınız sağlam ama tezgahınız lekeli, çizik veya modası geçmiş mi? Dolapları kırmadan sadece tezgahı değiştirerek mutfağınıza lüks bir görünüm kazandırabilirsiniz.</p>
+
+                    <h3>Tezgah Çeşitlerimiz</h3>
                     <ul>
-                        <li><strong>Granit Tezgah:</strong> Doğal taş görünümü, yüksek dayanıklılık</li>
-                        <li><strong>Mermerit Tezgah:</strong> Ekonomik ve şık çözüm</li>
-                        <li><strong>Kompakt Lam:</strong> Leke tutmayan, hijyenik</li>
-                        <li><strong>Corian:</strong> Derziz görünüm, modern tasarım</li>
+                        <li><strong>Kuvars (Çimstone, Belenco):</strong> Çizilmez, leke tutmaz, hijyenik ve modern görünümlü yapay taşlar.</li>
+                        <li><strong>Granit:</strong> Doğal, ısıya dayanıklı ve eşsiz desenli.</li>
+                        <li><strong>Mermerit:</strong> Ekonomik, döküm yekpare evye ve tezgah seçeneği.</li>
+                        <li><strong>Masif Ahşap:</strong> Doğal ağaçtan (Meşe, İroko) sıcak bir görünüm, özel yağ bakımlı.</li>
                     </ul>
-                    
-                    <h3>Tezgah Arası Çözümleri</h3>
-                    <p>Tezgah arası cam panel, fayans veya kompakt lam uygulaması da yapılmaktadır.</p>
+
+                    <h3>Tezgah Tamiri</h3>
+                    <p>Mermerit veya corian tezgahlarınızdaki çatlakları, yanıkları özel dolgu malzemeleri ve polisaj (zımpara-cila) işlemi ile tamir ediyoruz.</p>
                 """,
-                "custom_features": ["Granit Tezgah", "Mermerit Tezgah", "Tezgah Arası Cam", "Kompakt Lam"],
+                "custom_features": ["Eski Tezgah Sökümü", "Leke Tutmaz Yüzeyler", "Gömme Evye Seçeneği", "Süpürgelik Dahil", "Su Sızdırmazlık Garantisi"],
+                "steps": [
+                    {"step_number": 1, "title": "Ölçü Alımı", "description": "Mevcut dolaplarınızın üzerine lazer metre ile milimetrik ölçü alınır. Evye ve ocak yerleri belirlenir."},
+                    {"step_number": 2, "title": "Kesim ve Hazırlık", "description": "Seçilen taş plakası atölyede CNC makinelerde kesilir, kenar pahlamaları yapılır."},
+                    {"step_number": 3, "title": "Söküm", "description": "Eski tezgahınız dolaplara zarar vermeden dikkatlice sökülür ve evden uzaklaştırılır."},
+                    {"step_number": 4, "title": "Montaj", "description": "Yeni tezgah yerleştirilir. Ekyerleri (varsa) özel yapıştırıcılarla birleştirilir, evye ve ocak montajı yapılır."},
+                    {"step_number": 5, "title": "Silikon ve Teslim", "description": "Duvar dipleri antibakteriyel silikon ile kapatılır ve kullanıma hazır teslim edilir."}
+                ],
+                "faqs": [
+                    {"question": "Tezgah değişimi ne kadar sürer?", "answer": "Ölçü alındıktan sonra imalat 3-7 gün sürer. Evinizdeki montaj işlemi ise sadece 2-3 saatte biter."},
+                    {"question": "Hangi tezgah daha dayanıklı?", "answer": "Kuvars (Çimstone/Belenco) ve Granit en dayanıklı malzemelerdir. Mermerit daha ekonomiktir ancak ısıya karşı daha hassastır."},
+                    {"question": "Evyeyi de değiştiriyor musunuz?", "answer": "Evet, isterseniz yeni krom veya granit evye temin edip montajını yapıyoruz."},
+                    {"question": "Tezgah arası fayanslar zarar görür mü?", "answer": "Genellikle zarar görmeden sökülür. Ancak tezgah kalınlığı değişirse süpürgelik ile aradaki boşluk kapatılır."},
+                    {"question": "Masif tezgah suya dayanıklı mı?", "answer": "Özel tik yağı (teak oil) ve vernik uygulamaları ile suya dayanıklı hale getirilir ancak düzenli bakım ister."}
+                ]
             },
             {
                 "title": "TV Ünitesi ve Duvar Dekorasyonu",
                 "slug": "tv-unitesi-ve-duvar-dekorasyonu",
                 "image": "uploads/services/tv-unitesi-dekor.jpg",
-                "seo_title": "TV Arkası Duvar Dekorasyonu ve Ünite Tasarımı",
-                "seo_description": "Salonunuzun havasını değiştirin. Özel tasarım TV ünitesi, çıtalama ve TV arkası duvar dekorasyon uygulamaları.",
-                "focus_keywords": ["tv ünitesi modelleri", "tv arkası dekor", "duvar çıtalama", "tv duvar dekorasyonu"],
+                "seo_title": "Özel Tasarım TV Ünitesi ve Çıtalama Duvar Dekorasyonu",
+                "seo_description": "Salonunuz için modern TV ünitesi tasarımları, duvar çıtalama, LED ışıklı paneller ve dekoratif boya uygulamaları. Kişiye özel üretim.",
+                "focus_keywords": ["tv ünitesi modelleri", "duvar çıtalama", "tv arkası duvar kağıdı", "tv ünitesi tasarım", "salon dekorasyonu"],
                 "icon": "fas fa-tv",
-                "short_description": "TV ünitesi tasarımı ve duvar dekorasyonu. Çıtalama, LED aydınlatma ve özel tasarım üniteler.",
+                "short_description": "Salonunuzun odak noktasını tasarlıyoruz. Size özel ölçülerde TV ünitesi, duvar çıtalama, mermer görünümlü paneller ve şömine uygulamaları.",
                 "description": """
-                    <h2>TV Ünitesi ve Duvar Dekorasyonu</h2>
-                    <p>Salonunuzun odak noktası olan TV alanını profesyonelce tasarlıyoruz. Özel üretim TV üniteleri ve dekoratif duvar panelleri.</p>
-                    
-                    <h3>Uygulama Seçenekleri</h3>
+                    <h2>Salonunuzun Havasını Değiştirin</h2>
+                    <p>Standart mobilya mağazalarındaki hazır ölçü TV üniteleri salonunuza uymuyor mu? Duvarınızın boydan boya değerlendirildiği, depolama alanı sunan ve estetik duran özel tasarım çözümler sunuyoruz.</p>
+
+                    <h3>Neler Yapıyoruz?</h3>
                     <ul>
-                        <li>Özel tasarım TV ünitesi</li>
-                        <li>Duvar çıtalama (ahşap ve MDF)</li>
-                        <li>LED şerit aydınlatma</li>
-                        <li>Dekoratif duvar paneli</li>
-                        <li>Şömine görünümlü TV ünitesi</li>
+                        <li><strong>Duvar Çıtalama:</strong> Klasik ve modern tarzda poliüretan veya ahşap çıta uygulamaları.</li>
+                        <li><strong>Özel Üretim TV Ünitesi:</strong> Yerinize tam ölçü, kapaklı dolaplar, raflar ve çekmeceler.</li>
+                        <li><strong>TV Arkası Dekorasyon:</strong> Doğal taş, mermer görünümlü PVC panel, patlatma taş veya duvar kağıdı uygulamaları.</li>
+                        <li><strong>Elektrikli Şömine Entegrasyonu:</strong> TV ünitesinin altına yapay alevli şömine hazneleri.</li>
+                        <li><strong>Gizli LED Aydınlatma:</strong> Raf altlarında veya panel arkasında ambiyans ışıklandırması.</li>
                     </ul>
                 """,
+                "custom_features": ["3D Çizim ve Sunum", "Gizli Kablo Kanalları", "LED Aydınlatma Entegrasyonu", "Özel Ölçü Üretim", "Duvar Güçlendirme"],
+                "steps": [
+                    {"step_number": 1, "title": "Keşif ve Tasarım", "description": "Duvarınızın ölçüsü alınır. İsteklerinize göre 3 boyutlu tasarım çizilir ve onayınıza sunulur."},
+                    {"step_number": 2, "title": "Üretim", "description": "Onaylanan proje, atölyemizde MDF veya istenilen malzemeden üretilir. Boya işlemi yapılır."},
+                    {"step_number": 3, "title": "Altyapı Hazırlığı", "description": "Duvarınızda gerekli elektrik priz yerleri taşınır, TV askı aparatı için güçlendirme yapılır."},
+                    {"step_number": 4, "title": "Montaj", "description": "Ünitelerin ve duvar panellerinin montajı titizlikle yapılır."},
+                    {"step_number": 5, "title": "TV Kurulumu", "description": "Televizyonunuz yerine asılır, kablolar gizlenir ve sistem çalışır halde teslim edilir."}
+                ],
+                "faqs": [
+                    {"question": "TV ünitesi duvara mı monte ediliyor?", "answer": "Modeline göre değişir; bazıları tamamen asma (yüzer) modüllerdir, bazıları zeminle temas eder. Duvarınızın sağlamlığı (tuğla, alçıpan) kontrol edilir."},
+                    {"question": "Çıtalama işlemi boya gerektirir mi?", "answer": "Evet, çıtalar yapıştırıldıktan sonra duvarla bütünleşmesi için komple boyanırsa en iyi sonuç alınır."},
+                    {"question": "Kablolar nasıl gizleniyor?", "answer": "Panel arkasından veya duvar içinden kanal açılarak tüm kablo karmaşası yok edilir."},
+                    {"question": "Ne kadar sürede teslim edilir?", "answer": "Özel imalat mobilyalar 10-15 gün, sadece çıtalama veya panel işlemleri 1-2 gün sürer."},
+                    {"question": "Şömine ısıtıyor mu?", "answer": "Kullandığımız elektrikli şöminelerin hem görsel alev efekti hem de ısıtma fanı özelliği vardır."}
+                ]
             },
             {
                 "title": "Kafe İçi Dekorasyon ve Tasarım",
                 "slug": "kafe-ici-dekorasyon-tasarim",
                 "image": "uploads/services/kafe-dekorasyon.jpg",
-                "seo_title": "Anahtar Teslim Kafe ve Restoran Dekorasyonu",
-                "seo_description": "İşletmeniz için modern ve müşteri çeken tasarımlar. Kafe içi mobilya, duvar ve konsept dekorasyon uygulamaları.",
-                "focus_keywords": ["kafe dekorasyonu", "kafe iç mimari", "restoran tasarımı", "konsept kafe dizaynı"],
+                "seo_title": "Anahtar Teslim Kafe ve Restoran Dekorasyonu | İç Mimarlık",
+                "seo_description": "Kafe, restoran ve ofisler için konsept tasarım ve uygulama. Mobilya, sedir, bar bankosu ve duvar dekorasyonu. Müşteri çeken mekanlar yaratıyoruz.",
+                "focus_keywords": ["kafe dekorasyonu", "restoran iç mimarı", "kafe mobilyaları", "sedir koltuk", "bar bankosu yapımı", "konsept kafe tasarım"],
                 "icon": "fas fa-coffee",
-                "short_description": "Kafe ve restoran dekorasyonu. Konsept tasarım, mobilya üretimi ve anahtar teslim uygulama.",
+                "short_description": "İşletmenizi müşterilerin fotoğraf çekip paylaşacağı bir mekana dönüştürüyoruz. Konsept proje, özel otuma grupları, aydınlatma ve anahtar teslim uygulama.",
                 "description": """
-                    <h2>Kafe ve Restoran Dekorasyonu</h2>
-                    <p>İşletmenizi müşteri çeken bir mekana dönüştürüyoruz. Konsept tasarımdan uygulamaya kadar anahtar teslim hizmet.</p>
-                    
-                    <h3>Hizmet Kapsamı</h3>
+                    <h2>Başarılı Bir Mekan Tasarımla Başlar</h2>
+                    <p>Yiyecek ve içecek kalitesi kadar, mekanın atmosferi de müşteri sadakati için kritiktir. EB Dekorasyon olarak, işletmenizin kimliğini yansıtan, ergonomik ve instagram-dostu mekanlar tasarlıyoruz.</p>
+
+                    <h3>Hizmetlerimiz</h3>
                     <ul>
-                        <li>Konsept tasarım ve 3D görselleştirme</li>
-                        <li>Özel üretim masa ve sandalye</li>
-                        <li>Bar tezgahı ve vitrin</li>
-                        <li>Duvar paneli ve aydınlatma</li>
-                        <li>Tabela ve branding çalışması</li>
+                        <li><strong>Konsept Geliştirme:</strong> Industrial, Bohemian, Minimalist veya Klasik tarzda kimlik oluşturma.</li>
+                        <li><strong>Özel Mobilya Üretimi:</strong> Ölçüye özel sedir koltuklar, mermer veya ahşap masalar, sandalyeler.</li>
+                        <li><strong>Bar ve Servis Bankosu:</strong> Fonksiyonel ve şık bar bölümleri.</li>
+                        <li><strong>Zemin ve Tavan:</strong> Epoksi zemin, asma tavan, sarkıt aydınlatma sistemleri.</li>
+                        <li><strong>Tabela ve Branding:</strong> İç mekan yönlendirmeleri ve logo uygulamaları.</li>
                     </ul>
                 """,
-                "custom_features": ["3D Tasarım", "Anahtar Teslim", "Özel Üretim Mobilya", "Branding"],
+                "custom_features": ["Ticari Alan Uzmanlığı", "Ergonomik Yerleşim Planı", "Akustik Çözümler", "Hızlı Uygulama (Gece Çalışması)", "Dayanıklı Malzeme Seçimi"],
+                "steps": [
+                    {"step_number": 1, "title": "Bütçe ve İhtiyaç Analizi", "description": "Menünüze, hedef kitlenize ve bütçenize uygun konsepti belirliyoruz."},
+                    {"step_number": 2, "title": "Projelendirme", "description": "Mekanın 2D yerleşimi ve 3D görselleri hazırlanır. Malzeme seçimleri yapılır."},
+                    {"step_number": 3, "title": "İmalat", "description": "Mobilyalar atölyemizde, metal ve ahşap aksamlar fabrikamızda üretilir."},
+                    {"step_number": 4, "title": "Şantiye Uygulaması", "description": "Tadilat, boya, elektrik ve su tesisatı işlemleri yürütülür."},
+                    {"step_number": 5, "title": "Kurulum ve Açılış", "description": "Mobilya montajı, detay temizlik ve son dekoratif dokunuşlar yapılarak mekan açılışa hazır hale getirilir."}
+                ],
+                "faqs": [
+                    {"question": "Sadece mobilya yapıyor musunuz?", "answer": "Evet, projeniz hazırsa sadece masa, sandalye, sedir imalatı da yapıyoruz."},
+                    {"question": "Mevcut kafemi yenilemek istiyorum, dükkanı kapatmam gerekir mi?", "answer": "Kısmi yenilemelerde (sandalye yüz değişimi, boya vb.) gece çalışarak dükkanın çalışmasına engel olmadan ilerleyebiliriz."},
+                    {"question": "Proje çizim ücreti var mı?", "answer": "Uygulamayı biz yapacaksak proje ücreti almıyoruz veya fiyattan düşüyoruz."},
+                    {"question": "Hangi şehirlerde hizmet veriyorsunuz?", "answer": "Ağırlıklı İstanbul olmak üzere çevre illere de proje bazlı hizmet veriyoruz."},
+                    {"question": "Küçük m2 dükkanlar için çözümünüz var mı?", "answer": "Evet, dar alanları ayna ve doğru yerleşimle daha ferah ve kapasiteli hale getirmekte uzmanız."}
+                ]
             },
             {
                 "title": "Mobilya Tamiratı ve Bakımı",
                 "slug": "mobilya-tamirati-ve-bakimi",
                 "image": "uploads/services/mobilya-tamir.jpg",
-                "seo_title": "Yerinde Mobilya Tamiratı ve Montaj Hizmeti",
-                "seo_description": "Kırılan menteşeler, raylar veya ahşap parçalar için tamirat hizmeti. Her türlü mobilya tamiri ve bakımı yapılır.",
-                "focus_keywords": ["mobilya tamiri", "dolap tamiri", "ray değişimi", "mobilya ustası"],
+                "seo_title": "Yerinde Mobilya Tamiri ve Montajı | Dolap Ray Kapak Tamiri",
+                "seo_description": "Kırılan menteşeler, düşen kapaklar, bozulan çekmece rayları... Mobilyalarınızdaki her türlü arızayı evinizde veya atölyemizde tamir ediyoruz.",
+                "focus_keywords": ["mobilya tamiri", "dolap tamircisi", "sürgülü dolap tamiri", "çekmece ray değişimi", "mobilya montaj ustası"],
                 "icon": "fas fa-wrench",
-                "short_description": "Mobilya tamiri ve bakımı. Menteşe, ray değişimi, ahşap onarımı ve montaj hizmetleri.",
+                "short_description": "Kırık sandalye bacağı, çalışmayan çekmece, kapanmayan dolap kapağı... Ufak sorunlar için mobilyanızı atmayın. Profesyonel tamir ekibimizle hızlı çözüm.",
                 "description": """
-                    <h2>Mobilya Tamiratı Hizmeti</h2>
-                    <p>Kırılan, bozulan veya işlevini yitiren mobilyalarınızı tamir ediyoruz. Yerinde veya atölyede servis.</p>
-                    
+                    <h2>Mobilyalarınızın Ömrünü Uzatın</h2>
+                    <p>Mobilyalar zamanla mekanik arızalar verebilir. Sürgülü dolap kapaklarının raydan çıkması, menteşelerin yerinden oynaması veya çekmecelerin takılması sık görülen sorunlardır. Bu sorunlar için mobilyanızı değiştirmenize gerek yok.</p>
+
                     <h3>Tamir Hizmetlerimiz</h3>
                     <ul>
-                        <li>Menteşe ve ray değişimi</li>
-                        <li>Kapak ayarı ve montajı</li>
-                        <li>Ahşap kırık onarımı</li>
-                        <li>Çizik ve leke giderme</li>
-                        <li>Kilit ve kulp değişimi</li>
-                        <li>Mobilya demontaj ve montaj</li>
+                        <li><strong>Sürgülü Dolap Tamiri:</strong> Tekerlek mekanizması değişimi, ray değişimi, stop ayarı.</li>
+                        <li><strong>Menteşe Değişimi:</strong> Bozulan, ses yapan menteşelerin frenli menteşelerle değişimi.</li>
+                        <li><strong>Çekmece Rayı Değişimi:</strong> Teleskopik veya bilyalı yeni ray montajı.</li>
+                        <li><strong>Kırık Onarımı:</strong> Sandalye bacağı, masa ayağı gibi ahşap kırıklarının tutkallanması.</li>
+                        <li><strong>Montaj/Demontaj:</strong> Taşınma veya oda değişikliği için dolapların sökülüp kurulması.</li>
                     </ul>
                 """,
+                "custom_features": ["Yerinde Servis", "Orijinal Yedek Parça", "Frenli Menteşe Dönüşümü", "Hızlı Müdahale", "Ekonomik Fiyat"],
+                "steps": [
+                    {"step_number": 1, "title": "Sorun Tespiti", "description": "WhatsApp üzerinden gönderdiğiniz fotoğraf/video ile veya yerinde sorun tespit edilir."},
+                    {"step_number": 2, "title": "Malzeme Temini", "description": "Gerekli mekanizma, tekerlek, kulp veya menteşeler tedarik edilir."},
+                    {"step_number": 3, "title": "Tamir İşlemi", "description": "Uzman ustamız evinizde tamiratı gerçekleştirir. Atölye gerektiren işlerde parça alınır."},
+                    {"step_number": 4, "title": "Ayar ve Yağlama", "description": "Sadece bozuk parça değil, diğer hareketli aksamların da ayarları yapılır ve yağlanır."},
+                    {"step_number": 5, "title": "Teslim", "description": "Mobilya sorunsuz çalışır vaziyette teslim edilir."}
+                ],
+                "faqs": [
+                    {"question": "Servis ücretiniz var mı?", "answer": "Evet, yerinde tespit ve küçük tamirler için standart bir servis ücretimiz vardır. Parça değişimi ekstra ücretlendirilir."},
+                    {"question": "Ray dolap kapaklarım çok ağır, kapanmıyor. Çözüm var mı?", "answer": "Evet, mekanizmalar zamanla yorulur. Yüksek taşıma kapasiteli yeni nesil tekerleklerle kapakları kuş tüyü gibi hafifletiyoruz."},
+                    {"question": "IKEA mobilyası montajı yapıyor musunuz?", "answer": "Evet, kutulu mobilyaların kurulumunu profesyonelce yapıyoruz."},
+                    {"question": "Hemen geliyor musunuz?", "answer": "Randevu sistemi ile çalışıyoruz ancak acil durumlar için (kapağın üzerine düşmesi vb.) aynı gün servis vermeye çalışıyoruz."},
+                    {"question": "Tamir edilen yer garanti kapsamında mı?", "answer": "Değiştirdiğimiz mekanik parçalara üretici garantisi, işçiliğimize de servis garantisi veriyoruz."}
+                ]
             },
             {
                 "title": "Ev İçi Genel Dekorasyon",
                 "slug": "ev-ici-genel-dekorasyon",
                 "image": "uploads/services/ev-dekorasyon.jpg",
-                "seo_title": "Ev İçi Dekorasyon ve Tadilat Çözümleri",
-                "seo_description": "Evinizin tüm alanları için dekoratif çözümler. Koridor, antre ve oda dekorasyonları ile yaşam alanınızı güzelleştirin.",
-                "focus_keywords": ["ev dekorasyonu", "iç mimari dekorasyon", "ev yenileme fikirleri", "modern ev tasarımı"],
+                "seo_title": "Anahtar Teslim Ev Tadilatı ve Dekorasyon | İç Mimar Desteği",
+                "seo_description": "Komple ev tadilatı, banyo & mutfak yenileme, boya badana, alçıpan ve parke işleri. Tek muhatap, garantili işçilik ve zamanında teslimat.",
+                "focus_keywords": ["ev tadilatı", "anahtar teslim dekorasyon", "komple ev yenileme", "iç mimarlık ofisi", "ev dekorasyon fikirleri"],
                 "icon": "fas fa-home",
-                "short_description": "Ev içi dekorasyon çözümleri. Salon, yatak odası, koridor ve antre için özel tasarımlar.",
+                "short_description": "Evinizi baştan aşağı yeniliyoruz. Projelendirme, kırım-döküm, tesisat, boya, mobilya ve temizlik... Tüm süreç tek elden, profesyonel yönetimle.",
                 "description": """
-                    <h2>Ev İçi Dekorasyon</h2>
-                    <p>Evinizin her köşesini sizin için tasarlıyoruz. Modern, şık ve fonksiyonel dekorasyon çözümleri.</p>
-                    
-                    <h3>Uygulama Alanları</h3>
+                    <h2>Hayalinizdeki Eve Kavuşun</h2>
+                    <p>Parça parça ustalarla uğraşmak, maliyet hesaplarını şaşırmak ve uzayan tadilat süreçleri kabusunuz olmasın. EB Dekorasyon, "Anahtar Teslim" mantığıyla, A'dan Z'ye tüm ev yenileme sürecinizi yönetir.</p>
+
+                    <h3>Neler Yapıyoruz?</h3>
+                    <p>Banyo yenilemeden salona, mutfaktan yatak odasına kadar komple çözüm:</p>
                     <ul>
-                        <li>Salon ve oturma odası dekorasyonu</li>
-                        <li>Yatak odası tasarımı</li>
-                        <li>Antre ve koridor düzenlemesi</li>
-                        <li>Çocuk odası tasarımı</li>
-                        <li>Banyo dekorasyonu</li>
+                        <li><strong>İnşaat İşleri:</strong> Duvar kırma, örme, moloz atımı.</li>
+                        <li><strong>Tesisat:</strong> Elektrik ve su tesisatının yenilenmesi.</li>
+                        <li><strong>Yüzeyler:</strong> Seramik, fayans, parke, boya ve duvar kağıdı.</li>
+                        <li><strong>Tavan:</strong> Asma tavan, gergi tavan, kartonpiyer ve LED havuzları.</li>
+                        <li><strong>Mobilya:</strong> Mutfak dolabı, banyo dolabı, portmanto ve kapılar.</li>
                     </ul>
+
+                    <h3>Neden Anahtar Teslim?</h3>
+                    <p>Tek bir sorumlu ile muhatap olursunuz. İş programı bellidir, sürpriz maliyetler çıkmaz. Uyumlu bir ekip çalıştığı için işler birbirini beklemez, hızlı biter.</p>
                 """,
+                "custom_features": ["3D Görselleştirme", "Sabit Fiyat Garantisi", "Sözleşmeli Çalışma", "Zamanında Teslim", "İş Sonrası Temizlik"],
+                "steps": [
+                    {"step_number": 1, "title": "Keşif ve İstekler", "description": "Evinizi geziyor, ihtiyaçlarınızı ve hayallerinizi dinliyoruz. Bütçe aralığınızı belirliyoruz."},
+                    {"step_number": 2, "title": "Planlama ve Teklif", "description": "Yapılacak işlerin listesi, kullanılacak malzemeler ve net fiyat teklifi sunulur."},
+                    {"step_number": 3, "title": "Sözleşme ve Başlangıç", "description": "Karar verildikten sonra iş takvimi ve ödeme planını içeren sözleşme imzalanır."},
+                    {"step_number": 4, "title": "Uygulama", "description": "Kırım işleriyle başlar, sırasıyla tesisat, alçı, boya, zemin ve mobilya montajı ile devam eder."},
+                    {"step_number": 5, "title": "Teslim", "description": "İnşaat temizliği yapılır, tüm sistemler test edilir ve anahtarınız size teslim edilir."}
+                ],
+                "faqs": [
+                    {"question": "2+1 ev tadilatı ne kadar tutar?", "answer": "Kullanılacak malzemenin kalitesine (fayans, parke, dolap vb.) ve yapılacak işin kapsamına göre çok değişkenlik gösterir. Ücretsiz keşif sonrası net fiyat verebiliriz."},
+                    {"question": "Tadilat ne kadar sürer?", "answer": "Komple ev tadilatları genellikle 30-45 gün arasında tamamlanır."},
+                    {"question": "Taksit imkanı var mı?", "answer": "Kredi kartına taksit seçeneklerimiz veya anlaşmalı bankalarla finansman çözümlerimiz mevcuttur."},
+                    {"question": "Evde eşya varken tadilat olur mu?", "answer": "Komple tadilatta eşyaların boşaltılması gerekir. Kısmi tadilatta (sadece banyo gibi) eşyalar korunarak çalışılabilir."},
+                    {"question": "Garanti veriyor musunuz?", "answer": "Evet, yaptığımız tüm uygulamalar (tesisat, boya, mobilya) firmamız garantisi altındadır."}
+                ]
             }
         ]
     },
+    # -------------------------------------------------------------------------
+    # KATEGORİ 3: Zemin ve Parke Sistemleri
+    # -------------------------------------------------------------------------
     {
         "category_name": "Zemin ve Parke Sistemleri",
         "icon": "fas fa-layer-group",
@@ -320,311 +439,239 @@ SERVICES_DATA = [
                 "title": "Laminant Parke Döşeme",
                 "slug": "laminant-parke-doseme",
                 "image": "uploads/services/laminant-parke.jpg",
-                "seo_title": "Laminant Parke Döşeme ve Tamiratı | Tüm Renkler",
-                "seo_description": "Evinizin zeminini baştan yaratın. Geniş renk seçenekleriyle kaliteli laminant parke satışı ve montajı.",
-                "focus_keywords": ["parke döşeme", "laminant parke fiyatları", "zemin kaplama", "parke ustası"],
+                "seo_title": "Laminant Parke Döşeme Fiyatları ve Modelleri | Zemin Kaplama",
+                "seo_description": "Ev ve ofisler için AGT, Çamsan, Vario marka laminant parke satışı ve montajı. Derzli, derzsiz, suya dayanıklı parke seçenekleri. Ücretsiz keşif.",
+                "focus_keywords": ["laminant parke çeşitleri", "parke döşeme ustası", "derzli parke modelleri", "suya dayanıklı parke", "zemin yenileme"],
                 "icon": "fas fa-th-large",
-                "short_description": "Laminant parke satış ve döşeme. AC3, AC4 ve AC5 sınıflarında geniş renk ve desen seçenekleri.",
+                "short_description": "Zemininizi ısıtın ve güzelleştirin. En kaliteli markaların yüzlerce renk seçeneği ile anahtar teslim parke döşeme hizmeti. Süpürgelik ve şilte dahil.",
                 "description": """
-                    <h2>Laminant Parke Döşeme</h2>
-                    <p>Evinizin zeminini yeniden tasarlıyoruz. Kaliteli ve dayanıklı laminant parke çözümleri.</p>
-                    
-                    <h3>Parke Özellikleri</h3>
+                    <h2>Zeminde Şıklık ve Dayanıklılık</h2>
+                    <p>Laminant parke, hem ekonomik hem de estetik olması nedeniyle en çok tercih edilen zemin malzemesidir. EB Dekorasyon olarak, Türkiye'nin en iyi markalarının (AGT, Çamsan, Yıldız Entegre) bayiliğini ve uygulamasını yapıyoruz.</p>
+
+                    <h3>Parke Seçerken Nelere Dikkat Edilmeli?</h3>
                     <ul>
-                        <li><strong>AC3:</strong> Ev kullanımı için ekonomik seçenek</li>
-                        <li><strong>AC4:</strong> Yoğun ev kullanımı ve hafif ticari alan</li>
-                        <li><strong>AC5:</strong> Ticari alanlar için yüksek dayanıklılık</li>
+                        <li><strong>Sınıfı (Devir):</strong> Evler için 31. Sınıf (AC3), ofisler için 32. Sınıf (AC4) veya 33. Sınıf (AC5) tercih edilmelidir.</li>
+                        <li><strong>Derzli/Derzsiz:</strong> Derzli (V oluklu) parkeler ahşap hissiyatını daha çok verir ve mekanı geniş gösterir.</li>
+                        <li><strong>Kalınlık:</strong> 8mm standarttır, 10mm ve 12mm daha tok bir ses ve ısı yalıtımı sağlar.</li>
                     </ul>
-                    
-                    <h3>Uygulama Süreci</h3>
-                    <ol>
-                        <li>Zemin hazırlığı ve tesviye</li>
-                        <li>Nem bariyeri serilmesi</li>
-                        <li>Parke döşeme</li>
-                        <li>Süpürgelik montajı</li>
-                        <li>Eşik profili uygulaması</li>
-                    </ol>
+
+                    <h3>Hizmet Paketimiz</h3>
+                    <p>Parke m2 fiyatlarımıza genellikle; parke, 2mm şilte, 6cm süpürgelik ve profesyonel montaj işçiliği dahildir. Kapı altı kesimi ve pervaz düzeltmeleri de ekibimizce yapılır.</p>
                 """,
-                "custom_features": ["AC3-AC5 Kalite", "Suya Dayanıklı Seçenekler", "Geniş Renk Paleti", "10 Yıl Garanti"],
+                "custom_features": ["AGT & Çamsan Bayi", "Tozsuz Süpürgelik Kesimi", "Kapı Altı Kesimi Dahil", "Şilte ve Süpürgelik Hediye", "Hızlı Montaj (1 Günde)"],
+                "steps": [
+                    {"step_number": 1, "title": "Keşif ve Ölçü", "description": "Oda ölçüleri alınır, fire payı hesaplanır. Zemin düzgünlüğü kontrol edilir."},
+                    {"step_number": 2, "title": "Model Seçimi", "description": "Karteladan renk ve model beğenilir. Süpürgelik rengine karar verilir."},
+                    {"step_number": 3, "title": "Zemin Hazırlığı", "description": "Mevcut halıflex vb. sökülür. Zemin temizlenir ve şilte (ses yalıtımı) serilir."},
+                    {"step_number": 4, "title": "Döşeme", "description": "Kilitli sistem parkeler boşluk bırakılarak (yaz-kış genleşmesi için) döşenir."},
+                    {"step_number": 5, "title": "Süpürgelik ve Geçişler", "description": "Süpürgelikler monte edilir, kapı eşik profilleri takılır ve işlem tamamlanır."}
+                ],
+                "faqs": [
+                    {"question": "Eşyalı evde parke yapılır mı?", "answer": "Evet, eşyaları oda oda kaydırarak uygulama yapıyoruz. Biraz zahmetli olsa da mümkündür."},
+                    {"question": "Parke üzerine parke olur mu?", "answer": "Eski parke düzgünse ve kapı yükseklikleri kurtarıyorsa yapılabilir. Ancak tavsiyemiz eskinin sökülmesidir."},
+                    {"question": "Suya dayanıklı parke var mı?", "answer": "Evet, yeni nesil 'Aqua' serisi parkeler suya karşı 24-48 saat dayanıklıdır, mutfaklarda bile kullanılabilir."},
+                    {"question": "Süpürgelikler fiyata dahil mi?", "answer": "Kampanyalarımızda genellikle standart 6cm süpürgelik dahildir. 8cm veya 10cm lake süpürgelikler fark oluşturabilir."},
+                    {"question": "Ne kadar sürede biter?", "answer": "Ortalama bir daire (80-100 m2) 1 gün içinde tamamlanır."}
+                ]
             },
             {
                 "title": "Parke Kurulumu ve Renk Çeşitleri",
                 "slug": "parke-kurulumu-renk-cesitleri",
                 "image": "uploads/services/parke-renkleri.jpg",
-                "seo_title": "İsteğe Göre Parke Kurulumu ve Renk Seçenekleri",
-                "seo_description": "Tüm parke renkleri mevcuttur. İsteğinize uygun renk ve modelde profesyonel parke kurulum hizmeti.",
-                "focus_keywords": ["parke renkleri", "derzli parke", "suya dayanıklı parke", "parke montajı"],
+                "seo_title": "Balıksırtı ve Macar Parke Uygulamaları | Özel Tasarım Zemin",
+                "seo_description": "Klasik düz döşemenin ötesine geçin. Balıksırtı (Herringbone) ve Macar (Chevron) parke montajı. Özel renk ve desen seçenekleri.",
+                "focus_keywords": ["balıksırtı parke", "macar kesim parke", "herringbone parke", "özel tasarım parke", "laminant parke renkleri"],
                 "icon": "fas fa-palette",
-                "short_description": "İsteğinize uygun parke rengi ve deseni. Meşe, ceviz, kayın ve gri tonlarında seçenekler.",
+                "short_description": "Zeminde fark yaratmak isteyenler için Balıksırtı ve Macar kesim parke uygulamaları. Gri, meşe, ceviz ve antrasit tonlarında modern seçenekler.",
                 "description": """
-                    <h2>Parke Renk Seçenekleri</h2>
-                    <p>Evinizin dekorasyonuna uygun parke rengini birlikte seçelim. Numune gösterimi ve danışmanlık hizmeti.</p>
-                    
-                    <h3>Popüler Renkler</h3>
+                    <h2>Zeminde Sanat: Özel Döşeme Teknikleri</h2>
+                    <p>Standart parke döşemesi size sıradan mı geliyor? Evinize saray havası katan Balıksırtı (Herringbone) veya modern mimarinin gözdesi Macar (Chevron) döşeme teknikleri ile tanışın.</p>
+
+                    <h3>Döşeme Şekilleri</h3>
                     <ul>
-                        <li><strong>Meşe Tonları:</strong> Açık meşe, koyu meşe, doğal meşe</li>
-                        <li><strong>Ceviz Tonları:</strong> Amerikan ceviz, Anadolu cevizi</li>
-                        <li><strong>Gri Tonlar:</strong> Açık gri, koyu gri, beton görünüm</li>
-                        <li><strong>Beyaz Tonlar:</strong> Akçaağaç, beyazlatılmış meşe</li>
+                        <li><strong>Balıksırtı (Herringbone):</strong> Parkelerin 90 derece açıyla birbirine kilitlendiği, klasik ve zamansız bir tarz.</li>
+                        <li><strong>Macar (Chevron):</strong> Parkelerin uçlarının 45 veya 60 derece kesilerek birleştiği, ok yönü oluşturan modern tarz.</li>
+                        <li><strong>Kare/Sepet Örgü:</strong> Nostaljik ve geometrik bir görünüm.</li>
                     </ul>
-                    
-                    <h3>Özel Talepler</h3>
-                    <p>Balıksırtı (herringbone) ve kare parke döşeme de yapılmaktadır. Özel desen talepleri için iletişime geçin.</p>
+
+                    <h3>Renk Trendleri</h3>
+                    <ul>
+                        <li><strong>Gri ve Gümüş Meşe:</strong> Modern ve minimalist evler için.</li>
+                        <li><strong>Doğal Meşe:</strong> İskandinav ve sıcak bir atmosfer için.</li>
+                        <li><strong>Koyu Ceviz:</strong> Klasik ve ağırbaşlı salonlar için.</li>
+                    </ul>
                 """,
+                "custom_features": ["Balıksırtı Uzmanlığı", "Lazer Hizalama", "Fire Hesabı Danışmanlığı", "Özel Ebat Parke Temini", "Mimari Destek"],
+                "steps": [
+                    {"step_number": 1, "title": "Mekanın Analizi", "description": "Odanın ışık alışı ve geometrisine göre döşeme yönüne (ışığa dik veya paralel) karar verilir."},
+                    {"step_number": 2, "title": "Lazerli Başlangıç", "description": "Balıksırtı döşemede ilk sıranın düzgünlüğü kritiktir. Lazer hizalama ile merkez hattı oluşturulur."},
+                    {"step_number": 3, "title": "Hassas Kesim", "description": "Duvar dipleri ve köşeler milimetrik hesapla kesilir."},
+                    {"step_number": 4, "title": "Uygulama", "description": "Parça parça desen oluşturularak ilerlenir."},
+                    {"step_number": 5, "title": "Final", "description": "Süpürgelikler takılır ve zemin temizlenir."}
+                ],
+                "faqs": [
+                    {"question": "Balıksırtı parke daha mı pahalı?", "answer": "Evet, hem malzeme m2 fiyatı daha yüksektir hem de uygulama işçiliği standart döşemeye göre daha zor ve zaman alıcıdır."},
+                    {"question": "Fire oranı neden yüksek?", "answer": "Özel kesimli döşemelerde (köşelere gelen parçalar nedeniyle) standart döşemeye göre %10-15 daha fazla fire verilebilir."},
+                    {"question": "Her parke balıksırtı döşenir mi?", "answer": "Hayır, kilit sistemleri buna uygun üretilmiş özel seriler (A ve B kutuları) gerekir."},
+                    {"question": "Küçük odalarda yapılmalı mı?", "answer": "Balıksırtı desen mekanı hareketlendirir ancak çok küçük odalarda göz yorabilir. Genellikle salon ve koridorlarda tercih edilir."},
+                    {"question": "Tamiri mümkün mü?", "answer": "Evet, kilitli sistem olduğu için hasar gören parçalar lokal olarak değiştirilebilir."}
+                ]
             }
         ]
     }
 ]
 
 # =============================================================================
-# VARSAYILAN DEĞERLER
+# VARSAYILAN DEĞERLER (Yedek)
 # =============================================================================
 DEFAULT_FEATURES = ["Ücretsiz Keşif", "2 Yıl Garanti", "Zamanında Teslim", "Profesyonel Ekip"]
-
 DEFAULT_STEPS = [
-    {"step_number": 1, "title": "Ücretsiz Keşif", "description": "Uzman ekibimiz evinize gelerek ihtiyacınızı yerinde değerlendirir ve size en uygun çözümü sunar."},
-    {"step_number": 2, "title": "Teklif ve Planlama", "description": "Detaylı fiyat teklifi hazırlanır, renk ve malzeme seçimi yapılır, iş planı oluşturulur."},
-    {"step_number": 3, "title": "Uygulama", "description": "Profesyonel ekibimiz işi titizlikle gerçekleştirir. Tüm süreç boyunca bilgilendirilirsiniz."},
-    {"step_number": 4, "title": "Kontrol ve Teslim", "description": "İş tamamlandığında birlikte kontrol edilir, temizlik yapılarak teslim edilir."}
+    {"step_number": 1, "title": "Ücretsiz Keşif", "description": "Uzman ekibimiz evinize gelerek ihtiyacınızı yerinde değerlendirir."},
+    {"step_number": 2, "title": "Teklif ve Planlama", "description": "Detaylı fiyat teklifi ve iş takvimi sunulur."},
+    {"step_number": 3, "title": "Uygulama", "description": "Profesyonel ekibimiz işi titizlikle gerçekleştirir."},
+    {"step_number": 4, "title": "Kontrol ve Teslim", "description": "İş tamamlandığında birlikte kontrol edilir ve teslim edilir."}
 ]
 
 
 def turkish_slugify(text: str) -> str:
     """Türkçe karakterleri destekleyen slug üretici."""
-    # Türkçe karakter dönüşümleri
-    tr_chars = {
-        'ı': 'i', 'İ': 'i', 'ğ': 'g', 'Ğ': 'g',
-        'ü': 'u', 'Ü': 'u', 'ş': 's', 'Ş': 's',
-        'ö': 'o', 'Ö': 'o', 'ç': 'c', 'Ç': 'c'
-    }
+    tr_chars = {'ı': 'i', 'İ': 'i', 'ğ': 'g', 'Ğ': 'g', 'ü': 'u', 'Ü': 'u', 'ş': 's', 'Ş': 's', 'ö': 'o', 'Ö': 'o', 'ç': 'c', 'Ç': 'c'}
     for tr_char, en_char in tr_chars.items():
         text = text.replace(tr_char, en_char)
     return slugify(text)
 
 
 class Command(BaseCommand):
-    help = 'EB Dekorasyon hizmet verilerini veritabanına yükler.'
+    help = 'EB Dekorasyon hizmet verilerini detaylı SEO içerikleriyle veritabanına yükler.'
 
     def add_arguments(self, parser):
-        parser.add_argument(
-            '--clear',
-            action='store_true',
-            help='Mevcut tüm hizmet verilerini siler ve yeniden oluşturur.',
-        )
+        parser.add_argument('--clear', action='store_true', help='Mevcut verileri siler ve yeniden oluşturur.')
 
     def handle(self, *args, **options):
         self.stdout.write(self.style.WARNING('\n' + '=' * 60))
-        self.stdout.write(self.style.WARNING('  EB DEKORASYON - HİZMET VERİLERİ YÜKLEME'))
+        self.stdout.write(self.style.WARNING('  EB DEKORASYON - SEO İÇERİK YÜKLEME'))
         self.stdout.write(self.style.WARNING('=' * 60 + '\n'))
 
         if options['clear']:
             self.clear_existing_data()
 
-        categories_created = 0
-        services_created = 0
-        services_updated = 0
-        features_created = 0
-        steps_created = 0
-        faqs_created = 0
+        stats = {'cats': 0, 'new_serv': 0, 'upd_serv': 0, 'features': 0, 'steps': 0, 'faqs': 0}
 
         for category_data in SERVICES_DATA:
-            # 1. Kategori oluştur
-            category_name = category_data['category_name']
-            category_icon = category_data.get('icon', 'fas fa-cog')
-            category_slug = turkish_slugify(category_name)
-
-            category, cat_created = ServiceCategory.objects.get_or_create(
-                slug=category_slug,
-                defaults={
-                    'name': category_name,
-                    'icon': category_icon,
-                    'is_active': True
-                }
+            # 1. Kategori
+            cat_name = category_data['category_name']
+            category, created = ServiceCategory.objects.get_or_create(
+                slug=turkish_slugify(cat_name),
+                defaults={'name': cat_name, 'icon': category_data.get('icon', 'fas fa-cog'), 'is_active': True}
             )
+            if created: stats['cats'] += 1
+            
+            self.stdout.write(self.style.SUCCESS(f'📂 {cat_name}'))
 
-            if cat_created:
-                categories_created += 1
-                self.stdout.write(self.style.SUCCESS(f'  ✓ Kategori oluşturuldu: {category_name}'))
-            else:
-                self.stdout.write(self.style.HTTP_INFO(f'  → Kategori mevcut: {category_name}'))
-
-            # 2. Kategorideki hizmetleri oluştur
+            # 2. Hizmetler
             for service_data in category_data.get('services', []):
                 result = self.create_service(category, service_data)
                 
                 if result['created']:
-                    services_created += 1
+                    stats['new_serv'] += 1
+                    self.stdout.write(self.style.SUCCESS(f'  ✓ YENİ: {service_data["title"]}'))
                 else:
-                    services_updated += 1
+                    stats['upd_serv'] += 1
+                    self.stdout.write(self.style.HTTP_INFO(f'  → GÜNCEL: {service_data["title"]}'))
                 
-                features_created += result['features_created']
-                steps_created += result['steps_created']
-                faqs_created += result['faqs_created']
+                stats['features'] += result['features_created']
+                stats['steps'] += result['steps_created']
+                stats['faqs'] += result['faqs_created']
 
-        # Sonuç özeti
-        self.stdout.write('\n' + '-' * 60)
-        self.stdout.write(self.style.SUCCESS('\n📊 YÜKLEME SONUÇLARI:'))
-        self.stdout.write(f'   • Kategoriler: {categories_created} yeni')
-        self.stdout.write(f'   • Hizmetler: {services_created} yeni, {services_updated} güncellendi')
-        self.stdout.write(f'   • Özellikler: {features_created} yeni')
-        self.stdout.write(f'   • Adımlar: {steps_created} yeni')
-        self.stdout.write(f'   • SSS: {faqs_created} yeni')
-        self.stdout.write('\n' + '=' * 60)
-        self.stdout.write(self.style.SUCCESS('✅ VERİ YÜKLEME TAMAMLANDI!'))
-        self.stdout.write('=' * 60 + '\n')
+        self.print_summary(stats)
 
     def create_service(self, category, data: dict) -> dict:
-        """Hizmet oluşturur ve ilişkili verileri ekler."""
-        result = {
-            'created': False,
-            'features_created': 0,
-            'steps_created': 0,
-            'faqs_created': 0
-        }
+        result = {'created': False, 'features_created': 0, 'steps_created': 0, 'faqs_created': 0}
 
         title = data['title']
         slug = data.get('slug') or turkish_slugify(title)
-
-        # SEO alanları (veritabanı limitlerine göre kırp: seo_title max 60, seo_description max 160)
-        seo_title = data.get('seo_title') or f"{title} Hizmeti | EB Dekorasyon"
-        seo_title = seo_title[:60]  # Veritabanı limiti
         
-        seo_description = data.get('seo_description') or f"{title} için profesyonel çözümler. Modoko/Ümraniye bölgesinde garantili hizmet."
-        seo_description = seo_description[:160]  # Veritabanı limiti
-        
-        # Focus keywords
-        focus_keywords = data.get('focus_keywords', [])
-        if isinstance(focus_keywords, list):
-            focus_keywords_str = ', '.join(focus_keywords)
-        else:
-            focus_keywords_str = focus_keywords or turkish_slugify(title).replace('-', ', ')
+        # Temel Alanlar
+        defaults = {
+            'category': category,
+            'title': title,
+            'seo_title': data.get('seo_title', title)[:60],
+            'seo_description': data.get('seo_description', '')[:160],
+            'short_description': data.get('short_description', ''),
+            'description': data.get('description', ''),
+            'icon': data.get('icon', 'fas fa-cog'),
+            'image': data.get('image', 'uploads/service_default.jpg'),
+            'isActive': True,
+            'showIndex': True
+        }
 
-        # Açıklamalar
-        short_description = data.get('short_description') or f"{title} hizmeti için profesyonel çözümler sunuyoruz."
-        description = data.get('description') or self.generate_default_description(title)
-        
-        # Icon ve Image
-        icon = data.get('icon', 'fas fa-cog')
-        image = data.get('image', 'uploads/services/service_default.jpg')
-
-        # Hizmeti oluştur veya güncelle
-        service, created = Service.objects.get_or_create(
+        # Hizmet oluştur/güncelle
+        service, created = Service.objects.update_or_create(
             slug=slug,
-            defaults={
-                'category': category,
-                'title': title,
-                'seo_title': seo_title,
-                'seo_description': seo_description,
-                'short_description': short_description,
-                'description': description,
-                'icon': icon,
-                'image': image,
-                'isActive': True,
-                'showIndex': True
-            }
+            defaults=defaults
         )
-
         result['created'] = created
 
-        if created:
-            self.stdout.write(self.style.SUCCESS(f'      ✓ Hizmet oluşturuldu: {title}'))
-        else:
-            # Güncelle
-            service.category = category
-            service.seo_title = seo_title
-            service.seo_description = seo_description
-            service.short_description = short_description
-            service.description = description
-            service.icon = icon
-            service.image = image
-            service.save()
-            self.stdout.write(self.style.HTTP_INFO(f'      → Hizmet güncellendi: {title}'))
-
-        # 3. Özellikler ekle
-        result['features_created'] = self.add_features(service, data.get('custom_features', DEFAULT_FEATURES))
-
-        # 4. Adımlar ekle
+        # Focus keywords (Tagging yapılabilir ama modelde field yok, şimdilik atlıyoruz veya description içine gömüldü saysayıyoruz)
+        
+        # İlişkili Veriler
+        result['features_created'] = self.add_items(service, Feature, data.get('custom_features', DEFAULT_FEATURES), 'features', 'name')
         result['steps_created'] = self.add_steps(service, data.get('steps', DEFAULT_STEPS))
-
-        # 5. SSS ekle
-        if 'faqs' in data:
-            result['faqs_created'] = self.add_faqs(service, data['faqs'])
+        result['faqs_created'] = self.add_faqs(service, data.get('faqs', []))
 
         return result
 
-    def add_features(self, service, feature_names: list) -> int:
-        """Hizmete özellikleri ekler."""
-        created_count = 0
-        for feature_name in feature_names:
-            feature, created = Feature.objects.get_or_create(
-                name=feature_name,
-                defaults={
-                    'description': f'{feature_name} hizmetimizin bir parçasıdır.',
-                    'icon': 'fas fa-check-circle'
-                }
-            )
-            service.features.add(feature)
-            if created:
-                created_count += 1
-        return created_count
-
-    def add_steps(self, service, steps_data: list) -> int:
-        """Hizmete süreç adımlarını ekler."""
-        # Mevcut adımları temizle
-        ServiceStep.objects.filter(service=service).delete()
+    def add_items(self, service, model, items, relation_name, field_name):
+        """Many-to-Many generic ekleme (Feature vb için)"""
+        count = 0
+        # ServiceBase modelinde features alanı ManyToMany.
+        # Önce mevcutları temizlemeyelim, sadece yeni varsa ekleyelim veya clear() yapıp set edelim?
+        # Temiz bir başlangıç için clear yapmak mantıklı, ama global feature'lar silinmemeli.
+        # Bu yüzden service.features.clear() diyerek bu hizmetin ilişkilerini koparalım.
+        getattr(service, relation_name).clear()
         
-        created_count = 0
-        for step_data in steps_data:
+        for item in items:
+            obj, _ = model.objects.get_or_create(**{field_name: item}, defaults={'description': f'{item} özelliği.'})
+            getattr(service, relation_name).add(obj)
+            count += 1
+        return count
+
+    def add_steps(self, service, steps_data):
+        ServiceStep.objects.filter(service=service).delete()
+        count = 0
+        for step in steps_data:
             ServiceStep.objects.create(
                 service=service,
-                step_number=step_data.get('step_number', created_count + 1),
-                title=step_data['title'],
-                description=step_data['description']
+                step_number=step.get('step_number', count + 1),
+                title=step['title'],
+                description=step['description']
             )
-            created_count += 1
-        return created_count
+            count += 1
+        return count
 
-    def add_faqs(self, service, faqs_data: list) -> int:
-        """Hizmete SSS'leri ekler."""
-        created_count = 0
+    def add_faqs(self, service, faqs_data):
+        service.faqs.clear()
+        count = 0
         for faq_data in faqs_data:
-            faq, created = Faq.objects.get_or_create(
+            # FAQ'lar genellikle unique sorulardır.
+            faq, _ = Faq.objects.get_or_create(
                 question=faq_data['question'],
-                defaults={
-                    'answer': faq_data['answer'],
-                    'isActive': True,
-                    'showIndex': False
-                }
+                defaults={'answer': faq_data['answer'], 'isActive': True, 'showIndex': False}
             )
             service.faqs.add(faq)
-            if created:
-                created_count += 1
-        return created_count
-
-    def generate_default_description(self, title: str) -> str:
-        """Varsayılan HTML açıklama üretir."""
-        return f"""
-            <h2>{title}</h2>
-            <p>{title} hizmetimiz ile profesyonel çözümler sunuyoruz. Deneyimli ekibimiz ve kaliteli malzemelerimizle işinizi en iyi şekilde gerçekleştiriyoruz.</p>
-            
-            <h3>Neden Bizi Tercih Etmelisiniz?</h3>
-            <ul>
-                <li><strong>Profesyonel Ekip:</strong> Alanında uzman kadromuz</li>
-                <li><strong>Kaliteli Malzeme:</strong> En iyi markaları kullanıyoruz</li>
-                <li><strong>Garanti:</strong> Tüm işlerimiz garantilidir</li>
-                <li><strong>Uygun Fiyat:</strong> Rekabetçi fiyatlarla hizmet</li>
-            </ul>
-            
-            <h3>Hizmet Bölgemiz</h3>
-            <p>Modoko, Ümraniye ve tüm İstanbul genelinde hizmet vermekteyiz. Ücretsiz keşif için hemen arayın.</p>
-        """
+            count += 1
+        return count
 
     def clear_existing_data(self):
-        """Mevcut verileri temizler."""
-        self.stdout.write(self.style.WARNING('⚠️  Mevcut veriler temizleniyor...'))
-        
+        self.stdout.write(self.style.WARNING('⚠️  Tablolar temizleniyor...'))
         ServiceStep.objects.all().delete()
         Service.objects.all().delete()
         ServiceCategory.objects.all().delete()
-        
-        self.stdout.write(self.style.SUCCESS('   Veriler temizlendi.\n'))
+    
+    def print_summary(self, stats):
+        self.stdout.write('\n' + '-' * 60)
+        self.stdout.write(self.style.SUCCESS(f'✅ İŞLEM TAMAMLANDI'))
+        self.stdout.write(f'   • Kategoriler: {stats["cats"]}')
+        self.stdout.write(f'   • Hizmetler: {stats["new_serv"]} yeni, {stats["upd_serv"]} güncellendi')
+        self.stdout.write(f'   • Alt Veriler: {stats["features"]} özellik, {stats["steps"]} adım, {stats["faqs"]} SSS eklendi.')
+        self.stdout.write('=' * 60 + '\n')

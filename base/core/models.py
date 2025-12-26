@@ -278,6 +278,11 @@ class Project(BaseSEOModel):
     is_featured = models.BooleanField(default=False, verbose_name='Öne Çıkan')
     show_on_index = models.BooleanField(default=True, verbose_name='Anasayfada Göster')
     is_active = models.BooleanField(default=True, verbose_name='Aktif mi?')
+    is_comparison_hero = models.BooleanField(
+        default=False, 
+        verbose_name='Anasayfa Dönüşüm Alanı',
+        help_text='Bu proje anasayfadaki "Değişime Tanık Olun" bölümünde gösterilir. Sadece 1 proje seçilebilir.'
+    )
     
     # Tarih alanları
     completed_date = models.DateField(verbose_name='Tamamlanma Tarihi', null=True, blank=True)
@@ -286,8 +291,19 @@ class Project(BaseSEOModel):
 
     def __str__(self):
         return self.title
+    
+    def get_absolute_url(self):
+        from django.urls import reverse
+        return reverse('project_detail', args=[self.slug])
+    
+    def save(self, *args, **kwargs):
+        # Singleton logic: if this project is marked as comparison hero, unmark all others
+        if self.is_comparison_hero:
+            Project.objects.filter(is_comparison_hero=True).exclude(pk=self.pk).update(is_comparison_hero=False)
+        super().save(*args, **kwargs)
 
     class Meta:
         verbose_name = 'Proje'
         verbose_name_plural = 'Projeler'
         ordering = ['-is_featured', '-created']
+

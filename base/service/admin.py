@@ -38,7 +38,7 @@ class ServiceAdmin(ImportExportModelAdmin):
             'fields': ('seo_title', 'slug', 'seo_description'),
         }),
         ('📝 Temel Bilgiler', {
-            'fields': ('title', 'category', 'icon', 'image', 'short_description', 'description')
+            'fields': ('title', 'category', 'icon', 'image', 'before_image', 'after_image', 'short_description', 'description')
         }),
         ('🔗 İlişkiler', {
             'fields': ('features', 'faqs'),

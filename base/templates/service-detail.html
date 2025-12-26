@@ -85,7 +85,7 @@
          loading="eager"
          width="1920" height="1080">
     {% else %}
-    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1920&q=80" 
+    <img src="/media/uploads/service_default.jpg" 
          alt="{{ service.title }}" 
          class="absolute inset-0 w-full h-full object-cover"
          fetchpriority="high"
@@ -165,14 +165,15 @@
         </div>
         {% else %}
         <!-- Fallback Static (Keep existing layout if no dynamic images) -->
+        <!-- Fallback Static (Keep existing layout if no dynamic images) -->
         <div class="grid md:grid-cols-2 gap-8 mb-12">
             <div class="group relative rounded-2xl overflow-hidden border border-zinc-800">
                 <div class="absolute top-4 left-4 z-10 bg-black/70 text-white text-xs px-3 py-1 rounded-full border border-white/20">ÖNCESİ</div>
-                <img src="https://images.unsplash.com/photo-1503174971373-b1f69850bded?auto=format&fit=crop&w=800&q=80" alt="Eski Hali" class="w-full h-64 object-cover grayscale transition-all duration-700 group-hover:grayscale-0">
+                <img src="/media/uploads/defaults/default_before.jpg" alt="Eski Hali" class="w-full h-64 object-cover grayscale transition-all duration-700 group-hover:grayscale-0">
             </div>
             <div class="group relative rounded-2xl overflow-hidden border border-[#c9a465]">
                 <div class="absolute top-4 left-4 z-10 bg-[#c9a465] text-black font-bold text-xs px-3 py-1 rounded-full">SONRASI</div>
-                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Yeni Hali" class="w-full h-64 object-cover transform transition-transform duration-700 group-hover:scale-110">
+                <img src="/media/uploads/defaults/default_after.jpg" alt="Yeni Hali" class="w-full h-64 object-cover transform transition-transform duration-700 group-hover:scale-110">
             </div>
         </div>
         {% endif %}

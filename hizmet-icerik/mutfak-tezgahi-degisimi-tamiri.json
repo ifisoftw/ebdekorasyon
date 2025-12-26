@@ -1,0 +1,76 @@
+{
+  "model": "service.Service",
+  "pk": 6,
+  "fields": {
+    "title": "Mutfak Tezgahı Değişimi ve Tamiri",
+    "slug": "mutfak-tezgahi-degisimi-tamiri",
+    "category": "tamirat-tadilat-ve-dekorasyon",
+    "seo_title": "Mutfak Tezgahı Değişimi: Granit & Kuvars | EB",
+    "seo_description": "Mutfak tezgahınızı 1 günde değiştiriyoruz. Leke tutmayan Çimstone, Belenco ve Granit tezgah modelleri, uygun fiyat ve montaj hizmeti için tıklayın.",
+    "short_description": "Mutfak tezgahınız çatladı mı, leke mi tutuyor? Çimstone, Belenco, Granit veya Mermerit seçenekleriyle tezgahınızı 1 günde, dolaplarınıza zarar vermeden değiştiriyoruz.",
+    "icon": "fas fa-layer-group",
+    "is_active": true,
+    "show_index": true,
+    "description_html": "<div class=\"seo-article\">\n    <p class=\"lead\"><strong>Mutfağın kalbi tezgahtır. Dolaplarınız ne kadar yeni olursa olsun, çatlamış, sararmış veya su sızdıran bir tezgah mutfağın tüm havasını bozar. Peki, mevcut dolaplarınızı kırmadan sadece tezgahınızı değiştirerek mutfağınızı yenileyebileceğinizi biliyor musunuz?</strong></p>\n\n    <div class=\"alert alert-info\">\n        <strong>TL;DR (Özet):</strong> EB Dekorasyon olarak; mutfak ölçünüze özel <strong>Çimstone</strong>, <strong>Belenco</strong>, <strong>Coante (Kuvars)</strong> veya <strong>Doğal Granit</strong> tezgahları atölyemizde hazırlıyor, 1 gün içinde montajını yapıyoruz. Eğer komple bir değişim düşünüyorsanız, tezgahla birlikte <a href=\"/mutfak-dolabi-boyama-renk-degisimi/\">mutfak dolabı boyama</a> hizmetimizi de inceleyerek bütüncül bir yenileme sağlayabilirsiniz.\n    </div>\n\n    <div class=\"toc-container\">\n        <h4>İçindekiler</h4>\n        <ul>\n            <li><a href=\"#malzeme-secimi\">Hangi Tezgahı Seçmelisiniz? (Kuvars vs Granit)</a></li>\n            <li><a href=\"#teknik-detay\">Teknik Detaylar ve Dayanıklılık</a></li>\n            <li><a href=\"#adim-adim-montaj\">Adım Adım Değişim Süreci</a></li>\n            <li><a href=\"#vaka-analizleri\">Örnek Vaka Analizleri</a></li>\n            <li><a href=\"#karsilastirma\">Tezgah Modelleri Karşılaştırma Tablosu</a></li>\n            <li><a href=\"#hatalar\">Sık Yapılan Hatalar</a></li>\n            <li><a href=\"#sss\">Sıkça Sorulan Sorular</a></li>\n        </ul>\n    </div>\n\n    <h2 id=\"malzeme-secimi\">Hangi Tezgahı Seçmelisiniz? Malzeme Rehberi</h2>\n    <p>Tezgah seçimi sadece estetik değil, bir mühendislik kararıdır. Isıya, çizilmeye ve asite (limon, sirke) dayanıklılık en önemli kriterdir.</p>\n\n    <h3>1. Kuvars Tezgahlar (Çimstone, Belenco, Calisco)</h3>\n    <p>Günümüzün en popüler tercihidir. %93 oranında doğal kuvars minerali ve %7 oranında bağlayıcı reçineden oluşur.</p>\n    <ul>\n        <li><strong>Avantajı:</strong> Gözeneksiz yapısı sayesinde asla leke tutmaz (şarap, kahve, salça işlemez). Bakteri barındırmaz.</li>\n        <li><strong>Görünüm:</strong> Geniş renk skalası vardır (Damarlı mermer görünümlü, simli, düz beyaz).</li>\n    </ul>\n\n    <h3>2. Doğal Granit</h3>\n    <p>Doğadan bloklar halinde çıkan magmatik kayaçlardır.</p>\n    <ul>\n        <li><strong>Avantajı:</strong> Isıya karşı en dayanıklı malzemedir. Üzerine kızgın tencere koysanız bile etkilenmez.</li>\n        <li><strong>Dezavantajı:</strong> Doğal gözenekleri vardır, periyodik olarak cila ve koruyucu bakım gerektirebilir.</li>\n    </ul>\n\n    <h3>3. Mermerit (Döküm) Tezgahlar</h3>\n    <p>Mermer tozu ve polyester reçine karışımıdır.</p>\n    <ul>\n        <li><strong>Ekonomik:</strong> En uygun fiyatlı seçenektir. Evye ile tezgah yekpare (birleşik) dökülür, su sızdırma riski sıfırdır.</li>\n        <li><strong>Dikkat:</strong> Kuvars kadar çizilmeye dayanıklı değildir, bıçak izi kalabilir.</li>\n    </ul>\n\n    <p>Eğer mutfağınızda daha kapsamlı bir tadilat (tesisat, fayans kırma vb.) gerekiyorsa, <a href=\"/ev-ici-genel-dekorasyon/\">ev içi genel dekorasyon</a> sayfamızdaki hizmetlerimizden de faydalanabilirsiniz.</p>\n\n    <h2 id=\"adim-adim-montaj\">Adım Adım Değişim Süreci</h2>\n\n    <h3>Adım 1: Lazer Ölçü Alımı</h3>\n    <p>Mevcut dolaplarınızın üzerine lazer metre ve şablon çıkarma yöntemiyle milimetrik ölçü alınır. Köşe açıları (gönyesizlikler) hesaplanır.</p>\n\n    <h3>Adım 2: Kesim ve İşleme (CNC)</h3>\n    <p>Seçtiğiniz plaka (Belenco/Çimstone), atölyemizdeki CNC makinelerde kesilir. Evye yeri, ocak yeri ve batarya deliği hassas bir şekilde açılır. Ön profil (kalınlık) ve süpürgelikler hazırlanır.</p>\n\n    <h3>Adım 3: Söküm ve Montaj</h3>\n    <p>Eski tezgahınız dolaplara zarar vermeden sökülür. Yeni tezgah silikon ve poliüretan yapıştırıcılarla sabitlenir. Evye ve ocak montajı yapılır. <a href=\"/mobilya-tamirati-ve-bakimi/\">Mobilya tamiratı</a> gereken durumlar varsa (örn: tezgah altı dolap çökmesi) montaj öncesi ekibimizce giderilir.</p>\n\n    <h2 id=\"vaka-analizleri\">Örnekler / Vaka Analizleri</h2>\n\n    <div class=\"card mb-3\">\n        <div class=\"card-body\">\n            <h5 class=\"card-title\">Vaka 1: Şişmiş Laminat Tezgah Değişimi</h5>\n            <p class=\"card-text\"><strong>Sorun:</strong> Evye kenarından su alan eski laminat tezgah şişmiş ve koku yapıyordu.</p>\n            <p class=\"card-text\"><strong>Çözüm:</strong> Suya %100 dayanıklı \"Belenco Angel White\" (Kuvars) tezgah uygulandı. Eviyenin altı özel alüminyum bantla yalıtıldı.</p>\n            <p class=\"card-text\"><strong>Sonuç:</strong> Hijyenik, su sızdırmayan ve ömürlük bir mutfak tezgahı.</p>\n        </div>\n    </div>\n\n    <div class=\"card mb-3\">\n        <div class=\"card-body\">\n            <h5 class=\"card-title\">Vaka 2: Granit Çatlak Tamiri</h5>\n            <p class=\"card-text\"><strong>Sorun:</strong> Star Galaksi (Siyah) granit tezgah, ocak kısmından çatlamıştı.</p>\n            <p class=\"card-text\"><strong>Çözüm:</strong> Çatlak yeri elmas uçla açıldı, epoksi dolgu ve granit tozu karışımı ile dolduruldu. Polisaj (zımpara) yapılarak iz kaybedildi.</p>\n            <p class=\"card-text\"><strong>Sonuç:</strong> Komple değişim masrafından kurtarıldı, tezgah eski sağlamlığına kavuştu.</p>\n        </div>\n    </div>\n\n    <h2 id=\"karsilastirma\">Tezgah Karşılaştırma Tablosu</h2>\n    <div class=\"table-responsive\">\n        <table class=\"table table-bordered\">\n            <thead class=\"thead-dark\">\n                <tr>\n                    <th>Özellik</th>\n                    <th>Kuvars (Çimstone/Belenco)</th>\n                    <th>Doğal Granit</th>\n                    <th>Mermerit</th>\n                    <th>Ahşap/Masif</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td><strong>Leke Tutmama</strong></td>\n                    <td>⭐⭐⭐⭐⭐ (En İyi)</td>\n                    <td>⭐⭐⭐</td>\n                    <td>⭐⭐⭐⭐</td>\n                    <td>⭐⭐</td>\n                </tr>\n                <tr>\n                    <td><strong>Çizilme Direnci</strong></td>\n                    <td>⭐⭐⭐⭐⭐</td>\n                    <td>⭐⭐⭐⭐</td>\n                    <td>⭐⭐</td>\n                    <td>⭐⭐</td>\n                </tr>\n                <tr>\n                    <td><strong>Isı Dayanımı</strong></td>\n                    <td>⭐⭐⭐ (Nihale Gerekir)</td>\n                    <td>⭐⭐⭐⭐⭐ (En İyi)</td>\n                    <td>⭐⭐</td>\n                    <td>⭐⭐</td>\n                </tr>\n                <tr>\n                    <td><strong>Fiyat Aralığı</strong></td>\n                    <td>Orta - Yüksek</td>\n                    <td>Orta</td>\n                    <td>Ekonomik</td>\n                    <td>Yüksek</td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n\n    <h2 id=\"hatalar\">Sık Yapılan Hatalar</h2>\n    <ol>\n        <li><strong>Sıcak Tencereyi Direkt Koymak:</strong> Kuvars tezgahlar (Çimstone vb.) içindeki reçine nedeniyle ani ısı şokunda (200°C üzeri) çatlayabilir veya iz yapabilir. <em>Çözüm: Mutlaka nihale kullanın.</em></li>\n        <li><strong>Mermer Kullanmak:</strong> Mermer yumuşak ve emicidir. Limon, sirke gibi asitler mermeri hemen eritir ve leke bırakır. <em>Mutfakta mermer önermiyoruz.</em></li>\n        <li><strong>Yanlış Evye Seçimi:</strong> Tezgah kesildikten sonra evye modelini değiştirmek imkansızdır. Evye (Alttan yapıştırma veya Üstten oturtma) en başta seçilmelidir.</li>\n    </ol>\n\n    <h2 id=\"one-cikan-cevap\">Mutfak Tezgahı Değişimi (Snippet)</h2>\n    <blockquote class=\"blockquote border-left-primary pl-4\">\n        <p class=\"mb-0\"><strong>Mutfak tezgahı değişimi;</strong> mevcut mutfak dolapları korunarak, sadece üzerindeki yıpranmış çalışma yüzeyinin sökülmesi ve yerine Çimstone, Belenco, Granit veya Mermerit gibi dayanıklı malzemelerin montajı işlemidir. Bu işlem genellikle 1 gün sürer ve büyük bir tadilat kirliliği yaratmaz.</p>\n    </blockquote>\n\n    <h2 id=\"sonuc\">Sonuç: Mutfağınıza Değer Katın</h2>\n    <p>Tezgah değişimi, mutfağınızın değerini anında artırır. EB Dekorasyon güvencesiyle, sertifikalı ürünler ve kusursuz işçilik için bize ulaşın.</p>\n    \n    <p class=\"text-center mt-4\">\n        <a href=\"https://wa.me/905555555555\" class=\"btn btn-success btn-lg\"><i class=\"fab fa-whatsapp\"></i> Tezgah Ölçünüzü veya Fotoğrafını Atın, Fiyat Verelim</a>\n    </p>\n</div>",
+    
+    "related_data": {
+      "features_to_tag": [
+        "Çimstone",
+        "Belenco",
+        "Coante",
+        "Granit Tezgah",
+        "Mermerit",
+        "1 Günde Montaj"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Keşif ve Model Seçimi",
+          "description": "Kartelamızdan tezgah taşınızı (Kuvars, Granit vb.) ve profil modelinizi seçiyorsunuz. Lazer ile net ölçü alınıyor."
+        },
+        {
+          "step_number": 2,
+          "title": "Fabrikasyon Kesim",
+          "description": "Taşınız atölyemizde CNC makinelerde kesiliyor, evye ve ocak yerleri açılıyor, kenar parlatma (pah) işlemi yapılıyor."
+        },
+        {
+          "step_number": 3,
+          "title": "Eski Tezgahın Sökümü",
+          "description": "Montaj günü, ekiplerimiz mevcut tezgahı dolaplarınıza ve fayanslarınıza zarar vermeden dikkatlice söküyor."
+        },
+        {
+          "step_number": 4,
+          "title": "Yeni Tezgah Montajı",
+          "description": "Yeni tezgah yerleştiriliyor. Ekyerleri (varsa) özel renkli yapıştırıcı ile belirsiz hale getiriliyor. Süpürgelikler takılıyor."
+        },
+        {
+          "step_number": 5,
+          "title": "Evye ve Ocak Montajı",
+          "description": "Evye yerine yapıştırılıyor, ocak oturtuluyor ve sızdırmazlık testleri yapılarak teslim ediliyor."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Tezgah değişirken fayanslarım kırılır mı?",
+          "answer": "Genellikle hayır. Tezgah ile fayans arasındaki süpürgelik kısmını dikkatlice söküyoruz. Çok nadiren eski tip harçlı seramiklerde hasar olabilir, bu durumda tamiratını yapıyoruz."
+        },
+        {
+          "question": "Çimstone mu Granit mi daha iyi?",
+          "answer": "Görsellik ve leke tutmazlık istiyorsanız Çimstone (Kuvars), ısıya karşı aşırı dayanıklılık istiyorsanız Doğal Granit öneririz."
+        },
+        {
+          "question": "Tezgah değişimi kaç gün sürer?",
+          "answer": "Ölçü alındıktan sonra imalat 3-5 iş günü sürer. Evinizdeki montaj işlemi ise sadece yarım gün (3-4 saat) sürer."
+        },
+        {
+          "question": "Evye düşmesi sorunu yaşar mıyım?",
+          "answer": "Hayır. Granit ve kuvars tezgahlarda evyeleri sadece silikonla değil, alttan mekanik saplama veya destek aparatlarıyla montajlıyoruz."
+        },
+        {
+          "question": "Tezgah arasında boşluk kalır mı?",
+          "answer": "Lazer ölçü aldığımız için duvar eğrilikleri tezgah kesiminde hesaba katılır. Kalan milimetrik boşluklar süpürgelik ile kapatılır."
+        }
+      ]
+    }
+  }
+}

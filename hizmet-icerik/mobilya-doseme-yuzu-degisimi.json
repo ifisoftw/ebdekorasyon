@@ -1,0 +1,76 @@
+{
+  "model": "service.Service",
+  "pk": 4,
+  "fields": {
+    "title": "Mobilya Döşeme ve Yüz Değişimi",
+    "slug": "mobilya-doseme-yuzu-degisimi",
+    "category": "mobilya-boya-ve-renk-degisimi",
+    "seo_title": "Mobilya Döşeme ve Yüz Değişimi | EB Dekorasyon",
+    "seo_description": "Mobilyalarınızın iskeleti sağlamsa yüzünü değiştirin! Leke tutmaz kumaş seçenekleri, 32 DNS sünger ve iskelet güçlendirme ile koltuklarınız ilk günkü gibi olsun.",
+    "short_description": "Koltuklarınızın sadece kumaşı mı eskidi? Sağlam iskeletli mobilyalarınızı atmayın. Profesyonel döşeme ve sünger değişimi hizmetimizle, mağaza fiyatının yarısına koltuklarınızı yeniliyoruz.",
+    "icon": "fas fa-couch",
+    "is_active": true,
+    "show_index": true,
+    "description_html": "<div class=\"seo-article\">\n    <p class=\"lead\"><strong>Salonunuzdaki koltuk takımını seviyorsunuz, oturumu rahat, iskeleti sağlam ama kumaşı artık demode mi oldu? Veya kediniz tırmaladığı için iplikleri mi attı? Yeni bir koltuk takımı almaya kalktığınızda karşılaşacağınız 60.000 TL üzeri fiyatlar gözünüzü korkutmasın.</strong></p>\n\n    <div class=\"alert alert-info\">\n        <strong>TL;DR (Özet):</strong> EB Dekorasyon olarak; iskeleti sağlam olan koltuk, berjer ve sandalyelerinizin sadece <strong>yüzünü (kumaşını)</strong> ve <strong>süngerlerini</strong> değiştiriyoruz. Mağazadan yeni ürün almak yerine, kendi kaliteli mobilyanızı <strong>Leke Tutmaz</strong>, <strong>Silinebilir</strong> ve <strong>Pet Dostu</strong> kumaşlarla yenileyerek %50 tasarruf edebilirsiniz. <a href=\"#iletisim\">Kumaş kartelası için bize ulaşın.</a>\n    </div>\n\n    <div class=\"toc-container\">\n        <h4>İçindekiler</h4>\n        <ul>\n            <li><a href=\"#neden-doseme\">Neden Yeni Almak Yerine Döşeme?</a></li>\n            <li><a href=\"#kumas-teknolojisi\">Kumaş ve Sünger Teknolojileri</a></li>\n            <li><a href=\"#adim-adim-surec\">Adım Adım Döşeme Süreci</a></li>\n            <li><a href=\"#vaka-analizleri\">Örnek Vaka Analizleri</a></li>\n            <li><a href=\"#karsilastirma\">Maliyet Karşılaştırma Tablosu</a></li>\n            <li><a href=\"#hatalar\">Sık Yapılan Hatalar</a></li>\n            <li><a href=\"#sss\">Sıkça Sorulan Sorular</a></li>\n        </ul>\n    </div>\n\n    <h2 id=\"neden-doseme\">Neden Yeni Almak Yerine Döşeme Yaptırmalısınız?</h2>\n    <p>Mobilya sektöründe son yıllarda \"maliyet odaklı üretim\" arttı. Bugün mağazalarda \"kampanyalı\" olarak satılan birçok koltuk takımının iskeletinde sunta veya kavak (yumuşak ağaç) kullanılmaktadır.</p>\n    <p>Oysa sizin 10-15 yıllık eski koltuklarınız muhtemelen <strong>Gürgen (Kayın)</strong> iskelete sahiptir. Bu iskeletler ömürlüktür. Sadece süngeri çökmüş veya kumaşı yırtılmış diye bu kaliteyi çöpe atmak yerine, onu güncelleyerek geri kazanmak en mantıklı yatırımdır.</p>\n\n    <h2 id=\"kumas-teknolojisi\">Kullanılan Malzeme Teknolojisi</h2>\n    <p>EB Dekorasyon döşeme atölyesinde, sadece estetiğe değil, kullanım ömrüne ve konfora da önem veriyoruz:</p>\n    <ul>\n        <li><strong>32 DNS (Dansite) Gri Sünger:</strong> Piyasadaki ucuz süngerler 1 yılda çökerken, biz yatak kalitesinde yüksek yoğunluklu sünger kullanarak 10 yıl formunu koruyan oturum sağlıyoruz.</li>\n        <li><strong>Yeni Nesil Kumaşlar:</strong>\n            <ul>\n                <li><em>Tay Tüyü / Nubuk:</em> Leke tutmaz, nemli bezle silinebilir.</li>\n                <li><em>Keten Dokulu:</em> Modern ve ferah görünüm sağlar, terletmez.</li>\n                <li><em>Pati Dostu (Pet Friendly):</em> Kedilerin tırmalamasına karşı sık dokulu, iplik çekmeyen özel seriler.</li>\n            </ul>\n        </li>\n    </ul>\n\n    <h2 id=\"adim-adim-surec\">Adım Adım Döşeme ve Yüz Değişimi</h2>\n\n    <h3>Adım 1: Ücretsiz Keşif ve Kumaş Seçimi</h3>\n    <p>Evinize kumaş kartelalarımızla geliyoruz. Koltuğunuzun modelini inceliyor, metrajı hesaplıyor ve dekorasyonunuza en uygun kumaşı (renk/doku) birlikte seçiyoruz.</p>\n\n    <h3>Adım 2: Nakliye ve Söküm</h3>\n    <p>Mobilyalarınızı güvenli bir şekilde atölyemize alıyoruz. Mevcut kumaş, elyaf ve deforme olmuş süngerler tamamen sökülerek iskelet \"çıplak\" hale getiriliyor.</p>\n\n    <h3>Adım 3: İskelet Güçlendirme (Reglaj)</h3>\n    <p>Koltuğunuzun gıcırdayan yerleri, gevşeyen vidaları veya kırık makasları bu aşamada tamir edilir. Lastik kolonlar (yay görevi gören şeritler) yenilenir.</p>\n\n    <h3>Adım 4: Süngerleme ve Kaplama</h3>\n    <p>İskelet üzerine sıfır 32 DNS sünger ve üzerine koruyucu elyaf sarılır. Ardından usta terzilerimiz tarafından dikilen yeni kumaş, potluk yapmadan gerdirilerek çakılır.</p>\n\n    <h2 id=\"vaka-analizleri\">Örnekler / Vaka Analizleri</h2>\n\n    <div class=\"card mb-3\">\n        <div class=\"card-body\">\n            <h5 class=\"card-title\">Vaka 1: Chester Koltuk Yenileme</h5>\n            <p class=\"card-text\"><strong>Sorun:</strong> Müşterimizin deri Chester koltuğu çatlamış ve yırtılmıştı. Ancak kapitone işçiliğini çok seviyordu.</p>\n            <p class=\"card-text\"><strong>Çözüm:</strong> Deri söküldü, yerine \"Silinebilir İthal Kadife\" kumaş kaplandı. Kapitone düğmeleri kumaş renginde yeniden basıldı.</p>\n            <p class=\"card-text\"><strong>Sonuç:</strong> Klasik deri koltuk, modern ve sıcak bir kadife Chester'a dönüştü.</p>\n        </div>\n    </div>\n\n    <div class=\"card mb-3\">\n        <div class=\"card-body\">\n            <h5 class=\"card-title\">Vaka 2: Berjer Kombini</h5>\n            <p class=\"card-text\"><strong>Sorun:</strong> Salon takımı tek renkti ve sıkıcı duruyordu. Berjerlerin süngeri çökmüştü.</p>\n            <p class=\"card-text\"><strong>Çözüm:</strong> Ana koltuklar gri kaldı, iki berjer ise \"Kiremit Rengi\" kazayağı desenli kumaşla kaplandı. Süngerler sertleştirildi.</p>\n            <p class=\"card-text\"><strong>Sonuç:</strong> Odaya enerji ve hareket geldi, sanki yeni bir takım alınmış gibi oldu.</p>\n        </div>\n    </div>\n\n    <h2 id=\"karsilastirma\">Maliyet Karşılaştırması (3+3+1+1 Takım İçin)</h2>\n    \n    <div class=\"table-responsive\">\n        <table class=\"table table-bordered\">\n            <thead class=\"thead-light\">\n                <tr>\n                    <th>Özellik</th>\n                    <th>Mağazadan Yeni Almak</th>\n                    <th>EB Dekorasyon Döşeme</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td><strong>Maliyet</strong></td>\n                    <td>60.000 TL - 150.000 TL</td>\n                    <td><strong>25.000 TL - 40.000 TL</strong></td>\n                </tr>\n                <tr>\n                    <td><strong>Kumaş Seçeneği</strong></td>\n                    <td>Sınırlı (3-4 renk)</td>\n                    <td><strong>Sınırsız (1000+ desen/renk)</strong></td>\n                </tr>\n                <tr>\n                    <td><strong>Sünger Kalitesi</strong></td>\n                    <td>Standart (Genelde 28 DNS)</td>\n                    <td><strong>Özel (32-35 DNS HR)</strong></td>\n                </tr>\n                <tr>\n                    <td><strong>Teslim Süresi</strong></td>\n                    <td>30-45 Gün</td>\n                    <td><strong>10-15 Gün</strong></td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n\n    <h2 id=\"hatalar\">Sık Yapılan Hatalar</h2>\n    <ol>\n        <li><strong>Kumaş Yönüne Dikkat Etmemek:</strong> Kadife veya şönil kumaşlarda hav yönü ters dikilirse koltukta renk farkı (gölge) oluşur. <em>Bizim ustalarımız kumaş suyuna göre kesim yapar.</em></li>\n        <li><strong>Süngeri Değiştirmemek:</strong> Sadece yüz değişimi yapıp eski süngeri bırakmak, yeni kumaşın da çabuk bollaşmasına neden olur. <em>Sünger değişimi şarttır.</em></li>\n        <li><strong>Ucuz Kumaş Seçimi:</strong> Çin malı astarsız kumaşlar dikiş yerlerinden çabuk açılır. <em>Biz yerli ve ithal garantili serileri kullanıyoruz.</em></li>\n    </ol>\n\n    <h2 id=\"one-cikan-cevap\">Mobilya Yüz Değişimi (Snippet)</h2>\n    <blockquote class=\"blockquote border-left-primary pl-4\">\n        <p class=\"mb-0\"><strong>Mobilya döşeme ve yüz değişimi;</strong> koltuk, kanepe ve berjerlerin iskeletleri korunarak, üzerindeki eski sünger, elyaf ve kumaş materyallerinin tamamen yenilenmesi işlemidir. Bu işlem, sağlam iskeletli mobilyaları değerlendirmenin en ekonomik ve çevreci yoludur.</p>\n    </blockquote>\n\n    <h2 id=\"sonuc\">Sonuç: Koltuklarınız Size Küsmüş Olabilir</h2>\n    <p>Çöken süngerler bel ağrısı yapar, yırtık kumaşlar göz zevkinizi bozar. EB Dekorasyon kalitesiyle koltuklarınızı şımartın, salonunuzun havasını değiştirin.</p>\n    \n    <p class=\"text-center mt-4\">\n        <a href=\"https://wa.me/905555555555\" class=\"btn btn-primary btn-lg\"><i class=\"fab fa-whatsapp\"></i> Koltuklarınızın Resmini Atın, Metraj ve Fiyat Çıkaralım</a>\n    </p>\n</div>",
+    
+    "related_data": {
+      "features_to_tag": [
+        "32 DNS Gri Sünger",
+        "Leke Tutmaz Kumaş",
+        "Pet Dostu Kumaş",
+        "İskelet Güçlendirme",
+        "Makas Değişimi",
+        "Kapitone İşçilik"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Kumaş Seçimi ve Alım",
+          "description": "Evinizden veya iş yerinizden mobilyalarınız alınır. Yüzlerce kumaş seçeneği arasından tarzınıza uygun olan belirlenir."
+        },
+        {
+          "step_number": 2,
+          "title": "Söküm ve Hazırlık",
+          "description": "Eski kumaş ve deforme olmuş süngerler tamamen sökülür. İskelet üzerindeki gevşeklikler tamir edilir."
+        },
+        {
+          "step_number": 3,
+          "title": "Sünger ve Elyaf",
+          "description": "Oturum ve sırt kısımlarına yüksek yoğunluklu (32-35 DNS) yeni süngerler yapıştırılır ve elyaflanır."
+        },
+        {
+          "step_number": 4,
+          "title": "Dikim ve Çakım",
+          "description": "Usta terziler tarafından dikilen kılıflar, döşeme ustaları tarafından potluk yapmayacak şekilde iskelete çakılır."
+        },
+        {
+          "step_number": 5,
+          "title": "Ambalaj ve Teslim",
+          "description": "Son kontrolleri yapılan mobilyalar streçlenip balonlu naylona sarılarak evinize teslim edilir."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Sadece oturum minderlerinin süngerini değiştirebilir miyim?",
+          "answer": "Evet. Eğer koltuğunuzun kumaşı sağlamsa, sadece çöken minderlerin içindeki süngeri (HR sünger ile) yenileyebiliriz."
+        },
+        {
+          "question": "Kedim var, hangi kumaşı önerirsiniz?",
+          "answer": "Kediler için özel üretilen 'Pati Dostu' (Pet Friendly) kumaşlar öneriyoruz. Sık dokulu olduğu için tırnak geçmez ve iplik çekilmez."
+        },
+        {
+          "question": "Döşeme değişimi ne kadar sürer?",
+          "answer": "Kumaşın temin süresine bağlı olarak ortalama 10 ile 15 gün arasında teslimat yapıyoruz."
+        },
+        {
+          "question": "Model değişikliği yapabiliyor musunuz?",
+          "answer": "İskeletin izin verdiği ölçüde evet. Örneğin; kapitoneli bir modeli düze çevirebilir veya kolçak yapısını süngerle biraz değiştirebiliriz."
+        },
+        {
+          "question": "Nakliye ücreti alıyor musunuz?",
+          "answer": "İstanbul Anadolu Yakası'ndaki (Kadıköy, Ümraniye, Maltepe vb.) hizmetlerimizde nakliye bize aittir."
+        }
+      ]
+    }
+  }
+}

@@ -34,7 +34,11 @@ class IndexView(TemplateView):
         context['services'] = Service.objects.filter(showIndex=True, isActive=True).order_by('created')
         context['categories'] = ServiceCategory.objects.filter(is_active=True).order_by('order')
         context['projects'] = Project.objects.filter(show_on_index=True, is_active=True)
-        context['comparison_project'] = Project.objects.filter(before_image__isnull=False, after_image__isnull=False, show_on_index=True, is_active=True).first()
+        # Priority: is_comparison_hero=True, then fallback to featured + has before/after
+        context['comparison_project'] = (
+            Project.objects.filter(is_comparison_hero=True, is_active=True).first() or
+            Project.objects.filter(before_image__isnull=False, after_image__isnull=False, show_on_index=True, is_active=True).first()
+        )
         context['settings'] = Settings.objects.first()
         context['hero'] = Hero.objects.first()
         context['features'] = Feature.objects.all()[:6]
@@ -139,7 +143,10 @@ class ProjectsListView(ListView):
         context = super().get_context_data(**kwargs)
         context['settings'] = Settings.objects.first()
         # Get distinct categories from active projects
-        context['categories'] = Project.objects.filter(is_active=True).values_list('category', flat=True).distinct().order_by('category')
+        # Get distinct categories from active projects
+        project_categories = Project.objects.filter(is_active=True).values_list('category', flat=True).distinct()
+        # Find matching ServiceCategory objects to get icons
+        context['categories'] = ServiceCategory.objects.filter(name__in=project_categories, is_active=True).order_by('order')
         context['current_category'] = self.request.GET.get('category', '')
         context['breadcrumbs'] = [
             {'name': 'Projeler', 'url': '/projeler/'}

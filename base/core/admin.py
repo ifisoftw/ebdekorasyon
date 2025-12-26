@@ -109,10 +109,10 @@ class FaqAdmin(ImportExportModelAdmin):
 
 @admin.register(Project)
 class ProjectAdmin(ImportExportModelAdmin):
-    list_display = ('title', 'category', 'location', 'is_featured', 'show_on_index', 'is_active', 'created')
+    list_display = ('title', 'category', 'location', 'is_featured', 'is_comparison_hero', 'show_on_index', 'is_active', 'created')
     list_display_links = ('title',)
-    list_editable = ('is_featured', 'show_on_index', 'is_active')
-    list_filter = ('category', 'is_featured', 'show_on_index', 'is_active', 'created')
+    list_editable = ('is_featured', 'is_comparison_hero', 'show_on_index', 'is_active')
+    list_filter = ('category', 'is_featured', 'is_comparison_hero', 'show_on_index', 'is_active', 'created')
     search_fields = ('title', 'description', 'location', 'category')
     prepopulated_fields = {'slug': ('title',)}
     readonly_fields = ('created', 'updated')
@@ -128,7 +128,10 @@ class ProjectAdmin(ImportExportModelAdmin):
             'description': 'Ana görsel zorunlu, öncesi/sonrası görselleri isteğe bağlı.'
         }),
         ('⚙️ Durum', {
-            'fields': ('is_featured', 'show_on_index', 'is_active', 'created', 'updated'),
+            'fields': ('is_featured', 'is_comparison_hero', 'show_on_index', 'is_active', 'created', 'updated'),
             'classes': ('collapse',)
         }),
     )
+    
+    class Media:
+        js = ('admin/js/comparison_hero.js',)

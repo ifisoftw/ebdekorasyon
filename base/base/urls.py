@@ -22,14 +22,16 @@ from django.views.static import serve
 from django.conf.urls import handler404
 from django.contrib.sitemaps.views import sitemap
 from django.views.decorators.cache import cache_page
-from . sitemaps import StaticViewSitemap, ServiceViewSitemap, BlogViewSitemap, ServiceAreaSitemap
+from . sitemaps import StaticViewSitemap, ServiceViewSitemap, BlogViewSitemap, ServiceAreaSitemap, ProjectViewSitemap
 from django.contrib.auth import views as auth_views
 
-sitemaps = {"static":StaticViewSitemap,
-            "services": ServiceViewSitemap,
-            "service-areas": ServiceAreaSitemap,
-            "blogs":BlogViewSitemap,
-            }
+sitemaps = {
+    "static": StaticViewSitemap,
+    "services": ServiceViewSitemap,
+    "service-areas": ServiceAreaSitemap,
+    "blogs": BlogViewSitemap,
+    "projects": ProjectViewSitemap,
+}
 
 urlpatterns = [
     path('admin/', admin.site.urls),

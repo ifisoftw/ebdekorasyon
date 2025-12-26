@@ -17084,3 +17084,1342 @@ WARNING 2025-12-24 02:52:14,202 log 26877 8426262400 Not Found: /olmayan-hizmet/
 WARNING 2025-12-24 02:53:19,355 log 27385 8426262400 Not Found: /bloglar/yok-blog/
 WARNING 2025-12-24 02:53:19,469 log 27385 8426262400 Not Found: /bu-url-yok-404/
 WARNING 2025-12-24 02:53:19,567 log 27385 8426262400 Not Found: /olmayan-hizmet/
+INFO 2025-12-24 03:17:28,497 autoreload 29988 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 03:17:29,956 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18843
+INFO 2025-12-24 03:17:29,974 basehttp 29988 6173880320 "GET /media/uploads/Hero/hero_banner_88PovAt.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:29,975 basehttp 29988 6157053952 "GET /media/uploads/eb-logo.png HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:30,275 basehttp 29988 6157053952 "GET /media/uploads/favicon_Divbsmr.png HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,070 basehttp 29988 6157053952 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,070 basehttp 29988 6190706688 "GET /media/uploads/services/ahsap-kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,070 basehttp 29988 6173880320 "GET /media/uploads/services/mutfak-dolabi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,087 basehttp 29988 6173880320 "GET /media/uploads/services/doseme-degisimi.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,088 basehttp 29988 6190706688 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,088 basehttp 29988 6157053952 "GET /media/uploads/services/mutfak-tezgahi.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,564 basehttp 29988 6190706688 "GET /media/uploads/services/kafe-dekorasyon.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,564 basehttp 29988 6173880320 "GET /media/uploads/services/tv-unitesi-dekor.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,564 basehttp 29988 6157053952 "GET /media/uploads/services/mobilya-tamir.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,621 basehttp 29988 6173880320 "GET /media/uploads/services/laminant-parke.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,621 basehttp 29988 6190706688 "GET /media/uploads/services/ev-dekorasyon.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:31,622 basehttp 29988 6157053952 "GET /media/uploads/services/parke-renkleri.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:32,138 basehttp 29988 6190706688 "GET /media/uploads/projects/project_ofis-boya-projesi_9S0PaBY.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:32,138 basehttp 29988 6173880320 "GET /media/uploads/projects/project_modern-mutfak-donusumu_WQucj3P.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:32,138 basehttp 29988 6157053952 "GET /media/uploads/projects/project_komple-ev-renovasyonu_tayRiPk.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 03:17:34,292 basehttp 29988 6157053952 "GET /mutfak-dolabi-boyama-renk-degisimi/ HTTP/1.1" 200 13252
+INFO 2025-12-24 03:18:13,991 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12411
+INFO 2025-12-24 03:18:16,041 basehttp 29988 6157053952 "GET /mutfak-tezgahi-degisimi-tamiri/ HTTP/1.1" 200 12839
+INFO 2025-12-24 05:02:34,891 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18875
+INFO 2025-12-24 05:02:35,106 basehttp 29988 6173880320 "GET /media/uploads/projects/project_klasik-yatak-odasi-yenileme_LA8xLqu.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:02:35,106 basehttp 29988 6157053952 "GET /media/uploads/projects/project_luks-banyo-donusumu_noQg7B2.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:02:35,107 basehttp 29988 6190706688 "GET /media/uploads/projects/project_antika-koltuk-restorasyonu_pgbKNaw.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:02:36,754 basehttp 29988 6190706688 "GET /hizmetler/ HTTP/1.1" 200 12478
+INFO 2025-12-24 05:02:37,938 basehttp 29988 6190706688 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 12772
+INFO 2025-12-24 05:02:46,967 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12418
+INFO 2025-12-24 05:02:48,110 basehttp 29988 6157053952 "GET /mutfak-dolabi-boyama-renk-degisimi/ HTTP/1.1" 200 13240
+INFO 2025-12-24 05:03:02,420 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12495
+INFO 2025-12-24 05:03:03,601 basehttp 29988 6157053952 "GET /mobilya-ve-ahsap-kapi-boyama/ HTTP/1.1" 200 12952
+INFO 2025-12-24 05:03:36,683 basehttp 29988 6157053952 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 10085
+INFO 2025-12-24 05:07:00,145 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12441
+INFO 2025-12-24 05:07:03,527 basehttp 29988 6157053952 "GET /mutfak-dolabi-boyama-renk-degisimi/ HTTP/1.1" 200 13213
+INFO 2025-12-24 05:07:51,078 basehttp 29988 6157053952 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 9839
+INFO 2025-12-24 05:07:53,577 basehttp 29988 6157053952 "GET /cekmekoy-villa-dekorasyon/ HTTP/1.1" 200 13920
+INFO 2025-12-24 05:07:58,654 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12490
+INFO 2025-12-24 05:07:59,707 basehttp 29988 6157053952 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 9833
+INFO 2025-12-24 05:08:00,798 basehttp 29988 6157053952 "GET /atasehir-tadilat-ic-mimarlik/ HTTP/1.1" 200 14114
+INFO 2025-12-24 05:08:13,377 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18646
+INFO 2025-12-24 05:08:15,354 basehttp 29988 6157053952 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-12-24 05:08:15,383 basehttp 29988 6157053952 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4850
+INFO 2025-12-24 05:08:15,403 basehttp 29988 6157053952 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:15,408 basehttp 29988 6157053952 "GET /static/admin_interface/css/fieldsets.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 499
+INFO 2025-12-24 05:08:15,410 basehttp 29988 6224359424 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:15,410 basehttp 29988 6190706688 "GET /static/admin_interface/css/changelist.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1433
+INFO 2025-12-24 05:08:15,411 basehttp 29988 6157053952 "GET /static/admin_interface/css/file-upload.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1169
+INFO 2025-12-24 05:08:15,413 basehttp 29988 6241185792 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:15,413 basehttp 29988 6207533056 "GET /static/admin_interface/css/change-form.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1125
+INFO 2025-12-24 05:08:15,413 basehttp 29988 6173880320 "GET /static/admin_interface/css/admin-interface.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 17882
+INFO 2025-12-24 05:08:15,414 basehttp 29988 6224359424 "GET /static/admin_interface/css/header.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1015
+INFO 2025-12-24 05:08:15,415 basehttp 29988 6190706688 "GET /static/admin_interface/css/inlines.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2715
+INFO 2025-12-24 05:08:15,416 basehttp 29988 6157053952 "GET /static/admin_interface/css/jquery.ui.tabs.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 5558
+INFO 2025-12-24 05:08:15,418 basehttp 29988 6207533056 "GET /static/admin_interface/css/list-filter-dropdown.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 691
+INFO 2025-12-24 05:08:15,419 basehttp 29988 6224359424 "GET /static/admin_interface/css/login.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1240
+INFO 2025-12-24 05:08:15,419 basehttp 29988 6241185792 "GET /static/admin_interface/css/language-chooser.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1734
+INFO 2025-12-24 05:08:15,419 basehttp 29988 6157053952 "GET /static/admin_interface/css/nav-sidebar.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2025
+INFO 2025-12-24 05:08:15,421 basehttp 29988 6173880320 "GET /static/admin_interface/css/list-filter.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 614
+INFO 2025-12-24 05:08:15,422 basehttp 29988 6224359424 "GET /static/admin_interface/css/object-tools.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 319
+INFO 2025-12-24 05:08:15,422 basehttp 29988 6190706688 "GET /static/admin_interface/css/modules.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 404
+INFO 2025-12-24 05:08:15,422 basehttp 29988 6207533056 "GET /static/admin_interface/css/paginator.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 797
+INFO 2025-12-24 05:08:15,422 basehttp 29988 6241185792 "GET /static/admin_interface/css/rtl.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1016
+INFO 2025-12-24 05:08:15,423 basehttp 29988 6157053952 "GET /static/admin_interface/css/sticky-form-controls.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2437
+INFO 2025-12-24 05:08:15,425 basehttp 29988 6224359424 "GET /static/admin_interface/css/widgets.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 4752
+INFO 2025-12-24 05:08:15,425 basehttp 29988 6190706688 "GET /static/admin_interface/css/third-party/ckeditor.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2720
+INFO 2025-12-24 05:08:15,425 basehttp 29988 6173880320 "GET /static/admin_interface/css/tabbed-changeform.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1895
+INFO 2025-12-24 05:08:15,425 basehttp 29988 6241185792 "GET /static/admin_interface/css/third-party/import-export.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 189
+INFO 2025-12-24 05:08:15,426 basehttp 29988 6207533056 "GET /static/admin_interface/css/third-party/json-widget.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 993
+INFO 2025-12-24 05:08:15,426 basehttp 29988 6173880320 "GET /static/admin_interface/css/third-party/rangefilter.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1238
+INFO 2025-12-24 05:08:15,426 basehttp 29988 6157053952 "GET /static/admin_interface/css/third-party/modeltranslation.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 356
+INFO 2025-12-24 05:08:15,433 basehttp 29988 6190706688 "GET /static/admin_interface/css/third-party/sorl-thumbnail.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1451
+INFO 2025-12-24 05:08:15,433 basehttp 29988 6224359424 "GET /static/admin_interface/css/third-party/tinymce.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 78
+INFO 2025-12-24 05:08:15,434 basehttp 29988 6241185792 "GET /static/admin_interface/css/third-party/streamfield.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 6407
+INFO 2025-12-24 05:08:15,434 basehttp 29988 6207533056 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-12-24 05:08:15,435 basehttp 29988 6157053952 "GET /static/admin/css/responsive.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 18559
+INFO 2025-12-24 05:08:15,435 basehttp 29988 6173880320 "GET /static/admin/css/responsive_rtl.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1864
+INFO 2025-12-24 05:08:15,435 basehttp 29988 6207533056 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:15,436 basehttp 29988 6224359424 "GET /static/admin_interface/magnific-popup/magnific-popup.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 6951
+INFO 2025-12-24 05:08:15,436 basehttp 29988 6190706688 "GET /static/admin_interface/foldable-apps/foldable-apps.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1955
+INFO 2025-12-24 05:08:15,437 basehttp 29988 6241185792 "GET /static/admin_interface/related-modal/related-modal.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2888
+INFO 2025-12-24 05:08:15,437 basehttp 29988 6157053952 "GET /static/admin_interface/foldable-apps/foldable-apps.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1750
+INFO 2025-12-24 05:08:15,437 basehttp 29988 6207533056 "GET /static/admin_interface/related-modal/related-modal.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 7032
+INFO 2025-12-24 05:08:15,438 basehttp 29988 6173880320 "GET /static/admin_interface/magnific-popup/jquery.magnific-popup.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 60830
+INFO 2025-12-24 05:08:15,440 basehttp 29988 6173880320 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:15,441 basehttp 29988 6173880320 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:23,070 basehttp 29988 6157053952 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-12-24 05:08:23,093 basehttp 29988 6157053952 "GET /admin/ HTTP/1.1" 200 7224
+INFO 2025-12-24 05:08:23,107 basehttp 29988 6157053952 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:23,114 basehttp 29988 6157053952 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:23,115 basehttp 29988 6157053952 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:23,115 basehttp 29988 6173880320 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,187 basehttp 29988 6157053952 "GET /admin/service/service/ HTTP/1.1" 200 11805
+INFO 2025-12-24 05:08:25,207 basehttp 29988 6190706688 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,207 basehttp 29988 6207533056 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,207 basehttp 29988 6173880320 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,208 basehttp 29988 6241185792 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,208 basehttp 29988 6224359424 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,210 basehttp 29988 6241185792 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,210 basehttp 29988 6207533056 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,210 basehttp 29988 6190706688 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,216 basehttp 29988 6224359424 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,217 basehttp 29988 6173880320 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,218 basehttp 29988 6190706688 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,218 basehttp 29988 6241185792 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,218 basehttp 29988 6207533056 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-12-24 05:08:25,221 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2576
+INFO 2025-12-24 05:08:25,222 basehttp 29988 6157053952 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:25,231 basehttp 29988 6157053952 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:26,588 basehttp 29988 6157053952 "GET /admin/service/service/108/change/ HTTP/1.1" 200 13587
+INFO 2025-12-24 05:08:26,608 basehttp 29988 6173880320 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:26,609 basehttp 29988 6207533056 "GET /static/admin/js/collapse.js HTTP/1.1" 200 2052
+INFO 2025-12-24 05:08:26,609 basehttp 29988 6190706688 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2025-12-24 05:08:26,609 basehttp 29988 6241185792 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-12-24 05:08:26,614 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2525
+INFO 2025-12-24 05:08:26,616 basehttp 29988 6157053952 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-12-24 05:08:26,624 basehttp 29988 6241185792 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 2025-12-24 05:08:26,628 basehttp 29988 6157053952 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2069
+INFO 2025-12-24 05:08:26,642 basehttp 29988 6241185792 "GET /static/summernote/django_summernote.css HTTP/1.1" 200 126
+INFO 2025-12-24 05:08:26,644 basehttp 29988 6190706688 "GET /static/summernote/jquery.iframe-transport.js HTTP/1.1" 200 10891
+INFO 2025-12-24 05:08:26,645 basehttp 29988 6207533056 "GET /static/summernote/jquery.ui.widget.js HTTP/1.1" 200 22757
+INFO 2025-12-24 05:08:26,648 basehttp 29988 6241185792 "GET /static/summernote/ResizeSensor.js HTTP/1.1" 200 7678
+INFO 2025-12-24 05:08:26,649 basehttp 29988 6157053952 "GET /static/summernote/summernote.min.css HTTP/1.1" 200 19392
+INFO 2025-12-24 05:08:26,650 basehttp 29988 6173880320 "GET /static/summernote/jquery.fileupload.js HTTP/1.1" 200 64780
+INFO 2025-12-24 05:08:26,650 basehttp 29988 6224359424 "GET /static/summernote/summernote.min.js HTTP/1.1" 200 152734
+INFO 2025-12-24 05:08:26,746 basehttp 29988 6224359424 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766542106739 HTTP/1.1" 200 4233
+INFO 2025-12-24 05:08:26,789 basehttp 29988 6224359424 "GET /static/summernote/font/summernote.woff2 HTTP/1.1" 200 6948
+INFO 2025-12-24 05:08:33,367 basehttp 29988 6157053952 "GET /admin/service/servicearea/ HTTP/1.1" 200 9125
+INFO 2025-12-24 05:08:33,385 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2490
+INFO 2025-12-24 05:08:35,546 basehttp 29988 6157053952 "GET /admin/service/servicearea/30/change/ HTTP/1.1" 200 13581
+INFO 2025-12-24 05:08:35,564 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2491
+INFO 2025-12-24 05:08:35,577 basehttp 29988 6157053952 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2126
+INFO 2025-12-24 05:08:35,602 basehttp 29988 6157053952 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766542115592 HTTP/1.1" 200 4233
+INFO 2025-12-24 05:08:45,743 basehttp 29988 6173880320 "GET /admin/service/servicearea/ HTTP/1.1" 200 9120
+INFO 2025-12-24 05:08:46,850 basehttp 29988 6173880320 "GET /admin/service/servicearea/32/change/ HTTP/1.1" 200 13378
+INFO 2025-12-24 05:08:46,875 basehttp 29988 6173880320 "GET /admin/jsi18n/ HTTP/1.1" 200 2527
+INFO 2025-12-24 05:08:46,888 basehttp 29988 6173880320 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2034
+INFO 2025-12-24 05:08:46,910 basehttp 29988 6173880320 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766542126905 HTTP/1.1" 200 4233
+INFO 2025-12-24 05:08:49,012 basehttp 29988 6173880320 "GET /admin/service/servicearea/ HTTP/1.1" 200 9116
+INFO 2025-12-24 05:08:50,019 basehttp 29988 6157053952 "GET /admin/service/servicearea/31/change/ HTTP/1.1" 200 13418
+INFO 2025-12-24 05:08:50,041 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2514
+INFO 2025-12-24 05:08:50,056 basehttp 29988 6157053952 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2094
+INFO 2025-12-24 05:08:50,080 basehttp 29988 6157053952 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766542130074 HTTP/1.1" 200 4233
+INFO 2025-12-24 05:08:52,018 basehttp 29988 6157053952 "GET /admin/service/servicearea/ HTTP/1.1" 200 9150
+INFO 2025-12-24 05:08:52,900 basehttp 29988 6157053952 "GET /admin/service/servicearea/30/change/ HTTP/1.1" 200 13594
+INFO 2025-12-24 05:08:52,923 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2563
+INFO 2025-12-24 05:08:52,939 basehttp 29988 6157053952 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2079
+INFO 2025-12-24 05:08:52,964 basehttp 29988 6157053952 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766542132955 HTTP/1.1" 200 4233
+INFO 2025-12-24 05:08:54,266 basehttp 29988 6173880320 "GET /admin/service/servicearea/ HTTP/1.1" 200 9140
+INFO 2025-12-24 05:09:01,402 basehttp 29988 6157053952 "GET /admin/service/service/108/change/ HTTP/1.1" 200 13565
+INFO 2025-12-24 05:09:01,449 basehttp 29988 6157053952 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766542141441 HTTP/1.1" 200 4233
+INFO 2025-12-24 05:32:49,105 basehttp 29988 6173880320 "GET / HTTP/1.1" 200 18851
+INFO 2025-12-24 05:32:51,558 basehttp 29988 6173880320 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 10042
+INFO 2025-12-24 05:33:11,621 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18861
+INFO 2025-12-24 05:33:16,216 basehttp 29988 6157053952 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 10037
+INFO 2025-12-24 05:34:06,536 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12478
+INFO 2025-12-24 05:34:10,113 basehttp 29988 6157053952 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 10055
+INFO 2025-12-24 05:34:13,582 basehttp 29988 6157053952 "GET /hakkimizda/ HTTP/1.1" 200 9403
+INFO 2025-12-24 05:34:20,052 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18894
+INFO 2025-12-24 05:34:35,270 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12418
+INFO 2025-12-24 05:34:40,765 basehttp 29988 6157053952 "GET /mutfak-dolabi-boyama-renk-degisimi/ HTTP/1.1" 200 13300
+INFO 2025-12-24 05:34:44,035 basehttp 29988 6157053952 "GET /admin/ HTTP/1.1" 200 7283
+INFO 2025-12-24 05:34:46,266 basehttp 29988 6157053952 "GET /admin/service/service/ HTTP/1.1" 200 11831
+INFO 2025-12-24 05:34:46,294 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2539
+INFO 2025-12-24 05:34:47,995 basehttp 29988 6157053952 "GET /admin/service/service/97/change/ HTTP/1.1" 200 14042
+INFO 2025-12-24 05:34:48,019 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2500
+INFO 2025-12-24 05:34:48,032 basehttp 29988 6157053952 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2066
+INFO 2025-12-24 05:34:48,069 basehttp 29988 6157053952 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766543688061 HTTP/1.1" 200 4233
+INFO 2025-12-24 05:34:53,146 basehttp 29988 6157053952 "POST /admin/service/service/97/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 05:34:53,188 basehttp 29988 6157053952 "GET /admin/service/service/ HTTP/1.1" 200 11902
+INFO 2025-12-24 05:34:53,213 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2573
+INFO 2025-12-24 05:34:53,224 basehttp 29988 6157053952 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-12-24 05:34:54,265 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18899
+INFO 2025-12-24 05:34:56,335 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18895
+INFO 2025-12-24 05:34:57,873 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12494
+INFO 2025-12-24 05:34:57,945 basehttp 29988 6157053952 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 200 50232
+INFO 2025-12-24 05:35:01,710 basehttp 29988 6157053952 "GET /mutfak-dolabi-boyama-renk-degisimi/ HTTP/1.1" 200 13255
+INFO 2025-12-24 05:35:01,729 basehttp 29988 6157053952 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+WARNING 2025-12-24 05:35:22,474 log 29988 6157053952 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-24 05:35:22,474 basehttp 29988 6157053952 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1384
+INFO 2025-12-24 05:36:31,500 basehttp 29988 6157053952 "GET /mutfak-dolabi-boyama-renk-degisimi/ HTTP/1.1" 200 13239
+INFO 2025-12-24 05:36:31,520 basehttp 29988 6190706688 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+WARNING 2025-12-24 05:36:31,522 log 29988 6157053952 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-24 05:36:31,523 basehttp 29988 6157053952 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1435
+INFO 2025-12-24 05:36:47,000 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18886
+INFO 2025-12-24 05:36:47,595 basehttp 29988 6157053952 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:37:12,278 basehttp 29988 6157053952 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 10105
+INFO 2025-12-24 05:37:12,296 basehttp 29988 6157053952 "GET /media/uploads/service_areas/modern_salon.jpg HTTP/1.1" 200 58217
+INFO 2025-12-24 05:37:12,296 basehttp 29988 6173880320 "GET /media/uploads/service_areas/luxury_kitchen.jpg HTTP/1.1" 200 59849
+INFO 2025-12-24 05:37:12,336 basehttp 29988 6157053952 "GET /media/uploads/service_areas/bedroom_remodel.jpg HTTP/1.1" 200 59249
+INFO 2025-12-24 05:37:12,336 basehttp 29988 6173880320 "GET /media/uploads/service_areas/bathroom_modern.jpg HTTP/1.1" 200 59903
+INFO 2025-12-24 05:37:16,468 basehttp 29988 6157053952 "GET /uskudar-boya-tadilat-dekorasyon/ HTTP/1.1" 200 14834
+INFO 2025-12-24 05:37:23,582 basehttp 29988 6157053952 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:40:09,036 basehttp 29988 6157053952 "GET /admin/ HTTP/1.1" 200 7265
+INFO 2025-12-24 05:40:13,816 basehttp 29988 6157053952 "GET /admin/service/service/ HTTP/1.1" 200 11862
+INFO 2025-12-24 05:40:13,844 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2501
+INFO 2025-12-24 05:40:16,737 basehttp 29988 6157053952 "GET /admin/service/service/98/change/ HTTP/1.1" 200 13825
+INFO 2025-12-24 05:40:16,757 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2535
+INFO 2025-12-24 05:40:16,775 basehttp 29988 6157053952 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2067
+INFO 2025-12-24 05:40:16,804 basehttp 29988 6157053952 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766544016796 HTTP/1.1" 200 4233
+INFO 2025-12-24 05:40:57,101 basehttp 29988 6157053952 "POST /admin/service/service/98/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 05:40:57,158 basehttp 29988 6157053952 "GET /admin/service/service/ HTTP/1.1" 200 11963
+INFO 2025-12-24 05:40:57,181 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2573
+INFO 2025-12-24 05:40:58,696 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18865
+INFO 2025-12-24 05:40:59,804 basehttp 29988 6173880320 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:40:59,806 basehttp 29988 6157053952 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 200 46063
+INFO 2025-12-24 05:41:28,124 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18810
+INFO 2025-12-24 05:41:28,866 basehttp 29988 6157053952 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:42:03,041 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18807
+INFO 2025-12-24 05:42:03,818 basehttp 29988 6157053952 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:42:03,818 basehttp 29988 6173880320 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:42:08,440 basehttp 29988 6157053952 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 12786
+INFO 2025-12-24 05:42:12,898 basehttp 29988 6157053952 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 12758
+INFO 2025-12-24 05:42:13,108 basehttp 29988 6157053952 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 12805
+INFO 2025-12-24 05:42:21,473 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12407
+INFO 2025-12-24 05:42:21,548 basehttp 29988 6157053952 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:42:41,689 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12490
+INFO 2025-12-24 05:42:41,772 basehttp 29988 6157053952 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:42:41,945 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12413
+INFO 2025-12-24 05:42:42,193 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12434
+INFO 2025-12-24 05:42:45,504 basehttp 29988 6157053952 "GET /admin/ HTTP/1.1" 200 7331
+INFO 2025-12-24 05:42:50,445 basehttp 29988 6157053952 "GET /admin/service/service/ HTTP/1.1" 200 11808
+INFO 2025-12-24 05:42:50,472 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2512
+INFO 2025-12-24 05:42:53,759 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18822
+INFO 2025-12-24 05:42:53,860 basehttp 29988 6157053952 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:42:53,861 basehttp 29988 6173880320 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:42:56,983 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18871
+INFO 2025-12-24 05:42:56,998 basehttp 29988 6157053952 "GET /media/uploads/eb-logo.png HTTP/1.1" 200 5669
+INFO 2025-12-24 05:42:57,011 basehttp 29988 6173880320 "GET /media/uploads/Hero/hero_banner_88PovAt.jpg HTTP/1.1" 200 403535
+INFO 2025-12-24 05:42:57,897 basehttp 29988 6157053952 "GET /media/uploads/favicon_Divbsmr.png HTTP/1.1" 200 3299
+INFO 2025-12-24 05:42:58,006 basehttp 29988 6173880320 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 200 46007
+INFO 2025-12-24 05:42:58,007 basehttp 29988 6157053952 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 200 50213
+INFO 2025-12-24 05:42:58,008 basehttp 29988 6190706688 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 200 60871
+INFO 2025-12-24 05:42:58,043 basehttp 29988 6190706688 "GET /media/uploads/services/mutfak-tezgahi.jpg HTTP/1.1" 200 42941
+INFO 2025-12-24 05:42:58,043 basehttp 29988 6157053952 "GET /media/uploads/services/doseme-degisimi.jpg HTTP/1.1" 200 48416
+INFO 2025-12-24 05:42:58,044 basehttp 29988 6173880320 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 200 58310
+INFO 2025-12-24 05:42:58,065 basehttp 29988 6173880320 "GET /media/uploads/services/kafe-dekorasyon.jpg HTTP/1.1" 200 60039
+INFO 2025-12-24 05:42:58,065 basehttp 29988 6190706688 "GET /media/uploads/services/mobilya-tamir.jpg HTTP/1.1" 200 58817
+INFO 2025-12-24 05:42:58,065 basehttp 29988 6157053952 "GET /media/uploads/services/tv-unitesi-dekor.jpg HTTP/1.1" 200 50635
+INFO 2025-12-24 05:42:58,501 basehttp 29988 6173880320 "GET /media/uploads/services/laminant-parke.jpg HTTP/1.1" 200 41160
+INFO 2025-12-24 05:42:58,501 basehttp 29988 6190706688 "GET /media/uploads/services/parke-renkleri.jpg HTTP/1.1" 200 59845
+INFO 2025-12-24 05:42:58,501 basehttp 29988 6157053952 "GET /media/uploads/services/ev-dekorasyon.jpg HTTP/1.1" 200 49028
+INFO 2025-12-24 05:42:58,585 basehttp 29988 6190706688 "GET /media/uploads/projects/project_ofis-boya-projesi_9S0PaBY.jpg HTTP/1.1" 200 70290
+INFO 2025-12-24 05:42:58,586 basehttp 29988 6157053952 "GET /media/uploads/projects/project_komple-ev-renovasyonu_tayRiPk.jpg HTTP/1.1" 200 80181
+INFO 2025-12-24 05:42:58,586 basehttp 29988 6173880320 "GET /media/uploads/projects/project_modern-mutfak-donusumu_WQucj3P.jpg HTTP/1.1" 200 73287
+INFO 2025-12-24 05:43:12,165 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18818
+INFO 2025-12-24 05:43:12,562 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18887
+INFO 2025-12-24 05:43:12,882 basehttp 29988 6157053952 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:43:15,653 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18899
+INFO 2025-12-24 05:43:15,678 basehttp 29988 6173880320 "GET /media/uploads/eb-logo.png HTTP/1.1" 200 5618
+INFO 2025-12-24 05:43:15,695 basehttp 29988 6157053952 "GET /media/uploads/Hero/hero_banner_88PovAt.jpg HTTP/1.1" 200 403517
+INFO 2025-12-24 05:43:15,932 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18803
+INFO 2025-12-24 05:43:15,953 basehttp 29988 6157053952 "GET /media/uploads/eb-logo.png HTTP/1.1" 200 5637
+INFO 2025-12-24 05:43:15,963 basehttp 29988 6173880320 "GET /media/uploads/Hero/hero_banner_88PovAt.jpg HTTP/1.1" 200 403490
+INFO 2025-12-24 05:43:16,022 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18831
+INFO 2025-12-24 05:43:16,046 basehttp 29988 6173880320 "GET /media/uploads/eb-logo.png HTTP/1.1" 200 5712
+INFO 2025-12-24 05:43:16,064 basehttp 29988 6157053952 "GET /media/uploads/Hero/hero_banner_88PovAt.jpg HTTP/1.1" 200 403488
+INFO 2025-12-24 05:43:16,140 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18807
+INFO 2025-12-24 05:43:16,165 basehttp 29988 6173880320 "GET /media/uploads/eb-logo.png HTTP/1.1" 200 5714
+INFO 2025-12-24 05:43:16,184 basehttp 29988 6157053952 "GET /media/uploads/Hero/hero_banner_88PovAt.jpg HTTP/1.1" 200 403509
+INFO 2025-12-24 05:43:16,491 basehttp 29988 6157053952 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 200 46093
+INFO 2025-12-24 05:43:16,492 basehttp 29988 6224359424 "GET /media/uploads/services/mutfak-tezgahi.jpg HTTP/1.1" 200 42950
+INFO 2025-12-24 05:43:16,492 basehttp 29988 6173880320 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 200 60817
+INFO 2025-12-24 05:43:16,492 basehttp 29988 6241185792 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 200 58359
+INFO 2025-12-24 05:43:16,493 basehttp 29988 6207533056 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 200 50171
+INFO 2025-12-24 05:43:16,493 basehttp 29988 6190706688 "GET /media/uploads/services/doseme-degisimi.jpg HTTP/1.1" 200 48429
+INFO 2025-12-24 05:43:16,523 basehttp 29988 6157053952 "GET /media/uploads/services/tv-unitesi-dekor.jpg HTTP/1.1" 200 50570
+INFO 2025-12-24 05:43:16,525 basehttp 29988 6207533056 "GET /media/uploads/services/ev-dekorasyon.jpg HTTP/1.1" 200 48984
+INFO 2025-12-24 05:43:16,528 basehttp 29988 6190706688 "GET /media/uploads/services/mobilya-tamir.jpg HTTP/1.1" 200 58832
+INFO 2025-12-24 05:43:16,533 basehttp 29988 6173880320 "GET /media/uploads/services/kafe-dekorasyon.jpg HTTP/1.1" 200 59990
+INFO 2025-12-24 05:43:16,534 basehttp 29988 6224359424 "GET /media/uploads/services/laminant-parke.jpg HTTP/1.1" 200 41170
+INFO 2025-12-24 05:43:16,543 basehttp 29988 6241185792 "GET /media/uploads/services/parke-renkleri.jpg HTTP/1.1" 200 59899
+INFO 2025-12-24 05:43:16,565 basehttp 29988 6190706688 "GET /media/uploads/projects/project_ofis-boya-projesi_9S0PaBY.jpg HTTP/1.1" 200 70265
+INFO 2025-12-24 05:43:16,567 basehttp 29988 6173880320 "GET /media/uploads/projects/project_modern-mutfak-donusumu_WQucj3P.jpg HTTP/1.1" 200 73354
+INFO 2025-12-24 05:43:16,570 basehttp 29988 6157053952 "GET /media/uploads/projects/project_komple-ev-renovasyonu_tayRiPk.jpg HTTP/1.1" 200 80250
+INFO 2025-12-24 05:43:16,626 basehttp 29988 6157053952 "GET /media/uploads/favicon_Divbsmr.png HTTP/1.1" 200 3263
+INFO 2025-12-24 05:43:18,037 basehttp 29988 6157053952 "GET /sandalye-ve-masa-boyama-yenileme/ HTTP/1.1" 200 12746
+INFO 2025-12-24 05:44:23,065 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18868
+INFO 2025-12-24 05:44:23,122 basehttp 29988 6157053952 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:44:23,127 basehttp 29988 6157053952 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:44:23,134 basehttp 29988 6157053952 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:44:23,159 basehttp 29988 6157053952 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:44:23,568 basehttp 29988 6157053952 "GET /admin/ HTTP/1.1" 200 7265
+WARNING 2025-12-24 05:44:23,975 log 29988 6157053952 Not Found: /favicon.ico
+WARNING 2025-12-24 05:44:23,975 basehttp 29988 6157053952 "GET /favicon.ico HTTP/1.1" 404 1410
+INFO 2025-12-24 05:44:26,798 basehttp 29988 6157053952 "GET /admin/service/service/ HTTP/1.1" 200 11830
+INFO 2025-12-24 05:44:26,836 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2540
+INFO 2025-12-24 05:44:29,962 basehttp 29988 6157053952 "GET /admin/service/service/107/change/ HTTP/1.1" 200 13888
+INFO 2025-12-24 05:44:29,994 basehttp 29988 6157053952 "GET /admin/jsi18n/ HTTP/1.1" 200 2521
+INFO 2025-12-24 05:44:30,016 basehttp 29988 6157053952 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2124
+INFO 2025-12-24 05:44:30,058 basehttp 29988 6157053952 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766544270045 HTTP/1.1" 200 4233
+INFO 2025-12-24 05:45:20,236 basehttp 29988 6157053952 "GET / HTTP/1.1" 200 18857
+INFO 2025-12-24 05:45:22,428 basehttp 29988 6157053952 "GET /hizmetler/ HTTP/1.1" 200 12406
+INFO 2025-12-24 05:45:22,527 basehttp 29988 6157053952 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:45:22,528 basehttp 29988 6173880320 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:45:22,529 basehttp 29988 6190706688 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:45:22,530 basehttp 29988 6207533056 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:45:27,012 autoreload 29988 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/service/admin.py changed, reloading.
+INFO 2025-12-24 05:45:28,790 autoreload 40832 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 05:45:29,097 basehttp 40832 6188888064 "GET /mutfak-tezgahi-degisimi-tamiri/ HTTP/1.1" 200 12813
+INFO 2025-12-24 05:45:43,028 basehttp 40832 6188888064 "GET /admin/ HTTP/1.1" 200 7278
+INFO 2025-12-24 05:45:46,176 basehttp 40832 6188888064 "GET /admin/service/service/ HTTP/1.1" 200 11851
+INFO 2025-12-24 05:45:46,208 basehttp 40832 6188888064 "GET /admin/jsi18n/ HTTP/1.1" 200 2548
+INFO 2025-12-24 05:45:47,566 basehttp 40832 6188888064 "GET /admin/service/service/102/change/ HTTP/1.1" 200 13903
+INFO 2025-12-24 05:45:47,593 basehttp 40832 6188888064 "GET /admin/jsi18n/ HTTP/1.1" 200 2565
+INFO 2025-12-24 05:45:47,613 basehttp 40832 6188888064 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2037
+INFO 2025-12-24 05:45:47,653 basehttp 40832 6188888064 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766544347642 HTTP/1.1" 200 4233
+INFO 2025-12-24 05:46:18,545 basehttp 40832 6205714432 "GET / HTTP/1.1" 200 18851
+INFO 2025-12-24 05:46:19,404 basehttp 40832 6222540800 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:46:19,404 basehttp 40832 6205714432 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:46:19,432 basehttp 40832 6205714432 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:48:09,547 basehttp 40832 6205714432 "GET / HTTP/1.1" 200 18839
+INFO 2025-12-24 05:48:10,586 basehttp 40832 6205714432 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:48:10,587 basehttp 40832 6239367168 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:48:10,587 basehttp 40832 6222540800 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:48:10,614 basehttp 40832 6222540800 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:48:11,680 basehttp 40832 6205714432 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 12730
+INFO 2025-12-24 05:48:14,125 basehttp 40832 6205714432 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 12737
+INFO 2025-12-24 05:48:14,156 basehttp 40832 6222540800 "GET /media/uploads/eb-logo.png HTTP/1.1" 200 5673
+INFO 2025-12-24 05:48:14,159 basehttp 40832 6205714432 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 200 58388
+INFO 2025-12-24 05:48:14,773 basehttp 40832 6188888064 "GET /media/uploads/favicon_Divbsmr.png HTTP/1.1" 200 3279
+INFO 2025-12-24 05:48:27,003 basehttp 40832 6188888064 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 12682
+INFO 2025-12-24 05:48:27,042 basehttp 40832 6188888064 "GET /media/uploads/defaults/default_before.jpg HTTP/1.1" 200 81556
+INFO 2025-12-24 05:48:27,042 basehttp 40832 6205714432 "GET /media/uploads/defaults/default_after.jpg HTTP/1.1" 200 79175
+INFO 2025-12-24 05:48:47,495 basehttp 40832 6188888064 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 10118
+INFO 2025-12-24 05:48:47,519 basehttp 40832 6188888064 "GET /media/uploads/service_areas/modern_salon.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:48:47,523 basehttp 40832 6188888064 "GET /media/uploads/service_areas/luxury_kitchen.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:48:47,528 basehttp 40832 6188888064 "GET /media/uploads/service_areas/bedroom_remodel.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:48:47,534 basehttp 40832 6205714432 "GET /media/uploads/service_areas/bathroom_modern.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:48:48,614 basehttp 40832 6205714432 "GET /kadikoy-boya-tadilat-dekorasyon/ HTTP/1.1" 200 14799
+INFO 2025-12-24 05:48:56,064 basehttp 40832 6188888064 "GET /hizmetler/ HTTP/1.1" 200 12489
+INFO 2025-12-24 05:48:56,164 basehttp 40832 6205714432 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:48:56,164 basehttp 40832 6188888064 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:49:47,863 basehttp 40832 6188888064 "GET /hizmetler/ HTTP/1.1" 200 12437
+INFO 2025-12-24 05:49:48,004 basehttp 40832 6188888064 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:49:48,006 basehttp 40832 6205714432 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:49:48,012 basehttp 40832 6239367168 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:49:48,017 basehttp 40832 6222540800 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:49:48,715 basehttp 40832 6222540800 "GET /projeler/ HTTP/1.1" 200 9919
+INFO 2025-12-24 05:49:51,690 basehttp 40832 6188888064 "GET /projeler/?category=Anahtar%20Teslim%20Tadilat HTTP/1.1" 200 1334
+INFO 2025-12-24 05:49:52,260 basehttp 40832 6188888064 "GET /projeler/?category=Banyo%20Tadilat HTTP/1.1" 200 1452
+INFO 2025-12-24 05:49:52,695 basehttp 40832 6188888064 "GET /projeler/?category=Boya%20Badana HTTP/1.1" 200 1384
+INFO 2025-12-24 05:49:53,472 basehttp 40832 6188888064 "GET /projeler/?category=Koltuk%20D%C3%B6%C5%9Feme HTTP/1.1" 200 1416
+INFO 2025-12-24 05:55:47,476 basehttp 40832 6188888064 "GET / HTTP/1.1" 200 18876
+INFO 2025-12-24 05:55:48,029 basehttp 40832 6222540800 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:55:48,029 basehttp 40832 6205714432 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:55:48,030 basehttp 40832 6188888064 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:55:48,053 basehttp 40832 6188888064 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:55:51,827 basehttp 40832 6188888064 "GET / HTTP/1.1" 200 18800
+INFO 2025-12-24 05:55:55,343 basehttp 40832 6188888064 "GET /projeler/ HTTP/1.1" 200 9976
+INFO 2025-12-24 05:56:15,413 basehttp 40832 6188888064 "GET /hizmetler/ HTTP/1.1" 200 12445
+INFO 2025-12-24 05:56:21,706 basehttp 40832 6188888064 "GET / HTTP/1.1" 200 18854
+INFO 2025-12-24 05:56:33,052 basehttp 40832 6188888064 "GET /hizmetler/ HTTP/1.1" 200 12468
+INFO 2025-12-24 05:56:35,204 basehttp 40832 6188888064 "GET /projeler/ HTTP/1.1" 200 9944
+INFO 2025-12-24 05:56:37,834 basehttp 40832 6188888064 "GET /projeler/ HTTP/1.1" 200 9913
+INFO 2025-12-24 05:56:37,852 basehttp 40832 6188888064 "GET /media/uploads/eb-logo.png HTTP/1.1" 200 5636
+INFO 2025-12-24 05:56:38,381 basehttp 40832 6188888064 "GET /media/uploads/projects/project_ofis-boya-projesi_9S0PaBY.jpg HTTP/1.1" 200 70365
+INFO 2025-12-24 05:56:38,384 basehttp 40832 6256193536 "GET /media/uploads/projects/project_modern-mutfak-donusumu_WQucj3P.jpg HTTP/1.1" 200 73301
+INFO 2025-12-24 05:56:38,384 basehttp 40832 6205714432 "GET /media/uploads/projects/project_antika-koltuk-restorasyonu_pgbKNaw.jpg HTTP/1.1" 200 67145
+INFO 2025-12-24 05:56:38,385 basehttp 40832 6239367168 "GET /media/uploads/projects/project_komple-ev-renovasyonu_tayRiPk.jpg HTTP/1.1" 200 80202
+INFO 2025-12-24 05:56:38,385 basehttp 40832 6222540800 "GET /media/uploads/projects/project_luks-banyo-donusumu_noQg7B2.jpg HTTP/1.1" 200 99642
+INFO 2025-12-24 05:56:38,388 basehttp 40832 6273019904 "GET /media/uploads/projects/project_klasik-yatak-odasi-yenileme_LA8xLqu.jpg HTTP/1.1" 200 131759
+INFO 2025-12-24 05:56:38,453 basehttp 40832 6188888064 "GET /media/uploads/favicon_Divbsmr.png HTTP/1.1" 200 3355
+INFO 2025-12-24 05:56:39,209 basehttp 40832 6188888064 "GET /projeler/ HTTP/1.1" 200 9935
+INFO 2025-12-24 05:56:39,225 basehttp 40832 6188888064 "GET /media/uploads/eb-logo.png HTTP/1.1" 200 5683
+INFO 2025-12-24 05:56:39,661 basehttp 40832 6273019904 "GET /media/uploads/projects/project_modern-mutfak-donusumu_WQucj3P.jpg HTTP/1.1" 200 73308
+INFO 2025-12-24 05:56:39,661 basehttp 40832 6239367168 "GET /media/uploads/projects/project_komple-ev-renovasyonu_tayRiPk.jpg HTTP/1.1" 200 80196
+INFO 2025-12-24 05:56:39,662 basehttp 40832 6188888064 "GET /media/uploads/projects/project_antika-koltuk-restorasyonu_pgbKNaw.jpg HTTP/1.1" 200 67164
+INFO 2025-12-24 05:56:39,662 basehttp 40832 6205714432 "GET /media/uploads/projects/project_ofis-boya-projesi_9S0PaBY.jpg HTTP/1.1" 200 70329
+INFO 2025-12-24 05:56:39,664 basehttp 40832 6222540800 "GET /media/uploads/projects/project_luks-banyo-donusumu_noQg7B2.jpg HTTP/1.1" 200 99666
+INFO 2025-12-24 05:56:39,665 basehttp 40832 6256193536 "GET /media/uploads/projects/project_klasik-yatak-odasi-yenileme_LA8xLqu.jpg HTTP/1.1" 200 131703
+INFO 2025-12-24 05:56:39,730 basehttp 40832 6188888064 "GET /media/uploads/favicon_Divbsmr.png HTTP/1.1" 200 3267
+INFO 2025-12-24 05:56:55,249 basehttp 40832 6188888064 "GET /projeler/ HTTP/1.1" 200 9655
+INFO 2025-12-24 05:56:55,329 basehttp 40832 6188888064 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 200 80524
+INFO 2025-12-24 05:56:55,329 basehttp 40832 6205714432 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 200 79162
+INFO 2025-12-24 05:56:55,330 basehttp 40832 6222540800 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 200 81279
+INFO 2025-12-24 05:56:57,716 basehttp 40832 6188888064 "GET /projeler/?category=Mobilya%20Boya%20ve%20Renk%20De%C4%9Fi%C5%9Fimi HTTP/1.1" 200 1340
+INFO 2025-12-24 05:56:58,880 basehttp 40832 6188888064 "GET /projeler/?category=Tamirat,%20Tadilat%20ve%20Dekorasyon HTTP/1.1" 200 1357
+INFO 2025-12-24 05:56:59,446 basehttp 40832 6188888064 "GET /projeler/?category=Zemin%20ve%20Parke%20Sistemleri HTTP/1.1" 200 1353
+INFO 2025-12-24 05:56:59,455 basehttp 40832 6188888064 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:57:00,146 basehttp 40832 6188888064 "GET /projeler/?category= HTTP/1.1" 200 1632
+INFO 2025-12-24 05:57:00,156 basehttp 40832 6188888064 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:57:02,072 basehttp 40832 6188888064 "GET /projeler/suadiye-baliksirti-parke-uygulamasi/ HTTP/1.1" 200 8785
+INFO 2025-12-24 05:57:02,126 basehttp 40832 6188888064 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:57:02,143 basehttp 40832 6205714432 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 200 81494
+INFO 2025-12-24 05:57:02,144 basehttp 40832 6188888064 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 200 80882
+INFO 2025-12-24 05:57:07,775 basehttp 40832 6188888064 "GET /projeler/bagdat-caddesi-komple-daire-renovasyonu/ HTTP/1.1" 200 8757
+INFO 2025-12-24 05:57:07,828 basehttp 40832 6188888064 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:57:07,844 basehttp 40832 6205714432 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 200 81504
+INFO 2025-12-24 05:57:07,844 basehttp 40832 6188888064 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 200 79168
+INFO 2025-12-24 05:57:10,887 basehttp 40832 6188888064 "GET /projeler/atasehir-lake-mutfak-donusumu/ HTTP/1.1" 200 8809
+INFO 2025-12-24 05:57:10,935 basehttp 40832 6188888064 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:57:10,953 basehttp 40832 6188888064 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 200 81002
+INFO 2025-12-24 05:57:10,954 basehttp 40832 6205714432 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 200 79612
+INFO 2025-12-24 05:58:00,020 basehttp 40832 6188888064 "GET / HTTP/1.1" 200 19528
+INFO 2025-12-24 05:58:00,666 basehttp 40832 6205714432 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:00,666 basehttp 40832 6188888064 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:00,666 basehttp 40832 6222540800 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:00,927 basehttp 40832 6222540800 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:01,478 basehttp 40832 6222540800 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:01,478 basehttp 40832 6205714432 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:01,478 basehttp 40832 6188888064 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:02,423 basehttp 40832 6205714432 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:02,423 basehttp 40832 6188888064 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:23,443 autoreload 40832 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/views.py changed, reloading.
+INFO 2025-12-24 05:58:24,506 autoreload 43391 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 05:58:51,595 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 19558
+INFO 2025-12-24 05:58:53,599 basehttp 43391 6131789824 "GET /hizmetler/ HTTP/1.1" 200 12454
+INFO 2025-12-24 05:58:55,981 basehttp 43391 6131789824 "GET /projeler/ HTTP/1.1" 200 9697
+INFO 2025-12-24 05:58:56,049 basehttp 43391 6131789824 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:56,050 basehttp 43391 6165442560 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:56,050 basehttp 43391 6148616192 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:58,493 basehttp 43391 6131789824 "GET /galeri/ HTTP/1.1" 200 9554
+INFO 2025-12-24 05:58:58,559 basehttp 43391 6148616192 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:58,559 basehttp 43391 6165442560 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:58,560 basehttp 43391 6131789824 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:58,563 basehttp 43391 6182268928 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:58,565 basehttp 43391 6199095296 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:58:58,565 basehttp 43391 6215921664 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:59:00,699 basehttp 43391 6215921664 "GET /projeler/suadiye-baliksirti-parke-uygulamasi/ HTTP/1.1" 200 8761
+INFO 2025-12-24 05:59:03,353 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 19530
+INFO 2025-12-24 05:59:18,667 basehttp 43391 6131789824 "GET /hizmetler/ HTTP/1.1" 200 12470
+INFO 2025-12-24 05:59:19,568 basehttp 43391 6131789824 "GET /mobilya-ve-ahsap-kapi-boyama/ HTTP/1.1" 200 12786
+INFO 2025-12-24 05:59:19,589 basehttp 43391 6131789824 "GET /media/uploads/defaults/default_before.jpg HTTP/1.1" 200 81526
+INFO 2025-12-24 05:59:19,590 basehttp 43391 6148616192 "GET /media/uploads/defaults/default_after.jpg HTTP/1.1" 200 79153
+INFO 2025-12-24 05:59:28,269 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 19534
+INFO 2025-12-24 05:59:29,348 basehttp 43391 6131789824 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:59:29,348 basehttp 43391 6148616192 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 05:59:29,348 basehttp 43391 6165442560 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:01:03,938 basehttp 43391 6131789824 "GET /projeler/ HTTP/1.1" 200 9972
+INFO 2025-12-24 06:01:04,072 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 200 80042
+INFO 2025-12-24 06:01:04,073 basehttp 43391 6182268928 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 200 79128
+INFO 2025-12-24 06:01:04,074 basehttp 43391 6148616192 "GET /media/uploads/projects/project_bedroom_main.jpg HTTP/1.1" 200 79149
+INFO 2025-12-24 06:01:04,074 basehttp 43391 6199095296 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 200 80515
+INFO 2025-12-24 06:01:04,074 basehttp 43391 6131789824 "GET /media/uploads/projects/project_office_flooring_main.jpg HTTP/1.1" 200 80914
+INFO 2025-12-24 06:01:04,076 basehttp 43391 6215921664 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 200 81248
+INFO 2025-12-24 06:01:31,717 basehttp 43391 6131789824 "GET /projeler/?category=Mobilya%20Boya%20ve%20Renk%20De%C4%9Fi%C5%9Fimi HTTP/1.1" 200 1537
+INFO 2025-12-24 06:01:32,337 basehttp 43391 6131789824 "GET /projeler/?category=Tamirat,%20Tadilat%20ve%20Dekorasyon HTTP/1.1" 200 1518
+INFO 2025-12-24 06:01:32,922 basehttp 43391 6131789824 "GET /projeler/?category=Zemin%20ve%20Parke%20Sistemleri HTTP/1.1" 200 1505
+INFO 2025-12-24 06:01:34,026 basehttp 43391 6131789824 "GET /projeler/?category=Mobilya%20Boya%20ve%20Renk%20De%C4%9Fi%C5%9Fimi HTTP/1.1" 200 1556
+INFO 2025-12-24 06:01:34,787 basehttp 43391 6131789824 "GET /projeler/?category=Tamirat,%20Tadilat%20ve%20Dekorasyon HTTP/1.1" 200 1521
+INFO 2025-12-24 06:01:35,684 basehttp 43391 6131789824 "GET /projeler/?category=Zemin%20ve%20Parke%20Sistemleri HTTP/1.1" 200 1483
+INFO 2025-12-24 06:01:36,417 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 19811
+INFO 2025-12-24 06:01:36,904 basehttp 43391 6131789824 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:01:36,908 basehttp 43391 6131789824 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:01:36,909 basehttp 43391 6148616192 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:01:36,937 basehttp 43391 6148616192 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:01:37,487 basehttp 43391 6131789824 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:01:37,487 basehttp 43391 6148616192 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:01:37,487 basehttp 43391 6165442560 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:01:37,515 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bedroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:01:37,515 basehttp 43391 6131789824 "GET /media/uploads/projects/project_office_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:01:37,515 basehttp 43391 6148616192 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:01:39,423 basehttp 43391 6131789824 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 200 81508
+INFO 2025-12-24 06:01:39,423 basehttp 43391 6148616192 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 200 80862
+INFO 2025-12-24 06:02:34,722 basehttp 43391 6131789824 "GET /admin/ HTTP/1.1" 200 7307
+WARNING 2025-12-24 06:02:35,171 log 43391 6131789824 Not Found: /favicon.ico
+WARNING 2025-12-24 06:02:35,171 basehttp 43391 6131789824 "GET /favicon.ico HTTP/1.1" 404 1352
+INFO 2025-12-24 06:02:37,007 basehttp 43391 6131789824 "GET /admin/service/service/ HTTP/1.1" 200 11796
+INFO 2025-12-24 06:02:37,036 basehttp 43391 6131789824 "GET /admin/jsi18n/ HTTP/1.1" 200 2554
+INFO 2025-12-24 06:02:41,492 basehttp 43391 6131789824 "GET /admin/core/project/ HTTP/1.1" 200 9312
+INFO 2025-12-24 06:02:41,512 basehttp 43391 6131789824 "GET /admin/jsi18n/ HTTP/1.1" 200 2491
+INFO 2025-12-24 06:02:41,522 basehttp 43391 6131789824 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-12-24 06:02:45,511 basehttp 43391 6131789824 "POST /admin/core/project/ HTTP/1.1" 302 0
+INFO 2025-12-24 06:02:45,545 basehttp 43391 6131789824 "GET /admin/core/project/ HTTP/1.1" 200 9378
+INFO 2025-12-24 06:02:45,566 basehttp 43391 6131789824 "GET /admin/jsi18n/ HTTP/1.1" 200 2576
+INFO 2025-12-24 06:02:47,475 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 19732
+INFO 2025-12-24 06:02:48,377 basehttp 43391 6131789824 "GET /media/uploads/projects/project_bedroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:02:48,377 basehttp 43391 6148616192 "GET /media/uploads/projects/project_office_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:02:48,377 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:02:48,391 basehttp 43391 6148616192 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:02:48,392 basehttp 43391 6165442560 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:02:48,392 basehttp 43391 6131789824 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:02:48,633 basehttp 43391 6165442560 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 200 81558
+INFO 2025-12-24 06:02:48,633 basehttp 43391 6131789824 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 200 80519
+INFO 2025-12-24 06:03:39,011 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 19754
+INFO 2025-12-24 06:03:39,494 basehttp 43391 6131789824 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:39,522 basehttp 43391 6131789824 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:39,801 basehttp 43391 6148616192 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:39,801 basehttp 43391 6131789824 "GET /media/uploads/projects/project_bedroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:39,802 basehttp 43391 6165442560 "GET /media/uploads/projects/project_office_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:39,818 basehttp 43391 6131789824 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:39,818 basehttp 43391 6165442560 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:39,818 basehttp 43391 6148616192 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:40,072 basehttp 43391 6165442560 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:40,072 basehttp 43391 6148616192 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:46,745 basehttp 43391 6131789824 "GET /galeri/ HTTP/1.1" 200 10554
+INFO 2025-12-24 06:03:46,838 basehttp 43391 6215921664 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:46,838 basehttp 43391 6199095296 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:03:46,844 basehttp 43391 6148616192 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 200 81565
+INFO 2025-12-24 06:03:46,845 basehttp 43391 6182268928 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 200 81547
+INFO 2025-12-24 06:03:46,846 basehttp 43391 6131789824 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 200 79155
+INFO 2025-12-24 06:03:46,849 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 200 80014
+INFO 2025-12-24 06:03:46,859 basehttp 43391 6199095296 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 200 81538
+INFO 2025-12-24 06:03:46,860 basehttp 43391 6215921664 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 200 79201
+INFO 2025-12-24 06:03:46,861 basehttp 43391 6148616192 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 200 80928
+INFO 2025-12-24 06:03:46,861 basehttp 43391 6131789824 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 200 79670
+INFO 2025-12-24 06:04:31,339 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 19757
+INFO 2025-12-24 06:04:31,815 basehttp 43391 6131789824 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:04:31,815 basehttp 43391 6148616192 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:04:32,781 basehttp 43391 6131789824 "GET /media/uploads/projects/project_office_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:04:32,781 basehttp 43391 6148616192 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:04:32,782 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bedroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:04:33,002 basehttp 43391 6165442560 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:04:33,002 basehttp 43391 6148616192 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:04:33,002 basehttp 43391 6131789824 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:04:33,051 basehttp 43391 6148616192 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:04:33,051 basehttp 43391 6131789824 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,299 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 20507
+INFO 2025-12-24 06:05:19,333 basehttp 43391 6148616192 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,333 basehttp 43391 6131789824 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,337 basehttp 43391 6148616192 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,337 basehttp 43391 6131789824 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,342 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,345 basehttp 43391 6131789824 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,349 basehttp 43391 6131789824 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,352 basehttp 43391 6182268928 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,352 basehttp 43391 6148616192 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,352 basehttp 43391 6165442560 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,355 basehttp 43391 6199095296 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:19,355 basehttp 43391 6215921664 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:29,260 basehttp 43391 6131789824 "GET /galeri/ HTTP/1.1" 200 10544
+INFO 2025-12-24 06:05:45,467 basehttp 43391 6131789824 "GET /galeri/ HTTP/1.1" 200 10585
+INFO 2025-12-24 06:05:45,542 basehttp 43391 6182268928 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:45,543 basehttp 43391 6148616192 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:45,543 basehttp 43391 6131789824 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:45,543 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:45,545 basehttp 43391 6199095296 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:45,545 basehttp 43391 6215921664 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:45,554 basehttp 43391 6148616192 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:45,554 basehttp 43391 6131789824 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:45,555 basehttp 43391 6165442560 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:45,556 basehttp 43391 6182268928 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:45,556 basehttp 43391 6215921664 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:45,556 basehttp 43391 6199095296 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:47,236 basehttp 43391 6199095296 "GET / HTTP/1.1" 200 19704
+INFO 2025-12-24 06:05:48,024 basehttp 43391 6131789824 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:48,025 basehttp 43391 6148616192 "GET /media/uploads/projects/project_office_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:48,025 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bedroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:48,300 basehttp 43391 6148616192 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:48,300 basehttp 43391 6165442560 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:05:48,300 basehttp 43391 6131789824 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:07:07,159 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 19690
+INFO 2025-12-24 06:07:08,074 basehttp 43391 6148616192 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:07:08,074 basehttp 43391 6131789824 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:07:08,100 basehttp 43391 6131789824 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:07:08,448 basehttp 43391 6131789824 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:07:08,449 basehttp 43391 6148616192 "GET /media/uploads/projects/project_office_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:07:08,449 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bedroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:07:08,692 basehttp 43391 6131789824 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:07:08,692 basehttp 43391 6165442560 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:07:08,692 basehttp 43391 6148616192 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:07:08,747 basehttp 43391 6165442560 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:07:08,747 basehttp 43391 6148616192 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:04,436 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 19706
+INFO 2025-12-24 06:08:05,195 basehttp 43391 6131789824 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:05,956 basehttp 43391 6148616192 "GET /media/uploads/projects/project_bedroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:05,956 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:05,956 basehttp 43391 6131789824 "GET /media/uploads/projects/project_office_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:06,497 basehttp 43391 6148616192 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:06,497 basehttp 43391 6165442560 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:06,497 basehttp 43391 6131789824 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:06,886 basehttp 43391 6148616192 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:06,886 basehttp 43391 6165442560 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:27,871 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 20706
+INFO 2025-12-24 06:08:28,575 basehttp 43391 6148616192 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:28,575 basehttp 43391 6131789824 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:28,575 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:28,575 basehttp 43391 6182268928 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:28,604 basehttp 43391 6199095296 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:28,608 basehttp 43391 6182268928 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:28,608 basehttp 43391 6165442560 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:28,608 basehttp 43391 6215921664 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:28,609 basehttp 43391 6148616192 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:08:28,610 basehttp 43391 6131789824 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:07,329 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 20729
+WARNING 2025-12-24 06:09:09,298 log 43391 6131789824 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-24 06:09:09,299 basehttp 43391 6131789824 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1377
+INFO 2025-12-24 06:09:11,594 basehttp 43391 6148616192 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:11,594 basehttp 43391 6131789824 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:27,162 basehttp 43391 6131789824 "GET / HTTP/1.1" 200 20738
+WARNING 2025-12-24 06:09:27,193 log 43391 6131789824 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-24 06:09:27,193 basehttp 43391 6131789824 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1391
+INFO 2025-12-24 06:09:29,324 basehttp 43391 6131789824 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:29,324 basehttp 43391 6148616192 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:29,360 basehttp 43391 6131789824 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:29,360 basehttp 43391 6148616192 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:29,360 basehttp 43391 6165442560 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:29,360 basehttp 43391 6182268928 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:29,388 basehttp 43391 6131789824 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:29,388 basehttp 43391 6148616192 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:29,388 basehttp 43391 6165442560 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:09:29,388 basehttp 43391 6182268928 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:11:52,901 basehttp 43391 6131789824 "GET /projeler/atasehir-lake-mutfak-donusumu/ HTTP/1.1" 200 8819
+INFO 2025-12-24 06:11:53,022 basehttp 43391 6131789824 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:11:53,025 basehttp 43391 6131789824 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:11:53,027 basehttp 43391 6148616192 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:11:59,777 autoreload 43391 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-24 06:12:00,637 autoreload 44685 8426262400 Watching for file changes with StatReloader
+ERROR 2025-12-24 06:12:06,093 log 44685 6128463872 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/connections.py", line 825, in _read_query_result
+    result.read()
+    ~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'core_project.is_comparison_hero' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/views/generic/base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/views.py", line 37, in get_context_data
+    context['comparison_project'] = Project.objects.filter(before_image__isnull=False, after_image__isnull=False, show_on_index=True, is_active=True).first()
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1057, in first
+    for obj in queryset[:1]:
+               ~~~~~~~~^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 398, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/connections.py", line 825, in _read_query_result
+    result.read()
+    ~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'core_project.is_comparison_hero' in 'field list'")
+ERROR 2025-12-24 06:12:06,098 basehttp 44685 6128463872 "GET / HTTP/1.1" 500 24494
+INFO 2025-12-24 06:13:17,204 autoreload 44685 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/views.py changed, reloading.
+INFO 2025-12-24 06:13:17,634 autoreload 45028 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 06:13:21,034 basehttp 45028 6159314944 "GET / HTTP/1.1" 200 20759
+INFO 2025-12-24 06:13:21,771 basehttp 45028 6159314944 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:21,771 basehttp 45028 6176141312 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:21,771 basehttp 45028 6192967680 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:21,799 basehttp 45028 6192967680 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,065 basehttp 45028 6176141312 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,065 basehttp 45028 6192967680 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,065 basehttp 45028 6159314944 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,065 basehttp 45028 6209794048 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,105 basehttp 45028 6159314944 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,105 basehttp 45028 6192967680 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,106 basehttp 45028 6209794048 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,106 basehttp 45028 6176141312 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,127 basehttp 45028 6176141312 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,127 basehttp 45028 6192967680 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,127 basehttp 45028 6159314944 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:22,127 basehttp 45028 6209794048 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:13:28,347 basehttp 45028 6159314944 "GET /admin/ HTTP/1.1" 200 7254
+INFO 2025-12-24 06:13:32,905 basehttp 45028 6159314944 "GET /admin/core/project/ HTTP/1.1" 200 9360
+INFO 2025-12-24 06:13:32,933 basehttp 45028 6159314944 "GET /admin/jsi18n/ HTTP/1.1" 200 2497
+INFO 2025-12-24 06:13:35,962 basehttp 45028 6159314944 "GET /admin/core/project/33/change/ HTTP/1.1" 200 8965
+INFO 2025-12-24 06:13:35,984 basehttp 45028 6192967680 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-12-24 06:13:35,985 basehttp 45028 6176141312 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2025-12-24 06:13:35,988 basehttp 45028 6159314944 "GET /admin/jsi18n/ HTTP/1.1" 200 2502
+INFO 2025-12-24 06:13:36,016 basehttp 45028 6159314944 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-12-24 06:13:43,360 basehttp 45028 6176141312 "GET /admin/core/project/ HTTP/1.1" 200 9373
+INFO 2025-12-24 06:13:50,548 basehttp 45028 6159314944 "POST /admin/core/project/ HTTP/1.1" 302 0
+INFO 2025-12-24 06:13:50,578 basehttp 45028 6159314944 "GET /admin/core/project/ HTTP/1.1" 200 9447
+INFO 2025-12-24 06:13:50,600 basehttp 45028 6159314944 "GET /admin/jsi18n/ HTTP/1.1" 200 2509
+INFO 2025-12-24 06:13:58,594 basehttp 45028 6159314944 "GET /admin/core/project/ HTTP/1.1" 200 9338
+INFO 2025-12-24 06:13:58,614 basehttp 45028 6159314944 "GET /admin/jsi18n/ HTTP/1.1" 200 2567
+INFO 2025-12-24 06:14:00,109 basehttp 45028 6159314944 "GET /admin/core/project/32/change/ HTTP/1.1" 200 8985
+INFO 2025-12-24 06:14:00,131 basehttp 45028 6159314944 "GET /admin/jsi18n/ HTTP/1.1" 200 2531
+INFO 2025-12-24 06:14:46,287 autoreload 45028 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/admin.py changed, reloading.
+INFO 2025-12-24 06:14:47,286 autoreload 45125 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 06:14:57,934 basehttp 45125 6157463552 "GET /admin/core/project/32/change/ HTTP/1.1" 200 9094
+INFO 2025-12-24 06:14:57,959 basehttp 45125 6157463552 "GET /admin/jsi18n/ HTTP/1.1" 200 2565
+INFO 2025-12-24 06:15:02,029 basehttp 45125 6157463552 "POST /admin/core/project/32/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 06:15:02,069 basehttp 45125 6157463552 "GET /admin/core/project/ HTTP/1.1" 200 9499
+INFO 2025-12-24 06:15:02,092 basehttp 45125 6157463552 "GET /admin/jsi18n/ HTTP/1.1" 200 2553
+INFO 2025-12-24 06:15:06,241 basehttp 45125 6157463552 "POST /admin/core/project/ HTTP/1.1" 302 0
+INFO 2025-12-24 06:15:06,273 basehttp 45125 6157463552 "GET /admin/core/project/ HTTP/1.1" 200 9550
+INFO 2025-12-24 06:15:06,292 basehttp 45125 6157463552 "GET /admin/jsi18n/ HTTP/1.1" 200 2518
+INFO 2025-12-24 06:16:24,653 basehttp 45125 6157463552 "GET /admin/core/project/ HTTP/1.1" 200 9445
+INFO 2025-12-24 06:16:24,679 basehttp 45125 6157463552 "GET /admin/jsi18n/ HTTP/1.1" 200 2577
+INFO 2025-12-24 06:16:39,804 basehttp 45125 6157463552 "GET /admin/core/project/ HTTP/1.1" 200 9473
+INFO 2025-12-24 06:16:39,836 basehttp 45125 6157463552 "GET /admin/jsi18n/ HTTP/1.1" 200 2544
+INFO 2025-12-24 06:16:40,318 basehttp 45125 6157463552 "GET /admin/core/project/ HTTP/1.1" 200 9412
+INFO 2025-12-24 06:16:40,337 basehttp 45125 6157463552 "GET /admin/jsi18n/ HTTP/1.1" 200 2507
+INFO 2025-12-24 06:16:40,564 basehttp 45125 6157463552 "GET /admin/core/project/ HTTP/1.1" 200 9485
+INFO 2025-12-24 06:16:40,584 basehttp 45125 6157463552 "GET /admin/jsi18n/ HTTP/1.1" 200 2536
+INFO 2025-12-24 06:16:40,960 basehttp 45125 6157463552 "GET /admin/core/project/ HTTP/1.1" 200 9472
+INFO 2025-12-24 06:16:40,980 basehttp 45125 6157463552 "GET /admin/jsi18n/ HTTP/1.1" 200 2578
+INFO 2025-12-24 06:16:41,164 basehttp 45125 6157463552 "GET /admin/core/project/ HTTP/1.1" 200 9442
+INFO 2025-12-24 06:16:41,184 basehttp 45125 6157463552 "GET /admin/jsi18n/ HTTP/1.1" 200 2549
+INFO 2025-12-24 06:16:46,483 basehttp 45125 6157463552 "POST /admin/core/project/ HTTP/1.1" 302 0
+INFO 2025-12-24 06:16:46,520 basehttp 45125 6157463552 "GET /admin/core/project/ HTTP/1.1" 200 9542
+INFO 2025-12-24 06:16:46,541 basehttp 45125 6157463552 "GET /admin/jsi18n/ HTTP/1.1" 200 2536
+INFO 2025-12-24 06:16:49,909 autoreload 45125 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/admin.py changed, reloading.
+INFO 2025-12-24 06:16:50,397 autoreload 45298 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 06:16:51,573 basehttp 45298 6193311744 "POST /admin/core/project/ HTTP/1.1" 302 0
+INFO 2025-12-24 06:16:51,635 basehttp 45298 6193311744 "GET /admin/core/project/ HTTP/1.1" 200 9546
+INFO 2025-12-24 06:16:51,659 basehttp 45298 6210138112 "GET /static/admin/js/comparison_hero.js HTTP/1.1" 200 932
+INFO 2025-12-24 06:16:51,667 basehttp 45298 6193311744 "GET /admin/jsi18n/ HTTP/1.1" 200 2523
+INFO 2025-12-24 06:16:54,115 basehttp 45298 6193311744 "POST /admin/core/project/ HTTP/1.1" 302 0
+INFO 2025-12-24 06:16:54,144 basehttp 45298 6193311744 "GET /admin/core/project/ HTTP/1.1" 200 9511
+INFO 2025-12-24 06:16:54,161 basehttp 45298 6210138112 "GET /static/admin/js/comparison_hero.js HTTP/1.1" 304 0
+INFO 2025-12-24 06:16:54,171 basehttp 45298 6193311744 "GET /admin/jsi18n/ HTTP/1.1" 200 2496
+INFO 2025-12-24 06:17:21,541 basehttp 45298 6193311744 "GET /admin/core/project/ HTTP/1.1" 200 9476
+INFO 2025-12-24 06:17:21,556 basehttp 45298 6210138112 "GET /static/admin/js/comparison_hero.js HTTP/1.1" 304 0
+INFO 2025-12-24 06:17:21,562 basehttp 45298 6193311744 "GET /admin/jsi18n/ HTTP/1.1" 200 2520
+INFO 2025-12-24 06:18:06,544 basehttp 45298 6193311744 "GET / HTTP/1.1" 200 20714
+INFO 2025-12-24 06:18:07,113 basehttp 45298 6210138112 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,113 basehttp 45298 6193311744 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,113 basehttp 45298 6226964480 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,141 basehttp 45298 6226964480 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,435 basehttp 45298 6226964480 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,435 basehttp 45298 6193311744 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,436 basehttp 45298 6210138112 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,436 basehttp 45298 6243790848 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,463 basehttp 45298 6193311744 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,463 basehttp 45298 6226964480 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,463 basehttp 45298 6210138112 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,463 basehttp 45298 6243790848 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,693 basehttp 45298 6210138112 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,693 basehttp 45298 6226964480 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,693 basehttp 45298 6193311744 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:07,693 basehttp 45298 6243790848 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:18:45,643 basehttp 45298 6193311744 "GET /sitemap.xml HTTP/1.1" 200 864
+INFO 2025-12-24 06:18:50,319 basehttp 45298 6193311744 "GET /admin/ HTTP/1.1" 200 7263
+INFO 2025-12-24 06:18:52,711 basehttp 45298 6193311744 "GET /admin/admin_interface/theme/ HTTP/1.1" 200 7904
+INFO 2025-12-24 06:18:52,741 basehttp 45298 6193311744 "GET /admin/jsi18n/ HTTP/1.1" 200 2487
+INFO 2025-12-24 06:18:54,411 basehttp 45298 6193311744 "GET /admin/sites/site/ HTTP/1.1" 200 7950
+INFO 2025-12-24 06:18:54,431 basehttp 45298 6193311744 "GET /admin/jsi18n/ HTTP/1.1" 200 2489
+INFO 2025-12-24 06:18:55,299 basehttp 45298 6193311744 "GET /admin/sites/site/1/change/ HTTP/1.1" 200 7678
+INFO 2025-12-24 06:18:55,320 basehttp 45298 6193311744 "GET /admin/jsi18n/ HTTP/1.1" 200 2507
+INFO 2025-12-24 06:19:05,249 basehttp 45298 6210138112 "POST /admin/sites/site/1/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 06:19:05,272 basehttp 45298 6210138112 "GET /admin/sites/site/ HTTP/1.1" 200 8071
+INFO 2025-12-24 06:19:05,293 basehttp 45298 6210138112 "GET /admin/jsi18n/ HTTP/1.1" 200 2549
+INFO 2025-12-24 06:19:11,545 basehttp 45298 6226964480 "GET /sitemap.xml HTTP/1.1" 200 869
+WARNING 2025-12-24 06:19:11,581 log 45298 6226964480 Not Found: /favicon.ico
+WARNING 2025-12-24 06:19:11,581 basehttp 45298 6226964480 "GET /favicon.ico HTTP/1.1" 404 1392
+INFO 2025-12-24 06:19:11,926 basehttp 45298 6226964480 "GET /sitemap.xml HTTP/1.1" 200 881
+WARNING 2025-12-24 06:19:11,957 log 45298 6226964480 Not Found: /favicon.ico
+WARNING 2025-12-24 06:19:11,958 basehttp 45298 6226964480 "GET /favicon.ico HTTP/1.1" 404 1388
+INFO 2025-12-24 06:19:12,105 basehttp 45298 6226964480 "GET /sitemap.xml HTTP/1.1" 200 847
+WARNING 2025-12-24 06:19:12,136 log 45298 6226964480 Not Found: /favicon.ico
+WARNING 2025-12-24 06:19:12,136 basehttp 45298 6226964480 "GET /favicon.ico HTTP/1.1" 404 1367
+INFO 2025-12-24 06:19:12,265 basehttp 45298 6226964480 "GET /sitemap.xml HTTP/1.1" 200 894
+WARNING 2025-12-24 06:19:12,294 log 45298 6226964480 Not Found: /favicon.ico
+WARNING 2025-12-24 06:19:12,295 basehttp 45298 6226964480 "GET /favicon.ico HTTP/1.1" 404 1340
+INFO 2025-12-24 06:19:16,351 basehttp 45298 6210138112 "GET /admin/sites/site/1/change/ HTTP/1.1" 200 7731
+INFO 2025-12-24 06:19:16,370 basehttp 45298 6210138112 "GET /admin/jsi18n/ HTTP/1.1" 200 2552
+INFO 2025-12-24 06:19:18,666 basehttp 45298 6226964480 "POST /admin/sites/site/1/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 06:19:18,689 basehttp 45298 6226964480 "GET /admin/sites/site/ HTTP/1.1" 200 7996
+INFO 2025-12-24 06:19:18,708 basehttp 45298 6226964480 "GET /admin/jsi18n/ HTTP/1.1" 200 2560
+INFO 2025-12-24 06:19:25,086 autoreload 45748 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 06:19:29,440 basehttp 45748 6135984128 "GET /sitemap.xml HTTP/1.1" 200 816
+INFO 2025-12-24 06:19:29,625 basehttp 45748 6135984128 "GET /sitemap.xml HTTP/1.1" 200 825
+INFO 2025-12-24 06:19:29,824 basehttp 45748 6135984128 "GET /sitemap.xml HTTP/1.1" 200 824
+INFO 2025-12-24 06:19:30,018 basehttp 45748 6135984128 "GET /sitemap.xml HTTP/1.1" 200 862
+INFO 2025-12-24 06:19:33,936 basehttp 45748 6135984128 "GET / HTTP/1.1" 200 20730
+INFO 2025-12-24 06:19:34,997 basehttp 45748 6169636864 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:34,997 basehttp 45748 6135984128 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:34,997 basehttp 45748 6152810496 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,022 basehttp 45748 6169636864 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,310 basehttp 45748 6169636864 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,310 basehttp 45748 6135984128 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,311 basehttp 45748 6152810496 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,311 basehttp 45748 6186463232 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,345 basehttp 45748 6135984128 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,346 basehttp 45748 6169636864 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,346 basehttp 45748 6186463232 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,346 basehttp 45748 6152810496 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,379 basehttp 45748 6169636864 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,380 basehttp 45748 6135984128 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,380 basehttp 45748 6152810496 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:19:35,380 basehttp 45748 6186463232 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:24:56,728 autoreload 45748 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/base/sitemaps.py changed, reloading.
+INFO 2025-12-24 06:24:57,180 autoreload 46132 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 06:25:22,694 autoreload 46132 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/base/sitemaps.py changed, reloading.
+INFO 2025-12-24 06:25:23,149 autoreload 46171 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 06:25:31,391 autoreload 46171 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/base/urls.py changed, reloading.
+INFO 2025-12-24 06:25:31,784 autoreload 46186 8426262400 Watching for file changes with StatReloader
+ERROR 2025-12-24 06:25:44,962 log 46186 6158725120 Internal Server Error: /sitemap.xml
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/views.py", line 34, in inner
+    response = func(request, *args, **kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/views.py", line 128, in sitemap
+    urls.extend(site.get_urls(page=page, site=req_site, protocol=req_protocol))
+                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/base/sitemaps.py", line 37, in get_urls
+    urls = super().get_urls(page, site, protocol)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/__init__.py", line 167, in get_urls
+    return self._urls(page, protocol, domain)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/__init__.py", line 185, in _urls
+    paginator_page = self.paginator.page(page)
+                     ^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/__init__.py", line 126, in paginator
+    return paginator.Paginator(self._items(), self.limit)
+                               ~~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/__init__.py", line 114, in _items
+    return self.items()
+           ~~~~~~~~~~^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/base/sitemaps.py", line 31, in items
+    return Service.objects.filter(is_active=True)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/db/models/sql/query.py", line 1725, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'is_active' into field. Choices are: after_image, before_image, category, category_id, created, description, faqs, features, icon, id, image, isActive, projects, seo_description, seo_title, short_description, showIndex, slug, steps, title, updated
+ERROR 2025-12-24 06:25:44,966 basehttp 46186 6158725120 "GET /sitemap.xml HTTP/1.1" 500 19320
+WARNING 2025-12-24 06:25:45,080 log 46186 6158725120 Not Found: /favicon.ico
+WARNING 2025-12-24 06:25:45,082 basehttp 46186 6158725120 "GET /favicon.ico HTTP/1.1" 404 1398
+INFO 2025-12-24 06:26:14,659 autoreload 46186 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/base/sitemaps.py changed, reloading.
+INFO 2025-12-24 06:26:15,075 autoreload 46240 8426262400 Watching for file changes with StatReloader
+ERROR 2025-12-24 06:26:29,436 log 46240 6194933760 Internal Server Error: /sitemap.xml
+Traceback (most recent call last):
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/views.py", line 34, in inner
+    response = func(request, *args, **kwargs)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/views.py", line 128, in sitemap
+    urls.extend(site.get_urls(page=page, site=req_site, protocol=req_protocol))
+                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/base/sitemaps.py", line 91, in get_urls
+    urls = super().get_urls(page, site, protocol)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/__init__.py", line 167, in get_urls
+    return self._urls(page, protocol, domain)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/__init__.py", line 187, in _urls
+    loc = f"{protocol}://{domain}{self._location(item)}"
+                                  ~~~~~~~~~~~~~~^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/__init__.py", line 122, in _location
+    return self._get("location", item)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/__init__.py", line 92, in _get
+    return attr(item)
+  File "/Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/env/lib/python3.13/site-packages/django/contrib/sitemaps/__init__.py", line 132, in location
+    return item.get_absolute_url()
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Project' object has no attribute 'get_absolute_url'
+ERROR 2025-12-24 06:26:29,440 basehttp 46240 6194933760 "GET /sitemap.xml HTTP/1.1" 500 15776
+INFO 2025-12-24 06:26:55,905 autoreload 46240 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-24 06:26:56,346 autoreload 46286 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 06:27:07,422 basehttp 46286 6135541760 "GET /sitemap.xml HTTP/1.1" 200 1162
+INFO 2025-12-24 06:29:42,576 basehttp 46286 6169194496 "GET / HTTP/1.1" 200 20755
+INFO 2025-12-24 06:29:44,236 basehttp 46286 6169194496 "GET /projeler/ HTTP/1.1" 200 10005
+INFO 2025-12-24 06:29:44,310 basehttp 46286 6169194496 "GET /media/uploads/projects/project_bedroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:44,310 basehttp 46286 6202847232 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:44,311 basehttp 46286 6186020864 "GET /media/uploads/projects/project_office_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:44,322 basehttp 46286 6219673600 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:44,328 basehttp 46286 6236499968 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:44,329 basehttp 46286 6253326336 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:47,099 basehttp 46286 6169194496 "GET /hizmet-bolgeleri/ HTTP/1.1" 200 10091
+INFO 2025-12-24 06:29:47,121 basehttp 46286 6219673600 "GET /media/uploads/service_areas/bathroom_modern.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:47,121 basehttp 46286 6186020864 "GET /media/uploads/service_areas/luxury_kitchen.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:47,121 basehttp 46286 6169194496 "GET /media/uploads/service_areas/modern_salon.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:47,121 basehttp 46286 6202847232 "GET /media/uploads/service_areas/bedroom_remodel.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:48,220 basehttp 46286 6169194496 "GET /kadikoy-boya-tadilat-dekorasyon/ HTTP/1.1" 200 14834
+INFO 2025-12-24 06:29:53,076 basehttp 46286 6169194496 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:53,375 basehttp 46286 6169194496 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:53,375 basehttp 46286 6202847232 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:53,375 basehttp 46286 6186020864 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:29:58,652 basehttp 46286 6169194496 "GET /hizmetler/ HTTP/1.1" 200 12412
+INFO 2025-12-24 06:31:10,702 basehttp 46286 6169194496 "GET /hakkimizda/ HTTP/1.1" 200 9466
+INFO 2025-12-24 06:31:11,375 basehttp 46286 6169194496 "GET / HTTP/1.1" 200 20750
+INFO 2025-12-24 06:31:12,543 basehttp 46286 6169194496 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:31:12,544 basehttp 46286 6186020864 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:31:12,545 basehttp 46286 6202847232 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:31:12,545 basehttp 46286 6219673600 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:31:12,787 basehttp 46286 6169194496 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:31:12,787 basehttp 46286 6219673600 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:31:12,787 basehttp 46286 6202847232 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:31:12,787 basehttp 46286 6186020864 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:31:12,856 basehttp 46286 6219673600 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:31:12,857 basehttp 46286 6186020864 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:31:12,857 basehttp 46286 6169194496 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:31:12,857 basehttp 46286 6202847232 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:50:00,278 autoreload 46286 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-24 06:50:00,757 autoreload 51409 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 06:50:03,914 autoreload 51409 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/core/models.py changed, reloading.
+INFO 2025-12-24 06:50:04,222 autoreload 51417 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 06:53:03,092 basehttp 51417 6156726272 "GET / HTTP/1.1" 200 20746
+INFO 2025-12-24 06:53:03,776 basehttp 51417 6173552640 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:53:03,776 basehttp 51417 6156726272 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:53:03,777 basehttp 51417 6190379008 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:53:03,811 basehttp 51417 6190379008 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:53:04,402 basehttp 51417 6173552640 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:53:04,402 basehttp 51417 6156726272 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:53:04,402 basehttp 51417 6190379008 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:53:04,402 basehttp 51417 6207205376 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:53:06,098 basehttp 51417 6207205376 "GET /hizmetler/ HTTP/1.1" 200 12422
+INFO 2025-12-24 06:53:07,424 basehttp 51417 6156726272 "GET /mutfak-dolabi-boyama-renk-degisimi/ HTTP/1.1" 200 13451
+INFO 2025-12-24 06:53:07,447 basehttp 51417 6190379008 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 06:53:07,449 basehttp 51417 6156726272 "GET /media/uploads/defaults/default_before.jpg HTTP/1.1" 200 81501
+INFO 2025-12-24 06:53:07,450 basehttp 51417 6173552640 "GET /media/uploads/defaults/default_after.jpg HTTP/1.1" 200 79147
+INFO 2025-12-24 07:01:13,193 basehttp 51417 6156726272 "GET / HTTP/1.1" 200 20754
+INFO 2025-12-24 07:01:13,952 basehttp 51417 6156726272 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:01:13,953 basehttp 51417 6173552640 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:01:13,953 basehttp 51417 6190379008 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:01:13,978 basehttp 51417 6190379008 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:01:14,564 basehttp 51417 6173552640 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:01:14,564 basehttp 51417 6190379008 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:01:14,564 basehttp 51417 6156726272 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:01:14,564 basehttp 51417 6207205376 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:01:33,046 basehttp 51417 6156726272 "GET /mutfak-dolabi-boyama-renk-degisimi/ HTTP/1.1" 200 13423
+INFO 2025-12-24 07:01:33,066 basehttp 51417 6156726272 "GET /media/uploads/defaults/default_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:01:33,073 basehttp 51417 6173552640 "GET /media/uploads/defaults/default_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:01:33,074 basehttp 51417 6156726272 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:02:47,693 basehttp 51417 6156726272 "GET /mobilya-ve-ahsap-kapi-boyama/ HTTP/1.1" 200 12847
+INFO 2025-12-24 07:04:22,095 basehttp 51417 6156726272 "GET /sandalye-ve-masa-boyama-yenileme/ HTTP/1.1" 200 12680
+INFO 2025-12-24 07:04:44,090 basehttp 51417 6156726272 "GET /mobilya-doseme-yuzu-degisimi/ HTTP/1.1" 200 12605
+INFO 2025-12-24 07:05:13,073 basehttp 51417 6156726272 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 12998
+INFO 2025-12-24 07:05:13,092 basehttp 51417 6156726272 "GET /media/uploads/projects/project_bedroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:05:22,388 basehttp 51417 6156726272 "GET /mutfak-tezgahi-degisimi-tamiri/ HTTP/1.1" 200 12756
+INFO 2025-12-24 07:05:37,699 basehttp 51417 6156726272 "GET /tv-unitesi-ve-duvar-dekorasyonu/ HTTP/1.1" 200 12754
+INFO 2025-12-24 07:05:47,946 basehttp 51417 6156726272 "GET /kafe-ici-dekorasyon-tasarim/ HTTP/1.1" 200 12760
+INFO 2025-12-24 07:05:57,123 basehttp 51417 6156726272 "GET /mobilya-tamirati-ve-bakimi/ HTTP/1.1" 200 12687
+INFO 2025-12-24 07:06:06,313 basehttp 51417 6156726272 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:06:06,314 basehttp 51417 6190379008 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:06:06,314 basehttp 51417 6173552640 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:06:06,314 basehttp 51417 6207205376 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:06:06,396 basehttp 51417 6207205376 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:06:06,396 basehttp 51417 6173552640 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:06:06,396 basehttp 51417 6190379008 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:06:06,396 basehttp 51417 6156726272 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:06:07,231 basehttp 51417 6156726272 "GET /ev-ici-genel-dekorasyon/ HTTP/1.1" 200 13265
+INFO 2025-12-24 07:06:07,248 basehttp 51417 6156726272 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:06:07,249 basehttp 51417 6190379008 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:06:15,851 basehttp 51417 6156726272 "GET /laminant-parke-doseme/ HTTP/1.1" 200 13071
+INFO 2025-12-24 07:06:15,868 basehttp 51417 6156726272 "GET /media/uploads/projects/project_office_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:06:23,716 basehttp 51417 6156726272 "GET /parke-kurulumu-renk-cesitleri/ HTTP/1.1" 200 13043
+INFO 2025-12-24 07:06:23,733 basehttp 51417 6156726272 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:30:58,880 autoreload 55374 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 07:31:03,116 basehttp 55374 6164934656 "GET /parke-kurulumu-renk-cesitleri/ HTTP/1.1" 200 15716
+INFO 2025-12-24 07:31:03,138 basehttp 55374 6181761024 "GET /media/uploads/defaults/default_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:31:03,138 basehttp 55374 6164934656 "GET /media/uploads/defaults/default_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:31:03,160 basehttp 55374 6164934656 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:31:24,240 basehttp 55374 6164934656 "GET /hizmetler/ HTTP/1.1" 200 12582
+INFO 2025-12-24 07:31:24,331 basehttp 55374 6164934656 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:31:24,331 basehttp 55374 6341865472 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:31:24,331 basehttp 55374 6325039104 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:31:24,332 basehttp 55374 6358691840 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:31:27,839 basehttp 55374 6164934656 "GET /mobilya-ve-ahsap-kapi-boyama/ HTTP/1.1" 200 15571
+INFO 2025-12-24 07:33:18,484 basehttp 55374 6164934656 "GET /hizmetler/ HTTP/1.1" 200 12560
+INFO 2025-12-24 07:33:25,699 basehttp 55374 6164934656 "GET /tv-unitesi-ve-duvar-dekorasyonu/ HTTP/1.1" 200 15688
+INFO 2025-12-24 07:34:49,272 basehttp 55374 6164934656 "GET /hizmetler/ HTTP/1.1" 200 12573
+INFO 2025-12-24 07:34:52,167 basehttp 55374 6164934656 "GET /ev-ici-genel-dekorasyon/ HTTP/1.1" 200 16028
+INFO 2025-12-24 07:34:52,182 basehttp 55374 6164934656 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 07:34:52,185 basehttp 55374 6164934656 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+WARNING 2025-12-24 07:35:03,042 log 55374 6164934656 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-24 07:35:03,044 basehttp 55374 6164934656 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1413
+INFO 2025-12-24 07:35:24,963 basehttp 55374 6164934656 "GET /mobilya-ve-ahsap-kapi-boyama/ HTTP/1.1" 200 15608
+WARNING 2025-12-24 07:35:25,003 log 55374 6164934656 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-24 07:35:25,004 basehttp 55374 6164934656 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1395
+INFO 2025-12-24 07:35:52,987 basehttp 55374 6164934656 "GET /mobilya-ve-ahsap-kapi-boyama/ HTTP/1.1" 200 15618
+INFO 2025-12-24 07:39:30,891 basehttp 55374 6164934656 "GET /mobilya-ve-ahsap-kapi-boyama/ HTTP/1.1" 200 16293
+INFO 2025-12-24 07:39:30,913 basehttp 55374 6164934656 "GET /media/uploads/eb-logo.png HTTP/1.1" 200 5646
+INFO 2025-12-24 07:39:30,916 basehttp 55374 6325039104 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 200 46078
+INFO 2025-12-24 07:39:30,918 basehttp 55374 6341865472 "GET /media/uploads/defaults/default_before.jpg HTTP/1.1" 200 81511
+INFO 2025-12-24 07:39:30,921 basehttp 55374 6164934656 "GET /media/uploads/defaults/default_after.jpg HTTP/1.1" 200 79207
+INFO 2025-12-24 07:39:31,031 basehttp 55374 6164934656 "GET /media/uploads/favicon_Divbsmr.png HTTP/1.1" 200 3330
+INFO 2025-12-24 07:39:31,986 basehttp 55374 6164934656 "GET /media/uploads/favicon_Divbsmr.png HTTP/1.1" 200 3263
+INFO 2025-12-24 07:41:07,945 basehttp 55374 6164934656 "GET /mobilya-ve-ahsap-kapi-boyama/ HTTP/1.1" 200 16349
+INFO 2025-12-24 07:47:51,779 basehttp 55374 6164934656 "GET /admin/service/service/ HTTP/1.1" 200 11717
+INFO 2025-12-24 07:47:51,796 basehttp 55374 6164934656 "GET /admin/jsi18n/ HTTP/1.1" 200 2557
+INFO 2025-12-24 07:49:00,500 autoreload 55374 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/base/settings.py changed, reloading.
+INFO 2025-12-24 07:49:00,941 autoreload 59485 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 07:50:19,218 autoreload 59485 8426262400 /Users/macbook/Documents/Django Projects/Django Projects/Bussiness/EB Dekorasyon/base/base/settings.py changed, reloading.
+INFO 2025-12-24 07:50:19,681 autoreload 60266 8426262400 Watching for file changes with StatReloader
+INFO 2025-12-24 08:23:07,209 basehttp 60266 6160510976 "GET /mutfak-tezgahi-degisimi-tamiri/ HTTP/1.1" 200 16238
+INFO 2025-12-24 08:23:07,231 basehttp 60266 6177337344 "GET /media/uploads/defaults/default_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 08:23:07,231 basehttp 60266 6160510976 "GET /media/uploads/defaults/default_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 08:36:22,090 basehttp 60266 6160510976 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-12-24 08:36:22,142 basehttp 60266 6160510976 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4838
+INFO 2025-12-24 08:36:22,166 basehttp 60266 6160510976 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-12-24 08:36:22,169 basehttp 60266 6210990080 "GET /static/admin_interface/css/admin-interface.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 17882
+INFO 2025-12-24 08:36:22,169 basehttp 60266 6194163712 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-12-24 08:36:22,170 basehttp 60266 6177337344 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-12-24 08:36:22,171 basehttp 60266 6227816448 "GET /static/admin_interface/css/changelist.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1433
+INFO 2025-12-24 08:36:22,171 basehttp 60266 6244642816 "GET /static/admin_interface/css/change-form.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1125
+INFO 2025-12-24 08:36:22,175 basehttp 60266 6194163712 "GET /static/admin_interface/css/header.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1015
+INFO 2025-12-24 08:36:22,176 basehttp 60266 6177337344 "GET /static/admin_interface/css/inlines.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2715
+INFO 2025-12-24 08:36:22,178 basehttp 60266 6160510976 "GET /static/admin_interface/css/fieldsets.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 499
+INFO 2025-12-24 08:36:22,179 basehttp 60266 6210990080 "GET /static/admin_interface/css/file-upload.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1169
+INFO 2025-12-24 08:36:22,183 basehttp 60266 6177337344 "GET /static/admin_interface/css/list-filter-dropdown.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 691
+INFO 2025-12-24 08:36:22,183 basehttp 60266 6244642816 "GET /static/admin_interface/css/language-chooser.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1734
+INFO 2025-12-24 08:36:22,184 basehttp 60266 6210990080 "GET /static/admin_interface/css/modules.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 404
+INFO 2025-12-24 08:36:22,185 basehttp 60266 6210990080 "GET /static/admin_interface/css/object-tools.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 319
+INFO 2025-12-24 08:36:22,186 basehttp 60266 6194163712 "GET /static/admin_interface/css/list-filter.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 614
+INFO 2025-12-24 08:36:22,189 basehttp 60266 6160510976 "GET /static/admin_interface/css/login.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1240
+INFO 2025-12-24 08:36:22,189 basehttp 60266 6177337344 "GET /static/admin_interface/css/nav-sidebar.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2025
+INFO 2025-12-24 08:36:22,190 basehttp 60266 6194163712 "GET /static/admin_interface/css/sticky-form-controls.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2437
+INFO 2025-12-24 08:36:22,191 basehttp 60266 6227816448 "GET /static/admin_interface/css/jquery.ui.tabs.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 5558
+INFO 2025-12-24 08:36:22,192 basehttp 60266 6194163712 "GET /static/admin_interface/css/third-party/ckeditor.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2720
+INFO 2025-12-24 08:36:22,192 basehttp 60266 6210990080 "GET /static/admin_interface/css/rtl.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1016
+INFO 2025-12-24 08:36:22,192 basehttp 60266 6244642816 "GET /static/admin_interface/css/paginator.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 797
+INFO 2025-12-24 08:36:22,198 basehttp 60266 6177337344 "GET /static/admin_interface/css/widgets.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 4752
+INFO 2025-12-24 08:36:22,200 basehttp 60266 6244642816 "GET /static/admin_interface/css/third-party/rangefilter.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1238
+INFO 2025-12-24 08:36:22,202 basehttp 60266 6244642816 "GET /static/admin_interface/css/third-party/streamfield.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 6407
+INFO 2025-12-24 08:36:22,203 basehttp 60266 6160510976 "GET /static/admin_interface/css/tabbed-changeform.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1895
+INFO 2025-12-24 08:36:22,203 basehttp 60266 6227816448 "GET /static/admin_interface/css/third-party/import-export.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 189
+INFO 2025-12-24 08:36:22,204 basehttp 60266 6194163712 "GET /static/admin_interface/css/third-party/json-widget.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 993
+INFO 2025-12-24 08:36:22,206 basehttp 60266 6210990080 "GET /static/admin_interface/css/third-party/modeltranslation.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 356
+INFO 2025-12-24 08:36:22,206 basehttp 60266 6160510976 "GET /static/admin_interface/css/third-party/tinymce.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 78
+INFO 2025-12-24 08:36:22,206 basehttp 60266 6177337344 "GET /static/admin_interface/css/third-party/sorl-thumbnail.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1451
+INFO 2025-12-24 08:36:22,210 basehttp 60266 6227816448 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2025-12-24 08:36:22,212 basehttp 60266 6210990080 "GET /static/admin/css/responsive_rtl.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1864
+INFO 2025-12-24 08:36:22,212 basehttp 60266 6244642816 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-12-24 08:36:22,214 basehttp 60266 6177337344 "GET /static/admin_interface/magnific-popup/magnific-popup.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 6951
+INFO 2025-12-24 08:36:22,214 basehttp 60266 6227816448 "GET /static/admin_interface/related-modal/related-modal.css?v=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 2888
+INFO 2025-12-24 08:36:22,216 basehttp 60266 6160510976 "GET /static/admin_interface/foldable-apps/foldable-apps.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1955
+INFO 2025-12-24 08:36:22,218 basehttp 60266 6244642816 "GET /static/admin_interface/magnific-popup/jquery.magnific-popup.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 60830
+INFO 2025-12-24 08:36:22,218 basehttp 60266 6194163712 "GET /static/admin/css/responsive.css?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 18559
+INFO 2025-12-24 08:36:22,219 basehttp 60266 6210990080 "GET /static/admin_interface/foldable-apps/foldable-apps.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 1750
+INFO 2025-12-24 08:36:22,221 basehttp 60266 6177337344 "GET /static/admin_interface/related-modal/related-modal.js?nocache=66c1adad50ef99f94d5802261acd9317ffc6f258df8b6c601c01a56a HTTP/1.1" 200 7032
+INFO 2025-12-24 08:36:22,223 basehttp 60266 6177337344 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-12-24 08:36:22,224 basehttp 60266 6244642816 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2025-12-24 08:36:22,259 log 60266 6244642816 Not Found: /favicon.ico
+WARNING 2025-12-24 08:36:22,259 basehttp 60266 6244642816 "GET /favicon.ico HTTP/1.1" 404 1380
+INFO 2025-12-24 18:25:10,245 basehttp 60266 6160510976 "GET / HTTP/1.1" 200 21549
+INFO 2025-12-24 18:25:11,011 basehttp 60266 6177337344 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,011 basehttp 60266 6160510976 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,011 basehttp 60266 6194163712 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,045 basehttp 60266 6194163712 "GET /media/uploads/services/doseme-degisimi.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,045 basehttp 60266 6177337344 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,045 basehttp 60266 6160510976 "GET /media/uploads/services/mutfak-tezgahi.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,323 basehttp 60266 6160510976 "GET /media/uploads/services/kafe-dekorasyon.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,323 basehttp 60266 6177337344 "GET /media/uploads/services/tv-unitesi-dekor.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,324 basehttp 60266 6194163712 "GET /media/uploads/services/mobilya-tamir.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,357 basehttp 60266 6160510976 "GET /media/uploads/services/parke-renkleri.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,357 basehttp 60266 6177337344 "GET /media/uploads/services/laminant-parke.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,357 basehttp 60266 6194163712 "GET /media/uploads/services/ev-dekorasyon.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,683 basehttp 60266 6177337344 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,683 basehttp 60266 6194163712 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,683 basehttp 60266 6160510976 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,683 basehttp 60266 6210990080 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,726 basehttp 60266 6160510976 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,726 basehttp 60266 6177337344 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,726 basehttp 60266 6210990080 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,727 basehttp 60266 6194163712 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,755 basehttp 60266 6194163712 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,758 basehttp 60266 6210990080 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,758 basehttp 60266 6160510976 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 18:25:11,759 basehttp 60266 6177337344 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:46:40,862 basehttp 60266 6160510976 "GET / HTTP/1.1" 200 21523
+INFO 2025-12-24 21:46:50,849 basehttp 60266 6160510976 "GET /hizmetler/ HTTP/1.1" 200 13243
+INFO 2025-12-24 21:46:50,994 basehttp 60266 6194163712 "GET /media/uploads/services/kapi-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:46:50,998 basehttp 60266 6160510976 "GET /media/uploads/services/sandalye-masa-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:46:51,000 basehttp 60266 6177337344 "GET /media/uploads/services/mutfak-boyama.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:46:51,003 basehttp 60266 6210990080 "GET /media/uploads/services/yatak-odasi-boyama-yeni.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:46:55,376 basehttp 60266 6160510976 "GET /mutfak-dolabi-boyama-renk-degisimi/ HTTP/1.1" 200 17355
+INFO 2025-12-24 21:46:55,400 basehttp 60266 6160510976 "GET /media/uploads/defaults/default_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:46:55,405 basehttp 60266 6177337344 "GET /media/uploads/projects/project_kitchen_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:46:55,405 basehttp 60266 6160510976 "GET /media/uploads/defaults/default_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,198 basehttp 60266 6160510976 "GET / HTTP/1.1" 200 21598
+INFO 2025-12-24 21:47:34,616 basehttp 60266 6160510976 "GET /media/uploads/projects/project_bedroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,616 basehttp 60266 6177337344 "GET /media/uploads/projects/project_office_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,616 basehttp 60266 6194163712 "GET /media/uploads/projects/project_office_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,620 basehttp 60266 6177337344 "GET /media/uploads/projects/project_bedroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,620 basehttp 60266 6160510976 "GET /media/uploads/projects/project_bathroom_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,620 basehttp 60266 6194163712 "GET /media/uploads/projects/project_bathroom_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,623 basehttp 60266 6177337344 "GET /media/uploads/projects/project_renovation_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,624 basehttp 60266 6194163712 "GET /media/uploads/projects/project_flooring_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,624 basehttp 60266 6160510976 "GET /media/uploads/projects/project_flooring_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,629 basehttp 60266 6160510976 "GET /media/uploads/projects/project_renovation_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,629 basehttp 60266 6177337344 "GET /media/uploads/projects/project_kitchen_before.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:34,629 basehttp 60266 6194163712 "GET /media/uploads/projects/project_kitchen_after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:37,788 basehttp 60266 6177337344 "GET /hizmetler/ HTTP/1.1" 200 13303
+INFO 2025-12-24 21:47:43,581 basehttp 60266 6160510976 "GET /mutfak-dolabi-boyama-renk-degisimi/ HTTP/1.1" 200 17367
+INFO 2025-12-24 21:47:43,978 basehttp 60266 6160510976 "GET /mobilya-ve-ahsap-kapi-boyama/ HTTP/1.1" 200 16360
+INFO 2025-12-24 21:47:44,679 basehttp 60266 6160510976 "GET /sandalye-ve-masa-boyama-yenileme/ HTTP/1.1" 200 15955
+INFO 2025-12-24 21:47:45,187 basehttp 60266 6160510976 "GET /mobilya-doseme-yuzu-degisimi/ HTTP/1.1" 200 16085
+INFO 2025-12-24 21:47:45,467 basehttp 60266 6160510976 "GET /yatak-odasi-mobilya-boyama/ HTTP/1.1" 200 13699
+INFO 2025-12-24 21:47:45,701 basehttp 60266 6160510976 "GET /media/uploads/projects/project_bedroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:45,842 basehttp 60266 6160510976 "GET /mutfak-tezgahi-degisimi-tamiri/ HTTP/1.1" 200 16265
+INFO 2025-12-24 21:47:47,750 basehttp 60266 6160510976 "GET /ev-ici-genel-dekorasyon/ HTTP/1.1" 200 16774
+INFO 2025-12-24 21:47:47,879 basehttp 60266 6160510976 "GET /media/uploads/projects/project_bathroom_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:47,899 basehttp 60266 6160510976 "GET /media/uploads/projects/project_renovation_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:48,093 basehttp 60266 6160510976 "GET /laminant-parke-doseme/ HTTP/1.1" 200 16538
+INFO 2025-12-24 21:47:48,298 basehttp 60266 6160510976 "GET /media/uploads/projects/project_office_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:48,417 basehttp 60266 6160510976 "GET /parke-kurulumu-renk-cesitleri/ HTTP/1.1" 200 16511
+INFO 2025-12-24 21:47:48,620 basehttp 60266 6160510976 "GET /media/uploads/projects/project_flooring_main.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 21:47:54,374 basehttp 60266 6160510976 "GET /tv-unitesi-ve-duvar-dekorasyonu/ HTTP/1.1" 200 16379
+INFO 2025-12-24 21:47:54,692 basehttp 60266 6160510976 "GET /kafe-ici-dekorasyon-tasarim/ HTTP/1.1" 200 16353
+INFO 2025-12-24 21:47:55,018 basehttp 60266 6160510976 "GET /mobilya-tamirati-ve-bakimi/ HTTP/1.1" 200 16054
+INFO 2025-12-24 21:47:56,849 basehttp 60266 6160510976 "GET /ev-ici-genel-dekorasyon/ HTTP/1.1" 200 16755
+INFO 2025-12-24 21:47:57,214 basehttp 60266 6160510976 "GET /laminant-parke-doseme/ HTTP/1.1" 200 16553
+INFO 2025-12-24 21:47:57,542 basehttp 60266 6160510976 "GET /parke-kurulumu-renk-cesitleri/ HTTP/1.1" 200 16485
+INFO 2025-12-24 21:50:50,286 basehttp 60266 6160510976 "GET /ev-ici-genel-dekorasyon/ HTTP/1.1" 200 16750
+WARNING 2025-12-24 21:51:29,105 log 60266 6160510976 Not Found: /yatak-odasi-dolap-boyama/
+WARNING 2025-12-24 21:51:29,106 basehttp 60266 6160510976 "GET /yatak-odasi-dolap-boyama/ HTTP/1.1" 404 1403
+INFO 2025-12-24 21:55:51,091 basehttp 60266 6160510976 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:55:51,116 basehttp 60266 6160510976 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4822
+INFO 2025-12-24 21:55:51,147 basehttp 60266 6160510976 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-12-24 21:55:51,149 basehttp 60266 6177337344 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-12-24 21:55:51,149 basehttp 60266 6194163712 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-12-24 21:55:51,210 basehttp 60266 6194163712 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-12-24 21:55:51,217 basehttp 60266 6194163712 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:55:51,218 basehttp 60266 6194163712 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:55:57,206 basehttp 60266 6160510976 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:55:57,238 basehttp 60266 6160510976 "GET /admin/ HTTP/1.1" 200 7246
+INFO 2025-12-24 21:55:57,257 basehttp 60266 6160510976 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-12-24 21:55:57,267 basehttp 60266 6177337344 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-12-24 21:55:57,268 basehttp 60266 6160510976 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,557 basehttp 60266 6160510976 - Broken pipe from ('127.0.0.1', 51506)
+INFO 2025-12-24 21:56:00,601 basehttp 60266 6177337344 "GET /admin/service/service/ HTTP/1.1" 200 11630
+INFO 2025-12-24 21:56:00,623 basehttp 60266 6177337344 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,625 basehttp 60266 6160510976 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,626 basehttp 60266 6210990080 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,626 basehttp 60266 6177337344 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,626 basehttp 60266 6160510976 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,626 basehttp 60266 6244642816 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,627 basehttp 60266 6210990080 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,627 basehttp 60266 6227816448 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,627 basehttp 60266 6177337344 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,628 basehttp 60266 6244642816 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,636 basehttp 60266 6244642816 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,636 basehttp 60266 6227816448 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,638 basehttp 60266 6177337344 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,644 basehttp 60266 6194163712 "GET /admin/jsi18n/ HTTP/1.1" 200 2529
+INFO 2025-12-24 21:56:00,644 basehttp 60266 6177337344 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:00,655 basehttp 60266 6194163712 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:04,891 basehttp 60266 6160510976 "GET /admin/service/service/108/change/ HTTP/1.1" 200 17780
+INFO 2025-12-24 21:56:05,012 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2536
+INFO 2025-12-24 21:56:05,013 basehttp 60266 6160510976 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:05,022 basehttp 60266 6177337344 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:05,027 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2048
+INFO 2025-12-24 21:56:05,100 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602565081 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:06,165 basehttp 60266 6160510976 "GET /admin/service/service/107/change/ HTTP/1.1" 200 17850
+INFO 2025-12-24 21:56:06,320 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2489
+INFO 2025-12-24 21:56:06,342 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2107
+INFO 2025-12-24 21:56:06,415 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602566387 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:06,781 basehttp 60266 6160510976 "GET /admin/service/service/106/change/ HTTP/1.1" 200 17979
+INFO 2025-12-24 21:56:06,955 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2510
+INFO 2025-12-24 21:56:06,979 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2113
+INFO 2025-12-24 21:56:07,049 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602567029 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:07,234 basehttp 60266 6160510976 "GET /admin/service/service/105/change/ HTTP/1.1" 200 17714
+INFO 2025-12-24 21:56:07,413 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2566
+INFO 2025-12-24 21:56:07,431 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2028
+INFO 2025-12-24 21:56:07,509 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602567491 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:07,644 basehttp 60266 6160510976 "GET /admin/service/service/104/change/ HTTP/1.1" 200 18056
+INFO 2025-12-24 21:56:07,830 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2549
+INFO 2025-12-24 21:56:07,854 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2087
+INFO 2025-12-24 21:56:07,931 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602567911 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:08,179 basehttp 60266 6160510976 "GET /admin/service/service/103/change/ HTTP/1.1" 200 17941
+INFO 2025-12-24 21:56:08,383 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2579
+INFO 2025-12-24 21:56:08,401 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2107
+INFO 2025-12-24 21:56:08,474 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602568454 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:08,741 basehttp 60266 6160510976 "GET /admin/service/service/102/change/ HTTP/1.1" 200 17856
+INFO 2025-12-24 21:56:08,934 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2538
+INFO 2025-12-24 21:56:08,952 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2029
+INFO 2025-12-24 21:56:09,028 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602569008 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:09,708 basehttp 60266 6160510976 "GET /admin/service/service/101/change/ HTTP/1.1" 200 15292
+INFO 2025-12-24 21:56:09,919 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2526
+INFO 2025-12-24 21:56:09,950 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2101
+INFO 2025-12-24 21:56:10,053 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602570018 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:10,361 basehttp 60266 6160510976 "GET /admin/service/service/100/change/ HTTP/1.1" 200 17719
+INFO 2025-12-24 21:56:10,567 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2544
+INFO 2025-12-24 21:56:10,586 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2054
+INFO 2025-12-24 21:56:10,683 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602570648 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:10,822 basehttp 60266 6160510976 "GET /admin/service/service/99/change/ HTTP/1.1" 200 17771
+INFO 2025-12-24 21:56:10,996 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2542
+INFO 2025-12-24 21:56:11,016 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2118
+INFO 2025-12-24 21:56:11,095 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602571070 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:11,357 basehttp 60266 6160510976 "GET /admin/service/service/98/change/ HTTP/1.1" 200 17907
+INFO 2025-12-24 21:56:11,525 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2531
+INFO 2025-12-24 21:56:11,546 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2076
+INFO 2025-12-24 21:56:11,622 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602571598 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:12,011 basehttp 60266 6160510976 "GET /admin/service/service/97/change/ HTTP/1.1" 200 18543
+INFO 2025-12-24 21:56:12,167 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2487
+INFO 2025-12-24 21:56:12,197 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2106
+INFO 2025-12-24 21:56:12,263 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602572239 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:56:38,631 basehttp 60266 6160510976 "POST /admin/service/service/108/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:56:38,690 basehttp 60266 6160510976 "GET /admin/service/service/ HTTP/1.1" 200 11800
+INFO 2025-12-24 21:56:38,756 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2554
+INFO 2025-12-24 21:56:38,776 basehttp 60266 6160510976 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-12-24 21:56:57,452 basehttp 60266 6160510976 "POST /admin/service/service/107/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:56:57,502 basehttp 60266 6160510976 "GET /admin/service/service/ HTTP/1.1" 200 11761
+INFO 2025-12-24 21:56:57,529 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2528
+INFO 2025-12-24 21:57:35,350 basehttp 60266 6160510976 "POST /admin/service/service/106/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:57:35,421 basehttp 60266 6160510976 "GET /admin/service/service/ HTTP/1.1" 200 11789
+INFO 2025-12-24 21:57:35,484 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2553
+INFO 2025-12-24 21:57:48,136 basehttp 60266 6160510976 "POST /admin/service/service/105/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:57:48,238 basehttp 60266 6160510976 "GET /admin/service/service/ HTTP/1.1" 200 11737
+INFO 2025-12-24 21:57:48,271 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2504
+INFO 2025-12-24 21:57:59,961 basehttp 60266 6160510976 "POST /admin/service/service/104/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:58:00,020 basehttp 60266 6160510976 "GET /admin/service/service/ HTTP/1.1" 200 11748
+INFO 2025-12-24 21:58:00,054 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2498
+INFO 2025-12-24 21:58:19,269 basehttp 60266 6160510976 "POST /admin/service/service/102/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:58:19,325 basehttp 60266 6160510976 "GET /admin/service/service/ HTTP/1.1" 200 11810
+INFO 2025-12-24 21:58:19,365 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2571
+INFO 2025-12-24 21:58:34,358 basehttp 60266 6160510976 "POST /admin/service/service/101/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:58:34,399 basehttp 60266 6160510976 "GET /admin/service/service/ HTTP/1.1" 200 11786
+INFO 2025-12-24 21:58:34,426 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2548
+INFO 2025-12-24 21:58:45,387 basehttp 60266 6160510976 "POST /admin/service/service/100/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:58:45,428 basehttp 60266 6160510976 "GET /admin/service/service/ HTTP/1.1" 200 11789
+INFO 2025-12-24 21:58:45,460 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2556
+INFO 2025-12-24 21:59:00,937 basehttp 60266 6160510976 "POST /admin/service/service/99/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:59:00,976 basehttp 60266 6160510976 "GET /admin/service/service/ HTTP/1.1" 200 11764
+INFO 2025-12-24 21:59:01,003 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2562
+INFO 2025-12-24 21:59:07,382 basehttp 60266 6160510976 "GET /admin/service/service/97/change/ HTTP/1.1" 200 18567
+INFO 2025-12-24 21:59:07,409 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2536
+INFO 2025-12-24 21:59:07,425 basehttp 60266 6160510976 "GET /summernote/editor/id_description/ HTTP/1.1" 200 2103
+INFO 2025-12-24 21:59:07,458 basehttp 60266 6160510976 "GET /static/summernote/lang/summernote-tr-TR.min.js?_=1766602747448 HTTP/1.1" 200 4233
+INFO 2025-12-24 21:59:22,983 basehttp 60266 6160510976 "POST /admin/service/service/97/change/ HTTP/1.1" 302 0
+INFO 2025-12-24 21:59:23,024 basehttp 60266 6160510976 "GET /admin/service/service/ HTTP/1.1" 200 11778
+INFO 2025-12-24 21:59:23,051 basehttp 60266 6160510976 "GET /admin/jsi18n/ HTTP/1.1" 200 2511
+INFO 2025-12-24 21:59:26,344 basehttp 60266 6160510976 "GET / HTTP/1.1" 200 21566
+INFO 2025-12-24 21:59:28,576 basehttp 60266 6160510976 "GET /tv-unitesi-ve-duvar-dekorasyonu/ HTTP/1.1" 200 16413
+INFO 2025-12-24 21:59:31,706 basehttp 60266 6160510976 "GET /kafe-ici-dekorasyon-tasarim/ HTTP/1.1" 200 16414
+INFO 2025-12-24 21:59:31,740 basehttp 60266 6160510976 "GET /media/uploads/services/transformations/kafe-ici-dekorasyon-tasarim-before.jpg HTTP/1.1" 200 68590
+INFO 2025-12-24 21:59:31,743 basehttp 60266 6177337344 "GET /media/uploads/services/transformations/kafe-ici-dekorasyon-tasarim-after.jpg HTTP/1.1" 200 106566
+INFO 2025-12-24 21:59:51,620 basehttp 60266 6160510976 "GET /galeri/ HTTP/1.1" 200 11310
+INFO 2025-12-24 22:00:39,687 basehttp 60266 6160510976 "GET /hizmetler/ HTTP/1.1" 200 13241
+INFO 2025-12-24 22:00:43,238 basehttp 60266 6160510976 "GET /kafe-ici-dekorasyon-tasarim/ HTTP/1.1" 200 16442
+INFO 2025-12-24 22:00:43,260 basehttp 60266 6177337344 "GET /media/uploads/services/transformations/kafe-ici-dekorasyon-tasarim-after.jpg HTTP/1.1" 304 0
+INFO 2025-12-24 22:00:43,261 basehttp 60266 6160510976 "GET /media/uploads/services/transformations/kafe-ici-dekorasyon-tasarim-before.jpg HTTP/1.1" 304 0
+WARNING 2025-12-24 22:00:45,754 log 60266 6160510976 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-24 22:00:45,754 basehttp 60266 6160510976 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 1348
+INFO 2025-12-24 22:02:13,086 basehttp 60266 6160510976 "GET /projeler/ HTTP/1.1" 200 10723
+INFO 2025-12-24 22:02:17,583 basehttp 60266 6160510976 "GET /projeler/kadikoy-ofis-zemin-yenileme/ HTTP/1.1" 200 9573
+INFO 2025-12-24 22:02:24,929 basehttp 60266 6160510976 "GET / HTTP/1.1" 200 21503

@@ -1,0 +1,76 @@
+{
+  "model": "service.Service",
+  "pk": 9,
+  "fields": {
+    "title": "Mobilya Tamiratı ve Bakımı (Yerinde Servis)",
+    "slug": "mobilya-tamirati-ve-bakimi",
+    "category": "tamirat-tadilat-ve-dekorasyon",
+    "seo_title": "Mobilya Tamiratı: Kırık, Çizik ve Montaj Servisi | EB",
+    "seo_description": "Kapanmayan dolaplar, sallanan sandalyeler, raydan çıkan çekmeceler... İstanbul Anadolu Yakası'nda profesyonel mobilya tamiri, montaj ve bakım hizmeti.",
+    "short_description": "Sevdiğiniz mobilyalar küçük bir arıza yüzünden çöp olmasın. Kırık sandalye ayağı, bozulan ray sistemi veya dolap kapağı ayarı için profesyonel tamir hizmeti veriyoruz.",
+    "icon": "fas fa-tools",
+    "is_active": true,
+    "show_index": true,
+    "description_html": "<div class=\"seo-article\">\n    <p class=\"lead\"><strong>Evinizdeki mobilyalar zamanla \"yorulur\". Çekmeceler zor açılmaya başlar, gardırop kapakları raydan çıkar veya sandalyeler sallanmaya başlar. Genellikle \"tamiri olmaz\" denilerek atılan bu eşyalar, aslında küçük bir müdahale ile yıllarca daha kullanılabilir.</strong></p>\n\n    <div class=\"alert alert-info\">\n        <strong>TL;DR (Özet):</strong> EB Dekorasyon Mobilya Servisi olarak; kırık sandalye onarımı, dolap rayı/menteşe değişimi, sürgülü kapak ayarı ve mobilya montajı (IKEA/Koçtaş) hizmetleri veriyoruz. Mobilyanızı atmadan önce bize danışın, orijinal parçalarla tamir edelim. <a href=\"#iletisim\">Arızanın fotoğrafını WhatsApp'tan atın.</a>\n    </div>\n\n    <div class=\"toc-container\">\n        <h4>İçindekiler</h4>\n        <ul>\n            <li><a href=\"#genel-arizalar\">Sık Karşılaşılan Mobilya Arızaları</a></li>\n            <li><a href=\"#hizmet-kapsami\">Hizmet Kapsamımız (Montaj & Modifikasyon)</a></li>\n            <li><a href=\"#teknik-detay\">Orijinal Yedek Parça Önemi</a></li>\n            <li><a href=\"#vaka-analizleri\">Örnek Tamirat Vakaları</a></li>\n            <li><a href=\"#karsilastirma\">Tamir vs. Yenisini Alma</a></li>\n            <li><a href=\"#hatalar\">Sık Yapılan Hatalar</a></li>\n            <li><a href=\"#sss\">Sıkça Sorulan Sorular</a></li>\n        </ul>\n    </div>\n\n    <h2 id=\"genel-arizalar\">Sık Karşılaşılan Mobilya Arızaları</h2>\n    <p>Mobilyalarınızın başına gelebilecek en yaygın sorunlar ve çözümlerimiz:</p>\n    <ul>\n        <li><strong>Raydan Çıkan Sürgülü Dolaplar:</strong> Ray tekerlekleri kırıldığında kapağı açmak işkenceye döner. Ray sistemini yeniliyor, kapak freni (stop) ekliyoruz.</li>\n        <li><strong>Sarkan Menteşeler:</strong> Mutfak dolabı kapaklarınız kapanmıyor veya çarpıyorsa, menteşeleri <strong>Frenli (Samet/Blum)</strong> menteşelerle değiştiriyoruz.</li>\n        <li><strong>Çöken Çekmeceler:</strong> Çekmece tabanı düştüyse veya rayı dağıldıysa, tabanı güçlendiriyor ve teleskopik ray takıyoruz.</li>\n        <li><strong>Kırık Sandalye/Masa Ayağı:</strong> Sallanan veya kırılan ayakları, <a href=\"/sandalye-ve-masa-boyama-yenileme/\">sandalye yenileme</a> servisimizde olduğu gibi tutkal ve işkence ile kemikleştiriyoruz.</li>\n    </ul>\n\n    <h2 id=\"hizmet-kapsami\">Hizmet Kapsamı: Sadece Tamir Değil!</h2>\n    <p>EB Dekorasyon olarak tamiratın ötesinde \"Mobilya Mühendisliği\" hizmeti veriyoruz:</p>\n\n    <h3>1. Mobilya Montaj ve Kurulum</h3>\n    <p>IKEA, Vivense, Koçtaş gibi yapı marketlerden aldığınız demonte mobilyaların profesyonel kurulumunu yapıyoruz. Hatalı montaj mobilyanın ömrünü yarı yarıya kısaltır.</p>\n\n    <h3>2. Mobilya Modifikasyonu (Kesim/Biçim)</h3>\n    <p>Yeni bir buzdolabı aldınız ama dolap yerine sığmıyor mu? Veya gardırobunuz yeni eve büyük mü geldi? Mevcut dolaplarınızı yerinde kesiyor, küçültüyor ve yeni ölçüye uyarlıyoruz.</p>\n\n    <h3>3. Yüzey Tamiri (Rötuş)</h3>\n    <p>Mobilyanızdaki derin çizik, yanık veya ezikleri; dolgu mumları ve rötüş boyaları ile kaybediyoruz. Eğer hasar büyükse <a href=\"/mobilya-ve-ahsap-kapi-boyama/\">lokal boya</a> işlemi uyguluyoruz.</p>\n\n    <h2 id=\"teknik-detay\">Teknik Detay: Orijinal Yedek Parça</h2>\n    <p>Piyasada 10 TL'ye satılan Çin malı menteşeler 3 ayda paslanır ve kırılır. Biz tamiratlarda <strong>Samet, Blum, Hettich</strong> ve <strong>Häfele</strong> gibi dünya markalarının mekanizmalarını kullanıyoruz. Yaptığımız mekanizma değişimlerine garanti veriyoruz.</p>\n\n    <h2 id=\"vaka-analizleri\">Örnekler / Vaka Analizleri</h2>\n\n    <div class=\"card mb-3\">\n        <div class=\"card-body\">\n            <h5 class=\"card-title\">Vaka 1: Buzdolabı Sığmayan Mutfak</h5>\n            <p class=\"card-text\"><strong>Sorun:</strong> Müşterimiz 70cm'lik buzdolabını 85cm'lik yeni modelle değiştirmiş ancak dolap üst modülü sığmamıştı.</p>\n            <p class=\"card-text\"><strong>Çözüm:</strong> Buzdolabı üstündeki dolap modülü söküldü. Atölyede 15cm kısaltıldı (kesildi). Kenar bantları yenilendi ve tekrar monte edildi.</p>\n            <p class=\"card-text\"><strong>Sonuç:</strong> Mutfak dolabının bütünlüğü bozulmadan yeni buzdolabı yerine oturdu.</p>\n        </div>\n    </div>\n\n    <div class=\"card mb-3\">\n        <div class=\"card-body\">\n            <h5 class=\"card-title\">Vaka 2: Kilitlenen Sürgülü Gardırop</h5>\n            <p class=\"card-text\"><strong>Sorun:</strong> Yatak odası dolabının ağır aynalı kapağı raydan çıkmış ve hareket etmiyordu.</p>\n            <p class=\"card-text\"><strong>Çözüm:</strong> Eski plastik tekerlekler, yük taşıma kapasitesi yüksek metal gövdeli rulmanlı tekerleklerle değiştirildi.</p>\n            <p class=\"card-text\"><strong>Sonuç:</strong> Kapak serçe parmağıyla bile itilebilecek kadar akıcı hale geldi.</p>\n        </div>\n    </div>\n\n    <h2 id=\"karsilastirma\">Karşılaştırma: Tamir mi, Yeni Almak mı?</h2>\n    <div class=\"table-responsive\">\n        <table class=\"table table-bordered\">\n            <thead class=\"thead-light\">\n                <tr>\n                    <th>Durum</th>\n                    <th>Tamir Maliyeti (Tahmini)</th>\n                    <th>Yeni Alma Maliyeti</th>\n                    <th>Öneri</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td><strong>Menteşe/Ray Bozukluğu</strong></td>\n                    <td>500 TL - 1.500 TL</td>\n                    <td>20.000 TL (Yeni Dolap)</td>\n                    <td><strong>Kesinlikle Tamir</strong></td>\n                </tr>\n                <tr>\n                    <td><strong>Sandalye Bacağı Kırık</strong></td>\n                    <td>750 TL - 1.200 TL</td>\n                    <td>4.000 TL (Yeni Sandalye)</td>\n                    <td><strong>Tamir (Takım bozulmaz)</strong></td>\n                </tr>\n                <tr>\n                    <td><strong>Sunta Su Almış/Şişmiş</strong></td>\n                    <td>Parça değişimi gerekir</td>\n                    <td>Değişken</td>\n                    <td><strong>Duruma Göre (Bazen yeni almak mantıklıdır)</strong></td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n\n    <h2 id=\"hatalar\">Sık Yapılan Hatalar</h2>\n    <ol>\n        <li><strong>Japon Yapıştırıcısı Kullanmak:</strong> Kırılan ahşaba Japon yapıştırıcısı sürmek, ahşabın gözeneklerini tıkar ve profesyonel tutkalın (Deniz tutkalı) işlemesini engeller. <em>Kırılan parçaya dokunmadan bizi arayın.</em></li>\n        <li><strong>Zorlamak:</strong> Takılan çekmeceyi veya kapağı zorlamak rayı büker, tamiri imkansız hale getirir.</li>\n        <li><strong>Yanlış Vida Kullanımı:</strong> Sunta mobilyaya matkapla aşırı vida sıkmak deliği yalama yapar (boşaltır).</li>\n    </ol>\n\n    <h2 id=\"one-cikan-cevap\">Mobilya Tamiratı (Snippet)</h2>\n    <blockquote class=\"blockquote border-left-primary pl-4\">\n        <p class=\"mb-0\"><strong>Mobilya tamiratı;</strong> kullanım ömrünü tamamlamamış ancak menteşe, ray, ayak veya kulp gibi aksamları bozulan mobilyaların onarılması veya modifiye edilmesi işlemidir. Özellikle modüler mobilyaların (IKEA vb.) söküm-kurulum işlemleri ve ankastre cihazlar için dolap kesim işlemleri de bu kapsama girer.</p>\n    </blockquote>\n\n    <h2 id=\"sonuc\">Sonuç: Eşyanızı Değil, Parçasını Değiştirin</h2>\n    <p>Küçük bir mekanizma arızası yüzünden binlerce liralık mobilyanızı gözden çıkarmayın. EB Dekorasyon ustaları bir telefonla kapınızda.</p>\n    \n    <p class=\"text-center mt-4\">\n        <a href=\"https://wa.me/905555555555\" class=\"btn btn-primary btn-lg\"><i class=\"fab fa-whatsapp\"></i> Arızalı Kısmın Videosunu Atın, Çözüm Üretelim</a>\n    </p>\n</div>",
+    
+    "related_data": {
+      "features_to_tag": [
+        "Yerinde Servis",
+        "Mobilya Montajı",
+        "Ray Değişimi",
+        "Dolap Küçültme",
+        "Sürgülü Kapak Tamiri",
+        "Samet/Blum Aksesuar"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Arıza Tespiti (WhatsApp)",
+          "description": "Bize sorunun fotoğrafını veya videosunu gönderiyorsunuz. Yedek parça ihtiyacını ve maliyeti belirliyoruz."
+        },
+        {
+          "step_number": 2,
+          "title": "Randevu ve Servis",
+          "description": "Mobil servis aracımızla, gerekli alet ve yedek parçalarla (vida, menteşe, ray) evinize geliyoruz."
+        },
+        {
+          "step_number": 3,
+          "title": "Onarım İşlemi",
+          "description": "Arızalı parça sökülüyor. Yeri deforme olduysa dolgu yapılıyor. Yeni ve kaliteli mekanizma takılıyor."
+        },
+        {
+          "step_number": 4,
+          "title": "Ayar ve Test",
+          "description": "Kapak ayarları (Reglaj) yapılıyor. Çekmecelerin akıcı çalışıp çalışmadığı test ediliyor."
+        },
+        {
+          "step_number": 5,
+          "title": "Temizlik ve Teslim",
+          "description": "Çıkan hurda parçalar ve oluşan talaş temizlenerek işlem sonlandırılıyor."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Servis ücretiniz var mı?",
+          "answer": "Evet, İstanbul Anadolu Yakası için standart bir servis ücretimiz vardır. Yapılacak işleme göre parça ücreti eklenir."
+        },
+        {
+          "question": "IKEA mobilyası kuruyor musunuz?",
+          "answer": "Evet. Paketli mobilyaların kurulumunu, duvara sabitleme işlemlerini profesyonel şarjlı ekipmanlarla yapıyoruz."
+        },
+        {
+          "question": "Mutfak tezgahını değiştirmeden dolabı kesebilir misiniz?",
+          "answer": "Genellikle evet. Bulaşık makinesi sığdırmak veya fırın yeri açmak için dolap modifikasyonlarını yerinde yapabiliyoruz."
+        },
+        {
+          "question": "Sadece 1 menteşe için geliyor musunuz?",
+          "answer": "Evet geliyoruz. Ancak servis ücreti sabit olduğu için, gelmişken evdeki diğer gevşeyen kapakları da kontrol etmemizi isteyebilirsiniz."
+        },
+        {
+          "question": "Tamir edilen parça tekrar bozulur mu?",
+          "answer": "Kullandığımız yedek parçalar (Blum, Samet vb.) garantilidir. Kullanıcı hatası (aşırı zorlama) olmadığı sürece uzun yıllar sorunsuz çalışır."
+        }
+      ]
+    }
+  }
+}
