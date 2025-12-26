@@ -109,29 +109,44 @@ class FaqAdmin(ImportExportModelAdmin):
 
 @admin.register(Project)
 class ProjectAdmin(ImportExportModelAdmin):
-    list_display = ('title', 'category', 'location', 'is_featured', 'is_comparison_hero', 'show_on_index', 'is_active', 'created')
+    list_display = ('title', 'service', 'category', 'location', 'is_featured', 'is_comparison_hero', 'show_on_index', 'is_active', 'created')
     list_display_links = ('title',)
     list_editable = ('is_featured', 'is_comparison_hero', 'show_on_index', 'is_active')
-    list_filter = ('category', 'is_featured', 'is_comparison_hero', 'show_on_index', 'is_active', 'created')
-    search_fields = ('title', 'description', 'location', 'category')
+    list_filter = ('service__category', 'service', 'is_featured', 'is_comparison_hero', 'show_on_index', 'is_active', 'created')
+    search_fields = ('title', 'description', 'location', 'category', 'service__title')
     prepopulated_fields = {'slug': ('title',)}
     readonly_fields = ('created', 'updated')
     list_per_page = 20
     date_hierarchy = 'created'
+    autocomplete_fields = ['service']
     
     fieldsets = (
         ('📝 Temel Bilgiler', {
-            'fields': ('title', 'slug', 'description', 'category', 'location', 'completed_date')
+            'fields': ('title', 'slug', 'description', 'location', 'completed_date')
+        }),
+        ('🏷️ Kategori ve Hizmet', {
+            'fields': ('service', 'category'),
+            'description': 'Hizmet seçildiğinde kategori otomatik doldurulur.'
         }),
         ('🖼️ Görseller', {
             'fields': ('image', 'before_image', 'after_image'),
             'description': 'Ana görsel zorunlu, öncesi/sonrası görselleri isteğe bağlı.'
+        }),
+        ('🔍 SEO', {
+            'fields': ('seo_title', 'seo_description'),
+            'classes': ('collapse',)
         }),
         ('⚙️ Durum', {
             'fields': ('is_featured', 'is_comparison_hero', 'show_on_index', 'is_active', 'created', 'updated'),
             'classes': ('collapse',)
         }),
     )
+    
+    def save_model(self, request, obj, form, change):
+        # Hizmet seçilmişse kategoriyi otomatik doldur
+        if obj.service and obj.service.category:
+            obj.category = obj.service.category.name
+        super().save_model(request, obj, form, change)
     
     class Media:
         js = ('admin/js/comparison_hero.js',)
