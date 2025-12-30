@@ -26,7 +26,7 @@ class Command(BaseCommand):
         hero.title = 'Mekanlarınıza Altın Dokunuş'
         hero.description = 'Mobilya boyama, tadilat ve iç mimarlık hizmetlerinde 10 yılı aşkın tecrübe. Yeni almaktan %70 daha uygun!'
         hero.primary_button_text = 'Ücretsiz Teklif Al'
-        hero.primary_button_link = 'tel:+905551234567'
+        hero.primary_button_link = f'tel:{settings.phone}'  # Settings'den telefon numarasını al
         hero.save()
         
         # Download Hero Image

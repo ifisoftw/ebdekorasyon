@@ -1,0 +1,62 @@
+{
+  "model": "main.About",
+  "pk": 1,
+  "fields": {
+    "header": "Biz Kimiz?",
+    "title": "Evinizin Her Köşesinde Ustalık, Her Detayında Güven",
+    "short_description": "EB Dekorasyon; mutfak ve mobilya boyamadan parke döşemeye, anahtar teslim tadilattan özel tasarım TV ünitelerine kadar evinizin tüm ihtiyaçlarını tek çatı altında çözen, İstanbul merkezli profesyonel çözüm ortağınızdır.",
+    
+    "mission": "Tüketim çılgınlığına karşı 'yenileme' ve 'değer katma' kültürünü savunmak. Müşterilerimizi farklı ustalarla uğraşma stresinden kurtararak; boya, tadilat, zemin ve mobilya gibi 12 farklı hizmet kaleminde, en doğru malzemeyi en iyi işçilikle birleştirip, ulaşılabilir bütçelerle hayallerindeki yaşam alanlarını sunmak.",
+    
+    "vision": "İstanbul'da dekorasyon ve tadilat sektöründeki 'güven' problemini ortadan kaldırmak. Parça parça hizmet alma devrini bitirip; keşiften teslimata kadar tüm sürecin tek bir kurumsal muhatap tarafından yönetildiği, zamanında teslim ve garanti ilkelerine dayalı yeni nesil bir hizmet standardı oluşturmak.",
+    
+    "description": "<div class=\"about-content\">\n    <p class=\"lead\"><strong>Bir evi yenilemek sadece duvarları boyamak değildir. Zemininden tavanına, mobilyasından tezgahına kadar her detay birbiriyle konuşmalıdır. EB Dekorasyon olarak biz, bu uyumu sağlamak için yola çıktık.</strong></p>\n\n    <p>Sektördeki en büyük sorunun \"parça parça usta aramak\" olduğunu biliyoruz. Boyacı parkeciyi, tesisatçı mobilyacıyı beklerken harcanan zaman ve bütçe kayıplarına son veriyoruz. 10 yılı aşkın tecrübemizle, evinizin ihtiyacı olan <strong>A'dan Z'ye tüm dekorasyon çözümlerini</strong> tek elden sunuyoruz.</p>\n\n    <h3>Hizmet Yelpazemiz: Neler Yapıyoruz?</h3>\n    <p>EB Dekorasyon, bir evin dönüşümü için gereken tüm disiplinleri bünyesinde barındırır:</p>\n    \n    <div class=\"row mt-4\">\n        <div class=\"col-md-6\">\n            <h4>🎨 Mobilya Dönüşüm ve Boyama</h4>\n            <p>Eskiyen ama iskeleti sağlam olan mutfak dolaplarınızı, kapılarınızı ve yatak odası takımlarınızı atmayın. Profesyonel atölyemizde <strong>Pistole (Tabanca) Boya</strong> sistemiyle %70 tasarrufla fabrika kalitesinde yeniliyoruz. Koltuk ve sandalyelerinizin kumaşlarını değiştiriyoruz.</p>\n        </div>\n        <div class=\"col-md-6\">\n            <h4>🏠 Anahtar Teslim Tadilat</h4>\n            <p>Banyo ve mutfak kırımından elektrik/su tesisatına kadar <strong>Komple Ev Tadilatı</strong> yapıyoruz. Süreci tek bir proje yöneticisi ile yürütüyor, size gün gün rapor veriyoruz. Sürpriz maliyet yok, sözleşmeli teslimat var.</p>\n        </div>\n        <div class=\"col-md-6\">\n            <h4>🪵 Zemin ve Parke Sistemleri</h4>\n            <p>Evinizin zeminini soğuk seramikten sıcak ahşaba dönüştürüyoruz. AGT, Çamsan gibi lider markaların <strong>Laminant Parke</strong> uygulamalarını, özel tasarım <strong>Balıksırtı (Herringbone)</strong> döşemelerini süpürgelik dahil 1 günde tamamlıyoruz.</p>\n        </div>\n        <div class=\"col-md-6\">\n            <h4>✨ Özel Tasarım ve Mimari</h4>\n            <p>Standart çözümlerle yetinmeyenler için; <strong>Duvar Çıtalama</strong>, <strong>Şömineli TV Ünitesi</strong>, <strong>Mutfak Tezgahı (Kuvars/Granit)</strong> değişimi ve ticari işletmeler için <strong>Kafe Dekorasyonu</strong> hizmetleri veriyoruz.</p>\n        </div>\n    </div>\n\n    <h3 class=\"mt-4\">Neden EB Dekorasyon?</h3>\n    <ul>\n        <li><strong>Tek Muhatap:</strong> Parkeci ayrı, boyacı ayrı, mobilyacı ayrı değil. Tüm ekip bizim, tüm sorumluluk bizde.</li>\n        <li><strong>Atölye Gücü:</strong> Kendi boya ve mobilya atölyemiz olduğu için aracı komisyonu ödemezsiniz, işiniz hızlı biter.</li>\n        <li><strong>Garanti:</strong> Yaptığımız tüm boya, montaj ve tadilat işçiliklerine 2 yıl firma garantisi veriyoruz.</li>\n    </ul>\n\n    <div class=\"alert alert-success mt-4\">\n        <strong>Bizimle Çalışmak Çok Kolay:</strong> Hayalinizdeki evin fotoğrafını veya projenizi bize anlatın, ücretsiz keşif ile bütçenizi ve yol haritamızı belirleyelim. Gerisini profesyonel ekiplerimize bırakın.\n    </div>\n</div>",
+
+    "image": "uploads/about/eb-dekorasyon-atolye-ekip.jpg",
+    "seo_title": "Hakkımızda | EB Dekorasyon - Komple Tadilat ve Mobilya Boyama",
+    "seo_description": "EB Dekorasyon; İstanbul'da mutfak boyama, parke, tadilat ve dekorasyon alanlarında hizmet veren, atölye ve saha ekipleriyle anahtar teslim projeler üreten kurumsal firmadır."
+  },
+
+  "related_data": {
+    "features_to_create": [
+      {
+        "title": "Anahtar Teslim",
+        "icon": "fas fa-key",
+        "description": "Tadilat, boya, parke ve mobilya işlerinin tamamını tek elden yönetiyoruz."
+      },
+      {
+        "title": "Atölye Sistemi",
+        "icon": "fas fa-warehouse",
+        "description": "Mobilyalarınızı evinizde değil, özel tozsuz boya atölyemizde yeniliyoruz."
+      },
+      {
+        "title": "Garantili İşçilik",
+        "icon": "fas fa-certificate",
+        "description": "Yapılan tüm uygulamalarda 2 yıl malzeme ve işçilik garantisi sunuyoruz."
+      },
+      {
+        "title": "Hızlı Teslimat",
+        "icon": "fas fa-stopwatch",
+        "description": "Sözleşmede belirtilen tarihte iş teslimi yapıyor, zamanınızı çalmıyoruz."
+      }
+    ],
+    "counters_to_create": [
+      {
+        "title": "Hizmet Kalemi",
+        "value": "12+"
+      },
+      {
+        "title": "Tamamlanan Proje",
+        "value": "1500+"
+      },
+      {
+        "title": "Yıllık Tecrübe",
+        "value": "10+"
+      },
+      {
+        "title": "Mutlu Müşteri",
+        "value": "%100"
+      }
+    ]
+  }
+}
