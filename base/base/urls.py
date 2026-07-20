@@ -24,6 +24,12 @@ from django.contrib.sitemaps.views import sitemap
 from django.views.decorators.cache import cache_page
 from . sitemaps import StaticViewSitemap, ServiceViewSitemap, BlogViewSitemap, ServiceAreaSitemap, ProjectViewSitemap
 from django.contrib.auth import views as auth_views
+from django.http import HttpResponse
+
+
+def healthz(_request):
+    """Liveness endpoint; deliberately performs no database access."""
+    return HttpResponse("ok", content_type="text/plain")
 
 sitemaps = {
     "static": StaticViewSitemap,
@@ -34,6 +40,7 @@ sitemaps = {
 }
 
 urlpatterns = [
+    path('healthz/', healthz, name='healthz'),
     path('admin/', admin.site.urls),
     path(
         "sitemap.xml",
@@ -54,4 +61,3 @@ if not settings.DEBUG:
             'document_root': settings.MEDIA_ROOT,
         }),
     ]
-
