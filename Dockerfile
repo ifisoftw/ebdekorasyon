@@ -11,11 +11,11 @@ RUN apt-get update \
 
 WORKDIR /app
 
-COPY base/requirements.txt /app/requirements.txt
+COPY requirements.txt /app/requirements.txt
 RUN pip install --upgrade pip \
     && pip install -r /app/requirements.txt
 
-COPY base/ /app/
+COPY . /app/
 RUN mkdir -p /app/staticfiles /app/media /app/media-seed /app/logs \
     && if [ -d /app/media ]; then cp -a /app/media/. /app/media-seed/; fi \
     && chmod +x /app/entrypoint.sh

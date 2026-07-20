@@ -90,7 +90,7 @@ CSP_CONNECT_SRC = ("'self'",)
 # Session settings
 
 
-ROOT_URLCONF = 'base.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
@@ -103,7 +103,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'base.context_processors.main',
+                'config.context_processors.main',
                 'core.context_processors.site_settings',  # Our custom context processor
 
             ],
@@ -111,7 +111,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'base.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database

@@ -15,6 +15,7 @@ venv
 **/*.dump
 **/*.bak
 **/*.zip
-base/staticfiles
-base/logs
+staticfiles
+logs
+base
 yekpare elektrik
