@@ -5,6 +5,7 @@
     .ifi-signature.ifi-signature > .ifi-signature__label { font:500 12px/1.1 Arial,sans-serif; letter-spacing:.03em; text-align:right; }
     .ifi-signature.ifi-signature > .ifi-signature__logo { display:block; flex:none; width:116px; max-width:116px; height:auto; filter:grayscale(1) brightness(0) invert(.55); opacity:1; }
     .ifi-signature.ifi-signature > .ifi-signature__description { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    @media (min-width:1024px) { .ifi-signature.ifi-signature { display:flex; margin-left:auto; margin-right:0; justify-self:end; } }
     @media (max-width:1023px) { .ifi-signature.ifi-signature { margin-bottom:calc(144px + env(safe-area-inset-bottom, 0px)); } }
     @media (prefers-reduced-motion:reduce) { .ifi-signature, .ifi-signature.ifi-signature > .ifi-signature__logo { transition:none; } }
 </style>
